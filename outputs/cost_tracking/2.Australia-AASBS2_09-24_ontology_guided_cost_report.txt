@@ -1,0 +1,66 @@
+================================================================================
+LLM COST REPORT
+================================================================================
+Document: 2.Australia-AASBS2_09-24_ontology_guided
+Generated: 2025-11-18 13:35:40
+
+SUMMARY
+--------------------------------------------------------------------------------
+Total Segments Processed: 8
+Models Used: claude-sonnet-4-5-20250929
+
+Token Usage:
+  Input Tokens:        96,406
+  Output Tokens:       40,869
+  Total Tokens:       137,275
+
+Cost Breakdown:
+  Input Cost:  $    0.2892 USD
+  Output Cost: $    0.6130 USD
+  ────────────────────────
+  TOTAL COST:  $    0.9023 USD
+
+Average Cost per Segment: $0.1128 USD
+
+PER-SEGMENT BREAKDOWN
+--------------------------------------------------------------------------------
+Segment ID      Pages         Input Tok   Output Tok   Cost (USD)
+--------------------------------------------------------------------------------
+seg_001         p.0               4,184        1,038 $     0.0281
+seg_002         p.2               4,442        2,269 $     0.0474
+seg_003         p.1-2             4,761        2,151 $     0.0465
+seg_004         p.3-4             5,966        2,549 $     0.0561
+seg_005         p.5-7             6,463        3,864 $     0.0773
+seg_006         p.8-23           17,540        9,119 $     0.1894
+seg_007         p.24-26           6,847       10,868 $     0.1836
+seg_008         p.11-57          46,203        9,011 $     0.2738
+
+PRICING REFERENCE (per million tokens)
+--------------------------------------------------------------------------------
+claude-3-5-sonnet-20241022
+  Input:  $3.00/MTok
+  Output: $15.00/MTok
+
+claude-3-5-sonnet-20240620
+  Input:  $3.00/MTok
+  Output: $15.00/MTok
+
+claude-3-5-haiku-20241022
+  Input:  $1.00/MTok
+  Output: $5.00/MTok
+
+claude-3-opus-20240229
+  Input:  $15.00/MTok
+  Output: $75.00/MTok
+
+claude-3-sonnet-20240229
+  Input:  $3.00/MTok
+  Output: $15.00/MTok
+
+claude-3-haiku-20240307
+  Input:  $0.25/MTok
+  Output: $1.25/MTok
+
+================================================================================
+Note: Verify latest pricing at https://www.anthropic.com/pricing
+================================================================================

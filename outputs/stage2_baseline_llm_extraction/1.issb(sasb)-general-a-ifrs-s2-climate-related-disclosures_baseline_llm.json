@@ -1,0 +1,1782 @@
+{
+  "document": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+  "timestamp": "2025-11-18T13:46:23.375769",
+  "experiments": {
+    "1_ontology_guided": {
+      "entities": [],
+      "relationships": []
+    },
+    "2_baseline_llm": {
+      "name": "Baseline (Unconstrained)",
+      "description": "Unconstrained LLM (no ontology schema, no SPARQL validation)",
+      "entities": [
+        {
+          "id": "IFRS_S2",
+          "label": "IFRS S2",
+          "type": "Standard",
+          "description": "IFRS Sustainability Disclosure Standard for Climate-related Disclosures",
+          "unit": ""
+        },
+        {
+          "id": "ISSB",
+          "label": "International Sustainability Standards Board",
+          "type": "Organization",
+          "description": "International Sustainability Standards Board - issuing body for IFRS sustainability standards",
+          "unit": ""
+        },
+        {
+          "id": "climate_related_disclosures",
+          "label": "Climate-related Disclosures",
+          "type": "Disclosure Topic",
+          "description": "Climate-related disclosures covered under IFRS S2 standard",
+          "unit": ""
+        },
+        {
+          "id": "publication_date_june_2023",
+          "label": "June 2023",
+          "type": "Date",
+          "description": "Publication date of IFRS S2 standard",
+          "unit": ""
+        },
+        {
+          "id": "IFRS_S2",
+          "label": "IFRS S2 Climate-related Disclosures",
+          "type": "Standard",
+          "description": "Sustainability disclosure standard requiring entities to disclose information about climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "climate_related_risks",
+          "label": "Climate-related Risks",
+          "type": "Risk Category",
+          "description": "Risks to which the entity is exposed, including physical and transition risks",
+          "unit": null
+        },
+        {
+          "id": "climate_physical_risks",
+          "label": "Climate-related Physical Risks",
+          "type": "Risk Subcategory",
+          "description": "Physical risks arising from climate change",
+          "unit": null
+        },
+        {
+          "id": "climate_transition_risks",
+          "label": "Climate-related Transition Risks",
+          "type": "Risk Subcategory",
+          "description": "Risks arising from transition to lower-carbon economy",
+          "unit": null
+        },
+        {
+          "id": "climate_opportunities",
+          "label": "Climate-related Opportunities",
+          "type": "Opportunity Category",
+          "description": "Opportunities available to the entity related to climate change",
+          "unit": null
+        },
+        {
+          "id": "governance_body",
+          "label": "Governance Body",
+          "type": "Organizational Entity",
+          "description": "Board, committee or equivalent body charged with oversight of climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "management",
+          "label": "Management",
+          "type": "Organizational Entity",
+          "description": "Management-level positions or committees responsible for climate-related governance processes",
+          "unit": null
+        },
+        {
+          "id": "climate_targets",
+          "label": "Climate-related Targets",
+          "type": "Performance Metric",
+          "description": "Targets set related to climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "cash_flows",
+          "label": "Cash Flows",
+          "type": "Financial Metric",
+          "description": "Entity's cash flows affected by climate-related risks and opportunities",
+          "unit": "currency"
+        },
+        {
+          "id": "cost_of_capital",
+          "label": "Cost of Capital",
+          "type": "Financial Metric",
+          "description": "Entity's cost of capital affected by climate-related risks and opportunities",
+          "unit": "percentage"
+        },
+        {
+          "id": "access_to_finance",
+          "label": "Access to Finance",
+          "type": "Financial Metric",
+          "description": "Entity's access to finance affected by climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "business_model",
+          "label": "Business Model",
+          "type": "Strategic Element",
+          "description": "Entity's business model affected by climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "value_chain",
+          "label": "Value Chain",
+          "type": "Strategic Element",
+          "description": "Entity's value chain affected by climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "transition_plan",
+          "label": "Climate-related Transition Plan",
+          "type": "Strategic Document",
+          "description": "Entity's plan for managing transition to lower-carbon economy",
+          "unit": null
+        },
+        {
+          "id": "financial_position",
+          "label": "Financial Position",
+          "type": "Financial Metric",
+          "description": "Entity's financial position affected by climate-related risks and opportunities",
+          "unit": "currency"
+        },
+        {
+          "id": "financial_performance",
+          "label": "Financial Performance",
+          "type": "Financial Metric",
+          "description": "Entity's financial performance affected by climate-related risks and opportunities",
+          "unit": "currency"
+        },
+        {
+          "id": "climate_resilience",
+          "label": "Climate Resilience",
+          "type": "Strategic Metric",
+          "description": "Resilience of entity's strategy and business model to climate-related changes",
+          "unit": null
+        },
+        {
+          "id": "remuneration_policies",
+          "label": "Remuneration Policies",
+          "type": "Governance Policy",
+          "description": "Policies that may include climate-related performance metrics",
+          "unit": null
+        },
+        {
+          "id": "IFRS_S1",
+          "label": "IFRS S1 General Requirements",
+          "type": "Standard",
+          "description": "General Requirements for Disclosure of Sustainability-related Financial Information",
+          "unit": null
+        },
+        {
+          "id": "IFRS_S2",
+          "label": "IFRS S2 Climate-Related Disclosures",
+          "type": "Standard",
+          "description": "International Financial Reporting Standard for climate-related disclosures issued June 2023",
+          "unit": null
+        },
+        {
+          "id": "climate_risks",
+          "label": "Climate-Related Risks",
+          "type": "Risk Category",
+          "description": "Risks that could reasonably be expected to affect an entity's prospects",
+          "unit": null
+        },
+        {
+          "id": "climate_opportunities",
+          "label": "Climate-Related Opportunities",
+          "type": "Opportunity Category",
+          "description": "Opportunities that could reasonably be expected to affect an entity's prospects",
+          "unit": null
+        },
+        {
+          "id": "business_model",
+          "label": "Business Model",
+          "type": "Business Component",
+          "description": "Entity's business model affected by climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "value_chain",
+          "label": "Value Chain",
+          "type": "Business Component",
+          "description": "Entity's value chain affected by climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "ghg_emissions_targets",
+          "label": "Greenhouse Gas Emissions Targets",
+          "type": "Target",
+          "description": "Climate-related targets for reducing greenhouse gas emissions",
+          "unit": null
+        },
+        {
+          "id": "financial_position",
+          "label": "Financial Position",
+          "type": "Financial Metric",
+          "description": "Entity's financial position affected by climate-related factors",
+          "unit": "monetary"
+        },
+        {
+          "id": "financial_performance",
+          "label": "Financial Performance",
+          "type": "Financial Metric",
+          "description": "Entity's financial performance affected by climate-related factors",
+          "unit": "monetary"
+        },
+        {
+          "id": "cash_flows",
+          "label": "Cash Flows",
+          "type": "Financial Metric",
+          "description": "Entity's cash flows affected by climate-related factors",
+          "unit": "monetary"
+        },
+        {
+          "id": "transition_plan",
+          "label": "Climate-Related Transition Plan",
+          "type": "Strategy",
+          "description": "Entity's plan for transitioning to address climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "mitigation_efforts",
+          "label": "Direct Mitigation and Adaptation Efforts",
+          "type": "Action",
+          "description": "Changes in production processes, equipment, facility relocation, workforce adjustments, and product specifications",
+          "unit": null
+        },
+        {
+          "id": "indirect_mitigation",
+          "label": "Indirect Mitigation and Adaptation Efforts",
+          "type": "Action",
+          "description": "Efforts through working with customers and supply chains",
+          "unit": null
+        },
+        {
+          "id": "capital_expenditure",
+          "label": "Capital Expenditure",
+          "type": "Financial Metric",
+          "description": "Investment plans related to climate strategy",
+          "unit": "monetary"
+        },
+        {
+          "id": "resource_allocation",
+          "label": "Resource Allocation",
+          "type": "Strategy Component",
+          "description": "Allocation of resources to address climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "industry_guidance",
+          "label": "Industry-based Guidance on Implementing IFRS S2",
+          "type": "Guidance Document",
+          "description": "Industry-specific disclosure topics for climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "IFRS_S2",
+          "label": "IFRS S2 Climate-Related Disclosures",
+          "type": "Standard",
+          "description": "IFRS Sustainability Disclosure Standard for climate-related disclosures issued June 2023",
+          "unit": null
+        },
+        {
+          "id": "climate_scenario_analysis",
+          "label": "Climate-Related Scenario Analysis",
+          "type": "Assessment Method",
+          "description": "Analytical approach used to assess an entity's climate resilience by considering reasonable and supportable information available at reporting date",
+          "unit": null
+        },
+        {
+          "id": "climate_resilience",
+          "label": "Climate Resilience",
+          "type": "ESG Metric",
+          "description": "Entity's ability to withstand and adapt to climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "climate_risks",
+          "label": "Climate-Related Risks",
+          "type": "Risk Category",
+          "description": "Risks to which an entity is exposed related to climate change",
+          "unit": null
+        },
+        {
+          "id": "climate_opportunities",
+          "label": "Climate-Related Opportunities",
+          "type": "Opportunity Category",
+          "description": "Opportunities available to an entity related to climate change",
+          "unit": null
+        },
+        {
+          "id": "exposure_assessment",
+          "label": "Exposure to Climate-Related Risks and Opportunities",
+          "type": "Assessment Factor",
+          "description": "Evaluation of entity's degree of exposure to climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "skills_capabilities_resources",
+          "label": "Skills, Capabilities and Resources",
+          "type": "Assessment Factor",
+          "description": "Internal and external skills, capabilities and resources available to entity for climate-related scenario analysis",
+          "unit": null
+        },
+        {
+          "id": "appendix_b",
+          "label": "Appendix B - Application Guidance",
+          "type": "Guidance Document",
+          "description": "Application guidance for climate resilience assessment under IFRS S2, paragraphs B1-B18",
+          "unit": null
+        },
+        {
+          "id": "paragraph_22",
+          "label": "Paragraph 22",
+          "type": "Standard Requirement",
+          "description": "Requirement for entity to use climate-related scenario analysis to assess climate resilience",
+          "unit": null
+        },
+        {
+          "id": "tcfd",
+          "label": "Task Force on Climate-related Financial Disclosures",
+          "type": "Organization",
+          "description": "Source organization for scenario analysis guidance referenced in IFRS S2",
+          "unit": null
+        },
+        {
+          "id": "IFRS_S2",
+          "label": "IFRS S2 Climate-related Disclosures",
+          "type": "Standard",
+          "description": "IFRS Sustainability Disclosure Standard for climate-related financial disclosures",
+          "unit": null
+        },
+        {
+          "id": "climate_related_risks",
+          "label": "Climate-related Risks",
+          "type": "ESG Metric Category",
+          "description": "Risks that could reasonably be expected to affect the entity's prospects, including physical and transition risks",
+          "unit": null
+        },
+        {
+          "id": "climate_related_opportunities",
+          "label": "Climate-related Opportunities",
+          "type": "ESG Metric Category",
+          "description": "Opportunities that could reasonably be expected to affect the entity's prospects",
+          "unit": null
+        },
+        {
+          "id": "physical_risk",
+          "label": "Climate-related Physical Risk",
+          "type": "Risk Type",
+          "description": "Physical risks arising from climate change",
+          "unit": null
+        },
+        {
+          "id": "transition_risk",
+          "label": "Climate-related Transition Risk",
+          "type": "Risk Type",
+          "description": "Risks arising from transition to lower-carbon economy",
+          "unit": null
+        },
+        {
+          "id": "business_model",
+          "label": "Business Model",
+          "type": "Strategic Element",
+          "description": "Entity's business model affected by climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "value_chain",
+          "label": "Value Chain",
+          "type": "Strategic Element",
+          "description": "Entity's value chain affected by climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "transition_plan",
+          "label": "Climate-related Transition Plan",
+          "type": "Strategic Element",
+          "description": "Entity's plan for managing transition to lower-carbon economy",
+          "unit": null
+        },
+        {
+          "id": "financial_position",
+          "label": "Financial Position",
+          "type": "Financial Metric",
+          "description": "Entity's financial position affected by climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "financial_performance",
+          "label": "Financial Performance",
+          "type": "Financial Metric",
+          "description": "Entity's financial performance affected by climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "cash_flows",
+          "label": "Cash Flows",
+          "type": "Financial Metric",
+          "description": "Entity's cash flows affected by climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "climate_resilience",
+          "label": "Climate Resilience",
+          "type": "ESG Metric",
+          "description": "Resilience of entity's strategy and business model to climate-related changes, developments and uncertainties",
+          "unit": null
+        },
+        {
+          "id": "short_term",
+          "label": "Short Term",
+          "type": "Time Horizon",
+          "description": "Short-term time horizon as defined by the entity",
+          "unit": null
+        },
+        {
+          "id": "medium_term",
+          "label": "Medium Term",
+          "type": "Time Horizon",
+          "description": "Medium-term time horizon as defined by the entity",
+          "unit": null
+        },
+        {
+          "id": "long_term",
+          "label": "Long Term",
+          "type": "Time Horizon",
+          "description": "Long-term time horizon as defined by the entity",
+          "unit": null
+        },
+        {
+          "id": "IFRS_S2",
+          "label": "IFRS S2 Climate-Related Disclosures",
+          "type": "Standard",
+          "description": "International Financial Reporting Standard for climate-related disclosures issued June 2023",
+          "unit": null
+        },
+        {
+          "id": "climate_risks",
+          "label": "Climate-Related Risks",
+          "type": "Risk Category",
+          "description": "Risks that could reasonably be expected to affect an entity's prospects related to climate change",
+          "unit": null
+        },
+        {
+          "id": "climate_opportunities",
+          "label": "Climate-Related Opportunities",
+          "type": "Opportunity Category",
+          "description": "Opportunities that could reasonably be expected to affect an entity's prospects related to climate change",
+          "unit": null
+        },
+        {
+          "id": "business_model",
+          "label": "Business Model",
+          "type": "Business Component",
+          "description": "Entity's business model affected by climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "value_chain",
+          "label": "Value Chain",
+          "type": "Business Component",
+          "description": "Entity's value chain affected by climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "climate_targets",
+          "label": "Climate-Related Targets",
+          "type": "Target",
+          "description": "Targets set by entity or required by law/regulation related to climate",
+          "unit": null
+        },
+        {
+          "id": "resource_allocation",
+          "label": "Resource Allocation",
+          "type": "Strategy Component",
+          "description": "Allocation of resources to address climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "carbon_intensive_operations",
+          "label": "Carbon-Intensive Operations",
+          "type": "Operations",
+          "description": "Operations with high carbon emissions that may need management or decommissioning",
+          "unit": null
+        },
+        {
+          "id": "energy_intensive_operations",
+          "label": "Energy-Intensive Operations",
+          "type": "Operations",
+          "description": "Operations with high energy consumption that may need management or decommissioning",
+          "unit": null
+        },
+        {
+          "id": "water_intensive_operations",
+          "label": "Water-Intensive Operations",
+          "type": "Operations",
+          "description": "Operations with high water consumption that may need management or decommissioning",
+          "unit": null
+        },
+        {
+          "id": "industry_based_guidance",
+          "label": "Industry-based Guidance on Implementing IFRS S2",
+          "type": "Guidance",
+          "description": "Industry-specific disclosure topics for implementing IFRS S2",
+          "unit": null
+        },
+        {
+          "id": "geographical_concentration",
+          "label": "Geographical Areas",
+          "type": "Location",
+          "description": "Geographical areas where climate-related risks and opportunities are concentrated",
+          "unit": null
+        },
+        {
+          "id": "facilities",
+          "label": "Facilities",
+          "type": "Physical Asset",
+          "description": "Facilities where climate-related risks and opportunities are concentrated",
+          "unit": null
+        },
+        {
+          "id": "asset_types",
+          "label": "Types of Assets",
+          "type": "Asset Category",
+          "description": "Asset types where climate-related risks and opportunities are concentrated",
+          "unit": null
+        },
+        {
+          "id": "capital_expenditure",
+          "label": "Capital Expenditure",
+          "type": "Financial Metric",
+          "description": "Capital expenditure for business development addressing climate-related matters",
+          "unit": "currency"
+        },
+        {
+          "id": "rd_expenditure",
+          "label": "Research and Development Expenditure",
+          "type": "Financial Metric",
+          "description": "Additional expenditure on research and development for climate-related matters",
+          "unit": "currency"
+        },
+        {
+          "id": "direct_mitigation_adaptation",
+          "label": "Direct Mitigation and Adaptation Efforts",
+          "type": "ESG Activity",
+          "description": "Changes in production processes, equipment, facility relocation, workforce adjustments, and product specifications",
+          "unit": "qualitative"
+        },
+        {
+          "id": "indirect_mitigation_adaptation",
+          "label": "Indirect Mitigation and Adaptation Efforts",
+          "type": "ESG Activity",
+          "description": "Working with customers and supply chains for climate mitigation and adaptation",
+          "unit": "qualitative"
+        },
+        {
+          "id": "climate_transition_plan",
+          "label": "Climate-Related Transition Plan",
+          "type": "ESG Strategy",
+          "description": "Entity's plan for climate transition including key assumptions and dependencies",
+          "unit": "qualitative"
+        },
+        {
+          "id": "ghg_emissions_targets",
+          "label": "Greenhouse Gas Emissions Targets",
+          "type": "ESG Metric",
+          "description": "Climate-related targets including GHG emissions reduction goals",
+          "unit": "tonnes CO2e"
+        },
+        {
+          "id": "climate_risks_opportunities",
+          "label": "Climate-Related Risks and Opportunities",
+          "type": "ESG Risk/Opportunity",
+          "description": "Climate-related factors affecting entity's operations and strategy",
+          "unit": "qualitative"
+        },
+        {
+          "id": "current_financial_effects",
+          "label": "Current Financial Effects",
+          "type": "Financial Impact",
+          "description": "Effects of climate-related risks and opportunities on financial position, performance and cash flows for reporting period",
+          "unit": "monetary"
+        },
+        {
+          "id": "anticipated_financial_effects",
+          "label": "Anticipated Financial Effects",
+          "type": "Financial Impact",
+          "description": "Expected effects of climate-related risks and opportunities on financial position over short, medium and long term",
+          "unit": "monetary"
+        },
+        {
+          "id": "resource_allocation",
+          "label": "Resource Allocation for Climate Activities",
+          "type": "ESG Investment",
+          "description": "Current and planned resourcing for climate-related activities",
+          "unit": "monetary"
+        },
+        {
+          "id": "progress_disclosure",
+          "label": "Progress on Climate Plans",
+          "type": "ESG Performance",
+          "description": "Quantitative and qualitative information about progress of previously disclosed plans",
+          "unit": "mixed"
+        },
+        {
+          "id": "material_adjustment_risk",
+          "label": "Material Adjustment Risk",
+          "type": "Financial Risk",
+          "description": "Climate-related risks with significant risk of material adjustment to asset and liability carrying amounts",
+          "unit": "monetary"
+        },
+        {
+          "id": "E1",
+          "label": "Climate-related risks and opportunities",
+          "type": "ESG_Topic",
+          "description": "Climate-related factors that may affect an entity's financial position, performance, and cash flows",
+          "unit": null
+        },
+        {
+          "id": "E2",
+          "label": "Financial position changes",
+          "type": "Financial_Metric",
+          "description": "Expected changes to entity's financial position over short, medium and long term due to climate strategy",
+          "unit": "Monetary"
+        },
+        {
+          "id": "E3",
+          "label": "Investment and disposal plans",
+          "type": "Strategic_Plan",
+          "description": "Plans for capital expenditure, acquisitions, divestments, joint ventures, business transformation, innovation, and asset retirements",
+          "unit": null
+        },
+        {
+          "id": "E4",
+          "label": "Planned sources of funding",
+          "type": "Financial_Metric",
+          "description": "Sources of funding to implement climate strategy",
+          "unit": "Monetary"
+        },
+        {
+          "id": "E5",
+          "label": "Financial performance changes",
+          "type": "Financial_Metric",
+          "description": "Expected changes to financial performance over short, medium and long term",
+          "unit": "Monetary"
+        },
+        {
+          "id": "E6",
+          "label": "Cash flow changes",
+          "type": "Financial_Metric",
+          "description": "Expected changes to cash flows over short, medium and long term",
+          "unit": "Monetary"
+        },
+        {
+          "id": "E7",
+          "label": "Revenue from lower-carbon products",
+          "type": "Financial_Metric",
+          "description": "Increased revenue from products and services aligned with a lower-carbon economy",
+          "unit": "Monetary"
+        },
+        {
+          "id": "E8",
+          "label": "Physical damage costs",
+          "type": "Financial_Metric",
+          "description": "Costs arising from physical damage to assets from climate events",
+          "unit": "Monetary"
+        },
+        {
+          "id": "E9",
+          "label": "Climate adaptation/mitigation expenses",
+          "type": "Financial_Metric",
+          "description": "Expenses associated with climate adaptation or mitigation",
+          "unit": "Monetary"
+        },
+        {
+          "id": "E10",
+          "label": "IFRS S2",
+          "type": "Standard",
+          "description": "IFRS S2 Climate-related Disclosures standard",
+          "unit": null
+        },
+        {
+          "id": "E11",
+          "label": "Measurement uncertainty",
+          "type": "Disclosure_Criteria",
+          "description": "Level of uncertainty in estimating financial effects that may make quantitative information not useful",
+          "unit": null
+        },
+        {
+          "id": "E12",
+          "label": "Short, medium and long term",
+          "type": "Time_Horizon",
+          "description": "Time periods for assessing climate-related financial impacts",
+          "unit": "Time period"
+        },
+        {
+          "id": "climate_related_risks",
+          "label": "Climate-related Risks",
+          "type": "Risk Category",
+          "description": "Risks arising from climate-related changes, developments and uncertainties that may affect an entity's strategy and business model",
+          "unit": null
+        },
+        {
+          "id": "climate_related_opportunities",
+          "label": "Climate-related Opportunities",
+          "type": "Opportunity Category",
+          "description": "Opportunities arising from climate-related changes that an entity can take advantage of",
+          "unit": null
+        },
+        {
+          "id": "financial_effects",
+          "label": "Financial Effects",
+          "type": "Financial Metric",
+          "description": "Quantitative and qualitative impacts of climate-related risks and opportunities on financial statements",
+          "unit": "Monetary"
+        },
+        {
+          "id": "climate_resilience",
+          "label": "Climate Resilience",
+          "type": "ESG Metric",
+          "description": "The resilience of the entity's strategy and business model to climate-related changes, developments and uncertainties",
+          "unit": null
+        },
+        {
+          "id": "climate_scenario_analysis",
+          "label": "Climate-related Scenario Analysis",
+          "type": "Assessment Method",
+          "description": "Analytical approach used to assess an entity's climate resilience considering various climate-related scenarios",
+          "unit": null
+        },
+        {
+          "id": "financial_resources",
+          "label": "Financial Resources",
+          "type": "Financial Metric",
+          "description": "Availability and flexibility of existing financial resources to respond to climate-related effects",
+          "unit": "Monetary"
+        },
+        {
+          "id": "climate_investments",
+          "label": "Climate-related Investments",
+          "type": "Financial Metric",
+          "description": "Current and planned investments in climate-related mitigation, adaptation and opportunities",
+          "unit": "Monetary"
+        },
+        {
+          "id": "asset_management_capacity",
+          "label": "Asset Management Capacity",
+          "type": "Operational Metric",
+          "description": "Entity's ability to redeploy, repurpose, upgrade or decommission existing assets in response to climate change",
+          "unit": null
+        },
+        {
+          "id": "ifrs_s2",
+          "label": "IFRS S2 Climate-related Disclosures",
+          "type": "Standard",
+          "description": "IFRS Sustainability Disclosure Standard for climate-related disclosures",
+          "unit": null
+        },
+        {
+          "id": "E1",
+          "label": "Climate-related scenario analysis",
+          "type": "ESG Assessment Method",
+          "description": "Analysis method used to assess entity's resilience to climate-related changes, developments or uncertainties",
+          "unit": "N/A"
+        },
+        {
+          "id": "E2",
+          "label": "Climate-related transition risks",
+          "type": "ESG Risk",
+          "description": "Risks associated with transition to lower-carbon economy",
+          "unit": "N/A"
+        },
+        {
+          "id": "E3",
+          "label": "Climate-related physical risks",
+          "type": "ESG Risk",
+          "description": "Physical risks associated with climate change impacts",
+          "unit": "N/A"
+        },
+        {
+          "id": "E4",
+          "label": "Climate-related opportunities",
+          "type": "ESG Opportunity",
+          "description": "Opportunities arising from climate-related changes and developments",
+          "unit": "N/A"
+        },
+        {
+          "id": "E5",
+          "label": "Scope 1 greenhouse gas emissions",
+          "type": "ESG Metric",
+          "description": "Direct greenhouse gas emissions generated by the entity",
+          "unit": "metric tonnes of CO2 equivalent"
+        },
+        {
+          "id": "E6",
+          "label": "Scope 2 greenhouse gas emissions",
+          "type": "ESG Metric",
+          "description": "Indirect greenhouse gas emissions from purchased energy",
+          "unit": "metric tonnes of CO2 equivalent"
+        },
+        {
+          "id": "E7",
+          "label": "Scope 3 greenhouse gas emissions",
+          "type": "ESG Metric",
+          "description": "Other indirect greenhouse gas emissions in value chain",
+          "unit": "metric tonnes of CO2 equivalent"
+        },
+        {
+          "id": "E8",
+          "label": "Absolute gross greenhouse gas emissions",
+          "type": "ESG Metric",
+          "description": "Total greenhouse gas emissions generated during reporting period",
+          "unit": "metric tonnes of CO2 equivalent"
+        },
+        {
+          "id": "E9",
+          "label": "Climate-related targets",
+          "type": "ESG Target",
+          "description": "Targets set to mitigate or adapt to climate-related risks or take advantage of opportunities",
+          "unit": "Various"
+        },
+        {
+          "id": "E10",
+          "label": "Risk management processes",
+          "type": "ESG Process",
+          "description": "Processes to identify, assess, prioritise and monitor climate-related risks and opportunities",
+          "unit": "N/A"
+        },
+        {
+          "id": "E11",
+          "label": "Cross-industry metric categories",
+          "type": "ESG Metric Category",
+          "description": "Standardized metrics applicable across industries for climate-related disclosures",
+          "unit": "Various"
+        },
+        {
+          "id": "E12",
+          "label": "Industry-based metrics",
+          "type": "ESG Metric Category",
+          "description": "Metrics associated with particular business models, activities or industry characteristics",
+          "unit": "Various"
+        },
+        {
+          "id": "E13",
+          "label": "Greenhouse Gas Protocol",
+          "type": "ESG Standard",
+          "description": "Corporate Accounting and Reporting Standard (2004) for measuring greenhouse gas emissions",
+          "unit": "N/A"
+        },
+        {
+          "id": "E14",
+          "label": "Climate-related policies",
+          "type": "ESG Factor",
+          "description": "Policies in jurisdictions where entity operates affecting climate-related matters",
+          "unit": "N/A"
+        },
+        {
+          "id": "E15",
+          "label": "Energy usage and mix",
+          "type": "ESG Factor",
+          "description": "Entity's energy consumption patterns and energy source composition",
+          "unit": "Various"
+        },
+        {
+          "id": "E16",
+          "label": "IFRS S2",
+          "type": "ESG Standard",
+          "description": "IFRS Sustainability Disclosure Standard for Climate-related Disclosures",
+          "unit": "N/A"
+        }
+      ],
+      "relationships": [
+        {
+          "subject": "IFRS_S2",
+          "predicate": "issued_by",
+          "object": "ISSB"
+        },
+        {
+          "subject": "IFRS_S2",
+          "predicate": "published_on",
+          "object": "publication_date_june_2023"
+        },
+        {
+          "subject": "IFRS_S2",
+          "predicate": "covers",
+          "object": "climate_related_disclosures"
+        },
+        {
+          "subject": "ISSB",
+          "predicate": "publishes",
+          "object": "IFRS_S2"
+        },
+        {
+          "subject": "IFRS_S2",
+          "predicate": "requires_disclosure_of",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "IFRS_S2",
+          "predicate": "requires_disclosure_of",
+          "object": "climate_opportunities"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "includes",
+          "object": "climate_physical_risks"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "includes",
+          "object": "climate_transition_risks"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "affects",
+          "object": "cash_flows"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "affects",
+          "object": "access_to_finance"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "affects",
+          "object": "cost_of_capital"
+        },
+        {
+          "subject": "climate_opportunities",
+          "predicate": "affects",
+          "object": "cash_flows"
+        },
+        {
+          "subject": "climate_opportunities",
+          "predicate": "affects",
+          "object": "access_to_finance"
+        },
+        {
+          "subject": "climate_opportunities",
+          "predicate": "affects",
+          "object": "cost_of_capital"
+        },
+        {
+          "subject": "governance_body",
+          "predicate": "oversees",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "governance_body",
+          "predicate": "oversees",
+          "object": "climate_opportunities"
+        },
+        {
+          "subject": "governance_body",
+          "predicate": "oversees_setting_of",
+          "object": "climate_targets"
+        },
+        {
+          "subject": "governance_body",
+          "predicate": "monitors_progress_towards",
+          "object": "climate_targets"
+        },
+        {
+          "subject": "management",
+          "predicate": "manages",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "management",
+          "predicate": "manages",
+          "object": "climate_opportunities"
+        },
+        {
+          "subject": "climate_targets",
+          "predicate": "included_in",
+          "object": "remuneration_policies"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "affects",
+          "object": "business_model"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "affects",
+          "object": "value_chain"
+        },
+        {
+          "subject": "climate_opportunities",
+          "predicate": "affects",
+          "object": "business_model"
+        },
+        {
+          "subject": "climate_opportunities",
+          "predicate": "affects",
+          "object": "value_chain"
+        },
+        {
+          "subject": "transition_plan",
+          "predicate": "addresses",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "transition_plan",
+          "predicate": "addresses",
+          "object": "climate_opportunities"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "affects",
+          "object": "financial_position"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "affects",
+          "object": "financial_performance"
+        },
+        {
+          "subject": "climate_opportunities",
+          "predicate": "affects",
+          "object": "financial_position"
+        },
+        {
+          "subject": "climate_opportunities",
+          "predicate": "affects",
+          "object": "financial_performance"
+        },
+        {
+          "subject": "climate_resilience",
+          "predicate": "relates_to",
+          "object": "business_model"
+        },
+        {
+          "subject": "IFRS_S2",
+          "predicate": "references",
+          "object": "IFRS_S1"
+        },
+        {
+          "subject": "governance_body",
+          "predicate": "delegates_to",
+          "object": "management"
+        },
+        {
+          "subject": "IFRS_S2",
+          "predicate": "requires_disclosure_of",
+          "object": "climate_risks"
+        },
+        {
+          "subject": "IFRS_S2",
+          "predicate": "requires_disclosure_of",
+          "object": "climate_opportunities"
+        },
+        {
+          "subject": "climate_risks",
+          "predicate": "affects",
+          "object": "business_model"
+        },
+        {
+          "subject": "climate_opportunities",
+          "predicate": "affects",
+          "object": "business_model"
+        },
+        {
+          "subject": "climate_risks",
+          "predicate": "affects",
+          "object": "value_chain"
+        },
+        {
+          "subject": "climate_opportunities",
+          "predicate": "affects",
+          "object": "value_chain"
+        },
+        {
+          "subject": "climate_risks",
+          "predicate": "affects",
+          "object": "financial_position"
+        },
+        {
+          "subject": "climate_opportunities",
+          "predicate": "affects",
+          "object": "financial_position"
+        },
+        {
+          "subject": "climate_risks",
+          "predicate": "affects",
+          "object": "financial_performance"
+        },
+        {
+          "subject": "climate_opportunities",
+          "predicate": "affects",
+          "object": "financial_performance"
+        },
+        {
+          "subject": "climate_risks",
+          "predicate": "affects",
+          "object": "cash_flows"
+        },
+        {
+          "subject": "climate_opportunities",
+          "predicate": "affects",
+          "object": "cash_flows"
+        },
+        {
+          "subject": "transition_plan",
+          "predicate": "addresses",
+          "object": "climate_risks"
+        },
+        {
+          "subject": "transition_plan",
+          "predicate": "addresses",
+          "object": "climate_opportunities"
+        },
+        {
+          "subject": "transition_plan",
+          "predicate": "includes",
+          "object": "ghg_emissions_targets"
+        },
+        {
+          "subject": "transition_plan",
+          "predicate": "includes",
+          "object": "mitigation_efforts"
+        },
+        {
+          "subject": "transition_plan",
+          "predicate": "includes",
+          "object": "indirect_mitigation"
+        },
+        {
+          "subject": "resource_allocation",
+          "predicate": "supports",
+          "object": "transition_plan"
+        },
+        {
+          "subject": "capital_expenditure",
+          "predicate": "funds",
+          "object": "transition_plan"
+        },
+        {
+          "subject": "mitigation_efforts",
+          "predicate": "mitigates",
+          "object": "climate_risks"
+        },
+        {
+          "subject": "indirect_mitigation",
+          "predicate": "mitigates",
+          "object": "climate_risks"
+        },
+        {
+          "subject": "IFRS_S2",
+          "predicate": "references",
+          "object": "industry_guidance"
+        },
+        {
+          "subject": "industry_guidance",
+          "predicate": "defines",
+          "object": "climate_risks"
+        },
+        {
+          "subject": "industry_guidance",
+          "predicate": "defines",
+          "object": "climate_opportunities"
+        },
+        {
+          "subject": "IFRS_S2",
+          "predicate": "includes",
+          "object": "appendix_b"
+        },
+        {
+          "subject": "appendix_b",
+          "predicate": "provides_guidance_on",
+          "object": "climate_scenario_analysis"
+        },
+        {
+          "subject": "paragraph_22",
+          "predicate": "requires",
+          "object": "climate_scenario_analysis"
+        },
+        {
+          "subject": "climate_scenario_analysis",
+          "predicate": "assesses",
+          "object": "climate_resilience"
+        },
+        {
+          "subject": "climate_scenario_analysis",
+          "predicate": "considers",
+          "object": "exposure_assessment"
+        },
+        {
+          "subject": "climate_scenario_analysis",
+          "predicate": "considers",
+          "object": "skills_capabilities_resources"
+        },
+        {
+          "subject": "exposure_assessment",
+          "predicate": "evaluates",
+          "object": "climate_risks"
+        },
+        {
+          "subject": "exposure_assessment",
+          "predicate": "evaluates",
+          "object": "climate_opportunities"
+        },
+        {
+          "subject": "climate_scenario_analysis",
+          "predicate": "determines_sophistication_based_on",
+          "object": "exposure_assessment"
+        },
+        {
+          "subject": "climate_scenario_analysis",
+          "predicate": "constrained_by",
+          "object": "skills_capabilities_resources"
+        },
+        {
+          "subject": "IFRS_S2",
+          "predicate": "references",
+          "object": "tcfd"
+        },
+        {
+          "subject": "climate_scenario_analysis",
+          "predicate": "developed_iteratively_over",
+          "object": "skills_capabilities_resources"
+        },
+        {
+          "subject": "IFRS_S2",
+          "predicate": "requires_disclosure_of",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "IFRS_S2",
+          "predicate": "requires_disclosure_of",
+          "object": "climate_related_opportunities"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "categorized_as",
+          "object": "physical_risk"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "categorized_as",
+          "object": "transition_risk"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "affects",
+          "object": "business_model"
+        },
+        {
+          "subject": "climate_related_opportunities",
+          "predicate": "affects",
+          "object": "business_model"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "affects",
+          "object": "value_chain"
+        },
+        {
+          "subject": "climate_related_opportunities",
+          "predicate": "affects",
+          "object": "value_chain"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "influences",
+          "object": "transition_plan"
+        },
+        {
+          "subject": "climate_related_opportunities",
+          "predicate": "influences",
+          "object": "transition_plan"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "impacts",
+          "object": "financial_position"
+        },
+        {
+          "subject": "climate_related_opportunities",
+          "predicate": "impacts",
+          "object": "financial_position"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "impacts",
+          "object": "financial_performance"
+        },
+        {
+          "subject": "climate_related_opportunities",
+          "predicate": "impacts",
+          "object": "financial_performance"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "impacts",
+          "object": "cash_flows"
+        },
+        {
+          "subject": "climate_related_opportunities",
+          "predicate": "impacts",
+          "object": "cash_flows"
+        },
+        {
+          "subject": "climate_resilience",
+          "predicate": "assesses",
+          "object": "business_model"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "evaluated_over",
+          "object": "short_term"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "evaluated_over",
+          "object": "medium_term"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "evaluated_over",
+          "object": "long_term"
+        },
+        {
+          "subject": "climate_related_opportunities",
+          "predicate": "evaluated_over",
+          "object": "short_term"
+        },
+        {
+          "subject": "climate_related_opportunities",
+          "predicate": "evaluated_over",
+          "object": "medium_term"
+        },
+        {
+          "subject": "climate_related_opportunities",
+          "predicate": "evaluated_over",
+          "object": "long_term"
+        },
+        {
+          "subject": "IFRS_S2",
+          "predicate": "requires_disclosure_of",
+          "object": "climate_risks"
+        },
+        {
+          "subject": "IFRS_S2",
+          "predicate": "requires_disclosure_of",
+          "object": "climate_opportunities"
+        },
+        {
+          "subject": "climate_risks",
+          "predicate": "affects",
+          "object": "business_model"
+        },
+        {
+          "subject": "climate_opportunities",
+          "predicate": "affects",
+          "object": "business_model"
+        },
+        {
+          "subject": "climate_risks",
+          "predicate": "affects",
+          "object": "value_chain"
+        },
+        {
+          "subject": "climate_opportunities",
+          "predicate": "affects",
+          "object": "value_chain"
+        },
+        {
+          "subject": "IFRS_S2",
+          "predicate": "references",
+          "object": "industry_based_guidance"
+        },
+        {
+          "subject": "climate_risks",
+          "predicate": "concentrated_in",
+          "object": "geographical_concentration"
+        },
+        {
+          "subject": "climate_opportunities",
+          "predicate": "concentrated_in",
+          "object": "geographical_concentration"
+        },
+        {
+          "subject": "climate_risks",
+          "predicate": "concentrated_in",
+          "object": "facilities"
+        },
+        {
+          "subject": "climate_opportunities",
+          "predicate": "concentrated_in",
+          "object": "facilities"
+        },
+        {
+          "subject": "climate_risks",
+          "predicate": "concentrated_in",
+          "object": "asset_types"
+        },
+        {
+          "subject": "climate_opportunities",
+          "predicate": "concentrated_in",
+          "object": "asset_types"
+        },
+        {
+          "subject": "climate_targets",
+          "predicate": "influences",
+          "object": "resource_allocation"
+        },
+        {
+          "subject": "resource_allocation",
+          "predicate": "addresses",
+          "object": "climate_risks"
+        },
+        {
+          "subject": "resource_allocation",
+          "predicate": "addresses",
+          "object": "climate_opportunities"
+        },
+        {
+          "subject": "resource_allocation",
+          "predicate": "may_include_managing",
+          "object": "carbon_intensive_operations"
+        },
+        {
+          "subject": "resource_allocation",
+          "predicate": "may_include_managing",
+          "object": "energy_intensive_operations"
+        },
+        {
+          "subject": "resource_allocation",
+          "predicate": "may_include_managing",
+          "object": "water_intensive_operations"
+        },
+        {
+          "subject": "resource_allocation",
+          "predicate": "includes",
+          "object": "capital_expenditure"
+        },
+        {
+          "subject": "resource_allocation",
+          "predicate": "includes",
+          "object": "rd_expenditure"
+        },
+        {
+          "subject": "business_model",
+          "predicate": "requires_changes_to_address",
+          "object": "climate_risks"
+        },
+        {
+          "subject": "business_model",
+          "predicate": "requires_changes_to_address",
+          "object": "climate_opportunities"
+        },
+        {
+          "subject": "climate_transition_plan",
+          "predicate": "includes",
+          "object": "direct_mitigation_adaptation"
+        },
+        {
+          "subject": "climate_transition_plan",
+          "predicate": "includes",
+          "object": "indirect_mitigation_adaptation"
+        },
+        {
+          "subject": "climate_transition_plan",
+          "predicate": "aims_to_achieve",
+          "object": "ghg_emissions_targets"
+        },
+        {
+          "subject": "resource_allocation",
+          "predicate": "supports",
+          "object": "direct_mitigation_adaptation"
+        },
+        {
+          "subject": "resource_allocation",
+          "predicate": "supports",
+          "object": "indirect_mitigation_adaptation"
+        },
+        {
+          "subject": "climate_risks_opportunities",
+          "predicate": "affects",
+          "object": "current_financial_effects"
+        },
+        {
+          "subject": "climate_risks_opportunities",
+          "predicate": "affects",
+          "object": "anticipated_financial_effects"
+        },
+        {
+          "subject": "progress_disclosure",
+          "predicate": "measures",
+          "object": "climate_transition_plan"
+        },
+        {
+          "subject": "climate_risks_opportunities",
+          "predicate": "creates",
+          "object": "material_adjustment_risk"
+        },
+        {
+          "subject": "anticipated_financial_effects",
+          "predicate": "informs",
+          "object": "climate_transition_plan"
+        },
+        {
+          "subject": "ghg_emissions_targets",
+          "predicate": "requires",
+          "object": "resource_allocation"
+        },
+        {
+          "subject": "indirect_mitigation_adaptation",
+          "predicate": "involves",
+          "object": "climate_risks_opportunities"
+        },
+        {
+          "subject": "E1",
+          "predicate": "impacts",
+          "object": "E2"
+        },
+        {
+          "subject": "E1",
+          "predicate": "impacts",
+          "object": "E5"
+        },
+        {
+          "subject": "E1",
+          "predicate": "impacts",
+          "object": "E6"
+        },
+        {
+          "subject": "E3",
+          "predicate": "influences",
+          "object": "E2"
+        },
+        {
+          "subject": "E4",
+          "predicate": "supports",
+          "object": "E1"
+        },
+        {
+          "subject": "E7",
+          "predicate": "is_example_of",
+          "object": "E5"
+        },
+        {
+          "subject": "E8",
+          "predicate": "is_example_of",
+          "object": "E5"
+        },
+        {
+          "subject": "E9",
+          "predicate": "is_example_of",
+          "object": "E5"
+        },
+        {
+          "subject": "E10",
+          "predicate": "requires_disclosure_of",
+          "object": "E1"
+        },
+        {
+          "subject": "E10",
+          "predicate": "requires_disclosure_of",
+          "object": "E2"
+        },
+        {
+          "subject": "E11",
+          "predicate": "may_exempt_disclosure_of",
+          "object": "E2"
+        },
+        {
+          "subject": "E12",
+          "predicate": "applies_to",
+          "object": "E2"
+        },
+        {
+          "subject": "E12",
+          "predicate": "applies_to",
+          "object": "E5"
+        },
+        {
+          "subject": "E12",
+          "predicate": "applies_to",
+          "object": "E6"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "affects",
+          "object": "financial_effects"
+        },
+        {
+          "subject": "climate_related_opportunities",
+          "predicate": "affects",
+          "object": "financial_effects"
+        },
+        {
+          "subject": "climate_scenario_analysis",
+          "predicate": "assesses",
+          "object": "climate_resilience"
+        },
+        {
+          "subject": "climate_scenario_analysis",
+          "predicate": "considers",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "climate_scenario_analysis",
+          "predicate": "considers",
+          "object": "climate_related_opportunities"
+        },
+        {
+          "subject": "climate_resilience",
+          "predicate": "depends_on",
+          "object": "financial_resources"
+        },
+        {
+          "subject": "climate_resilience",
+          "predicate": "depends_on",
+          "object": "asset_management_capacity"
+        },
+        {
+          "subject": "climate_resilience",
+          "predicate": "depends_on",
+          "object": "climate_investments"
+        },
+        {
+          "subject": "financial_resources",
+          "predicate": "addresses",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "financial_resources",
+          "predicate": "enables",
+          "object": "climate_related_opportunities"
+        },
+        {
+          "subject": "ifrs_s2",
+          "predicate": "requires_disclosure_of",
+          "object": "climate_resilience"
+        },
+        {
+          "subject": "ifrs_s2",
+          "predicate": "requires_disclosure_of",
+          "object": "financial_effects"
+        },
+        {
+          "subject": "ifrs_s2",
+          "predicate": "mandates",
+          "object": "climate_scenario_analysis"
+        },
+        {
+          "subject": "E1",
+          "predicate": "assesses",
+          "object": "E2"
+        },
+        {
+          "subject": "E1",
+          "predicate": "assesses",
+          "object": "E3"
+        },
+        {
+          "subject": "E1",
+          "predicate": "informs_identification_of",
+          "object": "E4"
+        },
+        {
+          "subject": "E10",
+          "predicate": "identifies_and_monitors",
+          "object": "E2"
+        },
+        {
+          "subject": "E10",
+          "predicate": "identifies_and_monitors",
+          "object": "E3"
+        },
+        {
+          "subject": "E10",
+          "predicate": "identifies_and_monitors",
+          "object": "E4"
+        },
+        {
+          "subject": "E10",
+          "predicate": "uses",
+          "object": "E1"
+        },
+        {
+          "subject": "E8",
+          "predicate": "comprises",
+          "object": "E5"
+        },
+        {
+          "subject": "E8",
+          "predicate": "comprises",
+          "object": "E6"
+        },
+        {
+          "subject": "E8",
+          "predicate": "comprises",
+          "object": "E7"
+        },
+        {
+          "subject": "E8",
+          "predicate": "measured_according_to",
+          "object": "E13"
+        },
+        {
+          "subject": "E9",
+          "predicate": "addresses",
+          "object": "E2"
+        },
+        {
+          "subject": "E9",
+          "predicate": "addresses",
+          "object": "E3"
+        },
+        {
+          "subject": "E9",
+          "predicate": "addresses",
+          "object": "E4"
+        },
+        {
+          "subject": "E11",
+          "predicate": "includes",
+          "object": "E8"
+        },
+        {
+          "subject": "E16",
+          "predicate": "requires_disclosure_of",
+          "object": "E11"
+        },
+        {
+          "subject": "E16",
+          "predicate": "requires_disclosure_of",
+          "object": "E12"
+        },
+        {
+          "subject": "E16",
+          "predicate": "requires_disclosure_of",
+          "object": "E9"
+        },
+        {
+          "subject": "E16",
+          "predicate": "requires_disclosure_of",
+          "object": "E10"
+        },
+        {
+          "subject": "E1",
+          "predicate": "considers",
+          "object": "E14"
+        },
+        {
+          "subject": "E1",
+          "predicate": "considers",
+          "object": "E15"
+        }
+      ],
+      "entity_count": 126,
+      "relationship_count": 176
+    }
+  }
+}

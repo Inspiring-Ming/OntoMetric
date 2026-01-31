@@ -1,0 +1,60 @@
+================================================================================
+ENTITY TYPE HEATMAP (ONTOLOGY-GUIDED)
+================================================================================
+
+FIGURE DESCRIPTION
+--------------------------------------------------------------------------------
+This heatmap visualizes the distribution of entity types across all documents.
+- Rows represent documents
+- Columns represent entity types
+- Color intensity indicates count (darker = more entities of that type)
+- Numbers in cells show exact entity counts
+
+DATA SOURCE
+--------------------------------------------------------------------------------
+Entity data from Stage 2 ontology-guided extraction:
+  • outputs/stage2_ontology_guided_extraction/*_ontology_guided.json
+
+ENTITY TYPES ANALYZED
+--------------------------------------------------------------------------------
+Total entity types found: 5
+
+Category:
+  • Total count: 44
+  • Percentage: 12.1%
+  • Present in 5 documents
+
+Industry:
+  • Total count: 20
+  • Percentage: 5.5%
+  • Present in 5 documents
+
+Metric:
+  • Total count: 266
+  • Percentage: 73.1%
+  • Present in 5 documents
+
+Model:
+  • Total count: 29
+  • Percentage: 8.0%
+  • Present in 5 documents
+
+ReportingFramework:
+  • Total count: 5
+  • Percentage: 1.4%
+  • Present in 5 documents
+
+KEY INSIGHTS
+--------------------------------------------------------------------------------
+• Helps identify which entity types are most common across documents
+• Shows document-specific patterns (which docs focus on which types)
+• Reveals ontology schema coverage and balance
+• Can identify missing or underrepresented entity types
+
+INTERPRETATION
+--------------------------------------------------------------------------------
+• Empty cells (count = 0) = That entity type was not found in that document
+• Darker cells = Higher concentration of that entity type
+• Rows with many dark cells = Documents with diverse entity types
+• Columns with many dark cells = Entity types common across documents
+

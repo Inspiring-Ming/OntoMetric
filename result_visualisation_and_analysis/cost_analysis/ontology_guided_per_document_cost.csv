@@ -1,0 +1,6 @@
+Document,Stage 2 Cost (USD),Stage 3 Cost (USD),Total Cost (USD),Entities Extracted,Entities Validated,Retention Rate (%),Wasted Cost (USD)
+1. SASB-commercial-banks-standard_en-gb,0.7346,0.0053,0.7399,53,42,79.25,0.1525
+1.SASB-semiconductors-standard_en-gb,0.8715,0.0069,0.8784,69,62,89.86,0.0884
+1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures,0.8474,0.0080,0.8554,80,68,85.00,0.1271
+2.Australia-AASBS2_09-24,0.9023,0.0074,0.9097,74,66,89.19,0.0975
+2.FINAL-2017-TCFD-Report,1.1693,0.0088,1.1781,88,57,64.77,0.4119

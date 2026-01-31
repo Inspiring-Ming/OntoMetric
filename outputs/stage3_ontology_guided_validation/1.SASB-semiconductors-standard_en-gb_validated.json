@@ -1,0 +1,2124 @@
+{
+  "validation_metadata": {
+    "validation_timestamp": "2025-11-20T10:08:59.016988",
+    "validation_approach": "python",
+    "critical_rules_passed": [
+      "VR001",
+      "VR004",
+      "VR005",
+      "VR006"
+    ],
+    "critical_violations_removed": 14,
+    "original_entity_count": 69,
+    "validated_entity_count": 62,
+    "original_relationship_count": 71,
+    "validated_relationship_count": 64,
+    "source_file": "outputs/stage2_ontology_guided_extraction/1.SASB-semiconductors-standard_en-gb_ontology_guided.json",
+    "quality_metrics": {
+      "schema_compliance_weighted": 82.02,
+      "semantic_type_accuracy": 89.86,
+      "relationship_retention_rate": 90.14
+    },
+    "rule_scores": {
+      "VR001": {
+        "rule_name": "Entity Uniqueness",
+        "score": 100.0,
+        "passed_items": 62,
+        "total_items": 62,
+        "violations": 0
+      },
+      "VR002": {
+        "rule_name": "Entity Type-Specific Schema Compliance",
+        "score": 0.0,
+        "passed_items": 0,
+        "total_items": 62,
+        "violations": 62
+      },
+      "VR003": {
+        "rule_name": "Metric Property Values",
+        "score": 92.11,
+        "passed_items": 35,
+        "total_items": 38,
+        "violations": 3
+      },
+      "VR004": {
+        "rule_name": "Model Property Values",
+        "score": 100.0,
+        "passed_items": 12,
+        "total_items": 12,
+        "violations": 0
+      },
+      "VR005": {
+        "rule_name": "Relationship Predicate Validity",
+        "score": 100.0,
+        "passed_items": 64,
+        "total_items": 64,
+        "violations": 0
+      },
+      "VR006": {
+        "rule_name": "CalculatedMetric-Model Links",
+        "score": 100.0,
+        "passed_items": 9,
+        "total_items": 9,
+        "violations": 0
+      }
+    },
+    "semantic_validation": {
+      "total_entities": 69,
+      "correct_entities": 62,
+      "incorrect_entities": 7,
+      "semantic_type_accuracy": 89.86,
+      "llm_cost": 0.0069,
+      "mismatches": [
+        {
+          "entity_id": "category_SASB-semiconductors_5",
+          "entity_type": "Category",
+          "label": "Overview of SASB Standards",
+          "llm_reasoning": "This appears to be a document section or introductory heading rather than a thematic grouping of ESG disclosures. A Category should represent substantive ESG topics like 'Energy Management' or 'Emissions', not structural document elements like 'Overview'."
+        },
+        {
+          "entity_id": "metric_SASB-SC_7_001",
+          "entity_type": "Metric",
+          "label": "Total production",
+          "llm_reasoning": "This entity represents a general operational/production metric, not an ESG disclosure metric. It lacks any environmental, social, or governance context that would qualify it as an ESG metric according to the type definition."
+        },
+        {
+          "entity_id": "metric_SASB-SC_20_003",
+          "entity_type": "Metric",
+          "label": "Total Revenue from Electrical, Electronic and Related Technology Products",
+          "llm_reasoning": "This represents a general financial/business metric about product revenue, not an ESG (Environmental, Social, Governance) disclosure metric. ESG metrics would relate to sustainability, environmental impact, social responsibility, or governance practices."
+        },
+        {
+          "entity_id": "metric_SASB-SC_21_003",
+          "entity_type": "Metric",
+          "label": "Desktop Integer Speed Score per Watt",
+          "llm_reasoning": "This entity describes a technical performance metric for computer processors, not an ESG (Environmental, Social, Governance) disclosure. It does not relate to sustainability, social responsibility, or governance reporting requirements."
+        },
+        {
+          "entity_id": "metric_SASB-SC_21_004",
+          "entity_type": "Metric",
+          "label": "Desktop Floating Point Speed Score per Watt",
+          "llm_reasoning": "This entity describes a technical performance benchmark for computer processors, not an ESG (Environmental, Social, Governance) disclosure metric. It lacks any connection to sustainability, social responsibility, or governance reporting requirements."
+        },
+        {
+          "entity_id": "metric_SASB-SC_21_005",
+          "entity_type": "Metric",
+          "label": "Laptop Performance Qualification Score",
+          "llm_reasoning": "This entity describes a technical product performance benchmark for laptops, which is unrelated to ESG (Environmental, Social, Governance) disclosures. The Metric type specifically requires ESG-related quantitative or qualitative disclosures, not general product specifications."
+        },
+        {
+          "entity_id": "metric_SASB-SC_21_006",
+          "entity_type": "Metric",
+          "label": "Laptop Battery Life Score",
+          "llm_reasoning": "This entity describes a product performance benchmark metric, not an ESG (Environmental, Social, Governance) disclosure. The definition specifically requires ESG-related metrics or qualitative disclosures about sustainability, governance, or social responsibility matters."
+        }
+      ]
+    },
+    "rule_compliance": {
+      "critical_rules_total": 6,
+      "critical_rules_passed_count": 4,
+      "critical_rules_failed_count": 2,
+      "critical_rules_failed": [
+        "VR002",
+        "VR003"
+      ]
+    },
+    "violation_statistics": {
+      "total_violations": 65,
+      "entities_with_violations": 7,
+      "relationships_with_violations": 0,
+      "violations_by_rule": {
+        "VR001": {
+          "passed": true,
+          "violation_count": 0
+        },
+        "VR002": {
+          "passed": false,
+          "violation_count": 62
+        },
+        "VR003": {
+          "passed": false,
+          "violation_count": 3
+        },
+        "VR004": {
+          "passed": true,
+          "violation_count": 0
+        },
+        "VR005": {
+          "passed": true,
+          "violation_count": 0
+        },
+        "VR006": {
+          "passed": true,
+          "violation_count": 0
+        }
+      }
+    },
+    "segment_statistics": {
+      "total_segments": 11,
+      "segments_with_entities": 11,
+      "entities_per_segment": {
+        "seg_001": {
+          "original": 2,
+          "validated": 2
+        },
+        "seg_002": {
+          "original": 1,
+          "validated": 0
+        },
+        "seg_003": {
+          "original": 23,
+          "validated": 23
+        },
+        "seg_005": {
+          "original": 4,
+          "validated": 4
+        },
+        "seg_007": {
+          "original": 12,
+          "validated": 12
+        },
+        "seg_009": {
+          "original": 4,
+          "validated": 4
+        },
+        "seg_004": {
+          "original": 9,
+          "validated": 8
+        },
+        "seg_010": {
+          "original": 4,
+          "validated": 3
+        },
+        "seg_011": {
+          "original": 8,
+          "validated": 4
+        },
+        "seg_006": {
+          "original": 1,
+          "validated": 1
+        },
+        "seg_012": {
+          "original": 1,
+          "validated": 1
+        }
+      },
+      "retention_per_segment": {
+        "seg_001": 100.0,
+        "seg_002": 0.0,
+        "seg_003": 100.0,
+        "seg_005": 100.0,
+        "seg_007": 100.0,
+        "seg_009": 100.0,
+        "seg_004": 88.89,
+        "seg_010": 75.0,
+        "seg_011": 50.0,
+        "seg_006": 100.0,
+        "seg_012": 100.0
+      },
+      "avg_segment_retention": 83.08
+    }
+  },
+  "entities": [
+    {
+      "id": "industry_1.SASB-semiconductors",
+      "type": "Industry",
+      "label": "Semiconductors",
+      "properties": {
+        "sector": "Technology & Communications",
+        "country": "N/A",
+        "standard_reference": "SICS TC-SC"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_001",
+        "section_title": "Title & Document Information",
+        "extraction_timestamp": "2025-11-18T13:35:55.160688"
+      }
+    },
+    {
+      "id": "framework_1.SASB-semiconductors",
+      "type": "ReportingFramework",
+      "label": "SASB",
+      "properties": {
+        "name": "SASB",
+        "version": "2023-12",
+        "year": "2023",
+        "publisher": "International Sustainability Standards Board (IFRS Foundation)"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_001",
+        "section_title": "Title & Document Information",
+        "extraction_timestamp": "2025-11-18T13:35:55.160700"
+      }
+    },
+    {
+      "id": "category_SASB-SC_6_01",
+      "type": "Category",
+      "label": "Greenhouse Gas Emissions",
+      "properties": {
+        "section_title": "Greenhouse Gas Emissions",
+        "section_id": "TC-SC-110a",
+        "page_range": "6"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207817"
+      }
+    },
+    {
+      "id": "category_SASB-SC_6_02",
+      "type": "Category",
+      "label": "Energy Management in Manufacturing",
+      "properties": {
+        "section_title": "Energy Management in Manufacturing",
+        "section_id": "TC-SC-130a",
+        "page_range": "6"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207821"
+      }
+    },
+    {
+      "id": "category_SASB-SC_6_03",
+      "type": "Category",
+      "label": "Water Management",
+      "properties": {
+        "section_title": "Water Management",
+        "section_id": "TC-SC-140a",
+        "page_range": "6"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207824"
+      }
+    },
+    {
+      "id": "category_SASB-SC_6_04",
+      "type": "Category",
+      "label": "Waste Management",
+      "properties": {
+        "section_title": "Waste Management",
+        "section_id": "TC-SC-150a",
+        "page_range": "6"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207828"
+      }
+    },
+    {
+      "id": "category_SASB-SC_6_05",
+      "type": "Category",
+      "label": "Workforce Health & Safety",
+      "properties": {
+        "section_title": "Workforce Health & Safety",
+        "section_id": "TC-SC-320a",
+        "page_range": "6"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207831"
+      }
+    },
+    {
+      "id": "category_SASB-SC_6_06",
+      "type": "Category",
+      "label": "Recruiting & Managing a Global & Skilled Workforce",
+      "properties": {
+        "section_title": "Recruiting & Managing a Global & Skilled Workforce",
+        "section_id": "TC-SC-330a",
+        "page_range": "6"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207834"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_6_001",
+      "type": "Metric",
+      "label": "Gross Global Scope 1 Emissions and PFC Emissions",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "CalculatedMetric",
+        "unit": "Metric tonnes (t) CO₂-e",
+        "code": "TC-SC-110a.1",
+        "description": "(1) Gross global Scope 1 emissions and (2) amount of total emissions from perfluorinated compounds",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207837"
+      }
+    },
+    {
+      "id": "model_SASB-SC_6_001",
+      "type": "Model",
+      "label": "GHG Emissions Composite Model",
+      "properties": {
+        "description": "Composite metric derived from gross global Scope 1 emissions and amount of emissions from perfluorinated compounds",
+        "equation": "f(Scope1Emissions, PFCEmissions)",
+        "input_variables": [
+          "Gross global Scope 1 emissions",
+          "Amount of total emissions from perfluorinated compounds"
+        ]
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207840"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_6_001a",
+      "type": "Metric",
+      "label": "Gross Global Scope 1 Emissions",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Metric tonnes (t) CO₂-e",
+        "code": "N/A",
+        "description": "Gross global Scope 1 emissions"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207843"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_6_001b",
+      "type": "Metric",
+      "label": "Emissions from Perfluorinated Compounds",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Metric tonnes (t) CO₂-e",
+        "code": "N/A",
+        "description": "Amount of total emissions from perfluorinated compounds"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207846"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_6_002",
+      "type": "Metric",
+      "label": "GHG Emissions Management Strategy",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "TC-SC-110a.2",
+        "description": "Discussion of long- and short-term strategy or plan to manage Scope 1 emissions, emissions reduction targets, and an analysis of performance against those targets",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207849"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_6_003",
+      "type": "Metric",
+      "label": "Total Energy Consumed with Grid and Renewable Breakdown",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "CalculatedMetric",
+        "unit": "Gigajoules (GJ), Percentage (%)",
+        "code": "TC-SC-130a.1",
+        "description": "(1) Total energy consumed, (2) percentage grid electricity and (3) percentage renewable",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207853"
+      }
+    },
+    {
+      "id": "model_SASB-SC_6_003",
+      "type": "Model",
+      "label": "Energy Management Composite Model",
+      "properties": {
+        "description": "Composite metric derived from total energy consumed, percentage grid electricity, and percentage renewable",
+        "equation": "f(TotalEnergy, GridElectricityPct, RenewablePct)",
+        "input_variables": [
+          "Total energy consumed",
+          "Percentage grid electricity",
+          "Percentage renewable"
+        ]
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207855"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_10_002",
+      "type": "Metric",
+      "label": "Total Energy Consumed",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Gigajoules (GJ)",
+        "code": "N/A",
+        "description": "Total amount of energy consumed as an aggregate figure, including energy from all sources",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_005",
+        "section_title": "Greenhouse Gas Emissions",
+        "extraction_timestamp": "2025-11-18T13:39:43.817386"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_6_003b",
+      "type": "Metric",
+      "label": "Percentage Grid Electricity",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Percentage (%)",
+        "code": "N/A",
+        "description": "Percentage grid electricity"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207862"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_6_003c",
+      "type": "Metric",
+      "label": "Percentage Renewable",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Percentage (%)",
+        "code": "N/A",
+        "description": "Percentage renewable"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207865"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_6_004",
+      "type": "Metric",
+      "label": "Water Withdrawn and Consumed with Baseline Stress",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "CalculatedMetric",
+        "unit": "Thousand cubic metres (m³), Percentage (%)",
+        "code": "TC-SC-140a.1",
+        "description": "(1) Total water withdrawn, (2) total water consumed; percentage of each in regions with High or Extremely High Baseline Water Stress",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207869"
+      }
+    },
+    {
+      "id": "model_SASB-SC_6_004",
+      "type": "Model",
+      "label": "Water Management Composite Model",
+      "properties": {
+        "description": "Composite metric derived from total water withdrawn and total water consumed with percentage breakdown by baseline water stress",
+        "equation": "f(WaterWithdrawn, WaterConsumed)",
+        "input_variables": [
+          "Total water withdrawn",
+          "Total water consumed"
+        ]
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207873"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_14_004",
+      "type": "Metric",
+      "label": "Total Water Withdrawn",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Cubic meters (m³)",
+        "code": "N/A",
+        "description": "Total volume of water withdrawn across all operations"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_007",
+        "section_title": "Water Management",
+        "extraction_timestamp": "2025-11-18T13:41:20.560533"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_14_007",
+      "type": "Metric",
+      "label": "Total Water Consumed",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Cubic meters (m³)",
+        "code": "N/A",
+        "description": "Total volume of water consumed across all operations"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_007",
+        "section_title": "Water Management",
+        "extraction_timestamp": "2025-11-18T13:41:20.560558"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_6_005",
+      "type": "Metric",
+      "label": "Hazardous Waste and Recycling Rate",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "CalculatedMetric",
+        "unit": "Metric tonnes (t), Percentage (%)",
+        "code": "TC-SC-150a.1",
+        "description": "(1) Amount of hazardous waste from manufacturing, (2) percentage recycled",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207881"
+      }
+    },
+    {
+      "id": "model_SASB-SC_6_005",
+      "type": "Model",
+      "label": "Waste Management Composite Model",
+      "properties": {
+        "description": "Composite metric derived from amount of hazardous waste and percentage recycled",
+        "equation": "f(HazardousWaste, RecycledPct)",
+        "input_variables": [
+          "Amount of hazardous waste from manufacturing",
+          "Percentage recycled"
+        ]
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207884"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_6_005a",
+      "type": "Metric",
+      "label": "Amount of Hazardous Waste",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Metric tonnes (t)",
+        "code": "N/A",
+        "description": "Amount of hazardous waste from manufacturing"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207887"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_6_005b",
+      "type": "Metric",
+      "label": "Percentage of Hazardous Waste Recycled",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Percentage (%)",
+        "code": "N/A",
+        "description": "Percentage of hazardous waste recycled"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207890"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_6_006",
+      "type": "Metric",
+      "label": "Workforce Health Hazards Assessment",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "TC-SC-320a.1",
+        "description": "Description of efforts to assess, monitor, and reduce exposure of workforce to human health hazards",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207892"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_6_007",
+      "type": "Metric",
+      "label": "Monetary Losses from Health and Safety Violations",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "DirectMetric",
+        "unit": "Presentation currency",
+        "code": "TC-SC-320a.2",
+        "description": "Total amount of monetary losses as a result of legal proceedings associated with employee health and safety violations",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207895"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_19_001",
+      "type": "Metric",
+      "label": "Percentage of Employees Requiring Work Visa",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "CalculatedMetric",
+        "unit": "Percentage (%)",
+        "code": "TC-SC-330a.1",
+        "description": "Percentage of employees that require a work visa, calculated as the number of employees requiring a work visa divided by the total number of the entity's employees at the close of the reporting period",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_009",
+        "section_title": "Workforce Health & Safety",
+        "extraction_timestamp": "2025-11-18T13:42:18.231595"
+      }
+    },
+    {
+      "id": "category_SASB-SC_6_PLC",
+      "type": "Category",
+      "label": "Product Lifecycle Management",
+      "properties": {
+        "section_title": "Product Lifecycle Management",
+        "section_id": "TC-SC-410a",
+        "page_range": "6"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:39:02.241089"
+      }
+    },
+    {
+      "id": "category_SASB-SC_6_MS",
+      "type": "Category",
+      "label": "Materials Sourcing",
+      "properties": {
+        "section_title": "Materials Sourcing",
+        "section_id": "TC-SC-440a",
+        "page_range": "6"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:39:02.241091"
+      }
+    },
+    {
+      "id": "category_SASB-SC_6_IP",
+      "type": "Category",
+      "label": "Intellectual Property Protection & Competitive Behaviour",
+      "properties": {
+        "section_title": "Intellectual Property Protection & Competitive Behaviour",
+        "section_id": "TC-SC-520a",
+        "page_range": "6"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:39:02.241094"
+      }
+    },
+    {
+      "id": "category_SASB-SC_7_AM",
+      "type": "Category",
+      "label": "Activity Metrics",
+      "properties": {
+        "section_title": "Activity Metrics",
+        "section_id": "TC-SC-000",
+        "page_range": "7"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:39:02.241097"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_20_001",
+      "type": "Metric",
+      "label": "Percentage of Products Containing IEC 62474 Declarable Substances",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "CalculatedMetric",
+        "unit": "Percentage (%)",
+        "code": "TC-SC-410a.1",
+        "description": "Percentage of products by revenue that contain IEC 62474 declarable substances",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_010",
+        "section_title": "Recruiting & Managing a Global & Skilled Workforce",
+        "extraction_timestamp": "2025-11-18T13:42:44.649931"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_21_001",
+      "type": "Metric",
+      "label": "Processor Energy Efficiency",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "CalculatedMetric",
+        "unit": "Performance per Watt (various units)",
+        "code": "TC-SC-410a.2",
+        "description": "Processor energy efficiency at a system-level for: (1) servers, (2) desktops and (3) laptops, calculated using specified benchmarks (SPEC Power, SPEC CPU2006, MobileMark 2014)",
+        "disaggregations": [
+          "servers",
+          "desktops",
+          "laptops"
+        ]
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_011",
+        "section_title": "Product Lifecycle Management",
+        "extraction_timestamp": "2025-11-18T13:43:38.204892"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_23_001",
+      "type": "Metric",
+      "label": "Critical Materials Risk Management",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "TC-SC-440a.1",
+        "description": "Description of the management of risks associated with the use of critical materials, including physical availability limits, price changes, and regulatory and reputational risks"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_011",
+        "section_title": "Product Lifecycle Management",
+        "extraction_timestamp": "2025-11-18T13:43:38.204900"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_6_012",
+      "type": "Metric",
+      "label": "Monetary losses from anti-competitive behaviour",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "DirectMetric",
+        "unit": "Presentation currency",
+        "code": "TC-SC-520a.1",
+        "description": "Total amount of monetary losses as a result of legal proceedings associated with anti-competitive behaviour regulations",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:39:02.241112"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_7_002",
+      "type": "Metric",
+      "label": "Percentage of production from owned facilities",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "DirectMetric",
+        "unit": "Percentage (%)",
+        "code": "TC-SC-000.B",
+        "description": "Percentage of production from owned facilities",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:39:02.241117"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_8_002",
+      "type": "Metric",
+      "label": "Gross global Scope 1 emissions",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Metric tons (t) CO₂-e",
+        "code": "N/A",
+        "description": "Gross global Scope 1 greenhouse gas emissions to the atmosphere of the seven GHGs covered under the Kyoto Protocol"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:39:02.241125"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_8_003",
+      "type": "Metric",
+      "label": "Emissions from perfluorinated compounds",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Metric tons (t) CO₂-e",
+        "code": "N/A",
+        "description": "Gross global Scope 1 GHG emissions originated from perfluorinated compounds"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:39:02.241127"
+      }
+    },
+    {
+      "id": "model_SASB-SC_10_001",
+      "type": "Model",
+      "label": "Energy Consumption Analysis Model",
+      "properties": {
+        "description": "Composite metric calculating total energy consumed and percentages of grid electricity and renewable energy from total energy consumption",
+        "equation": "Grid % = (Grid Electricity / Total Energy) × 100; Renewable % = (Renewable Energy / Total Energy) × 100",
+        "input_variables": [
+          "Total Energy Consumed",
+          "Grid Electricity Consumed",
+          "Renewable Energy Consumed"
+        ]
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_005",
+        "section_title": "Greenhouse Gas Emissions",
+        "extraction_timestamp": "2025-11-18T13:39:43.817383"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_10_003",
+      "type": "Metric",
+      "label": "Grid Electricity Consumed",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Gigajoules (GJ)",
+        "code": "N/A",
+        "description": "Energy consumed that was supplied from grid electricity",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_005",
+        "section_title": "Greenhouse Gas Emissions",
+        "extraction_timestamp": "2025-11-18T13:39:43.817388"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_10_004",
+      "type": "Metric",
+      "label": "Renewable Energy Consumed",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Gigajoules (GJ)",
+        "code": "N/A",
+        "description": "Energy consumed that was renewable energy from sources replenished at a rate greater than or equal to their rate of depletion",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_005",
+        "section_title": "Greenhouse Gas Emissions",
+        "extraction_timestamp": "2025-11-18T13:39:43.817392"
+      }
+    },
+    {
+      "id": "model_SASB-SC_12_001",
+      "type": "Model",
+      "label": "Water Stress Assessment Model",
+      "properties": {
+        "description": "Composite metric combining total water withdrawn and total water consumed with geographic analysis of percentage in regions with High or Extremely High Baseline Water Stress",
+        "equation": "f(TotalWithdrawn, TotalConsumed, StressRegionPct)",
+        "input_variables": [
+          "Total water withdrawn",
+          "Total water consumed",
+          "Percentage in High or Extremely High Baseline Water Stress regions"
+        ]
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_006",
+        "section_title": "Energy Management in Manufacturing",
+        "extraction_timestamp": "2025-11-18T13:40:21.192780"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_14_001",
+      "type": "Metric",
+      "label": "Water Risk Analysis",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "N/A",
+        "description": "Analysis of all operations for water risks and identification of activities that withdraw and consume water in locations with High or Extremely High Baseline Water Stress"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_007",
+        "section_title": "Water Management",
+        "extraction_timestamp": "2025-11-18T13:41:20.560505"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_14_002",
+      "type": "Metric",
+      "label": "Water Withdrawn in High Stress Locations (Percentage)",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "CalculatedMetric",
+        "unit": "Percentage (%)",
+        "code": "N/A",
+        "description": "Water withdrawn in locations with High or Extremely High Baseline Water Stress as a percentage of the total water withdrawn"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_007",
+        "section_title": "Water Management",
+        "extraction_timestamp": "2025-11-18T13:41:20.560512"
+      }
+    },
+    {
+      "id": "model_SASB-SC_14_002",
+      "type": "Model",
+      "label": "Water Withdrawn Stress Percentage Model",
+      "properties": {
+        "description": "Calculates the percentage of water withdrawn from high or extremely high baseline water stress locations relative to total water withdrawn",
+        "equation": "(Water withdrawn in high stress locations / Total water withdrawn) × 100",
+        "input_variables": [
+          "Water withdrawn in high stress locations",
+          "Total water withdrawn"
+        ]
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_007",
+        "section_title": "Water Management",
+        "extraction_timestamp": "2025-11-18T13:41:20.560519"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_14_003",
+      "type": "Metric",
+      "label": "Water Withdrawn in High Stress Locations",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Cubic meters (m³)",
+        "code": "N/A",
+        "description": "Volume of water withdrawn in locations with High or Extremely High Baseline Water Stress"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_007",
+        "section_title": "Water Management",
+        "extraction_timestamp": "2025-11-18T13:41:20.560525"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_14_005",
+      "type": "Metric",
+      "label": "Water Consumed in High Stress Locations (Percentage)",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "CalculatedMetric",
+        "unit": "Percentage (%)",
+        "code": "N/A",
+        "description": "Water consumed in locations with High or Extremely High Baseline Water Stress as a percentage of the total water consumed"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_007",
+        "section_title": "Water Management",
+        "extraction_timestamp": "2025-11-18T13:41:20.560540"
+      }
+    },
+    {
+      "id": "model_SASB-SC_14_005",
+      "type": "Model",
+      "label": "Water Consumed Stress Percentage Model",
+      "properties": {
+        "description": "Calculates the percentage of water consumed from high or extremely high baseline water stress locations relative to total water consumed",
+        "equation": "(Water consumed in high stress locations / Total water consumed) × 100",
+        "input_variables": [
+          "Water consumed in high stress locations",
+          "Total water consumed"
+        ]
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_007",
+        "section_title": "Water Management",
+        "extraction_timestamp": "2025-11-18T13:41:20.560546"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_14_006",
+      "type": "Metric",
+      "label": "Water Consumed in High Stress Locations",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Cubic meters (m³)",
+        "code": "N/A",
+        "description": "Volume of water consumed in locations with High or Extremely High Baseline Water Stress"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_007",
+        "section_title": "Water Management",
+        "extraction_timestamp": "2025-11-18T13:41:20.560552"
+      }
+    },
+    {
+      "id": "model_SASB-SC_15_001",
+      "type": "Model",
+      "label": "Hazardous Waste Recycling Model",
+      "properties": {
+        "description": "Composite metric combining total hazardous waste generated and the percentage recycled, calculated as weight of recycled hazardous waste divided by total weight of hazardous waste",
+        "equation": "(Weight of hazardous waste recycled / Total weight of hazardous waste) × 100",
+        "input_variables": [
+          "Total weight of hazardous waste generated",
+          "Weight of hazardous waste recycled"
+        ]
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_007",
+        "section_title": "Water Management",
+        "extraction_timestamp": "2025-11-18T13:41:20.560571"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_15_002",
+      "type": "Metric",
+      "label": "Total Weight of Hazardous Waste Generated",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Metric tonnes (t)",
+        "code": "N/A",
+        "description": "Total weight of hazardous waste generated from manufacturing operations"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_007",
+        "section_title": "Water Management",
+        "extraction_timestamp": "2025-11-18T13:41:20.560576"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_15_003",
+      "type": "Metric",
+      "label": "Weight of Hazardous Waste Recycled",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Metric tonnes (t)",
+        "code": "N/A",
+        "description": "Weight of hazardous waste generated from manufacturing operations that was recycled, reused, reclaimed or remanufactured"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_007",
+        "section_title": "Water Management",
+        "extraction_timestamp": "2025-11-18T13:41:20.560582"
+      }
+    },
+    {
+      "id": "model_SASB-SC_19_001",
+      "type": "Model",
+      "label": "Work Visa Percentage Calculation Model",
+      "properties": {
+        "description": "Calculates percentage of employees requiring work visa from count of visa-requiring employees divided by total employee count",
+        "equation": "(Number of employees requiring work visa / Total number of employees) × 100",
+        "input_variables": [
+          "Number of employees requiring a work visa",
+          "Total number of employees"
+        ]
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_009",
+        "section_title": "Workforce Health & Safety",
+        "extraction_timestamp": "2025-11-18T13:42:18.231597"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_19_002",
+      "type": "Metric",
+      "label": "Number of Employees Requiring Work Visa",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Number",
+        "code": "N/A",
+        "description": "Number of employees requiring a work visa at the close of the reporting period"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_009",
+        "section_title": "Workforce Health & Safety",
+        "extraction_timestamp": "2025-11-18T13:42:18.231599"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_19_003",
+      "type": "Metric",
+      "label": "Total Number of Employees",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Number",
+        "code": "N/A",
+        "description": "Total number of the entity's employees at the close of the reporting period"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_009",
+        "section_title": "Workforce Health & Safety",
+        "extraction_timestamp": "2025-11-18T13:42:18.231601"
+      }
+    },
+    {
+      "id": "model_SASB-SC_20_001",
+      "type": "Model",
+      "label": "IEC 62474 Declarable Substances Percentage Model",
+      "properties": {
+        "description": "Calculated as the revenue from electrical, electronic and related technology products sold that contain a declarable substance(s) divided by total revenue from electrical, electronic and related technology products sold.",
+        "equation": "(Revenue from products with declarable substances / Total revenue from products) × 100",
+        "input_variables": [
+          "Revenue from products containing declarable substances",
+          "Total revenue from electrical, electronic and related technology products"
+        ]
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_010",
+        "section_title": "Recruiting & Managing a Global & Skilled Workforce",
+        "extraction_timestamp": "2025-11-18T13:42:44.649934"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_20_002",
+      "type": "Metric",
+      "label": "Revenue from Products Containing Declarable Substances",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Reporting currency",
+        "code": "N/A",
+        "description": "Revenue from electrical, electronic and related technology products sold that contain IEC 62474 declarable substance(s)"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_010",
+        "section_title": "Recruiting & Managing a Global & Skilled Workforce",
+        "extraction_timestamp": "2025-11-18T13:42:44.649937"
+      }
+    },
+    {
+      "id": "model_SASB-SC_21_001",
+      "type": "Model",
+      "label": "Processor Energy Efficiency Benchmarking Model",
+      "properties": {
+        "description": "System-level energy efficiency calculated from standardized benchmark testing: servers use SPECpower_ssj2008 (ssj_ops/watt), desktops use SPEC CPU2006 (SPECspeed scores per watt), laptops use MobileMark 2014 (performance score and battery life)",
+        "equation": "f(ServerBenchmark, DesktopBenchmark, LaptopBenchmark) where each benchmark = PerformanceScore / PowerConsumption",
+        "input_variables": [
+          "Server SPECpower ssj_ops/watt",
+          "Desktop SPECspeed2017_int_base score/watt",
+          "Desktop SPECspeed2017_fp_base score/watt",
+          "Laptop MobileMark performance qualification score",
+          "Laptop MobileMark battery life score"
+        ]
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_011",
+        "section_title": "Product Lifecycle Management",
+        "extraction_timestamp": "2025-11-18T13:43:38.204893"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_21_002",
+      "type": "Metric",
+      "label": "Server Performance per Watt",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "ssj_ops/watt",
+        "code": "N/A",
+        "description": "Server processor energy efficiency measured as overall ssj_ops/watt using SPEC Power SPECpower_ssj2008 benchmark"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_011",
+        "section_title": "Product Lifecycle Management",
+        "extraction_timestamp": "2025-11-18T13:43:38.204895"
+      }
+    },
+    {
+      "id": "metric_SASB-SC_25_002",
+      "type": "Metric",
+      "label": "Description of Anti-competitive Fines and Settlements",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "TC-SC-520a.1 (Note)",
+        "description": "Brief description of the nature (e.g., guilty plea, deferred agreement or non-prosecution agreement) and context (e.g., price fixing, patent misuse or antitrust) of fines and settlements"
+      },
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_012",
+        "section_title": "Materials Sourcing",
+        "extraction_timestamp": "2025-11-18T13:44:08.796704"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "subject": "industry_1.SASB-semiconductors",
+      "predicate": "ReportUsing",
+      "object": "framework_1.SASB-semiconductors",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_001",
+        "section_title": "Title & Document Information",
+        "extraction_timestamp": "2025-11-18T13:35:55.160704"
+      }
+    },
+    {
+      "subject": "framework_1.SASB-semiconductors",
+      "predicate": "Include",
+      "object": "category_SASB-SC_6_01",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207911"
+      }
+    },
+    {
+      "subject": "framework_1.SASB-semiconductors",
+      "predicate": "Include",
+      "object": "category_SASB-SC_6_02",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207914"
+      }
+    },
+    {
+      "subject": "framework_1.SASB-semiconductors",
+      "predicate": "Include",
+      "object": "category_SASB-SC_6_03",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207917"
+      }
+    },
+    {
+      "subject": "framework_1.SASB-semiconductors",
+      "predicate": "Include",
+      "object": "category_SASB-SC_6_04",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207920"
+      }
+    },
+    {
+      "subject": "framework_1.SASB-semiconductors",
+      "predicate": "Include",
+      "object": "category_SASB-SC_6_05",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207923"
+      }
+    },
+    {
+      "subject": "framework_1.SASB-semiconductors",
+      "predicate": "Include",
+      "object": "category_SASB-SC_6_06",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207926"
+      }
+    },
+    {
+      "subject": "category_SASB-SC_6_01",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-SC_20_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207929"
+      }
+    },
+    {
+      "subject": "category_SASB-SC_6_01",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-SC_21_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207933"
+      }
+    },
+    {
+      "subject": "metric_SASB-SC_20_001",
+      "predicate": "IsCalculatedBy",
+      "object": "model_SASB-SC_6_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207935"
+      }
+    },
+    {
+      "subject": "model_SASB-SC_6_001",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_SASB-SC_6_001a",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207938"
+      }
+    },
+    {
+      "subject": "model_SASB-SC_6_001",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_SASB-SC_6_001b",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207941"
+      }
+    },
+    {
+      "subject": "category_SASB-SC_6_02",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-SC_23_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207945"
+      }
+    },
+    {
+      "subject": "model_SASB-SC_6_003",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_SASB-SC_6_003b",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207953"
+      }
+    },
+    {
+      "subject": "model_SASB-SC_6_003",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_SASB-SC_6_003c",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207956"
+      }
+    },
+    {
+      "subject": "category_SASB-SC_6_03",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-SC_6_012",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.207959"
+      }
+    },
+    {
+      "subject": "category_SASB-SC_6_04",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-SC_6_005",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.214682"
+      }
+    },
+    {
+      "subject": "metric_SASB-SC_6_005",
+      "predicate": "IsCalculatedBy",
+      "object": "model_SASB-SC_6_005",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.214700"
+      }
+    },
+    {
+      "subject": "model_SASB-SC_6_005",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_SASB-SC_6_005a",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.214704"
+      }
+    },
+    {
+      "subject": "model_SASB-SC_6_005",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_SASB-SC_6_005b",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.214707"
+      }
+    },
+    {
+      "subject": "category_SASB-SC_6_05",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-SC_6_006",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.214710"
+      }
+    },
+    {
+      "subject": "category_SASB-SC_6_05",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-SC_6_007",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.214713"
+      }
+    },
+    {
+      "subject": "category_SASB-SC_6_06",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-SC_19_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:38:04.214716"
+      }
+    },
+    {
+      "subject": "framework_1.SASB-semiconductors",
+      "predicate": "Include",
+      "object": "category_SASB-SC_6_PLC",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:39:02.241139"
+      }
+    },
+    {
+      "subject": "framework_1.SASB-semiconductors",
+      "predicate": "Include",
+      "object": "category_SASB-SC_6_MS",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:39:02.241142"
+      }
+    },
+    {
+      "subject": "framework_1.SASB-semiconductors",
+      "predicate": "Include",
+      "object": "category_SASB-SC_6_IP",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:39:02.241145"
+      }
+    },
+    {
+      "subject": "framework_1.SASB-semiconductors",
+      "predicate": "Include",
+      "object": "category_SASB-SC_7_AM",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:39:02.241148"
+      }
+    },
+    {
+      "subject": "category_SASB-SC_6_PLC",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-SC_20_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:39:02.241152"
+      }
+    },
+    {
+      "subject": "category_SASB-SC_6_PLC",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-SC_21_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:39:02.241155"
+      }
+    },
+    {
+      "subject": "category_SASB-SC_6_MS",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-SC_23_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:39:02.241157"
+      }
+    },
+    {
+      "subject": "category_SASB-SC_6_IP",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-SC_6_012",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:39:02.241160"
+      }
+    },
+    {
+      "subject": "category_SASB-SC_7_AM",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-SC_7_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:39:02.241165"
+      }
+    },
+    {
+      "subject": "category_SASB-SC_6_01",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-SC_6_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:39:02.241167"
+      }
+    },
+    {
+      "subject": "metric_SASB-SC_6_001",
+      "predicate": "IsCalculatedBy",
+      "object": "model_SASB-SC_6_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:39:02.241170"
+      }
+    },
+    {
+      "subject": "model_SASB-SC_6_001",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_SASB-SC_8_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:39:02.241173"
+      }
+    },
+    {
+      "subject": "model_SASB-SC_6_001",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_SASB-SC_8_003",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:39:02.241176"
+      }
+    },
+    {
+      "subject": "category_SASB-SC_6_01",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-SC_6_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_005",
+        "section_title": "Greenhouse Gas Emissions",
+        "extraction_timestamp": "2025-11-18T13:39:43.817408"
+      }
+    },
+    {
+      "subject": "category_SASB-SC_6_02",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-SC_6_003",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_005",
+        "section_title": "Greenhouse Gas Emissions",
+        "extraction_timestamp": "2025-11-18T13:39:43.817410"
+      }
+    },
+    {
+      "subject": "metric_SASB-SC_6_003",
+      "predicate": "IsCalculatedBy",
+      "object": "model_SASB-SC_10_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_005",
+        "section_title": "Greenhouse Gas Emissions",
+        "extraction_timestamp": "2025-11-18T13:39:43.817413"
+      }
+    },
+    {
+      "subject": "model_SASB-SC_10_001",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_SASB-SC_10_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_005",
+        "section_title": "Greenhouse Gas Emissions",
+        "extraction_timestamp": "2025-11-18T13:39:43.817415"
+      }
+    },
+    {
+      "subject": "model_SASB-SC_10_001",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_SASB-SC_10_003",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_005",
+        "section_title": "Greenhouse Gas Emissions",
+        "extraction_timestamp": "2025-11-18T13:39:43.817417"
+      }
+    },
+    {
+      "subject": "model_SASB-SC_10_001",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_SASB-SC_10_004",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_005",
+        "section_title": "Greenhouse Gas Emissions",
+        "extraction_timestamp": "2025-11-18T13:39:43.817420"
+      }
+    },
+    {
+      "subject": "category_SASB-SC_6_03",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-SC_6_004",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_006",
+        "section_title": "Energy Management in Manufacturing",
+        "extraction_timestamp": "2025-11-18T13:40:21.192807"
+      }
+    },
+    {
+      "subject": "metric_SASB-SC_6_004",
+      "predicate": "IsCalculatedBy",
+      "object": "model_SASB-SC_12_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_006",
+        "section_title": "Energy Management in Manufacturing",
+        "extraction_timestamp": "2025-11-18T13:40:21.192811"
+      }
+    },
+    {
+      "subject": "category_SASB-SC_6_03",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-SC_14_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_007",
+        "section_title": "Water Management",
+        "extraction_timestamp": "2025-11-18T13:41:20.560614"
+      }
+    },
+    {
+      "subject": "category_SASB-SC_6_03",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-SC_14_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_007",
+        "section_title": "Water Management",
+        "extraction_timestamp": "2025-11-18T13:41:20.560619"
+      }
+    },
+    {
+      "subject": "category_SASB-SC_6_03",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-SC_14_005",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_007",
+        "section_title": "Water Management",
+        "extraction_timestamp": "2025-11-18T13:41:20.560625"
+      }
+    },
+    {
+      "subject": "metric_SASB-SC_14_002",
+      "predicate": "IsCalculatedBy",
+      "object": "model_SASB-SC_14_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_007",
+        "section_title": "Water Management",
+        "extraction_timestamp": "2025-11-18T13:41:20.560630"
+      }
+    },
+    {
+      "subject": "model_SASB-SC_14_002",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_SASB-SC_14_003",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_007",
+        "section_title": "Water Management",
+        "extraction_timestamp": "2025-11-18T13:41:20.560636"
+      }
+    },
+    {
+      "subject": "model_SASB-SC_14_002",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_SASB-SC_14_004",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_007",
+        "section_title": "Water Management",
+        "extraction_timestamp": "2025-11-18T13:41:20.560642"
+      }
+    },
+    {
+      "subject": "metric_SASB-SC_14_005",
+      "predicate": "IsCalculatedBy",
+      "object": "model_SASB-SC_14_005",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_007",
+        "section_title": "Water Management",
+        "extraction_timestamp": "2025-11-18T13:41:20.560649"
+      }
+    },
+    {
+      "subject": "model_SASB-SC_14_005",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_SASB-SC_14_006",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_007",
+        "section_title": "Water Management",
+        "extraction_timestamp": "2025-11-18T13:41:20.560655"
+      }
+    },
+    {
+      "subject": "model_SASB-SC_14_005",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_SASB-SC_14_007",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_007",
+        "section_title": "Water Management",
+        "extraction_timestamp": "2025-11-18T13:41:20.560660"
+      }
+    },
+    {
+      "subject": "metric_SASB-SC_6_005",
+      "predicate": "IsCalculatedBy",
+      "object": "model_SASB-SC_15_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_007",
+        "section_title": "Water Management",
+        "extraction_timestamp": "2025-11-18T13:41:20.560671"
+      }
+    },
+    {
+      "subject": "model_SASB-SC_15_001",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_SASB-SC_15_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_007",
+        "section_title": "Water Management",
+        "extraction_timestamp": "2025-11-18T13:41:20.560677"
+      }
+    },
+    {
+      "subject": "model_SASB-SC_15_001",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_SASB-SC_15_003",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_007",
+        "section_title": "Water Management",
+        "extraction_timestamp": "2025-11-18T13:41:20.560684"
+      }
+    },
+    {
+      "subject": "metric_SASB-SC_19_001",
+      "predicate": "IsCalculatedBy",
+      "object": "model_SASB-SC_19_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_009",
+        "section_title": "Workforce Health & Safety",
+        "extraction_timestamp": "2025-11-18T13:42:18.231616"
+      }
+    },
+    {
+      "subject": "model_SASB-SC_19_001",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_SASB-SC_19_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_009",
+        "section_title": "Workforce Health & Safety",
+        "extraction_timestamp": "2025-11-18T13:42:18.231618"
+      }
+    },
+    {
+      "subject": "model_SASB-SC_19_001",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_SASB-SC_19_003",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_009",
+        "section_title": "Workforce Health & Safety",
+        "extraction_timestamp": "2025-11-18T13:42:18.231621"
+      }
+    },
+    {
+      "subject": "metric_SASB-SC_20_001",
+      "predicate": "IsCalculatedBy",
+      "object": "model_SASB-SC_20_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_010",
+        "section_title": "Recruiting & Managing a Global & Skilled Workforce",
+        "extraction_timestamp": "2025-11-18T13:42:44.649957"
+      }
+    },
+    {
+      "subject": "model_SASB-SC_20_001",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_SASB-SC_20_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_010",
+        "section_title": "Recruiting & Managing a Global & Skilled Workforce",
+        "extraction_timestamp": "2025-11-18T13:42:44.649960"
+      }
+    },
+    {
+      "subject": "metric_SASB-SC_21_001",
+      "predicate": "IsCalculatedBy",
+      "object": "model_SASB-SC_21_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_011",
+        "section_title": "Product Lifecycle Management",
+        "extraction_timestamp": "2025-11-18T13:43:38.204909"
+      }
+    },
+    {
+      "subject": "model_SASB-SC_21_001",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_SASB-SC_21_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_011",
+        "section_title": "Product Lifecycle Management",
+        "extraction_timestamp": "2025-11-18T13:43:38.204910"
+      }
+    },
+    {
+      "subject": "category_SASB-SC_6_IP",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-SC_25_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.SASB-semiconductors-standard_en-gb",
+        "segment_id": "seg_012",
+        "section_title": "Materials Sourcing",
+        "extraction_timestamp": "2025-11-18T13:44:08.796717"
+      }
+    }
+  ]
+}

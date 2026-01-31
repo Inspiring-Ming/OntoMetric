@@ -1,0 +1,65 @@
+================================================================================
+LLM COST REPORT
+================================================================================
+Document: 2.Australia-AASBS2_09-24_baseline
+Generated: 2025-11-18 13:31:06
+
+SUMMARY
+--------------------------------------------------------------------------------
+Total Segments Processed: 7
+Models Used: claude-sonnet-4-5-20250929
+
+Token Usage:
+  Input Tokens:         8,383
+  Output Tokens:       11,496
+  Total Tokens:        19,879
+
+Cost Breakdown:
+  Input Cost:  $    0.0251 USD
+  Output Cost: $    0.1724 USD
+  ────────────────────────
+  TOTAL COST:  $    0.1976 USD
+
+Average Cost per Segment: $0.0282 USD
+
+PER-SEGMENT BREAKDOWN
+--------------------------------------------------------------------------------
+Segment ID      Pages         Input Tok   Output Tok   Cost (USD)
+--------------------------------------------------------------------------------
+baseline_seg_002 p.2                 409          779 $     0.0129
+baseline_seg_003 p.1-2               728        1,007 $     0.0173
+baseline_seg_004 p.3-4             1,577        2,215 $     0.0380
+baseline_seg_005 p.5-7             1,427        1,824 $     0.0316
+baseline_seg_006 p.8-23            1,337        2,074 $     0.0351
+baseline_seg_007 p.24-26           1,382        1,634 $     0.0287
+baseline_seg_008 p.11-57           1,523        1,963 $     0.0340
+
+PRICING REFERENCE (per million tokens)
+--------------------------------------------------------------------------------
+claude-3-5-sonnet-20241022
+  Input:  $3.00/MTok
+  Output: $15.00/MTok
+
+claude-3-5-sonnet-20240620
+  Input:  $3.00/MTok
+  Output: $15.00/MTok
+
+claude-3-5-haiku-20241022
+  Input:  $1.00/MTok
+  Output: $5.00/MTok
+
+claude-3-opus-20240229
+  Input:  $15.00/MTok
+  Output: $75.00/MTok
+
+claude-3-sonnet-20240229
+  Input:  $3.00/MTok
+  Output: $15.00/MTok
+
+claude-3-haiku-20240307
+  Input:  $0.25/MTok
+  Output: $1.25/MTok
+
+================================================================================
+Note: Verify latest pricing at https://www.anthropic.com/pricing
+================================================================================

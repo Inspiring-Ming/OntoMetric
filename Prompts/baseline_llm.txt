@@ -1,0 +1,14 @@
+Extract ESG metrics and related information from the document text below.
+
+Return JSON with entities and relationships:
+
+{
+  "entities": [{"id": "...", "label": "...", "type": "...", "description": "...", "unit": "..."}],
+  "relationships": [{"subject": "...", "predicate": "...", "object": "..."}]
+}
+
+Document: {document_name}
+Section: {section_title}
+
+Extract from this text:
+{content}

@@ -1,0 +1,8 @@
+Phase,Step,Validation Type,Method,Input,Output,Action on Failure
+1,1,Semantic Type Accuracy,LLM (Claude API),Entity type + definition + content,is_correct (true/false),Remove entity and cascading relationships
+2,2,Entity Uniqueness (VR001),Rule-based,Entity IDs,Duplicate check,Remove duplicate entities
+2,3,Type-Specific Schema (VR002),Rule-based,Entity type + required fields,Field presence check,Remove non-compliant entities
+2,4,Metric Property Values (VR003),Rule-based,Metric properties (code/unit),Value validity check,Remove invalid metrics
+2,5,Model Property Values (VR004),Rule-based,Model properties (input_variables),Non-empty check,Remove invalid models
+2,6,Relationship Validity (VR005),Rule-based,Relationship predicates,Ontology predicate check,Remove invalid relationships
+2,7,CalculatedMetric-Model Links (VR006),Rule-based,Metric-Model relationships,Link existence check,Remove unlinked calculated metrics

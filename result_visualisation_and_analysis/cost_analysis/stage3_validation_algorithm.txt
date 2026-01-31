@@ -1,0 +1,47 @@
+================================================================================
+ALGORITHM 1: Two-Phase Validation Pipeline
+================================================================================
+
+Input: Knowledge Graph KG = (E, R)  // E: entities, R: relationships
+Output: Validated Knowledge Graph KG' = (E', R')
+
+Phase 1: Semantic Validation (Gate-Keeper)
+-------------------------------------------
+1:  for each entity e in E do
+2:      content ← concatenate(e.label, e.description)
+3:      result ← LLM_Validate(e.type, type_definition, content)
+4:      if result.is_correct = false then
+5:          Mark e for removal
+6:      end if
+7:  end for
+8:  E_semantic ← E \ {marked entities}
+9:  R_semantic ← Filter relationships referencing removed entities
+
+Phase 2: Schema Validation (Six Rules)
+---------------------------------------
+10: for each entity e in E_semantic do
+11:     violations ← []
+12:     // VR001: Entity Uniqueness
+13:     if e.id is duplicate then
+14:         violations.append("VR001")
+15:     // VR002: Type-Specific Schema Compliance
+16:     if e.type required_fields not satisfied then
+17:         violations.append("VR002")
+18:     // VR003-VR006: Property and Relationship Rules
+19:     ... (similar checks)
+20:
+21:     if violations is not empty then
+22:         Mark e for removal
+23:     end if
+24: end for
+25: E' ← E_semantic \ {entities with violations}
+26: R' ← Filter relationships referencing removed entities
+27: return KG' = (E', R')
+
+================================================================================
+KEY CHARACTERISTICS:
+- Two-phase filtering: Semantic correctness → Structural compliance
+- Entity removal cascades to relationships
+- LLM cost incurred only in Phase 1 (gate-keeper)
+- Six schema rules applied independently in Phase 2
+================================================================================

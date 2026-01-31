@@ -1,0 +1,889 @@
+@prefix esg: <http://example.org/esg-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+# Knowledge Graph extracted from: June 2023 IFRS S2 IFRS® Sustainability Disclosure Standard
+# Extraction timestamp: 2025-11-18T14:10:51.851762
+# Total entities: 80
+# Total relationships: 65
+
+esg:framework_005 a esg:ReportingFramework ;
+    rdfs:label "IFRS S2 Climate-Related Disclosures" ;
+    esg:name "IFRS S2" ;
+    esg:version "2023" ;
+    esg:year "2023" ;
+    esg:publisher "IFRS Foundation" ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:07:39.260450"^^xsd:dateTime .
+
+esg:industry_IFRS-S2 a esg:Industry ;
+    rdfs:label "Climate-related Reporting Entities" ;
+    esg:sector "Cross-Industry" ;
+    esg:country "International" ;
+    esg:standard_reference "IFRS S2" ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:04:01.868903"^^xsd:dateTime .
+
+esg:category_IFRS-S2_1 a esg:Category ;
+    rdfs:label "Governance" ;
+    esg:section_title "Governance" ;
+    esg:section_id "IFRS-S2-Governance" ;
+    esg:page_range "5-6" ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:04:01.868923"^^xsd:dateTime .
+
+esg:category_IFRS-S2_001 a esg:Category ;
+    rdfs:label "Strategy: Climate Risks and Opportunities" ;
+    esg:section_title "Strategy and decision-making; Business model and value chain" ;
+    esg:section_id "Paragraphs 11-14" ;
+    esg:page_range "8" ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:07:39.260455"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_1_001 a esg:Metric ;
+    rdfs:label "Governance Body Responsibilities" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "IFRS-S2-6a" ;
+    esg:description "Information about the governance body(s) or individual(s) responsible for oversight of climate-related risks and opportunities, including how responsibilities are reflected in terms of reference, mandates, role descriptions and related policies" ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:04:01.868929"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_1_002 a esg:Metric ;
+    rdfs:label "Governance Skills and Competencies" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "IFRS-S2-6a-ii" ;
+    esg:description "How the body(s) or individual(s) determines whether appropriate skills and competencies are available or will be developed to oversee strategies designed to respond to climate-related risks and opportunities" ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:04:01.868932"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_1_003 a esg:Metric ;
+    rdfs:label "Governance Information Flow" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "IFRS-S2-6a-iii" ;
+    esg:description "How and how often the body(s) or individual(s) is informed about climate-related risks and opportunities" ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:04:01.868935"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_1_004 a esg:Metric ;
+    rdfs:label "Management Role in Climate Governance" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "IFRS-S2-6b" ;
+    esg:description "Management's role in the governance processes, controls and procedures used to monitor, manage and oversee climate-related risks and opportunities, including whether the role is delegated to specific management-level positions or committees" ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:04:01.868937"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_2_001 a esg:Metric ;
+    rdfs:label "Climate-related Risks and Opportunities Identification" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "IFRS-S2-10" ;
+    esg:description "Description of climate-related risks and opportunities that could reasonably be expected to affect the entity's prospects, explaining whether each risk is physical or transition-related, and specifying time horizons (short, medium, long term) over which effects could occur" ;
+    esg:disaggregations ['Climate-related physical risks', 'Climate-related transition risks', 'Climate-related opportunities'] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:04:01.868940"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_2_002 a esg:Metric ;
+    rdfs:label "Effects on Business Model and Value Chain" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "IFRS-S2-13" ;
+    esg:description "Current and anticipated effects of climate-related risks and opportunities on the entity's business model and value chain" ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:04:01.868943"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_2_003 a esg:Metric ;
+    rdfs:label "Climate Transition Plan" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "IFRS-S2-14" ;
+    esg:description "Effects of climate-related risks and opportunities on the entity's strategy and decision-making, including information about its climate-related transition plan" ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:04:01.868945"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_2_004 a esg:Metric ;
+    rdfs:label "Financial Effects of Climate Risks and Opportunities" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "IFRS-S2-15-21" ;
+    esg:description "Effects of climate-related risks and opportunities on the entity's financial position, financial performance and cash flows for the reporting period and their anticipated effects over the short, medium and long term, including how these have been factored into financial planning" ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:04:01.868948"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_2_005 a esg:Metric ;
+    rdfs:label "Climate Resilience Assessment" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "IFRS-S2-22" ;
+    esg:description "Climate resilience of the entity's strategy and business model to climate-related changes, developments and uncertainties, taking into consideration identified climate-related risks and opportunities" ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:04:01.868950"^^xsd:dateTime .
+
+esg:industry_IFRS-S2_general a esg:Industry ;
+    rdfs:label "General (Cross-Industry)" ;
+    esg:sector "Cross-Industry" ;
+    esg:country "N/A" ;
+    esg:standard_reference "IFRS S2" ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:05:25.733740"^^xsd:dateTime .
+
+esg:category_IFRS-S2_metrics a esg:Category ;
+    rdfs:label "Metrics and Targets" ;
+    esg:section_title "Metrics and targets" ;
+    esg:section_id "para_27-37" ;
+    esg:page_range "14-18" ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:05:25.733761"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_14_001 a esg:Metric ;
+    rdfs:label "Absolute Gross Greenhouse Gas Emissions" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:unit "Metric tonnes CO₂-e" ;
+    esg:code "para_29(a)(i)" ;
+    esg:description "Absolute gross greenhouse gas emissions generated during the reporting period, expressed as metric tonnes of CO₂ equivalent, classified as Scope 1, Scope 2, and Scope 3 greenhouse gas emissions." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:05:25.733763"^^xsd:dateTime .
+
+esg:model_IFRS-S2_14_001 a esg:Model ;
+    rdfs:label "GHG Emissions Aggregation Model" ;
+    esg:description "Total greenhouse gas emissions calculated as the sum of Scope 1, Scope 2, and Scope 3 emissions, measured in accordance with the Greenhouse Gas Protocol." ;
+    esg:equation "Total GHG Emissions = Scope 1 + Scope 2 + Scope 3" ;
+    esg:input_variables ['Scope 1 greenhouse gas emissions', 'Scope 2 greenhouse gas emissions', 'Scope 3 greenhouse gas emissions'] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:05:25.733766"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_14_002 a esg:Metric ;
+    rdfs:label "Scope 1 Greenhouse Gas Emissions" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Metric tonnes CO₂-e" ;
+    esg:code "para_29(a)(i)(1)" ;
+    esg:description "Direct greenhouse gas emissions that occur from sources that are owned or controlled by an entity." ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:05:25.733768"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_14_003 a esg:Metric ;
+    rdfs:label "Scope 2 Greenhouse Gas Emissions" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Metric tonnes CO₂-e" ;
+    esg:code "para_29(a)(i)(2)" ;
+    esg:description "Indirect greenhouse gas emissions from the generation of purchased or acquired electricity, steam, heating or cooling consumed by an entity." ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:05:25.733771"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_14_004 a esg:Metric ;
+    rdfs:label "Scope 3 Greenhouse Gas Emissions" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Metric tonnes CO₂-e" ;
+    esg:code "para_29(a)(i)(3)" ;
+    esg:description "Indirect greenhouse gas emissions (not included in Scope 2) that occur in the value chain of an entity, including both upstream and downstream emissions." ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:05:25.733774"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_15_001 a esg:Metric ;
+    rdfs:label "Assets Vulnerable to Climate-Related Transition Risks" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Amount and Percentage" ;
+    esg:code "para_29(b)" ;
+    esg:description "The amount and percentage of assets or business activities vulnerable to climate-related transition risks." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:05:25.733777"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_15_002 a esg:Metric ;
+    rdfs:label "Assets Vulnerable to Climate-Related Physical Risks" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Amount and Percentage" ;
+    esg:code "para_29(c)" ;
+    esg:description "The amount and percentage of assets or business activities vulnerable to climate-related physical risks." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:05:25.733781"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_15_003 a esg:Metric ;
+    rdfs:label "Assets Aligned with Climate-Related Opportunities" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Amount and Percentage" ;
+    esg:code "para_29(d)" ;
+    esg:description "The amount and percentage of assets or business activities aligned with climate-related opportunities." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:05:25.733784"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_15_004 a esg:Metric ;
+    rdfs:label "Capital Deployment for Climate-Related Risks and Opportunities" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Amount" ;
+    esg:code "para_29(e)" ;
+    esg:description "The amount of capital expenditure, financing or investment deployed towards climate-related risks and opportunities." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:05:25.733786"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_15_005 a esg:Metric ;
+    rdfs:label "Internal Carbon Prices" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "para_29(f)" ;
+    esg:description "Explanation of whether and how the entity is applying a carbon price in decision-making, and the price for each metric tonne of greenhouse gas emissions used to assess costs." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:05:25.733788"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_16_001 a esg:Metric ;
+    rdfs:label "Climate-Related Considerations in Executive Remuneration" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Percentage (%)" ;
+    esg:code "para_29(g)" ;
+    esg:description "Description of whether and how climate-related considerations are factored into executive remuneration, and the percentage of executive management remuneration linked to climate-related considerations." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:05:25.733791"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_16_002 a esg:Metric ;
+    rdfs:label "Climate-Related Targets" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "para_33-37" ;
+    esg:description "Quantitative and qualitative climate-related targets set by the entity to monitor progress towards achieving strategic goals, including greenhouse gas emissions targets, with details on metrics, objectives, scope, timelines, and performance monitoring." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:05:25.733793"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_11_001 a esg:Metric ;
+    rdfs:label "Current and Anticipated Effects on Business Model and Value Chain" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "para_13" ;
+    esg:description "Description of the current and anticipated effects of climate-related risks and opportunities on the entity's business model and value chain, including where in the business model and value chain climate-related risks and opportunities are concentrated." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:05:25.733795"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_11_002 a esg:Metric ;
+    rdfs:label "Climate Resilience Assessment" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "para_22" ;
+    esg:description "Information about the resilience of the entity's strategy and business model to climate-related changes, developments and uncertainties, including climate-related scenario analysis and assessment of capacity to adjust or adapt." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:05:25.733798"^^xsd:dateTime .
+
+esg:industry_003 a esg:Industry ;
+    rdfs:label "Cross-Industry Climate Disclosures" ;
+    esg:sector "Cross-Industry" ;
+    esg:country "N/A" ;
+    esg:standard_reference "IFRS S2" ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:08:25.854306"^^xsd:dateTime .
+
+esg:category_IFRS-S2_24 a esg:Category ;
+    rdfs:label "Climate Resilience Assessment" ;
+    esg:section_title "Climate resilience (paragraph 22) - Application Guidance" ;
+    esg:section_id "Appendix B, B1-B18" ;
+    esg:page_range "24-26" ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:06:13.309818"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_24_001 a esg:Metric ;
+    rdfs:label "Climate-related scenario analysis approach" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "IFRS S2 Para 22, B1-B18" ;
+    esg:description "An approach to climate-related scenario analysis that is commensurate with the entity's circumstances, enabling it to assess climate resilience by considering all reasonable and supportable information available at the reporting date without undue cost or effort" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:06:13.309822"^^xsd:dateTime .
+
+esg:model_IFRS-S2_24_001 a esg:Model ;
+    rdfs:label "Climate Resilience Assessment Model" ;
+    esg:description "Determines the appropriate approach to climate-related scenario analysis based on assessment of the entity's exposure to climate-related risks and opportunities and the skills, capabilities and resources available to the entity" ;
+    esg:equation "f(Exposure Assessment, Available Skills and Resources)" ;
+    esg:input_variables ['Exposure to climate-related risks and opportunities', 'Skills, capabilities and resources available'] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:06:13.309825"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_24_002 a esg:Metric ;
+    rdfs:label "Exposure to climate-related risks and opportunities" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "IFRS S2 B4-B5" ;
+    esg:description "Assessment of the entity's degree of exposure to climate-related risks and opportunities, providing essential context for determining the appropriate approach to climate-related scenario analysis" ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:06:13.309829"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_24_003 a esg:Metric ;
+    rdfs:label "Skills, capabilities and resources available" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "IFRS S2 B6-B7" ;
+    esg:description "Assessment of the internal and external skills, capabilities and resources available to the entity for conducting climate-related scenario analysis, informing the potential cost and level of effort required" ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:06:13.309833"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_24_004 a esg:Metric ;
+    rdfs:label "Selection of inputs to climate-related scenario analysis" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "IFRS S2 B11-B13" ;
+    esg:description "Selection of inputs including scenarios, variables and other information (qualitative or quantitative, external or internal) used in climate-related scenario analysis, considering all reasonable and supportable information available without undue cost or effort" ;
+    esg:disaggregations ['Publicly available climate-related scenarios', 'Variables', 'Other inputs (qualitative or quantitative)', 'External or internal sources'] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:06:13.309837"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_24_005 a esg:Metric ;
+    rdfs:label "Analytical choices in climate-related scenario analysis" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "IFRS S2 B14-B15" ;
+    esg:description "Analytical choices made about how to carry out the climate-related scenario analysis, informed by the entity's circumstances and the mix of inputs selected" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:06:13.309841"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_7_001 a esg:Metric ;
+    rdfs:label "Climate-related Risks and Opportunities Affecting Prospects" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "N/A" ;
+    esg:code "Para 9(a)" ;
+    esg:description "The climate-related risks and opportunities that could reasonably be expected to affect the entity's prospects" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:07:04.034562"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_7_002 a esg:Metric ;
+    rdfs:label "Effects on Business Model and Value Chain" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "N/A" ;
+    esg:code "Para 9(b)" ;
+    esg:description "The current and anticipated effects of those climate-related risks and opportunities on the entity's business model and value chain" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:07:04.034565"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_7_003 a esg:Metric ;
+    rdfs:label "Effects on Strategy and Transition Plan" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "N/A" ;
+    esg:code "Para 9(c)" ;
+    esg:description "The effects of those climate-related risks and opportunities on the entity's strategy and decision-making, including information about its climate-related transition plan" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:07:04.034569"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_7_004 a esg:Metric ;
+    rdfs:label "Effects on Financial Position and Performance" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "N/A" ;
+    esg:code "Para 9(d)" ;
+    esg:description "The effects of those climate-related risks and opportunities on the entity's financial position, financial performance and cash flows for the reporting period, and their anticipated effects over the short, medium and long term, taking into consideration how those climate-related risks and opportunities have been factored into the entity's financial planning" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:07:04.034573"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_7_005 a esg:Metric ;
+    rdfs:label "Climate Resilience Assessment" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "N/A" ;
+    esg:code "Para 9(e)" ;
+    esg:description "The climate resilience of the entity's strategy and its business model to climate-related changes, developments and uncertainties, taking into consideration the entity's identified climate-related risks and opportunities" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:07:04.034577"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_7_006 a esg:Metric ;
+    rdfs:label "Description of Climate-related Risks and Opportunities" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "N/A" ;
+    esg:code "Para 10(a)" ;
+    esg:description "Describe climate-related risks and opportunities that could reasonably be expected to affect the entity's prospects" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:07:04.034581"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_7_007 a esg:Metric ;
+    rdfs:label "Classification of Physical vs Transition Risks" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "N/A" ;
+    esg:code "Para 10(b)" ;
+    esg:description "Explain, for each climate-related risk the entity has identified, whether the entity considers the risk to be a climate-related physical risk or climate-related transition risk" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:07:04.034585"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_7_008 a esg:Metric ;
+    rdfs:label "Time Horizons for Risks and Opportunities" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "N/A" ;
+    esg:code "Para 10(c)" ;
+    esg:description "Specify, for each climate-related risk and opportunity the entity has identified, over which time horizons—short, medium or long term—the effects of each climate-related risk and opportunity could reasonably be expected to occur" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:07:04.034588"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_7_009 a esg:Metric ;
+    rdfs:label "Definition of Time Horizons" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "N/A" ;
+    esg:code "Para 10(d)" ;
+    esg:description "Explain how the entity defines 'short term', 'medium term' and 'long term' and how these definitions are linked to the planning horizons used by the entity for strategic decision-making" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:07:04.034592"^^xsd:dateTime .
+
+esg:industry_002 a esg:Industry ;
+    rdfs:label "Cross-Industry (General Requirements)" ;
+    esg:sector "Cross-Industry" ;
+    esg:country "International" ;
+    esg:standard_reference "IFRS S2" ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:07:39.260435"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_1_005 a esg:Metric ;
+    rdfs:label "Climate-Related Risks and Opportunities Description" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "N/A" ;
+    esg:description "Description of current and anticipated effects of climate-related risks and opportunities on the entity's business model and value chain, including geographical areas, facilities and types of assets where risks and opportunities are concentrated." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:07:39.260458"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_1_006 a esg:Metric ;
+    rdfs:label "Climate-Related Strategy and Decision-Making Response" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "N/A" ;
+    esg:description "Information about how the entity has responded to and plans to respond to climate-related risks and opportunities in its strategy and decision-making, including plans to achieve climate-related targets, changes to business model, resource allocation, capital expenditure, and acquisitions or divestments." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:07:39.260461"^^xsd:dateTime .
+
+esg:category_IFRS-S2_9 a esg:Category ;
+    rdfs:label "Climate-Related Financial Disclosures" ;
+    esg:section_title "Financial position, financial performance and cash flows" ;
+    esg:section_id "Para-15-16" ;
+    esg:page_range "9" ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:08:25.854311"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_9_001 a esg:Metric ;
+    rdfs:label "Direct Mitigation and Adaptation Efforts" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "Para-14(a)(ii)" ;
+    esg:description "Current and anticipated direct mitigation and adaptation efforts (for example, through changes in production processes or equipment, relocation of facilities, workforce adjustments, and changes in product specifications)" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:08:25.854313"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_9_002 a esg:Metric ;
+    rdfs:label "Indirect Mitigation and Adaptation Efforts" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "Para-14(a)(iii)" ;
+    esg:description "Current and anticipated indirect mitigation and adaptation efforts (for example, through working with customers and supply chains)" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:08:25.854314"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_9_003 a esg:Metric ;
+    rdfs:label "Climate-Related Transition Plan" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "Para-14(a)(iv)" ;
+    esg:description "Any climate-related transition plan the entity has, including information about key assumptions used in developing its transition plan, and dependencies on which the entity's transition plan relies" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:08:25.854316"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_9_004 a esg:Metric ;
+    rdfs:label "Plans to Achieve Climate Targets" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "Para-14(a)(v)" ;
+    esg:description "How the entity plans to achieve any climate-related targets, including any greenhouse gas emissions targets, described in accordance with paragraphs 33-36" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:08:25.854317"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_9_005 a esg:Metric ;
+    rdfs:label "Resourcing of Climate Activities" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "Para-14(b)" ;
+    esg:description "Information about how the entity is resourcing, and plans to resource, the activities disclosed in accordance with paragraph 14(a)" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:08:25.854318"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_9_006 a esg:Metric ;
+    rdfs:label "Progress of Climate Plans" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "Para-14(c)" ;
+    esg:description "Quantitative and qualitative information about the progress of plans disclosed in previous reporting periods in accordance with paragraph 14(a)" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:08:25.854319"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_9_007 a esg:Metric ;
+    rdfs:label "Current Financial Effects of Climate Risks and Opportunities" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "Para-15(a)" ;
+    esg:description "The effects of climate-related risks and opportunities on the entity's financial position, financial performance and cash flows for the reporting period (current financial effects)" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:08:25.854321"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_9_008 a esg:Metric ;
+    rdfs:label "Anticipated Financial Effects of Climate Risks and Opportunities" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "Para-15(b)" ;
+    esg:description "The anticipated effects of climate-related risks and opportunities on the entity's financial position, financial performance and cash flows over the short, medium and long term, taking into consideration how climate-related risks and opportunities are included in the entity's financial planning" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:08:25.854322"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_9_009 a esg:Metric ;
+    rdfs:label "Effects on Financial Position and Performance" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "Para-16(a)" ;
+    esg:description "How climate-related risks and opportunities have affected its financial position, financial performance and cash flows for the reporting period" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:08:25.854323"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_9_010 a esg:Metric ;
+    rdfs:label "Climate Risks with Material Adjustment Risk" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "Para-16(b)" ;
+    esg:description "The climate-related risks and opportunities identified in paragraph 16(a) for which there is a significant risk of a material adjustment within the next annual reporting period to the carrying amounts of assets and liabilities reported in the related financial statements" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:08:25.854324"^^xsd:dateTime .
+
+esg:category_IFRS-S2_10 a esg:Category ;
+    rdfs:label "Illustrative Examples - Financial Effects Disclosure" ;
+    esg:section_title "ILLUSTRATIVE EXAMPLES" ;
+    esg:section_id "Paragraphs 17-21" ;
+    esg:page_range "10" ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:08:57.138850"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_10_001 a esg:Metric ;
+    rdfs:label "Anticipated Financial Effects of Climate-related Risks and Opportunities" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "N/A" ;
+    esg:description "Disclosure of how the entity expects its financial position, financial performance and cash flows to change over the short, medium and long term, given its strategy to manage climate-related risks and opportunities. Includes investment and disposal plans, planned sources of funding, anticipated revenue changes, costs from physical damage, and expenses associated with climate adaptation or mitigation. Entities may provide quantitative information (single amount or range) if supportable, or qualitative explanation if quantitative data is not separately identifiable, subject to high measurement uncertainty, or unavailable due to skills/capabilities/resources constraints." ;
+    esg:disaggregations ['Financial position changes', 'Investment and disposal plans', 'Planned funding sources', 'Financial performance and cash flow changes'] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:08:57.138853"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_11_003 a esg:Metric ;
+    rdfs:label "Qualitative Information on Financial Effects" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "N/A" ;
+    esg:description "Qualitative information about financial effects of climate-related risks or opportunities, including identifying line items, totals and subtotals within related financial statements that are likely to be affected or have been affected" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:09:31.109306"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_11_004 a esg:Metric ;
+    rdfs:label "Quantitative Information on Combined Financial Effects" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Monetary amount or range" ;
+    esg:code "N/A" ;
+    esg:description "Quantitative information about the combined financial effects of climate-related risks or opportunities with other climate-related risks or opportunities and other factors, provided as a single amount or a range" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:09:31.109308"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_11_005 a esg:Metric ;
+    rdfs:label "Climate Resilience Assessment" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "N/A" ;
+    esg:description "Entity's assessment of its climate resilience as at the reporting date using climate-related scenario analysis, enabling users to understand implications for strategy and business model, areas of uncertainty, and capacity to adjust or adapt" ;
+    esg:disaggregations ['Implications for strategy and business model', 'Significant areas of uncertainty', 'Capacity to adjust or adapt strategy and business model', 'Availability and flexibility of financial resources', 'Ability to redeploy, repurpose, upgrade or decommission assets', 'Effect of current and planned investments in climate-related mitigation, adaptation and opportunities'] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:09:31.109309"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_11_006 a esg:Metric ;
+    rdfs:label "Climate-related Scenario Analysis Methodology" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "N/A" ;
+    esg:description "Disclosure of how and when the climate-related scenario analysis was carried out, using an approach commensurate with the entity's circumstances" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:09:31.109311"^^xsd:dateTime .
+
+esg:industry_IFRS-S2_001 a esg:Industry ;
+    rdfs:label "General Cross-Industry" ;
+    esg:sector "Cross-Industry" ;
+    esg:country "International" ;
+    esg:standard_reference "IFRS S2" ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:10:51.838645"^^xsd:dateTime .
+
+esg:category_IFRS-S2_risk-mgmt a esg:Category ;
+    rdfs:label "Risk Management" ;
+    esg:section_title "Risk Management" ;
+    esg:section_id "Para 24-26" ;
+    esg:page_range "13" ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:10:51.838662"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_001 a esg:Metric ;
+    rdfs:label "Absolute Gross GHG Emissions" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Metric tonnes CO₂-e" ;
+    esg:code "Para 29(a)(i)" ;
+    esg:description "Absolute gross greenhouse gas emissions generated during the reporting period, expressed as metric tonnes of CO₂ equivalent" ;
+    esg:disaggregations ['Scope 1 greenhouse gas emissions', 'Scope 2 greenhouse gas emissions', 'Scope 3 greenhouse gas emissions'] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:10:51.838668"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_002 a esg:Metric ;
+    rdfs:label "Financed Emissions (Asset Management)" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:unit "Metric tonnes CO₂-e" ;
+    esg:code "Para B61" ;
+    esg:description "Absolute gross financed emissions for asset management activities, disaggregated by Scope 1, Scope 2 and Scope 3 greenhouse gas emissions" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:10:51.838671"^^xsd:dateTime .
+
+esg:model_IFRS-S2_002 a esg:Model ;
+    rdfs:label "Financed Emissions Calculation Model (Asset Management)" ;
+    esg:description "Calculation model for financed emissions in asset management, derived from assets under management (AUM) and allocation methodology to attribute share of emissions based on investment size" ;
+    esg:equation "f(AUM, Allocation_Method, Investee_Emissions)" ;
+    esg:input_variables ['Total Assets Under Management (AUM)', 'Allocation methodology', 'Investee greenhouse gas emissions'] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:10:51.838675"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_003 a esg:Metric ;
+    rdfs:label "Assets Under Management (AUM)" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Presentation currency" ;
+    esg:code "Para B61(b)" ;
+    esg:description "Total amount of assets under management included in the financed emissions disclosure" ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:10:51.838678"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_004 a esg:Metric ;
+    rdfs:label "Allocation Methodology for Financed Emissions" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "N/A" ;
+    esg:code "Para B61(d)" ;
+    esg:description "Methodology used to calculate financed emissions, including method of allocation to attribute share of emissions in relation to size of investments" ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:10:51.838681"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_005 a esg:Metric ;
+    rdfs:label "Financed Emissions (Commercial Banking)" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:unit "Metric tonnes CO₂-e" ;
+    esg:code "Para B62" ;
+    esg:description "Absolute gross financed emissions for commercial banking activities, disaggregated by Scope 1, Scope 2 and Scope 3 greenhouse gas emissions for each industry by asset class" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:10:51.838684"^^xsd:dateTime .
+
+esg:model_IFRS-S2_005 a esg:Model ;
+    rdfs:label "Financed Emissions Calculation Model (Commercial Banking)" ;
+    esg:description "Calculation model for financed emissions in commercial banking, derived from gross exposure (funded carrying amounts, undrawn commitments) and allocation methodology by industry and asset class" ;
+    esg:equation "f(Gross_Exposure, Industry_Classification, Asset_Class, Allocation_Method, Counterparty_Emissions)" ;
+    esg:input_variables ['Gross Exposure by Industry', 'Gross Exposure by Asset Class', 'GICS Industry Classification', 'Allocation methodology', 'Counterparty greenhouse gas emissions'] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:10:51.838686"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_006 a esg:Metric ;
+    rdfs:label "Gross Exposure by Industry and Asset Class" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Presentation currency" ;
+    esg:code "Para B62(b)" ;
+    esg:description "Gross exposure to each industry by asset class, calculated as funded carrying amounts before subtracting loss allowance, plus full amount of undrawn loan commitments" ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:10:51.838689"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_007 a esg:Metric ;
+    rdfs:label "Climate-related Transition Risks - Asset Vulnerability" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Amount and Percentage" ;
+    esg:code "Para 29(b)" ;
+    esg:description "The amount and percentage of assets or business activities vulnerable to climate-related transition risks" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:10:51.838692"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_008 a esg:Metric ;
+    rdfs:label "Climate-related Physical Risks - Asset Vulnerability" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Amount and Percentage" ;
+    esg:code "Para 29(c)" ;
+    esg:description "The amount and percentage of assets or business activities vulnerable to climate-related physical risks" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:10:51.838695"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_009 a esg:Metric ;
+    rdfs:label "Internal Carbon Price" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Price per metric tonne of GHG emissions" ;
+    esg:code "Para 29(f)(ii)" ;
+    esg:description "The price for each metric tonne of greenhouse gas emissions the entity uses to assess the costs of its greenhouse gas emissions" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:10:51.838698"^^xsd:dateTime .
+
+esg:metric_IFRS-S2_010 a esg:Metric ;
+    rdfs:label "Climate-related Executive Remuneration" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Percentage (%)" ;
+    esg:code "Para 29(g)(ii)" ;
+    esg:description "The percentage of executive management remuneration recognised in the current period that is linked to climate-related considerations" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures" ;
+    prov:generatedAtTime "2025-11-18T14:10:51.838702"^^xsd:dateTime .
+
+esg:industry_IFRS-S2_general esg:ReportUsing esg:framework_005 .
+esg:framework_005 esg:Include esg:category_IFRS-S2_001 .
+esg:category_IFRS-S2_001 esg:ConsistOf esg:metric_IFRS-S2_1_005 .
+esg:category_IFRS-S2_001 esg:ConsistOf esg:metric_IFRS-S2_1_006 .
+esg:category_IFRS-S2_001 esg:ConsistOf esg:metric_IFRS-S2_1_003 .
+esg:category_IFRS-S2_001 esg:ConsistOf esg:metric_IFRS-S2_1_004 .
+esg:category_IFRS-S2_001 esg:ConsistOf esg:metric_IFRS-S2_2_001 .
+esg:category_IFRS-S2_001 esg:ConsistOf esg:metric_IFRS-S2_2_002 .
+esg:category_IFRS-S2_001 esg:ConsistOf esg:metric_IFRS-S2_2_003 .
+esg:category_IFRS-S2_001 esg:ConsistOf esg:metric_IFRS-S2_2_004 .
+esg:category_IFRS-S2_001 esg:ConsistOf esg:metric_IFRS-S2_2_005 .
+esg:industry_IFRS-S2_001 esg:ReportUsing esg:framework_005 .
+esg:framework_005 esg:Include esg:category_IFRS-S2_metrics .
+esg:category_IFRS-S2_metrics esg:ConsistOf esg:metric_IFRS-S2_14_001 .
+esg:metric_IFRS-S2_14_001 esg:IsCalculatedBy esg:model_IFRS-S2_14_001 .
+esg:model_IFRS-S2_14_001 esg:RequiresInputFrom esg:metric_IFRS-S2_14_002 .
+esg:model_IFRS-S2_14_001 esg:RequiresInputFrom esg:metric_IFRS-S2_14_003 .
+esg:model_IFRS-S2_14_001 esg:RequiresInputFrom esg:metric_IFRS-S2_14_004 .
+esg:category_IFRS-S2_metrics esg:ConsistOf esg:metric_IFRS-S2_15_001 .
+esg:category_IFRS-S2_metrics esg:ConsistOf esg:metric_IFRS-S2_15_002 .
+esg:category_IFRS-S2_metrics esg:ConsistOf esg:metric_IFRS-S2_15_003 .
+esg:category_IFRS-S2_metrics esg:ConsistOf esg:metric_IFRS-S2_15_004 .
+esg:category_IFRS-S2_metrics esg:ConsistOf esg:metric_IFRS-S2_15_005 .
+esg:category_IFRS-S2_metrics esg:ConsistOf esg:metric_IFRS-S2_16_001 .
+esg:category_IFRS-S2_metrics esg:ConsistOf esg:metric_IFRS-S2_16_002 .
+esg:framework_005 esg:Include esg:category_IFRS-S2_24 .
+esg:category_IFRS-S2_24 esg:ConsistOf esg:metric_IFRS-S2_24_001 .
+esg:category_IFRS-S2_24 esg:ConsistOf esg:metric_IFRS-S2_24_002 .
+esg:category_IFRS-S2_24 esg:ConsistOf esg:metric_IFRS-S2_24_003 .
+esg:category_IFRS-S2_24 esg:ConsistOf esg:metric_IFRS-S2_24_004 .
+esg:category_IFRS-S2_24 esg:ConsistOf esg:metric_IFRS-S2_24_005 .
+esg:metric_IFRS-S2_24_001 esg:IsCalculatedBy esg:model_IFRS-S2_24_001 .
+esg:model_IFRS-S2_24_001 esg:RequiresInputFrom esg:metric_IFRS-S2_24_002 .
+esg:model_IFRS-S2_24_001 esg:RequiresInputFrom esg:metric_IFRS-S2_24_003 .
+esg:industry_002 esg:ReportUsing esg:framework_005 .
+esg:framework_005 esg:Include esg:category_IFRS-S2_9 .
+esg:category_IFRS-S2_9 esg:ConsistOf esg:metric_IFRS-S2_9_001 .
+esg:category_IFRS-S2_9 esg:ConsistOf esg:metric_IFRS-S2_9_002 .
+esg:category_IFRS-S2_9 esg:ConsistOf esg:metric_IFRS-S2_9_003 .
+esg:category_IFRS-S2_9 esg:ConsistOf esg:metric_IFRS-S2_9_004 .
+esg:category_IFRS-S2_9 esg:ConsistOf esg:metric_IFRS-S2_9_005 .
+esg:category_IFRS-S2_9 esg:ConsistOf esg:metric_IFRS-S2_9_006 .
+esg:category_IFRS-S2_9 esg:ConsistOf esg:metric_IFRS-S2_9_007 .
+esg:category_IFRS-S2_9 esg:ConsistOf esg:metric_IFRS-S2_9_008 .
+esg:category_IFRS-S2_9 esg:ConsistOf esg:metric_IFRS-S2_9_009 .
+esg:category_IFRS-S2_9 esg:ConsistOf esg:metric_IFRS-S2_9_010 .
+esg:framework_005 esg:Include esg:category_IFRS-S2_10 .
+esg:category_IFRS-S2_10 esg:ConsistOf esg:metric_IFRS-S2_10_001 .
+esg:category_IFRS-S2_24 esg:ConsistOf esg:metric_IFRS-S2_11_003 .
+esg:category_IFRS-S2_24 esg:ConsistOf esg:metric_IFRS-S2_11_004 .
+esg:category_IFRS-S2_24 esg:ConsistOf esg:metric_IFRS-S2_11_005 .
+esg:category_IFRS-S2_24 esg:ConsistOf esg:metric_IFRS-S2_11_006 .
+esg:framework_005 esg:Include esg:category_IFRS-S2_risk-mgmt .
+esg:category_IFRS-S2_metrics esg:ConsistOf esg:metric_IFRS-S2_001 .
+esg:category_IFRS-S2_metrics esg:ConsistOf esg:metric_IFRS-S2_002 .
+esg:metric_IFRS-S2_002 esg:IsCalculatedBy esg:model_IFRS-S2_002 .
+esg:model_IFRS-S2_002 esg:RequiresInputFrom esg:metric_IFRS-S2_003 .
+esg:model_IFRS-S2_002 esg:RequiresInputFrom esg:metric_IFRS-S2_004 .
+esg:category_IFRS-S2_metrics esg:ConsistOf esg:metric_IFRS-S2_005 .
+esg:metric_IFRS-S2_005 esg:IsCalculatedBy esg:model_IFRS-S2_005 .
+esg:model_IFRS-S2_005 esg:RequiresInputFrom esg:metric_IFRS-S2_006 .
+esg:category_IFRS-S2_metrics esg:ConsistOf esg:metric_IFRS-S2_007 .
+esg:category_IFRS-S2_metrics esg:ConsistOf esg:metric_IFRS-S2_008 .
+esg:category_IFRS-S2_metrics esg:ConsistOf esg:metric_IFRS-S2_009 .
+esg:category_IFRS-S2_metrics esg:ConsistOf esg:metric_IFRS-S2_010 .

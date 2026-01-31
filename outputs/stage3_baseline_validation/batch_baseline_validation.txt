@@ -1,0 +1,592 @@
+====================================================================================================
+COMPREHENSIVE VALIDATION REPORT
+====================================================================================================
+
+====================================================================================================
+1. OVERALL STATISTICS
+====================================================================================================
+
+Document Processing (from Stage 1 metadata):
+  • Total Documents Processed: 5
+  • Total Pages Analyzed: 228 (from original PDF documents)
+  • Total Segments Processed: 60 (text chunks used for extraction)
+
+Knowledge Graph Statistics (from Stage 2 extraction):
+  • Total Entities Extracted: 729
+  • Total Metrics Identified: 9
+
+====================================================================================================
+2. EVALUATION METRICS SUMMARY
+====================================================================================================
+
+IMPORTANT: All metrics are calculated at the DOCUMENT LEVEL (not per-segment or per-page)
+
+Key Performance Metrics:
+
+1. Schema Compliance (%) - STRUCTURAL VALIDATION
+
+   The 6 Critical Rules (All Critical):
+   • VR001: Entity Uniqueness - All entity IDs must be unique
+   • VR002: Entity Type-Specific Schema Compliance - Each entity type has required fields
+           (Metric: measurement_type, metric_type, unit, code, description)
+           (Model: description, equation, input_variables)
+           (Category: section_title)
+   • VR003: Metric Property Values - DirectMetric/CalculatedMetric code ≠ N/A; Quantitative unit ≠ N/A
+   • VR004: Model Property Values - Models must have non-empty input_variables list
+   • VR005: Relationship Predicate Validity - Only 5 allowed predicates
+           (ConsistOf, Include, IsCalculatedBy, ReportUsing, RequiresInputFrom)
+   • VR006: CalculatedMetric-Model Links - All CalculatedMetrics must have IsCalculatedBy → Model
+
+   Definition: Average of per-rule granular scores across all 6 rules
+   Formula: Average of [(Passed Items / Total Items) × 100%] per rule
+   Approach: Rule-Level Weighted Average
+   Scope: PER DOCUMENT (granular scoring per rule)
+
+   How it works:
+   • Each rule calculates its own score based on items checked
+   • VR001 checks all entities for uniqueness → score = (unique / total) × 100%
+   • VR002 checks all entities for required fields → score = (valid / total) × 100%
+   • VR003 checks all Metrics for property values → score = (valid / total_metrics) × 100%
+   • VR004 checks only Models for input_variables → score = (valid / total_models) × 100%
+   • VR005 checks all relationships for valid predicates → score = (valid / total_rels) × 100%
+   • VR006 checks only CalculatedMetrics for Model links → score = (valid / total_calc_metrics) × 100%
+   • Overall compliance = average of all 6 rule scores
+
+   Interpretation:
+   • 100% = All items in all rules passed (perfect compliance)
+   • 84.95% = Average score showing some items failed (provides granular quality insight)
+   • 10.1% = Low score indicating significant violations (shows severity of issues)
+
+   Example:
+   • VR002 has 7/69 entities passing → Score: 10.1%
+   • Shows 62 entities need schema fixes, provides actionable improvement target
+
+2. Semantic Accuracy (%) - ENTITY SEMANTIC VALIDATION
+   Definition: % of entities with semantically correct type assignments
+   Formula: (Correctly Typed Entities / Total Entities) × 100%
+   Scope: PER ENTITY (each entity independently validated)
+   Validation Method: Claude LLM checks if entity label/description matches its assigned type
+
+   Example:
+   • Entity: {type: 'Metric', label: 'Scope 1 Emissions'}
+   • LLM Question: 'Does "Scope 1 Emissions" semantically represent a Metric?'
+   • Answer: YES → Semantically Correct
+
+   Interpretation:
+   • 100% = All entity types are semantically correct
+   • 80% = 20% of entities have incorrect type assignments
+   • Cost: LLM validation cost tracked in semantic_validation.llm_cost
+
+3. Relationship Retention (%) - CASCADE FILTERING
+   Definition: % of relationships retained after entity semantic filtering
+   Formula: (Retained Relationships / Original Relationships) × 100%
+   Scope: PER RELATIONSHIP (but DEPENDENT on entity validation)
+
+   How it works (CASCADE effect):
+   • Step 1: Entities are validated for semantic correctness
+   • Step 2: Entities failing semantic validation are REMOVED
+   • Step 3: Relationships referencing removed entities are ALSO removed (cascade)
+   • Retention Rate = % of relationships that survived this cascade
+
+   Example:
+   • Original: 100 relationships
+   • Entity semantic validation removes 10 entities
+   • 15 relationships reference these 10 removed entities
+   • Result: 85 relationships retained → 85% retention rate
+
+   Interpretation:
+   • 100% = All relationships retained (no entities removed, fully connected graph)
+   • 80% = 20% of relationships removed (graph connectivity reduced)
+   • 0% = All relationships removed (completely disconnected graph)
+
+   IMPORTANT: This is NOT an independent validation of relationships themselves.
+              Relationships are only removed if their connected entities fail semantic validation.
+
+Document                              Schema Compliance%        Semantic Acc%      Rel. Retention%
+--------------------------------------------------------------------------------------------------
+1. SASB-commercial-banks-standard_e                 66.7                  9.8                  0.0
+1.SASB-semiconductors-standard_en-g                  0.0                  4.7                  0.0
+1.issb(sasb)-general-a-ifrs-s2-clim                  0.0                  0.0                  0.0
+2.Australia-AASBS2_09-24                            83.3                  3.1                  0.0
+2.FINAL-2017-TCFD-Report                             0.0                  0.0                  0.0
+
+Interpretation:
+
+Example: 1. SASB-commercial-banks-standard_en-gb
+  • Schema Compliance = 66.7%
+    (Average of per-rule granular scores - Rule-Level Weighted Average)
+  • Semantic Accuracy = 9.8%
+    (12/123 entities semantically correct)
+    (LLM validation cost: $0.0013)
+  • Relationship Retention = 0.0%
+    (0/161 relationships retained)
+
+Total Semantic Validation Cost: $0.0023
+  • Across 5 document(s)
+  • Average cost per document: $0.0005
+
+Note: Metrics are calculated from validation_metadata in validated JSON files
+
+====================================================================================================
+3. DOCUMENT SUMMARY TABLE
+====================================================================================================
+
+Shows pipeline data flow: Stage 1 (parsing) → Stage 2 (extraction) → Stage 3 (validation)
+
+Document                                    Pages   Segments Stage2 Entities Stage3 Entities  Stage2 Rels  Stage3 Rels
+------------------------------------------------------------------------------------------------------------------------
+1. SASB-commercial-banks-standard_en-gb        23         10             123               3          161            0
+1.SASB-semiconductors-standard_en-gb           27         13             149               0          200            0
+1.issb(sasb)-general-a-ifrs-s2-climate-r       46         10             126               0          176            0
+2.Australia-AASBS2_09-24                       58          8              96               3          117            0
+2.FINAL-2017-TCFD-Report                       74         19             235               0          286            0
+
+====================================================================================================
+3a. ENTITY TYPE DISTRIBUTION SUMMARY (All Documents)
+====================================================================================================
+
+Shows entity type counts aggregated across all documents for Stage 2 (extraction) and Stage 3 (validation)
+
+Retention (%): Calculated as (Stage 3 Count / Stage 2 Count) × 100% for each entity type
+Filtering Mechanism: Entities removed based on semantic type validation (LLM-validated correctness)
+
+Entity Type                 Stage 2 Count   Stage 3 Count   Retention (%)
+---------------------------------------------------------------------------
+Industry                               14               3            21.4
+ReportingFramework                      0               0             0.0
+Category                                0               0             0.0
+Metric                                  9               3            33.3
+Model                                   0               0             0.0
+---------------------------------------------------------------------------
+TOTAL                                  23               6            26.1
+
+====================================================================================================
+3b. RELATIONSHIP PREDICATE DISTRIBUTION SUMMARY (All Documents)
+====================================================================================================
+
+Shows relationship predicate counts aggregated across all documents for Stage 2 (extraction) and Stage 3 (validation)
+
+Retention (%): Calculated as (Stage 3 Count / Stage 2 Count) × 100% for each predicate type
+Filtering Mechanism: Cascade removal (relationships removed when their connected entities fail semantic validation)
+Note: Relationships are NOT independently validated - only removed if subject/object entities are removed
+
+Relationship Predicate           Stage 2 Count   Stage 3 Count   Retention (%)
+---------------------------------------------------------------------------
+accelerates_transition_to                    1               0             0.0
+addresses                                   38               0             0.0
+addresses_risk                               4               0             0.0
+addresses_risks_for                          1               0             0.0
+affects                                     73               0             0.0
+aids_disclosure_of                           1               0             0.0
+aims_to_achieve                              1               0             0.0
+aims_to_reduce                               1               0             0.0
+aligns_with                                  1               0             0.0
+analyzes                                     1               0             0.0
+applies_from                                 3               0             0.0
+applies_to                                  19               0             0.0
+applies_to_industry                         14               0             0.0
+assessed_for                                 1               0             0.0
+assesses                                    20               0             0.0
+assesses_impact_of                           2               0             0.0
+associated_with                              1               0             0.0
+based_on                                     4               0             0.0
+belongs_to                                   2               0             0.0
+belongs_to_topic                            41               0             0.0
+benefits                                     1               0             0.0
+calculated_from                              2               0             0.0
+calculated_using                             3               0             0.0
+categorized_as                               2               0             0.0
+categorized_by                               1               0             0.0
+causes                                       5               0             0.0
+certified_by                                 2               0             0.0
+chairs                                       2               0             0.0
+classified_as                                1               0             0.0
+classified_by                                3               0             0.0
+classifies                                   1               0             0.0
+compared_with                                1               0             0.0
+component_of                                 3               0             0.0
+comprises                                    3               0             0.0
+concentrated_in                              6               0             0.0
+conducted                                    1               0             0.0
+conducts                                     1               0             0.0
+considers                                   11               0             0.0
+constrained_by                               1               0             0.0
+consulted_with                               1               0             0.0
+contains                                     2               0             0.0
+contains_copyright_from                      1               0             0.0
+contains_recommendations_for                 1               0             0.0
+contributes_to                               8               0             0.0
+could_lead_to                                1               0             0.0
+covers                                       5               0             0.0
+creates                                      6               0             0.0
+creates_obstacle_for                         1               0             0.0
+creates_risk                                 1               0             0.0
+creates_risk_for                             1               0             0.0
+creates_value_at_risk_of                     1               0             0.0
+defined_by                                   3               0             0.0
+defines                                      2               0             0.0
+delegates_to                                 1               0             0.0
+demands_information_about                    2               0             0.0
+depends_on                                   4               0             0.0
+derived_from                                 1               0             0.0
+describes_methodology_for                    2               0             0.0
+determines_sophistication_based_on               1               0             0.0
+developed                                    6               0             0.0
+developed_iteratively_over                   1               0             0.0
+develops                                     1               0             0.0
+disaggregated_by                             4               0             0.0
+disaggregated_into                           6               0             0.0
+disclosed_under                              2               0             0.0
+discloses                                    1               0             0.0
+disclosure_required_by                       1               0             0.0
+discusses                                    2               0             0.0
+does_not_require                             1               0             0.0
+drives                                       1               0             0.0
+drives_demand_for                            1               0             0.0
+enables                                      6               0             0.0
+enables_capture_of                           1               0             0.0
+enables_engagement_with                      1               0             0.0
+enables_response_to                          1               0             0.0
+enhances                                     2               0             0.0
+established                                  2               0             0.0
+established_by                               1               0             0.0
+establishes_target                           2               0             0.0
+evaluated_over                               6               0             0.0
+evaluates                                   12               0             0.0
+excluded_from                                1               0             0.0
+excludes                                     1               0             0.0
+exposed_to                                   1               0             0.0
+faces_challenge                              3               0             0.0
+faces_risk_from                              1               0             0.0
+follows_standard                             1               0             0.0
+funds                                        1               0             0.0
+generates                                    1               0             0.0
+governed_by                                  1               0             0.0
+governs                                      1               0             0.0
+grants_permission_to                         1               0             0.0
+guides                                       1               0             0.0
+has                                          1               0             0.0
+has_associated                               1               0             0.0
+has_classification_code                      1               0             0.0
+has_code                                    14               0             0.0
+has_standard                                 1               0             0.0
+has_version                                  2               0             0.0
+helps_frame                                  1               0             0.0
+hinders                                      1               0             0.0
+identifies                                   3               0             0.0
+identifies_and_monitors                      3               0             0.0
+impacts                                     25               0             0.0
+implements                                   1               0             0.0
+improves                                     1               0             0.0
+included_in                                  1               0             0.0
+includes                                    63               0             0.0
+includes_core_content                        4               0             0.0
+includes_disclosure_category                 4               0             0.0
+includes_scenario                            1               0             0.0
+includes_subcategory                         3               0             0.0
+incorporated_in                              1               0             0.0
+incorporates                                 2               0             0.0
+increases                                    8               0             0.0
+indicates                                    1               0             0.0
+indicates_exposure_to                        1               0             0.0
+influences                                  10               0             0.0
+influences_disclosure_of                     1               0             0.0
+informed_about                               1               0             0.0
+informs                                      7               0             0.0
+informs_identification_of                    1               0             0.0
+integrated_into                              1               0             0.0
+integrated_with                              1               0             0.0
+intended_for                                 1               0             0.0
+involves                                     3               0             0.0
+is_activity_metric_for                       2               0             0.0
+is_category                                 14               0             0.0
+is_component_of                              1               0             0.0
+is_concentration_of                          2               0             0.0
+is_critical_input_for                        1               0             0.0
+is_defined_by                                1               0             0.0
+is_disclosed_in                              1               0             0.0
+is_example_of                                3               0             0.0
+is_measured_according_to                     3               0             0.0
+is_part_of                                   4               0             0.0
+is_subcategory_of                            1               0             0.0
+is_subtype_of                                2               0             0.0
+is_suitable_for                              1               0             0.0
+is_type_of                                   6               0             0.0
+is_used_for                                  1               0             0.0
+is_used_in                                   1               0             0.0
+is_voluntary_for                             1               0             0.0
+issued_by                                    2               0             0.0
+issues                                       4               0             0.0
+leads_to                                     7               0             0.0
+limits                                       1               0             0.0
+manages                                     13               0             0.0
+mandates                                     1               0             0.0
+mandates_compliance_with                     1               0             0.0
+may_align_with                               4               0             0.0
+may_be_included_in                           1               0             0.0
+may_cause_material_adjustment_to               2               0             0.0
+may_exempt_disclosure_of                     1               0             0.0
+may_include_managing                         3               0             0.0
+measured_according_to                        3               0             0.0
+measured_using                               6               0             0.0
+measures                                    29               0             0.0
+measures_participation_in                    1               0             0.0
+metric_category                              5               0             0.0
+metric_type                                  7               0             0.0
+mitigates                                    4               0             0.0
+monitors                                     4               0             0.0
+monitors_progress_towards                    2               0             0.0
+must_be_retained_by                          2               0             0.0
+must_comply_with                             1               0             0.0
+must_disclose                                3               0             0.0
+oversees                                     5               0             0.0
+oversees_progress_against                    1               0             0.0
+oversees_setting_of                          2               0             0.0
+part_of                                      7               0             0.0
+part_of_framework                            9               0             0.0
+part_of_topic                                1               0             0.0
+poses_risk_to                                4               0             0.0
+precedes                                     1               0             0.0
+presents_risk_to                             1               0             0.0
+prevents                                     1               0             0.0
+prioritized_for                              1               0             0.0
+produces                                     1               0             0.0
+protects                                     1               0             0.0
+provides                                     4               0             0.0
+provides_competitive_advantage               1               0             0.0
+provides_foundation_for                      1               0             0.0
+provides_guidance_on                         1               0             0.0
+provides_recommendations_for                 2               0             0.0
+publication_date                             1               0             0.0
+published                                    2               0             0.0
+published_by                                 1               0             0.0
+published_on                                 1               0             0.0
+publishes                                    1               0             0.0
+recommends                                   5               0             0.0
+reduces                                      8               0             0.0
+references                                   4               0             0.0
+references_standard                          7               0             0.0
+related_to                                   1               0             0.0
+relates_to                                  13               0             0.0
+relates_to_topic                             1               0             0.0
+replaces                                     1               0             0.0
+reported_as_percentage_in                    2               0             0.0
+reports_to                                   1               0             0.0
+represents                                   1               0             0.0
+requested                                    1               0             0.0
+requested_review_from                        1               0             0.0
+requires                                    10               0             0.0
+requires_annual_investment_of                1               0             0.0
+requires_certification                       2               0             0.0
+requires_changes_to_address                  2               0             0.0
+requires_disclosure_of                      39               0             0.0
+requires_improvement_in                      1               0             0.0
+requires_input                               1               0             0.0
+requires_specific_strategy_for               1               0             0.0
+responds_to                                  1               0             0.0
+results_from                                 2               0             0.0
+results_in                                   2               0             0.0
+reviewed_disclosure_regimes_in               1               0             0.0
+screens                                      1               0             0.0
+seeks_alignment_with                         5               0             0.0
+serves                                       2               0             0.0
+sets_target_for                              1               0             0.0
+should_follow                                1               0             0.0
+should_report                                2               0             0.0
+sourced_from                                 1               0             0.0
+specifies_application_dates_for               1               0             0.0
+subject_to                                   3               0             0.0
+supports                                     9               0             0.0
+supports_assessment_of                       1               0             0.0
+supports_identification_of                   1               0             0.0
+supports_transition_to                       1               0             0.0
+targets                                      4               0             0.0
+tested_according_to                          3               0             0.0
+tracks                                       3               0             0.0
+translates_into                              2               0             0.0
+triggers                                     1               0             0.0
+under_stewardship_of                         2               0             0.0
+used_for                                     3               0             0.0
+used_to_assess                               1               0             0.0
+used_to_manage                               1               0             0.0
+uses                                         4               0             0.0
+uses_allocation_method_for                   1               0             0.0
+uses_classification                          1               0             0.0
+uses_classification_system                   1               0             0.0
+uses_gwp_from                                1               0             0.0
+uses_information_about                       1               0             0.0
+uses_metric                                  1               0             0.0
+utilizes                                     1               0             0.0
+---------------------------------------------------------------------------
+TOTAL                                      940               0             0.0
+
+====================================================================================================
+4. VALIDATION RULES SUMMARY (All Documents)
+====================================================================================================
+
+Rule ID    Rule Name                            1. SASB-commerc  1.SASB-semicond  1.issb(sasb)-ge  2.Australia-AAS  2.FINAL-2017-TC
+------------------------------------------------------------------------------------------------------------------------------------
+VR001      Entity Uniqueness                             ✅ PASS       ❌ FAIL (4)           ✅ PASS           ✅ PASS           ✅ PASS
+VR002      Entity Type-Specific Schema Complia       ❌ FAIL (3)       ❌ FAIL (1)           ✅ PASS       ❌ FAIL (3)           ✅ PASS
+VR003      Metric Property Values                        ✅ PASS           ✅ PASS           ✅ PASS           ✅ PASS           ✅ PASS
+VR004      Model Property Values                         ✅ PASS           ✅ PASS           ✅ PASS           ✅ PASS           ✅ PASS
+VR005      Relationship Predicate Validity           ❌ FAIL (9)           ✅ PASS           ✅ PASS           ✅ PASS           ✅ PASS
+VR006      CalculatedMetric-Model Links                  ✅ PASS           ✅ PASS           ✅ PASS           ✅ PASS           ✅ PASS
+
+====================================================================================================
+5. PROVENANCE QUALITY ANALYSIS
+====================================================================================================
+
+Provenance Methodology:
+  • Each entity contains provenance.segment_id linking to stage1 segments
+  • Each segment contains page_start and page_end fields
+  • Therefore: Entity → segment_id → Segment → page numbers (complete traceability)
+
+Calculation:
+  • With Provenance (%) = (Entities with segment_id / Total Entities) × 100
+  • With Timestamp (%) = (Entities with extraction_timestamp / Total Entities) × 100
+
+Document                                  Total Entities       With Provenance (%)        With Timestamp (%)
+---------------------------------------------------------------------------------------------------------
+1. SASB-commercial-banks-standard_en-gb              123                       0.0                       0.0
+1.SASB-semiconductors-standard_en-gb                 149                       0.0                       0.0
+1.issb(sasb)-general-a-ifrs-s2-climate-r             126                       0.0                       0.0
+2.Australia-AASBS2_09-24                              96                       0.0                       0.0
+2.FINAL-2017-TCFD-Report                             235                       0.0                       0.0
+
+====================================================================================================
+5. METRICS REFERENCE & CALCULATION GUIDE
+====================================================================================================
+
+This section provides comprehensive documentation of all metrics used in Stage 3 validation.
+For complete details, see: result_visualisation_and_analysis/METRICS_REFERENCE.txt
+
+----------------------------------------------------------------------------------------------------
+5.1 STAGE 3 VALIDATION METRICS (Enhanced Metadata)
+----------------------------------------------------------------------------------------------------
+
+All enhanced metrics are stored in validated JSON files under 'validation_metadata' section.
+
+QUALITY METRICS (quality_metrics section):
+
+  • Validation Pass Rate (%)
+    Formula: (Critical Rules Passed / Total Critical Rules) × 100
+    Where: Total Critical Rules = 6 (VR001-VR006, All Critical)
+    Unit: Percentage (0-100%)
+    Aggregation: Document-level
+    Data Source: Stage 3 validation results (rule_compliance section)
+    Interpretation:
+      - 100% = All validation rules passed (perfect schema compliance)
+      - 83.3% = 1 rule failed (5/6 passed)
+      - Measures schema compliance and data quality
+
+  • Relationship Retention Rate (%)
+    Formula: (Validated Relationships / Original Relationships) × 100
+    Unit: Percentage (0-100%)
+    Aggregation: Document-level
+    Data Source: original_relationship_count + validated_relationship_count
+    Interpretation:
+      - 100% = All relationships valid
+      - 0% = All relationships invalid (common in baseline method)
+
+RULE COMPLIANCE (rule_compliance section):
+
+  • critical_rules_total: Always 6 (VR001-VR006)
+  • critical_rules_passed_count: Number of rules that passed (0-6)
+  • critical_rules_failed_count: Number of rules that failed (0-6)
+  • critical_rules_failed: List of specific failed rule IDs
+  • pass_rate_percentage: Same as Validation Pass Rate
+
+VIOLATION STATISTICS (violation_statistics section):
+
+  • total_violations: Total number of rule violations across all rules
+  • entities_with_violations: Count of entities that were removed
+  • relationships_with_violations: Count of relationships that were removed
+  • violations_by_rule: Per-rule breakdown
+    - Each rule ID (VR001-VR010) shows:
+      * passed: boolean (true/false)
+      * violation_count: integer count
+
+SEGMENT STATISTICS (segment_statistics section):
+
+  • total_segments: Number of text segments in document
+  • segments_with_entities: Segments that contained entities
+  • entities_per_segment: Per-segment entity counts
+    - Format: {segment_id: {original: int, validated: int}}
+    - Shows exactly how many entities filtered per segment
+  • retention_per_segment: Per-segment retention rates (%)
+    - Format: {segment_id: retention_percentage}
+    - Enables identification of problematic segments
+  • avg_segment_retention: Average retention across all segments (%)
+
+----------------------------------------------------------------------------------------------------
+5.2 AGGREGATION LEVELS
+----------------------------------------------------------------------------------------------------
+
+SEGMENT-LEVEL (Most Granular):
+  • Source: Individual text chunks from Stage 1 (e.g., seg_001, seg_002)
+  • Metrics Available:
+    - entities_per_segment (original + validated counts)
+    - retention_per_segment (retention %)
+  • Use Cases:
+    - Identify problematic document sections
+    - Trace entities back to source text
+    - Target re-extraction at specific segments
+
+DOCUMENT-LEVEL (Aggregated from Segments):
+  • Source: Aggregated from all segments in one document
+  • Metrics Available:
+    - All quality_metrics (schema_compliance_weighted, semantic_type_accuracy, relationship_retention_rate)
+    - All rule_compliance metrics
+    - All violation_statistics
+    - avg_segment_retention
+  • Use Cases:
+    - Compare documents to each other
+    - Assess overall document quality
+    - Report per-document performance
+
+METHOD-LEVEL (Aggregated from Documents):
+  • Source: Aggregated across all documents for one method
+    - Ontology-Guided: All documents processed with ontology-guided extraction
+    - Baseline: All documents processed with baseline LLM extraction
+  • Metrics Available:
+    - Average schema_compliance_weighted across all documents
+    - Average semantic_type_accuracy and relationship_retention_rate across all documents
+    - Total entities extracted/validated
+  • Use Cases:
+    - Compare Ontology-Guided vs Baseline methods
+    - Report overall pipeline performance
+    - Visualizations in result_visualisation_and_analysis/
+
+----------------------------------------------------------------------------------------------------
+5.3 FILE LOCATIONS
+----------------------------------------------------------------------------------------------------
+
+STAGE 3 VALIDATION OUTPUTS:
+
+  Ontology-Guided Method:
+    • outputs/stage3_ontology_guided_validation/[document]_validated.json
+    • Contains: All enhanced metrics in 'validation_metadata' section
+
+  Baseline Method:
+    • outputs/stage3_baseline_llm_comparison/[document]_validated.json
+    • Contains: All enhanced metrics in 'validation_metadata' section
+
+VISUALIZATION OUTPUTS:
+    • result_visualisation_and_analysis/stage3_comparison/
+      - validation_quality.png (Validation Pass Rate + Entity Retention)
+      - validation_quality.csv (Data table)
+      - validation_quality_EXPLANATION.txt (Formulas + interpretation)
+      - filtering_impact.png (Entities filtered)
+      - filtering_impact.csv (Data table)
+      - filtering_impact_EXPLANATION.txt (Formulas + interpretation)
+
+COMPREHENSIVE METRICS DOCUMENTATION:
+    • result_visualisation_and_analysis/METRICS_REFERENCE.txt
+      - Complete reference for all metrics
+      - Formulas, data sources, interpretations
+      - Covers Stage 2, Stage 3, and visualization metrics
+
+====================================================================================================
+END OF REPORT
+====================================================================================================

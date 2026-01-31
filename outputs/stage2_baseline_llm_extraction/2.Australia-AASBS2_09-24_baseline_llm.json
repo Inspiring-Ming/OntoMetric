@@ -1,0 +1,1277 @@
+{
+  "document": "2.Australia-AASBS2_09-24",
+  "timestamp": "2025-11-18T13:31:06.187189",
+  "experiments": {
+    "1_ontology_guided": {
+      "entities": [],
+      "relationships": []
+    },
+    "2_baseline_llm": {
+      "name": "Baseline (Unconstrained)",
+      "description": "Unconstrained LLM (no ontology schema, no SPARQL validation)",
+      "entities": [
+        {
+          "id": "AASB_S2",
+          "label": "AASB S2 Climate-related Disclosures",
+          "type": "Standard",
+          "description": "Australian Sustainability Reporting Standard for Climate-related Disclosures",
+          "unit": null
+        },
+        {
+          "id": "IFRS_S2",
+          "label": "IFRS S2",
+          "type": "Standard",
+          "description": "International Financial Reporting Standard for climate-related disclosures",
+          "unit": null
+        },
+        {
+          "id": "governance",
+          "label": "Governance",
+          "type": "Disclosure Category",
+          "description": "Climate-related governance disclosures starting from paragraph 5",
+          "unit": null
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy",
+          "type": "Disclosure Category",
+          "description": "Climate-related strategy disclosures starting from paragraph 8",
+          "unit": null
+        },
+        {
+          "id": "risk_management",
+          "label": "Risk Management",
+          "type": "Disclosure Category",
+          "description": "Climate-related risk management disclosures starting from paragraph 24",
+          "unit": null
+        },
+        {
+          "id": "metrics_targets",
+          "label": "Metrics and Targets",
+          "type": "Disclosure Category",
+          "description": "Climate-related metrics and targets disclosures starting from paragraph 27",
+          "unit": null
+        },
+        {
+          "id": "climate_related_financial_info",
+          "label": "Climate-related Financial Information",
+          "type": "Disclosure Requirement",
+          "description": "General requirements for disclosure of climate-related financial information",
+          "unit": null
+        },
+        {
+          "id": "AASB_S2",
+          "label": "AASB S2 Climate-related Disclosures",
+          "type": "Standard",
+          "description": "Australian Sustainability Reporting Standard for climate-related disclosures",
+          "unit": null
+        },
+        {
+          "id": "AASB",
+          "label": "Australian Accounting Standards Board",
+          "type": "Organization",
+          "description": "Australian regulatory body issuing sustainability reporting standards",
+          "unit": null
+        },
+        {
+          "id": "IFRS_Foundation",
+          "label": "IFRS Foundation",
+          "type": "Organization",
+          "description": "Foundation holding copyright material used in Australian Sustainability Reporting Standards",
+          "unit": null
+        },
+        {
+          "id": "IFRS_S2",
+          "label": "IFRS S2",
+          "type": "Standard",
+          "description": "International sustainability standard on which AASB S2 is based",
+          "unit": null
+        },
+        {
+          "id": "Governance",
+          "label": "Governance",
+          "type": "ESG_Category",
+          "description": "Core content area covering governance aspects of climate-related disclosures",
+          "unit": null
+        },
+        {
+          "id": "Strategy",
+          "label": "Strategy",
+          "type": "ESG_Category",
+          "description": "Core content area covering strategic aspects of climate-related disclosures",
+          "unit": null
+        },
+        {
+          "id": "Risk_Management",
+          "label": "Risk Management",
+          "type": "ESG_Category",
+          "description": "Core content area covering risk management aspects of climate-related disclosures",
+          "unit": null
+        },
+        {
+          "id": "Metrics_and_Targets",
+          "label": "Metrics and Targets",
+          "type": "ESG_Category",
+          "description": "Core content area covering metrics and targets for climate-related disclosures",
+          "unit": null
+        },
+        {
+          "id": "Climate_Related_Disclosures",
+          "label": "Climate-related Disclosures",
+          "type": "ESG_Topic",
+          "description": "Primary focus of AASB S2 standard covering climate-related financial information",
+          "unit": null
+        },
+        {
+          "id": "AASB_S2",
+          "label": "AASB S2 Climate-related Disclosures",
+          "type": "Standard",
+          "description": "Australian Sustainability Reporting Standard for climate-related disclosures",
+          "unit": null
+        },
+        {
+          "id": "AASB",
+          "label": "Australian Accounting Standards Board",
+          "type": "Organization",
+          "description": "Australian Government entity that develops, issues and maintains Australian Sustainability Reporting Standards",
+          "unit": null
+        },
+        {
+          "id": "IFRS_S2",
+          "label": "IFRS S2 Climate-related Disclosures",
+          "type": "Standard",
+          "description": "International Sustainability Disclosure Standard for climate-related disclosures issued by ISSB",
+          "unit": null
+        },
+        {
+          "id": "AASB_S1",
+          "label": "AASB S1 General Requirements for Disclosure of Sustainability-related Financial Information",
+          "type": "Standard",
+          "description": "Voluntary Standard addressing sustainability-related financial disclosures in general",
+          "unit": null
+        },
+        {
+          "id": "SCOPE_1_EMISSIONS",
+          "label": "Scope 1 Greenhouse Gas Emissions",
+          "type": "Metric",
+          "description": "Direct greenhouse gas emissions from sources owned or controlled by the entity",
+          "unit": "tCO2e"
+        },
+        {
+          "id": "SCOPE_2_EMISSIONS",
+          "label": "Scope 2 Greenhouse Gas Emissions",
+          "type": "Metric",
+          "description": "Indirect greenhouse gas emissions from purchased energy",
+          "unit": "tCO2e"
+        },
+        {
+          "id": "SCOPE_3_EMISSIONS",
+          "label": "Scope 3 Greenhouse Gas Emissions",
+          "type": "Metric",
+          "description": "Other indirect greenhouse gas emissions in the value chain",
+          "unit": "tCO2e"
+        },
+        {
+          "id": "CLIMATE_RISKS",
+          "label": "Climate-related Risks",
+          "type": "Risk Category",
+          "description": "Risks that could reasonably be expected to affect the entity's cash flows, access to finance or cost of capital",
+          "unit": null
+        },
+        {
+          "id": "CLIMATE_OPPORTUNITIES",
+          "label": "Climate-related Opportunities",
+          "type": "Opportunity Category",
+          "description": "Opportunities that could reasonably be expected to affect the entity's cash flows, access to finance or cost of capital",
+          "unit": null
+        },
+        {
+          "id": "GOVERNANCE",
+          "label": "Governance",
+          "type": "Disclosure Category",
+          "description": "Climate-related governance disclosure requirements",
+          "unit": null
+        },
+        {
+          "id": "STRATEGY",
+          "label": "Strategy",
+          "type": "Disclosure Category",
+          "description": "Climate-related strategy disclosure requirements including scenario analysis",
+          "unit": null
+        },
+        {
+          "id": "RISK_MANAGEMENT",
+          "label": "Risk Management",
+          "type": "Disclosure Category",
+          "description": "Climate-related risk management disclosure requirements",
+          "unit": null
+        },
+        {
+          "id": "METRICS_TARGETS",
+          "label": "Metrics and Targets",
+          "type": "Disclosure Category",
+          "description": "Climate-related metrics and targets disclosure requirements",
+          "unit": null
+        },
+        {
+          "id": "SCENARIO_ANALYSIS",
+          "label": "Scenario Analysis",
+          "type": "Methodology",
+          "description": "Analysis of potential climate-related scenarios and their impacts",
+          "unit": null
+        },
+        {
+          "id": "EFFECTIVE_DATE_2025",
+          "label": "1 January 2025",
+          "type": "Date",
+          "description": "Primary application date for annual reporting periods",
+          "unit": null
+        },
+        {
+          "id": "EFFECTIVE_DATE_2026",
+          "label": "1 July 2026",
+          "type": "Date",
+          "description": "Secondary application date for certain entity classes",
+          "unit": null
+        },
+        {
+          "id": "EFFECTIVE_DATE_2027",
+          "label": "1 July 2027",
+          "type": "Date",
+          "description": "Tertiary application date for certain entity classes",
+          "unit": null
+        },
+        {
+          "id": "ISSB",
+          "label": "International Sustainability Standards Board",
+          "type": "Organization",
+          "description": "International body that issues IFRS Sustainability Disclosure Standards",
+          "unit": null
+        },
+        {
+          "id": "CORPORATIONS_ACT",
+          "label": "Corporations Act 2001",
+          "type": "Legislation",
+          "description": "Australian legislation that sets out which entities are required to comply with AASB S2",
+          "unit": null
+        },
+        {
+          "id": "AASB_S2",
+          "label": "AASB S2 Climate-related Disclosures",
+          "type": "Standard",
+          "description": "Australian Sustainability Reporting Standard requiring disclosure of climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "climate_related_risks",
+          "label": "Climate-related Risks",
+          "type": "Risk Category",
+          "description": "Risks to which the entity is exposed, including physical and transition risks",
+          "unit": null
+        },
+        {
+          "id": "climate_physical_risks",
+          "label": "Climate-related Physical Risks",
+          "type": "Risk Subcategory",
+          "description": "Physical risks arising from climate change",
+          "unit": null
+        },
+        {
+          "id": "climate_transition_risks",
+          "label": "Climate-related Transition Risks",
+          "type": "Risk Subcategory",
+          "description": "Risks arising from transition to lower-carbon economy",
+          "unit": null
+        },
+        {
+          "id": "climate_opportunities",
+          "label": "Climate-related Opportunities",
+          "type": "Opportunity Category",
+          "description": "Opportunities available to the entity related to climate change",
+          "unit": null
+        },
+        {
+          "id": "governance_body",
+          "label": "Governance Body",
+          "type": "Organizational Entity",
+          "description": "Board, committee or equivalent body charged with oversight of climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "management_role",
+          "label": "Management Role",
+          "type": "Organizational Function",
+          "description": "Management's role in governance processes for climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "climate_targets",
+          "label": "Climate-related Targets",
+          "type": "Performance Metric",
+          "description": "Targets set related to climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "remuneration_policies",
+          "label": "Remuneration Policies",
+          "type": "Policy",
+          "description": "Policies that may include climate-related performance metrics",
+          "unit": null
+        },
+        {
+          "id": "business_model",
+          "label": "Business Model",
+          "type": "Strategic Element",
+          "description": "Entity's business model affected by climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "value_chain",
+          "label": "Value Chain",
+          "type": "Strategic Element",
+          "description": "Entity's value chain affected by climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "transition_plan",
+          "label": "Climate-related Transition Plan",
+          "type": "Strategic Document",
+          "description": "Plan for managing transition related to climate change",
+          "unit": null
+        },
+        {
+          "id": "cash_flows",
+          "label": "Cash Flows",
+          "type": "Financial Metric",
+          "description": "Entity's cash flows that may be affected by climate-related risks and opportunities",
+          "unit": "currency"
+        },
+        {
+          "id": "cost_of_capital",
+          "label": "Cost of Capital",
+          "type": "Financial Metric",
+          "description": "Entity's cost of capital that may be affected by climate-related risks and opportunities",
+          "unit": "percentage"
+        },
+        {
+          "id": "AASB",
+          "label": "Australian Accounting Standards Board",
+          "type": "Regulatory Body",
+          "description": "Body responsible for making Australian Sustainability Reporting Standards",
+          "unit": null
+        },
+        {
+          "id": "climate_related_risks",
+          "label": "Climate-related Risks",
+          "type": "Risk",
+          "description": "Risks arising from climate change that may affect an entity's financial position, performance and cash flows",
+          "unit": null
+        },
+        {
+          "id": "climate_related_opportunities",
+          "label": "Climate-related Opportunities",
+          "type": "Opportunity",
+          "description": "Opportunities arising from climate change that may affect an entity's financial position, performance and cash flows",
+          "unit": null
+        },
+        {
+          "id": "financial_position",
+          "label": "Financial Position",
+          "type": "Financial Metric",
+          "description": "Entity's financial position as reported in financial statements",
+          "unit": "Monetary"
+        },
+        {
+          "id": "financial_performance",
+          "label": "Financial Performance",
+          "type": "Financial Metric",
+          "description": "Entity's financial performance for the reporting period",
+          "unit": "Monetary"
+        },
+        {
+          "id": "cash_flows",
+          "label": "Cash Flows",
+          "type": "Financial Metric",
+          "description": "Entity's cash flows for the reporting period",
+          "unit": "Monetary"
+        },
+        {
+          "id": "climate_scenario_analysis",
+          "label": "Climate-related Scenario Analysis",
+          "type": "Assessment Method",
+          "description": "Analysis method used to assess climate resilience under different climate scenarios",
+          "unit": null
+        },
+        {
+          "id": "climate_resilience",
+          "label": "Climate Resilience",
+          "type": "ESG Metric",
+          "description": "Entity's ability to withstand and adapt to climate-related changes, developments and uncertainties",
+          "unit": null
+        },
+        {
+          "id": "capital_expenditure",
+          "label": "Capital Expenditure",
+          "type": "Financial Metric",
+          "description": "Planned capital expenditure related to climate strategy implementation",
+          "unit": "Monetary"
+        },
+        {
+          "id": "lower_carbon_economy_revenue",
+          "label": "Lower-carbon Economy Revenue",
+          "type": "Financial Metric",
+          "description": "Revenue from products and services aligned with a lower-carbon economy",
+          "unit": "Monetary"
+        },
+        {
+          "id": "climate_adaptation_expenses",
+          "label": "Climate Adaptation Expenses",
+          "type": "Financial Metric",
+          "description": "Expenses associated with climate adaptation or mitigation",
+          "unit": "Monetary"
+        },
+        {
+          "id": "physical_damage_costs",
+          "label": "Physical Damage Costs",
+          "type": "Financial Metric",
+          "description": "Costs arising from physical damage to assets from climate events",
+          "unit": "Monetary"
+        },
+        {
+          "id": "carrying_amounts_assets_liabilities",
+          "label": "Carrying Amounts of Assets and Liabilities",
+          "type": "Financial Metric",
+          "description": "Carrying amounts of assets and liabilities at risk of material adjustment due to climate-related risks",
+          "unit": "Monetary"
+        },
+        {
+          "id": "climate_mitigation_investments",
+          "label": "Climate Mitigation Investments",
+          "type": "Financial Metric",
+          "description": "Current and planned investments in climate-related mitigation",
+          "unit": "Monetary"
+        },
+        {
+          "id": "climate_adaptation_investments",
+          "label": "Climate Adaptation Investments",
+          "type": "Financial Metric",
+          "description": "Current and planned investments in climate-related adaptation",
+          "unit": "Monetary"
+        },
+        {
+          "id": "business_model",
+          "label": "Business Model",
+          "type": "Strategic Element",
+          "description": "Entity's business model and its resilience to climate-related changes",
+          "unit": null
+        },
+        {
+          "id": "strategy",
+          "label": "Climate Strategy",
+          "type": "Strategic Element",
+          "description": "Entity's strategy to manage climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "financial_resources",
+          "label": "Financial Resources",
+          "type": "Financial Metric",
+          "description": "Availability and flexibility of existing financial resources to respond to climate effects",
+          "unit": "Monetary"
+        },
+        {
+          "id": "scope3_emissions",
+          "label": "Scope 3 Greenhouse Gas Emissions",
+          "type": "Environmental Metric",
+          "description": "Absolute gross Scope 3 greenhouse gas emissions including upstream and downstream emissions generated during the reporting period",
+          "unit": "Not specified"
+        },
+        {
+          "id": "financed_emissions",
+          "label": "Financed Emissions",
+          "type": "Environmental Metric",
+          "description": "Category 15 emissions or emissions associated with investments from financial activities",
+          "unit": "Not specified"
+        },
+        {
+          "id": "financed_emissions_scope1",
+          "label": "Financed Emissions - Scope 1",
+          "type": "Environmental Metric",
+          "description": "Absolute gross financed emissions disaggregated by Scope 1",
+          "unit": "Not specified"
+        },
+        {
+          "id": "financed_emissions_scope2",
+          "label": "Financed Emissions - Scope 2",
+          "type": "Environmental Metric",
+          "description": "Absolute gross financed emissions disaggregated by Scope 2",
+          "unit": "Not specified"
+        },
+        {
+          "id": "financed_emissions_scope3",
+          "label": "Financed Emissions - Scope 3",
+          "type": "Environmental Metric",
+          "description": "Absolute gross financed emissions disaggregated by Scope 3",
+          "unit": "Not specified"
+        },
+        {
+          "id": "aum_financed_emissions",
+          "label": "Assets Under Management in Financed Emissions",
+          "type": "Financial Metric",
+          "description": "Total amount of assets under management included in the financed emissions disclosure",
+          "unit": "Presentation currency"
+        },
+        {
+          "id": "aum_percentage",
+          "label": "Percentage of Total AUM",
+          "type": "Financial Metric",
+          "description": "Percentage of entity's total AUM included in financed emissions",
+          "unit": "Percentage"
+        },
+        {
+          "id": "secondary_data",
+          "label": "Secondary Data",
+          "type": "Data Input",
+          "description": "Activity or emissions data that is timely and representative of the entity's value chain activity",
+          "unit": "Not applicable"
+        },
+        {
+          "id": "verified_data",
+          "label": "Verified Data",
+          "type": "Data Quality Indicator",
+          "description": "Scope 3 emissions data that has been internally or externally verified through on-site checking, reviewing calculations, or cross-checking",
+          "unit": "Not applicable"
+        },
+        {
+          "id": "climate_related_risks",
+          "label": "Climate-Related Risks",
+          "type": "Risk Category",
+          "description": "Risks including credit risk, market risk, reputational risk and other financial and operational risks associated with greenhouse gas emissions",
+          "unit": "Not applicable"
+        },
+        {
+          "id": "asset_management",
+          "label": "Asset Management",
+          "type": "Financial Activity",
+          "description": "Financial activity requiring disclosure of financed emissions",
+          "unit": "Not applicable"
+        },
+        {
+          "id": "commercial_banking",
+          "label": "Commercial Banking",
+          "type": "Financial Activity",
+          "description": "Financial activity requiring disclosure of financed emissions",
+          "unit": "Not applicable"
+        },
+        {
+          "id": "insurance",
+          "label": "Insurance",
+          "type": "Financial Activity",
+          "description": "Financial activity requiring disclosure of financed emissions",
+          "unit": "Not applicable"
+        },
+        {
+          "id": "value_chain_activity",
+          "label": "Value Chain Activity",
+          "type": "Operational Scope",
+          "description": "Activities within the entity's value chain used for measuring Scope 3 emissions",
+          "unit": "Not applicable"
+        },
+        {
+          "id": "scope_1_emissions",
+          "label": "Scope 1 Greenhouse Gas Emissions",
+          "type": "ESG Metric",
+          "description": "Absolute gross greenhouse gas emissions generated during the reporting period",
+          "unit": "metric tonnes of CO2 equivalent"
+        },
+        {
+          "id": "scope_2_emissions",
+          "label": "Scope 2 Greenhouse Gas Emissions",
+          "type": "ESG Metric",
+          "description": "Absolute gross greenhouse gas emissions generated during the reporting period",
+          "unit": "metric tonnes of CO2 equivalent"
+        },
+        {
+          "id": "scope_3_emissions",
+          "label": "Scope 3 Greenhouse Gas Emissions",
+          "type": "ESG Metric",
+          "description": "Absolute gross greenhouse gas emissions generated during the reporting period, including Category 15 emissions and financed emissions",
+          "unit": "metric tonnes of CO2 equivalent"
+        },
+        {
+          "id": "location_based_scope_2",
+          "label": "Location-based Scope 2 Emissions",
+          "type": "ESG Metric",
+          "description": "Location-based Scope 2 greenhouse gas emissions with contractual instruments information",
+          "unit": "metric tonnes of CO2 equivalent"
+        },
+        {
+          "id": "climate_transition_risk_assets",
+          "label": "Assets Vulnerable to Climate-related Transition Risks",
+          "type": "ESG Metric",
+          "description": "Amount and percentage of assets or business activities vulnerable to climate-related transition risks",
+          "unit": "amount and percentage"
+        },
+        {
+          "id": "climate_physical_risk_assets",
+          "label": "Assets Vulnerable to Climate-related Physical Risks",
+          "type": "ESG Metric",
+          "description": "Amount and percentage of assets or business activities vulnerable to climate-related physical risks",
+          "unit": "amount and percentage"
+        },
+        {
+          "id": "climate_opportunity_assets",
+          "label": "Assets Aligned with Climate-related Opportunities",
+          "type": "ESG Metric",
+          "description": "Amount and percentage of assets or business activities aligned with climate-related opportunities",
+          "unit": "amount and percentage"
+        },
+        {
+          "id": "capital_deployment",
+          "label": "Capital Deployment for Climate",
+          "type": "ESG Metric",
+          "description": "Amount of capital expenditure, financing or investment deployed towards climate-related risks and opportunities",
+          "unit": "monetary amount"
+        },
+        {
+          "id": "internal_carbon_price",
+          "label": "Internal Carbon Price",
+          "type": "ESG Metric",
+          "description": "Price for each metric tonne of greenhouse gas emissions used to assess costs",
+          "unit": "price per metric tonne of GHG emissions"
+        },
+        {
+          "id": "climate_linked_remuneration",
+          "label": "Climate-linked Executive Remuneration",
+          "type": "ESG Metric",
+          "description": "Percentage of executive management remuneration linked to climate-related considerations",
+          "unit": "percentage"
+        },
+        {
+          "id": "climate_targets",
+          "label": "Climate-related Targets",
+          "type": "ESG Metric",
+          "description": "Quantitative and qualitative climate-related targets including greenhouse gas emissions targets",
+          "unit": "various (absolute or intensity targets)"
+        },
+        {
+          "id": "ghg_protocol_2004",
+          "label": "Greenhouse Gas Protocol: A Corporate Accounting and Reporting Standard (2004)",
+          "type": "Standard",
+          "description": "Measurement standard for greenhouse gas emissions",
+          "unit": "N/A"
+        },
+        {
+          "id": "ghg_protocol_scope3_2011",
+          "label": "Greenhouse Gas Protocol Corporate Value Chain (Scope 3) Accounting and Reporting Standard (2011)",
+          "type": "Standard",
+          "description": "Standard for Scope 3 emissions categories",
+          "unit": "N/A"
+        },
+        {
+          "id": "consolidated_accounting_group",
+          "label": "Consolidated Accounting Group",
+          "type": "Entity Boundary",
+          "description": "Parent and its consolidated subsidiaries",
+          "unit": "N/A"
+        },
+        {
+          "id": "other_investees",
+          "label": "Other Investees",
+          "type": "Entity Boundary",
+          "description": "Associates, joint ventures and unconsolidated subsidiaries",
+          "unit": "N/A"
+        }
+      ],
+      "relationships": [
+        {
+          "subject": "AASB_S2",
+          "predicate": "compared_with",
+          "object": "IFRS_S2"
+        },
+        {
+          "subject": "AASB_S2",
+          "predicate": "includes_disclosure_category",
+          "object": "governance"
+        },
+        {
+          "subject": "AASB_S2",
+          "predicate": "includes_disclosure_category",
+          "object": "strategy"
+        },
+        {
+          "subject": "AASB_S2",
+          "predicate": "includes_disclosure_category",
+          "object": "risk_management"
+        },
+        {
+          "subject": "AASB_S2",
+          "predicate": "includes_disclosure_category",
+          "object": "metrics_targets"
+        },
+        {
+          "subject": "AASB_S2",
+          "predicate": "requires_disclosure_of",
+          "object": "climate_related_financial_info"
+        },
+        {
+          "subject": "AASB_S2",
+          "predicate": "based_on",
+          "object": "IFRS_S2"
+        },
+        {
+          "subject": "AASB",
+          "predicate": "issues",
+          "object": "AASB_S2"
+        },
+        {
+          "subject": "AASB_S2",
+          "predicate": "addresses",
+          "object": "Climate_Related_Disclosures"
+        },
+        {
+          "subject": "AASB_S2",
+          "predicate": "based_on",
+          "object": "IFRS_S2"
+        },
+        {
+          "subject": "AASB_S2",
+          "predicate": "contains_copyright_from",
+          "object": "IFRS_Foundation"
+        },
+        {
+          "subject": "AASB_S2",
+          "predicate": "includes_core_content",
+          "object": "Governance"
+        },
+        {
+          "subject": "AASB_S2",
+          "predicate": "includes_core_content",
+          "object": "Strategy"
+        },
+        {
+          "subject": "AASB_S2",
+          "predicate": "includes_core_content",
+          "object": "Risk_Management"
+        },
+        {
+          "subject": "AASB_S2",
+          "predicate": "includes_core_content",
+          "object": "Metrics_and_Targets"
+        },
+        {
+          "subject": "IFRS_Foundation",
+          "predicate": "grants_permission_to",
+          "object": "AASB"
+        },
+        {
+          "subject": "AASB",
+          "predicate": "issues",
+          "object": "AASB_S2"
+        },
+        {
+          "subject": "AASB_S2",
+          "predicate": "based_on",
+          "object": "IFRS_S2"
+        },
+        {
+          "subject": "IFRS_S2",
+          "predicate": "issued_by",
+          "object": "ISSB"
+        },
+        {
+          "subject": "AASB_S2",
+          "predicate": "requires_disclosure_of",
+          "object": "CLIMATE_RISKS"
+        },
+        {
+          "subject": "AASB_S2",
+          "predicate": "requires_disclosure_of",
+          "object": "CLIMATE_OPPORTUNITIES"
+        },
+        {
+          "subject": "AASB_S2",
+          "predicate": "requires_disclosure_of",
+          "object": "GOVERNANCE"
+        },
+        {
+          "subject": "AASB_S2",
+          "predicate": "requires_disclosure_of",
+          "object": "STRATEGY"
+        },
+        {
+          "subject": "AASB_S2",
+          "predicate": "requires_disclosure_of",
+          "object": "RISK_MANAGEMENT"
+        },
+        {
+          "subject": "AASB_S2",
+          "predicate": "requires_disclosure_of",
+          "object": "METRICS_TARGETS"
+        },
+        {
+          "subject": "METRICS_TARGETS",
+          "predicate": "includes",
+          "object": "SCOPE_1_EMISSIONS"
+        },
+        {
+          "subject": "METRICS_TARGETS",
+          "predicate": "includes",
+          "object": "SCOPE_2_EMISSIONS"
+        },
+        {
+          "subject": "METRICS_TARGETS",
+          "predicate": "includes",
+          "object": "SCOPE_3_EMISSIONS"
+        },
+        {
+          "subject": "STRATEGY",
+          "predicate": "includes",
+          "object": "SCENARIO_ANALYSIS"
+        },
+        {
+          "subject": "AASB_S2",
+          "predicate": "applies_from",
+          "object": "EFFECTIVE_DATE_2025"
+        },
+        {
+          "subject": "AASB_S2",
+          "predicate": "applies_from",
+          "object": "EFFECTIVE_DATE_2026"
+        },
+        {
+          "subject": "AASB_S2",
+          "predicate": "applies_from",
+          "object": "EFFECTIVE_DATE_2027"
+        },
+        {
+          "subject": "AASB_S2",
+          "predicate": "does_not_require",
+          "object": "AASB_S1"
+        },
+        {
+          "subject": "AASB_S1",
+          "predicate": "is_voluntary_for",
+          "object": "AASB_S2"
+        },
+        {
+          "subject": "CORPORATIONS_ACT",
+          "predicate": "mandates_compliance_with",
+          "object": "AASB_S2"
+        },
+        {
+          "subject": "CORPORATIONS_ACT",
+          "predicate": "specifies_application_dates_for",
+          "object": "AASB_S2"
+        },
+        {
+          "subject": "AASB",
+          "predicate": "issues",
+          "object": "AASB_S1"
+        },
+        {
+          "subject": "AASB",
+          "predicate": "issues",
+          "object": "AASB_S2"
+        },
+        {
+          "subject": "AASB_S2",
+          "predicate": "requires_disclosure_of",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "AASB_S2",
+          "predicate": "requires_disclosure_of",
+          "object": "climate_opportunities"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "includes",
+          "object": "climate_physical_risks"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "includes",
+          "object": "climate_transition_risks"
+        },
+        {
+          "subject": "governance_body",
+          "predicate": "oversees",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "governance_body",
+          "predicate": "oversees",
+          "object": "climate_opportunities"
+        },
+        {
+          "subject": "governance_body",
+          "predicate": "oversees_setting_of",
+          "object": "climate_targets"
+        },
+        {
+          "subject": "governance_body",
+          "predicate": "monitors_progress_towards",
+          "object": "climate_targets"
+        },
+        {
+          "subject": "climate_targets",
+          "predicate": "may_be_included_in",
+          "object": "remuneration_policies"
+        },
+        {
+          "subject": "management_role",
+          "predicate": "monitors",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "management_role",
+          "predicate": "manages",
+          "object": "climate_opportunities"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "affects",
+          "object": "cash_flows"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "affects",
+          "object": "cost_of_capital"
+        },
+        {
+          "subject": "climate_opportunities",
+          "predicate": "affects",
+          "object": "cash_flows"
+        },
+        {
+          "subject": "climate_opportunities",
+          "predicate": "affects",
+          "object": "cost_of_capital"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "affects",
+          "object": "business_model"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "affects",
+          "object": "value_chain"
+        },
+        {
+          "subject": "climate_opportunities",
+          "predicate": "affects",
+          "object": "business_model"
+        },
+        {
+          "subject": "climate_opportunities",
+          "predicate": "affects",
+          "object": "value_chain"
+        },
+        {
+          "subject": "transition_plan",
+          "predicate": "addresses",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "transition_plan",
+          "predicate": "addresses",
+          "object": "climate_opportunities"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "affects",
+          "object": "financial_position"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "affects",
+          "object": "financial_performance"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "affects",
+          "object": "cash_flows"
+        },
+        {
+          "subject": "climate_related_opportunities",
+          "predicate": "affects",
+          "object": "financial_position"
+        },
+        {
+          "subject": "climate_related_opportunities",
+          "predicate": "affects",
+          "object": "financial_performance"
+        },
+        {
+          "subject": "climate_related_opportunities",
+          "predicate": "affects",
+          "object": "cash_flows"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "may_cause_material_adjustment_to",
+          "object": "carrying_amounts_assets_liabilities"
+        },
+        {
+          "subject": "climate_related_opportunities",
+          "predicate": "may_cause_material_adjustment_to",
+          "object": "carrying_amounts_assets_liabilities"
+        },
+        {
+          "subject": "strategy",
+          "predicate": "manages",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "strategy",
+          "predicate": "manages",
+          "object": "climate_related_opportunities"
+        },
+        {
+          "subject": "strategy",
+          "predicate": "includes",
+          "object": "capital_expenditure"
+        },
+        {
+          "subject": "strategy",
+          "predicate": "includes",
+          "object": "climate_mitigation_investments"
+        },
+        {
+          "subject": "strategy",
+          "predicate": "includes",
+          "object": "climate_adaptation_investments"
+        },
+        {
+          "subject": "climate_related_opportunities",
+          "predicate": "generates",
+          "object": "lower_carbon_economy_revenue"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "causes",
+          "object": "physical_damage_costs"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "requires",
+          "object": "climate_adaptation_expenses"
+        },
+        {
+          "subject": "climate_scenario_analysis",
+          "predicate": "assesses",
+          "object": "climate_resilience"
+        },
+        {
+          "subject": "climate_resilience",
+          "predicate": "relates_to",
+          "object": "strategy"
+        },
+        {
+          "subject": "climate_resilience",
+          "predicate": "relates_to",
+          "object": "business_model"
+        },
+        {
+          "subject": "climate_resilience",
+          "predicate": "depends_on",
+          "object": "financial_resources"
+        },
+        {
+          "subject": "climate_mitigation_investments",
+          "predicate": "enhances",
+          "object": "climate_resilience"
+        },
+        {
+          "subject": "climate_adaptation_investments",
+          "predicate": "enhances",
+          "object": "climate_resilience"
+        },
+        {
+          "subject": "financial_resources",
+          "predicate": "enables_response_to",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "financial_resources",
+          "predicate": "enables_capture_of",
+          "object": "climate_related_opportunities"
+        },
+        {
+          "subject": "scope3_emissions",
+          "predicate": "includes",
+          "object": "financed_emissions"
+        },
+        {
+          "subject": "financed_emissions",
+          "predicate": "disaggregated_into",
+          "object": "financed_emissions_scope1"
+        },
+        {
+          "subject": "financed_emissions",
+          "predicate": "disaggregated_into",
+          "object": "financed_emissions_scope2"
+        },
+        {
+          "subject": "financed_emissions",
+          "predicate": "disaggregated_into",
+          "object": "financed_emissions_scope3"
+        },
+        {
+          "subject": "financed_emissions",
+          "predicate": "associated_with",
+          "object": "aum_financed_emissions"
+        },
+        {
+          "subject": "aum_percentage",
+          "predicate": "calculated_from",
+          "object": "aum_financed_emissions"
+        },
+        {
+          "subject": "scope3_emissions",
+          "predicate": "measured_using",
+          "object": "secondary_data"
+        },
+        {
+          "subject": "scope3_emissions",
+          "predicate": "measured_using",
+          "object": "verified_data"
+        },
+        {
+          "subject": "verified_data",
+          "predicate": "prioritized_for",
+          "object": "scope3_emissions"
+        },
+        {
+          "subject": "secondary_data",
+          "predicate": "represents",
+          "object": "value_chain_activity"
+        },
+        {
+          "subject": "financed_emissions",
+          "predicate": "indicates_exposure_to",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "asset_management",
+          "predicate": "requires_disclosure_of",
+          "object": "financed_emissions"
+        },
+        {
+          "subject": "commercial_banking",
+          "predicate": "requires_disclosure_of",
+          "object": "financed_emissions"
+        },
+        {
+          "subject": "insurance",
+          "predicate": "requires_disclosure_of",
+          "object": "financed_emissions"
+        },
+        {
+          "subject": "scope3_emissions",
+          "predicate": "derived_from",
+          "object": "value_chain_activity"
+        },
+        {
+          "subject": "scope_1_emissions",
+          "predicate": "measured_using",
+          "object": "ghg_protocol_2004"
+        },
+        {
+          "subject": "scope_2_emissions",
+          "predicate": "measured_using",
+          "object": "ghg_protocol_2004"
+        },
+        {
+          "subject": "scope_3_emissions",
+          "predicate": "measured_using",
+          "object": "ghg_protocol_2004"
+        },
+        {
+          "subject": "scope_3_emissions",
+          "predicate": "categorized_by",
+          "object": "ghg_protocol_scope3_2011"
+        },
+        {
+          "subject": "scope_1_emissions",
+          "predicate": "disaggregated_by",
+          "object": "consolidated_accounting_group"
+        },
+        {
+          "subject": "scope_1_emissions",
+          "predicate": "disaggregated_by",
+          "object": "other_investees"
+        },
+        {
+          "subject": "scope_2_emissions",
+          "predicate": "disaggregated_by",
+          "object": "consolidated_accounting_group"
+        },
+        {
+          "subject": "scope_2_emissions",
+          "predicate": "disaggregated_by",
+          "object": "other_investees"
+        },
+        {
+          "subject": "scope_2_emissions",
+          "predicate": "includes",
+          "object": "location_based_scope_2"
+        },
+        {
+          "subject": "internal_carbon_price",
+          "predicate": "used_for",
+          "object": "scope_1_emissions"
+        },
+        {
+          "subject": "internal_carbon_price",
+          "predicate": "used_for",
+          "object": "scope_2_emissions"
+        },
+        {
+          "subject": "internal_carbon_price",
+          "predicate": "used_for",
+          "object": "scope_3_emissions"
+        },
+        {
+          "subject": "climate_linked_remuneration",
+          "predicate": "monitors",
+          "object": "climate_targets"
+        },
+        {
+          "subject": "capital_deployment",
+          "predicate": "addresses",
+          "object": "climate_transition_risk_assets"
+        },
+        {
+          "subject": "capital_deployment",
+          "predicate": "addresses",
+          "object": "climate_physical_risk_assets"
+        },
+        {
+          "subject": "capital_deployment",
+          "predicate": "addresses",
+          "object": "climate_opportunity_assets"
+        },
+        {
+          "subject": "climate_targets",
+          "predicate": "tracks",
+          "object": "scope_1_emissions"
+        },
+        {
+          "subject": "climate_targets",
+          "predicate": "tracks",
+          "object": "scope_2_emissions"
+        },
+        {
+          "subject": "climate_targets",
+          "predicate": "tracks",
+          "object": "scope_3_emissions"
+        }
+      ],
+      "entity_count": 96,
+      "relationship_count": 117
+    }
+  }
+}

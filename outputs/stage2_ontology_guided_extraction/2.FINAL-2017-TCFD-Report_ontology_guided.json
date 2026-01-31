@@ -1,0 +1,2705 @@
+{
+  "entities": [
+    {
+      "id": "industry_TCFD",
+      "type": "Industry",
+      "label": "Cross-Sector Organizations",
+      "properties": {
+        "sector": "All Sectors",
+        "country": "Global (G20)",
+        "standard_reference": "TCFD"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_003",
+        "section_title": "The Task Force’s Remit",
+        "extraction_timestamp": "2025-11-18T13:45:29.412625"
+      }
+    },
+    {
+      "id": "framework_TCFD",
+      "type": "ReportingFramework",
+      "label": "TCFD",
+      "properties": {
+        "name": "Task Force on Climate-related Financial Disclosures",
+        "version": "Final Report",
+        "year": "2017",
+        "publisher": "Financial Stability Board"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_003",
+        "section_title": "The Task Force’s Remit",
+        "extraction_timestamp": "2025-11-18T13:45:29.412636"
+      }
+    },
+    {
+      "id": "category_TCFD_Governance",
+      "type": "Category",
+      "label": "Governance",
+      "properties": {
+        "section_title": "Governance",
+        "section_id": "TCFD-Governance",
+        "page_range": "N/A"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_003",
+        "section_title": "The Task Force’s Remit",
+        "extraction_timestamp": "2025-11-18T13:45:29.412639"
+      }
+    },
+    {
+      "id": "category_TCFD_Strategy",
+      "type": "Category",
+      "label": "Strategy",
+      "properties": {
+        "section_title": "Strategy",
+        "section_id": "TCFD-Strategy",
+        "page_range": "N/A"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_003",
+        "section_title": "The Task Force’s Remit",
+        "extraction_timestamp": "2025-11-18T13:45:29.412642"
+      }
+    },
+    {
+      "id": "category_TCFD_RiskMgmt",
+      "type": "Category",
+      "label": "Risk Management",
+      "properties": {
+        "section_title": "Risk Management",
+        "section_id": "TCFD-RiskManagement",
+        "page_range": "N/A"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_003",
+        "section_title": "The Task Force’s Remit",
+        "extraction_timestamp": "2025-11-18T13:45:29.412645"
+      }
+    },
+    {
+      "id": "category_TCFD_MetricsTargets",
+      "type": "Category",
+      "label": "Metrics and Targets",
+      "properties": {
+        "section_title": "Metrics and Targets",
+        "section_id": "TCFD-MetricsTargets",
+        "page_range": "N/A"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_003",
+        "section_title": "The Task Force’s Remit",
+        "extraction_timestamp": "2025-11-18T13:45:29.412648"
+      }
+    },
+    {
+      "id": "industry_TCFD_General",
+      "type": "Industry",
+      "label": "Cross-Sector (TCFD Applicable)",
+      "properties": {
+        "sector": "All Sectors",
+        "country": "Global",
+        "standard_reference": "TCFD"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_005",
+        "section_title": "Climate-Related Opportunities",
+        "extraction_timestamp": "2025-11-18T13:46:13.640265"
+      }
+    },
+    {
+      "id": "industry_001",
+      "type": "Industry",
+      "label": "Financial Markets",
+      "properties": {
+        "sector": "Financials",
+        "country": "G20 jurisdictions",
+        "standard_reference": "TCFD"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_006",
+        "section_title": "Financial Impacts",
+        "extraction_timestamp": "2025-11-18T13:46:42.306834"
+      }
+    },
+    {
+      "id": "category_TCFD_B",
+      "type": "Category",
+      "label": "Climate-Related Risks, Opportunities, and Financial Impacts",
+      "properties": {
+        "section_title": "Climate-Related Risks, Opportunities, and Financial Impacts",
+        "section_id": "B",
+        "page_range": "5-11"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_006",
+        "section_title": "Financial Impacts",
+        "extraction_timestamp": "2025-11-18T13:46:42.306845"
+      }
+    },
+    {
+      "id": "category_TCFD_6_opps",
+      "type": "Category",
+      "label": "Climate-Related Opportunities",
+      "properties": {
+        "section_title": "Climate-Related Opportunities",
+        "section_id": "2",
+        "page_range": "6-7"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_007",
+        "section_title": "Overview of Recommendations and Guidance",
+        "extraction_timestamp": "2025-11-18T13:47:59.970898"
+      }
+    },
+    {
+      "id": "metric_TCFD_6_001",
+      "type": "Metric",
+      "label": "Technology Risk",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "N/A",
+        "description": "Technological improvements or innovations that support the transition to a lower-carbon, energy-efficient economic system can have a significant impact on organizations. For example, the development and use of emerging technologies such as renewable energy, battery storage, energy efficiency, and carbon capture and storage will affect the competitiveness of certain organizations.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_007",
+        "section_title": "Overview of Recommendations and Guidance",
+        "extraction_timestamp": "2025-11-18T13:47:59.970901"
+      }
+    },
+    {
+      "id": "metric_TCFD_6_002",
+      "type": "Metric",
+      "label": "Market Risk",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "N/A",
+        "description": "Market risks resulting from shifts in supply and demand for certain commodities, products, and services as climate-related risks and opportunities are increasingly taken into account.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_007",
+        "section_title": "Overview of Recommendations and Guidance",
+        "extraction_timestamp": "2025-11-18T13:47:59.970902"
+      }
+    },
+    {
+      "id": "metric_TCFD_6_003",
+      "type": "Metric",
+      "label": "Reputation Risk",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "N/A",
+        "description": "Climate change has been identified as a potential source of reputational risk tied to changing customer or community perceptions of an organization's contribution to or detraction from the transition to a lower-carbon economy.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_007",
+        "section_title": "Overview of Recommendations and Guidance",
+        "extraction_timestamp": "2025-11-18T13:47:59.970903"
+      }
+    },
+    {
+      "id": "metric_TCFD_6_004",
+      "type": "Metric",
+      "label": "Acute Physical Risk",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "N/A",
+        "description": "Acute physical risks refer to those that are event-driven, including increased severity of extreme weather events, such as cyclones, hurricanes, or floods.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_007",
+        "section_title": "Overview of Recommendations and Guidance",
+        "extraction_timestamp": "2025-11-18T13:47:59.970905"
+      }
+    },
+    {
+      "id": "metric_TCFD_6_005",
+      "type": "Metric",
+      "label": "Chronic Physical Risk",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "N/A",
+        "description": "Chronic physical risks refer to longer-term shifts in climate patterns (e.g., sustained higher temperatures) that may cause sea level rise or chronic heat waves.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_007",
+        "section_title": "Overview of Recommendations and Guidance",
+        "extraction_timestamp": "2025-11-18T13:47:59.970906"
+      }
+    },
+    {
+      "id": "metric_TCFD_6_006",
+      "type": "Metric",
+      "label": "Resource Efficiency Opportunity",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "N/A",
+        "description": "Organizations that have successfully reduced operating costs by improving efficiency across their production and distribution processes, buildings, machinery/appliances, and transport/mobility.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_007",
+        "section_title": "Overview of Recommendations and Guidance",
+        "extraction_timestamp": "2025-11-18T13:47:59.970907"
+      }
+    },
+    {
+      "id": "metric_TCFD_7_007",
+      "type": "Metric",
+      "label": "Energy Source Opportunity",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "N/A",
+        "description": "Organizations that shift their energy usage toward low emission energy sources (e.g., wind, solar, wave, tidal, hydro, geothermal, nuclear, biofuels, and carbon capture and storage) could potentially save on annual energy costs.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_007",
+        "section_title": "Overview of Recommendations and Guidance",
+        "extraction_timestamp": "2025-11-18T13:47:59.970908"
+      }
+    },
+    {
+      "id": "metric_TCFD_7_008",
+      "type": "Metric",
+      "label": "Products and Services Opportunity",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "N/A",
+        "description": "Organizations that innovate and develop new low-emission products and services may improve their competitive position and capitalize on shifting consumer and producer preferences.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_007",
+        "section_title": "Overview of Recommendations and Guidance",
+        "extraction_timestamp": "2025-11-18T13:47:59.970910"
+      }
+    },
+    {
+      "id": "metric_TCFD_7_009",
+      "type": "Metric",
+      "label": "Markets Opportunity",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "N/A",
+        "description": "Organizations that pro-actively seek opportunities in new markets or types of assets may be able to diversify their activities and better position themselves for the transition to a lower-carbon economy.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_007",
+        "section_title": "Overview of Recommendations and Guidance",
+        "extraction_timestamp": "2025-11-18T13:47:59.970911"
+      }
+    },
+    {
+      "id": "metric_TCFD_7_010",
+      "type": "Metric",
+      "label": "Resilience Opportunity",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "N/A",
+        "description": "Climate resilience involves organizations developing adaptive capacity to respond to climate change to better manage the associated risks and seize opportunities, including the ability to respond to transition risks and physical risks.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_007",
+        "section_title": "Overview of Recommendations and Guidance",
+        "extraction_timestamp": "2025-11-18T13:47:59.970912"
+      }
+    },
+    {
+      "id": "metric_TCFD_8_011",
+      "type": "Metric",
+      "label": "Revenue Impact from Climate Risks",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "N/A",
+        "description": "Transition and physical risks may affect demand for products and services. Organizations should consider the potential impact on revenues and identify potential opportunities for enhancing or developing new revenues.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_007",
+        "section_title": "Overview of Recommendations and Guidance",
+        "extraction_timestamp": "2025-11-18T13:47:59.970913"
+      }
+    },
+    {
+      "id": "metric_TCFD_9_012",
+      "type": "Metric",
+      "label": "Expenditure Impact from Climate Risks",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "N/A",
+        "description": "An organization's response to climate-related risks and opportunities may depend on the organization's cost structure. Lower-cost suppliers may be more resilient to changes in cost resulting from climate-related issues.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_007",
+        "section_title": "Overview of Recommendations and Guidance",
+        "extraction_timestamp": "2025-11-18T13:47:59.970915"
+      }
+    },
+    {
+      "id": "metric_TCFD_9_013",
+      "type": "Metric",
+      "label": "Assets and Liabilities Impact",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "N/A",
+        "description": "Supply and demand changes from changes in policies, technology, and market dynamics related to climate change could affect the valuation of organizations' assets and liabilities. Use of long-lived assets and reserves may be particularly affected by climate-related issues.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_007",
+        "section_title": "Overview of Recommendations and Guidance",
+        "extraction_timestamp": "2025-11-18T13:47:59.970916"
+      }
+    },
+    {
+      "id": "metric_TCFD_9_014",
+      "type": "Metric",
+      "label": "Capital and Financing Impact",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "N/A",
+        "description": "Climate-related risks and opportunities may change the profile of an organization's debt and equity structure, either by increasing debt levels to compensate for reduced operating cash flows or for new capital expenditures or R&D.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_007",
+        "section_title": "Overview of Recommendations and Guidance",
+        "extraction_timestamp": "2025-11-18T13:47:59.970917"
+      }
+    },
+    {
+      "id": "industry_TCFD_generic",
+      "type": "Industry",
+      "label": "All Sectors",
+      "properties": {
+        "sector": "Cross-Sector",
+        "country": "N/A",
+        "standard_reference": "TCFD"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_008",
+        "section_title": "Implementing the Recommendations",
+        "extraction_timestamp": "2025-11-18T13:48:33.326482"
+      }
+    },
+    {
+      "id": "category_TCFD_10",
+      "type": "Category",
+      "label": "Climate-Related Risks and Opportunities",
+      "properties": {
+        "section_title": "Implementing the Recommendations",
+        "section_id": "Section B",
+        "page_range": "10-11"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_008",
+        "section_title": "Implementing the Recommendations",
+        "extraction_timestamp": "2025-11-18T13:48:33.326490"
+      }
+    },
+    {
+      "id": "metric_TCFD_10_001",
+      "type": "Metric",
+      "label": "Climate-Related Risks Disclosure",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "N/A",
+        "description": "Description of climate-related risks including transition risks (policy and legal, technology, market, reputation) and physical risks (acute and chronic) with associated potential financial impacts such as increased operating costs, write-offs, asset impairment, reduced revenues, and increased capital costs",
+        "disaggregations": [
+          "Policy and Legal Risks",
+          "Technology Risks",
+          "Market Risks",
+          "Reputation Risks",
+          "Acute Physical Risks",
+          "Chronic Physical Risks"
+        ]
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_008",
+        "section_title": "Implementing the Recommendations",
+        "extraction_timestamp": "2025-11-18T13:48:33.326492"
+      }
+    },
+    {
+      "id": "metric_TCFD_11_001",
+      "type": "Metric",
+      "label": "Climate-Related Opportunities Disclosure",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "N/A",
+        "description": "Description of climate-related opportunities including resource efficiency, energy source transitions, products and services development, market access, and resilience strategies with associated potential financial impacts such as reduced operating costs, increased revenues, improved competitive position, and enhanced market valuation",
+        "disaggregations": [
+          "Resource Efficiency",
+          "Energy Source",
+          "Products and Services",
+          "Markets",
+          "Resilience"
+        ]
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_008",
+        "section_title": "Implementing the Recommendations",
+        "extraction_timestamp": "2025-11-18T13:48:33.326494"
+      }
+    },
+    {
+      "id": "metric_TCFD_14_001",
+      "type": "Metric",
+      "label": "Board Oversight of Climate-related Risks and Opportunities",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "Governance-a",
+        "description": "Describe the board's oversight of climate-related risks and opportunities.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_009",
+        "section_title": "Guidance for All Sectors",
+        "extraction_timestamp": "2025-11-18T13:49:38.644397"
+      }
+    },
+    {
+      "id": "metric_TCFD_14_002",
+      "type": "Metric",
+      "label": "Management's Role in Climate-related Risk Assessment",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "Governance-b",
+        "description": "Describe management's role in assessing and managing climate-related risks and opportunities.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_009",
+        "section_title": "Guidance for All Sectors",
+        "extraction_timestamp": "2025-11-18T13:49:38.644399"
+      }
+    },
+    {
+      "id": "metric_TCFD_14_003",
+      "type": "Metric",
+      "label": "Climate-related Risks and Opportunities Identified",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "Strategy-a",
+        "description": "Describe the climate-related risks and opportunities the organization has identified over the short, medium, and long term.",
+        "disaggregations": [
+          "Short term",
+          "Medium term",
+          "Long term"
+        ]
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_009",
+        "section_title": "Guidance for All Sectors",
+        "extraction_timestamp": "2025-11-18T13:49:38.644402"
+      }
+    },
+    {
+      "id": "metric_TCFD_14_004",
+      "type": "Metric",
+      "label": "Impact of Climate-related Risks on Business and Strategy",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "Strategy-b",
+        "description": "Describe the impact of climate-related risks and opportunities on the organization's businesses, strategy, and financial planning.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_009",
+        "section_title": "Guidance for All Sectors",
+        "extraction_timestamp": "2025-11-18T13:49:38.644406"
+      }
+    },
+    {
+      "id": "metric_TCFD_14_005",
+      "type": "Metric",
+      "label": "Resilience of Strategy under Climate Scenarios",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "Strategy-c",
+        "description": "Describe the resilience of the organization's strategy, taking into consideration different climate-related scenarios, including a 2°C or lower scenario.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_009",
+        "section_title": "Guidance for All Sectors",
+        "extraction_timestamp": "2025-11-18T13:49:38.644409"
+      }
+    },
+    {
+      "id": "metric_TCFD_14_006",
+      "type": "Metric",
+      "label": "Processes for Identifying Climate-related Risks",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "RiskManagement-a",
+        "description": "Describe the organization's processes for identifying and assessing climate-related risks.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_009",
+        "section_title": "Guidance for All Sectors",
+        "extraction_timestamp": "2025-11-18T13:49:38.644412"
+      }
+    },
+    {
+      "id": "metric_TCFD_14_007",
+      "type": "Metric",
+      "label": "Processes for Managing Climate-related Risks",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "RiskManagement-b",
+        "description": "Describe the organization's processes for managing climate-related risks.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_009",
+        "section_title": "Guidance for All Sectors",
+        "extraction_timestamp": "2025-11-18T13:49:38.644414"
+      }
+    },
+    {
+      "id": "metric_TCFD_14_008",
+      "type": "Metric",
+      "label": "Integration of Climate Risk Processes into Overall Risk Management",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "RiskManagement-c",
+        "description": "Describe how processes for identifying, assessing, and managing climate-related risks are integrated into the organization's overall risk management.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_009",
+        "section_title": "Guidance for All Sectors",
+        "extraction_timestamp": "2025-11-18T13:49:38.644417"
+      }
+    },
+    {
+      "id": "metric_TCFD_14_009",
+      "type": "Metric",
+      "label": "Metrics for Assessing Climate-related Risks and Opportunities",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "DirectMetric",
+        "unit": "Various",
+        "code": "MetricsTargets-a",
+        "description": "Disclose the metrics used by the organization to assess climate-related risks and opportunities in line with its strategy and risk management process.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_009",
+        "section_title": "Guidance for All Sectors",
+        "extraction_timestamp": "2025-11-18T13:49:38.644419"
+      }
+    },
+    {
+      "id": "metric_TCFD_14_010",
+      "type": "Metric",
+      "label": "Greenhouse Gas Emissions (Scope 1, 2, and 3)",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "DirectMetric",
+        "unit": "Metric tons CO2 equivalent (tCO2e)",
+        "code": "MetricsTargets-b",
+        "description": "Disclose Scope 1, Scope 2, and, if appropriate, Scope 3 greenhouse gas (GHG) emissions, and the related risks.",
+        "disaggregations": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ]
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_009",
+        "section_title": "Guidance for All Sectors",
+        "extraction_timestamp": "2025-11-18T13:49:38.644422"
+      }
+    },
+    {
+      "id": "metric_TCFD_14_011",
+      "type": "Metric",
+      "label": "Targets for Managing Climate-related Risks and Performance",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "DirectMetric",
+        "unit": "Various",
+        "code": "MetricsTargets-c",
+        "description": "Describe the targets used by the organization to manage climate-related risks and opportunities and performance against targets.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_009",
+        "section_title": "Guidance for All Sectors",
+        "extraction_timestamp": "2025-11-18T13:49:38.644425"
+      }
+    },
+    {
+      "id": "industry_TCFD-AM-AO",
+      "type": "Industry",
+      "label": "Asset Managers and Asset Owners",
+      "properties": {
+        "sector": "Financials",
+        "country": "N/A",
+        "standard_reference": "TCFD"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_010",
+        "section_title": "Overview of Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:50:17.317765"
+      }
+    },
+    {
+      "id": "category_TCFD_18",
+      "type": "Category",
+      "label": "Principles for Effective Disclosures",
+      "properties": {
+        "section_title": "Principles for Effective Disclosures",
+        "section_id": "C",
+        "page_range": "18"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_010",
+        "section_title": "Overview of Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:50:17.317783"
+      }
+    },
+    {
+      "id": "metric_TCFD_18_001",
+      "type": "Metric",
+      "label": "Disclosure Relevance",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "TCFD-Principle-1",
+        "description": "Disclosures should represent relevant information",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_010",
+        "section_title": "Overview of Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:50:17.317786"
+      }
+    },
+    {
+      "id": "metric_TCFD_18_002",
+      "type": "Metric",
+      "label": "Disclosure Specificity and Completeness",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "TCFD-Principle-2",
+        "description": "Disclosures should be specific and complete",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_010",
+        "section_title": "Overview of Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:50:17.317789"
+      }
+    },
+    {
+      "id": "metric_TCFD_18_003",
+      "type": "Metric",
+      "label": "Disclosure Clarity and Understandability",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "TCFD-Principle-3",
+        "description": "Disclosures should be clear, balanced, and understandable",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_010",
+        "section_title": "Overview of Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:50:17.317792"
+      }
+    },
+    {
+      "id": "metric_TCFD_18_004",
+      "type": "Metric",
+      "label": "Disclosure Consistency Over Time",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "TCFD-Principle-4",
+        "description": "Disclosures should be consistent over time",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_010",
+        "section_title": "Overview of Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:50:17.317796"
+      }
+    },
+    {
+      "id": "metric_TCFD_18_005",
+      "type": "Metric",
+      "label": "Disclosure Comparability",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "TCFD-Principle-5",
+        "description": "Disclosures should be comparable among companies within a sector, industry, or portfolio",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_010",
+        "section_title": "Overview of Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:50:17.317799"
+      }
+    },
+    {
+      "id": "metric_TCFD_18_006",
+      "type": "Metric",
+      "label": "Disclosure Reliability and Objectivity",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "TCFD-Principle-6",
+        "description": "Disclosures should be reliable, verifiable, and objective",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_010",
+        "section_title": "Overview of Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:50:17.317801"
+      }
+    },
+    {
+      "id": "metric_TCFD_18_007",
+      "type": "Metric",
+      "label": "Disclosure Timeliness",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "TCFD-Principle-7",
+        "description": "Disclosures should be provided on a timely basis",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_010",
+        "section_title": "Overview of Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:50:17.317804"
+      }
+    },
+    {
+      "id": "metric_TCFD_19_001",
+      "type": "Metric",
+      "label": "Board Oversight of Climate-Related Issues",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "TCFD-Gov-a",
+        "description": "Describe the board's oversight of climate-related risks and opportunities",
+        "disaggregations": [
+          "Processes and frequency by which the board and/or board committees are informed about climate-related issues",
+          "Whether the board and/or board committees consider climate-related issues when reviewing and guiding strategy, major plans of action, risk management policies, annual budgets, and business plans",
+          "How the board monitors and oversees progress against goals and targets for addressing climate-related issues"
+        ]
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_011",
+        "section_title": "Exposure to Climate-Related Risks",
+        "extraction_timestamp": "2025-11-18T13:50:44.592011"
+      }
+    },
+    {
+      "id": "metric_TCFD_19_002",
+      "type": "Metric",
+      "label": "Management's Role in Climate-Related Issues",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "TCFD-Gov-b",
+        "description": "Describe management's role in assessing and managing climate-related risks and opportunities",
+        "disaggregations": [
+          "Whether the organization has assigned climate-related responsibilities to management-level positions or committees",
+          "Description of the associated organizational structure(s)",
+          "Processes by which management is informed about climate-related issues",
+          "How management monitors climate-related issues"
+        ]
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_011",
+        "section_title": "Exposure to Climate-Related Risks",
+        "extraction_timestamp": "2025-11-18T13:50:44.592014"
+      }
+    },
+    {
+      "id": "metric_TCFD_20_001",
+      "type": "Metric",
+      "label": "Climate-related Risks and Opportunities Description",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "TCFD-Strategy-a",
+        "description": "Describe the climate-related risks and opportunities the organization has identified over the short, medium, and long term."
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_012",
+        "section_title": "Recommended Approach to Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:51:33.957233"
+      }
+    },
+    {
+      "id": "metric_TCFD_20_002",
+      "type": "Metric",
+      "label": "Time Horizons Definition",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "TCFD-Strategy-a1",
+        "description": "A description of what the organization considers to be the relevant short-, medium-, and long-term time horizons, taking into consideration the useful life of assets or infrastructure and climate-related issues."
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_012",
+        "section_title": "Recommended Approach to Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:51:33.957235"
+      }
+    },
+    {
+      "id": "metric_TCFD_20_003",
+      "type": "Metric",
+      "label": "Impact on Businesses, Strategy, and Financial Planning",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "TCFD-Strategy-b",
+        "description": "Describe the impact of climate-related risks and opportunities on the organization's businesses, strategy, and financial planning.",
+        "disaggregations": [
+          "Products and services",
+          "Supply chain and/or value chain",
+          "Adaptation and mitigation activities",
+          "Investment in research and development",
+          "Operations",
+          "Operating costs and revenues",
+          "Capital expenditures and capital allocation",
+          "Acquisitions or divestments",
+          "Access to capital"
+        ]
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_012",
+        "section_title": "Recommended Approach to Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:51:33.957238"
+      }
+    },
+    {
+      "id": "metric_TCFD_20_004",
+      "type": "Metric",
+      "label": "Scenario Analysis Description",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "TCFD-Strategy-c",
+        "description": "Describe the resilience of the organization's strategy, taking into consideration different climate-related scenarios, including a 2°C or lower scenario."
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_012",
+        "section_title": "Recommended Approach to Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:51:33.957240"
+      }
+    },
+    {
+      "id": "metric_TCFD_21_001",
+      "type": "Metric",
+      "label": "Processes for Identifying and Assessing Climate-related Risks",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "TCFD-RiskMgmt-a",
+        "description": "Describe the organization's processes for identifying and assessing climate-related risks, including how the relative significance is determined and existing and emerging regulatory requirements are considered."
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_012",
+        "section_title": "Recommended Approach to Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:51:33.957242"
+      }
+    },
+    {
+      "id": "metric_TCFD_21_002",
+      "type": "Metric",
+      "label": "Processes for Managing Climate-related Risks",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "TCFD-RiskMgmt-b",
+        "description": "Describe the organization's processes for managing climate-related risks, including how decisions to mitigate, transfer, accept, or control risks are made and how risks are prioritized."
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_012",
+        "section_title": "Recommended Approach to Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:51:33.957245"
+      }
+    },
+    {
+      "id": "category_TCFD_26_01",
+      "type": "Category",
+      "label": "Scenario Analysis and Climate-Related Issues",
+      "properties": {
+        "section_title": "Scenario Analysis and Climate-Related Issues",
+        "section_id": "D",
+        "page_range": "26-27"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_014",
+        "section_title": "Location of Disclosures and Materiality",
+        "extraction_timestamp": "2025-11-18T13:53:07.240556"
+      }
+    },
+    {
+      "id": "metric_TCFD_22_001",
+      "type": "Metric",
+      "label": "Climate-Related Risk Management Integration",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "N/A",
+        "code": "TCFD-RM-c",
+        "description": "Description of how processes for identifying, assessing, and managing climate-related risks are integrated into the organization's overall risk management"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_013",
+        "section_title": "Applying Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:52:41.224300"
+      }
+    },
+    {
+      "id": "metric_TCFD_22_002",
+      "type": "Metric",
+      "label": "Key Climate-Related Metrics",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "DirectMetric",
+        "unit": "Various",
+        "code": "TCFD-MT-a",
+        "description": "Key metrics used to measure and manage climate-related risks and opportunities, including metrics on climate-related risks associated with water, energy, land use, and waste management",
+        "disaggregations": [
+          "water",
+          "energy",
+          "land use",
+          "waste management"
+        ]
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_013",
+        "section_title": "Applying Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:52:41.224303"
+      }
+    },
+    {
+      "id": "metric_TCFD_22_003",
+      "type": "Metric",
+      "label": "Total GHG Emissions (Scope 1, 2, and 3)",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "CalculatedMetric",
+        "unit": "Metric tons CO₂-e",
+        "code": "TCFD-MT-a.1",
+        "description": "Scope 1, Scope 2, and, if appropriate, Scope 3 greenhouse gas (GHG) emissions, and the related risks. GHG emissions calculated in line with the GHG Protocol methodology to allow for aggregation and comparability across organizations and jurisdictions.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_013",
+        "section_title": "Applying Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:52:41.224306"
+      }
+    },
+    {
+      "id": "model_TCFD_22_003",
+      "type": "Model",
+      "label": "GHG Emissions Aggregation Model",
+      "properties": {
+        "description": "Aggregation model that calculates total GHG emissions by combining Scope 1, Scope 2, and Scope 3 emissions in line with GHG Protocol methodology for comparability across organizations and jurisdictions",
+        "equation": "Total GHG Emissions = Scope 1 + Scope 2 + Scope 3 (if appropriate)",
+        "input_variables": [
+          "Scope 1 GHG emissions",
+          "Scope 2 GHG emissions",
+          "Scope 3 GHG emissions"
+        ]
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_013",
+        "section_title": "Applying Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:52:41.224308"
+      }
+    },
+    {
+      "id": "metric_TCFD_22_004",
+      "type": "Metric",
+      "label": "Scope 1 GHG Emissions",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Metric tons CO₂-e",
+        "code": "N/A",
+        "description": "Direct greenhouse gas emissions from sources owned or controlled by the organization"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_013",
+        "section_title": "Applying Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:52:41.224310"
+      }
+    },
+    {
+      "id": "metric_TCFD_22_005",
+      "type": "Metric",
+      "label": "Scope 2 GHG Emissions",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Metric tons CO₂-e",
+        "code": "N/A",
+        "description": "Indirect greenhouse gas emissions from the generation of purchased electricity, steam, heating, and cooling consumed by the organization"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_013",
+        "section_title": "Applying Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:52:41.224312"
+      }
+    },
+    {
+      "id": "metric_TCFD_22_006",
+      "type": "Metric",
+      "label": "Scope 3 GHG Emissions",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Metric tons CO₂-e",
+        "code": "N/A",
+        "description": "All other indirect greenhouse gas emissions that occur in the organization's value chain"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_013",
+        "section_title": "Applying Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:52:41.224314"
+      }
+    },
+    {
+      "id": "metric_TCFD_22_007",
+      "type": "Metric",
+      "label": "GHG Efficiency Ratios",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "DirectMetric",
+        "unit": "Ratio",
+        "code": "N/A",
+        "description": "Industry-specific GHG efficiency ratios (e.g., emissions per unit of production, per employee, or per value-added)",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_013",
+        "section_title": "Applying Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:52:41.224316"
+      }
+    },
+    {
+      "id": "metric_TCFD_23_001",
+      "type": "Metric",
+      "label": "Base Year for Progress Measurement",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Year",
+        "code": "TCFD-MT-b.1",
+        "description": "Base year from which progress against targets is measured"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_013",
+        "section_title": "Applying Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:52:41.224319"
+      }
+    },
+    {
+      "id": "metric_TCFD_23_002",
+      "type": "Metric",
+      "label": "Key Performance Indicators for Target Assessment",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "DirectMetric",
+        "unit": "Various",
+        "code": "TCFD-MT-b.2",
+        "description": "Key performance indicators used to assess progress against targets for managing climate-related risks and opportunities"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_013",
+        "section_title": "Applying Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:52:41.224321"
+      }
+    },
+    {
+      "id": "metric_TCFD_25_001",
+      "type": "Metric",
+      "label": "Scenario Analysis Assessment",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "N/A",
+        "code": "TCFD-SA-1",
+        "description": "Use of scenario analysis to assess potential business, strategic, and financial implications of climate-related risks and opportunities under a range of plausible future states"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_013",
+        "section_title": "Applying Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:52:41.224323"
+      }
+    },
+    {
+      "id": "industry_TCFD-General",
+      "type": "Industry",
+      "label": "Climate-Exposed Organizations",
+      "properties": {
+        "sector": "Cross-sector",
+        "country": "Global",
+        "standard_reference": "TCFD"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_014",
+        "section_title": "Location of Disclosures and Materiality",
+        "extraction_timestamp": "2025-11-18T13:53:07.240543"
+      }
+    },
+    {
+      "id": "industry_003",
+      "type": "Industry",
+      "label": "Organizations with Climate-Related Exposures",
+      "properties": {
+        "sector": "Cross-sector",
+        "country": "N/A",
+        "standard_reference": "TCFD"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_015",
+        "section_title": "Data Availability and Quality and Financial Impact",
+        "extraction_timestamp": "2025-11-18T13:54:11.236994"
+      }
+    },
+    {
+      "id": "metric_TCFD_28_001",
+      "type": "Metric",
+      "label": "Scenarios Used Disclosure",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "TCFD-Figure8-Item1",
+        "description": "The scenarios used, including the 2°C or lower scenario",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_015",
+        "section_title": "Data Availability and Quality and Financial Impact",
+        "extraction_timestamp": "2025-11-18T13:54:11.237033"
+      }
+    },
+    {
+      "id": "metric_TCFD_28_002",
+      "type": "Metric",
+      "label": "Critical Input Parameters and Assumptions",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "CalculatedMetric",
+        "unit": "Discussion and Analysis",
+        "code": "TCFD-Figure8-Item2",
+        "description": "Critical input parameters, assumptions, and analytical choices for the scenarios used, including technology responses, regional differences, and sensitivities",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_015",
+        "section_title": "Data Availability and Quality and Financial Impact",
+        "extraction_timestamp": "2025-11-18T13:54:11.237037"
+      }
+    },
+    {
+      "id": "model_TCFD_28_002",
+      "type": "Model",
+      "label": "Scenario Input Parameters Analysis Model",
+      "properties": {
+        "description": "Composite analysis aggregating critical input parameters including technology assumptions, regional variations, and sensitivity analyses to characterize scenario analytical choices",
+        "equation": "f(TechnologyResponses, RegionalDifferences, KeySensitivities)",
+        "input_variables": [
+          "Technology responses and timing assumptions",
+          "Regional and market differences in parameters",
+          "Sensitivities to key assumptions"
+        ]
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_015",
+        "section_title": "Data Availability and Quality and Financial Impact",
+        "extraction_timestamp": "2025-11-18T13:54:11.237041"
+      }
+    },
+    {
+      "id": "metric_TCFD_28_003",
+      "type": "Metric",
+      "label": "Technology Responses and Timing Assumptions",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "InputMetric",
+        "unit": "Discussion and Analysis",
+        "code": "N/A",
+        "description": "Assumptions about possible technology responses and timing (e.g., evolution of products/services, the technology used to produce them, and costs to implement)"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_015",
+        "section_title": "Data Availability and Quality and Financial Impact",
+        "extraction_timestamp": "2025-11-18T13:54:11.237044"
+      }
+    },
+    {
+      "id": "metric_TCFD_28_004",
+      "type": "Metric",
+      "label": "Regional and Market Parameter Differences",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "InputMetric",
+        "unit": "Discussion and Analysis",
+        "code": "N/A",
+        "description": "Assumptions made around potential differences in input parameters across regions, countries, asset locations, and/or markets"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_015",
+        "section_title": "Data Availability and Quality and Financial Impact",
+        "extraction_timestamp": "2025-11-18T13:54:11.237047"
+      }
+    },
+    {
+      "id": "metric_TCFD_28_005",
+      "type": "Metric",
+      "label": "Sensitivities to Key Assumptions",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "InputMetric",
+        "unit": "Discussion and Analysis",
+        "code": "N/A",
+        "description": "Approximate sensitivities to key assumptions"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_015",
+        "section_title": "Data Availability and Quality and Financial Impact",
+        "extraction_timestamp": "2025-11-18T13:54:11.237050"
+      }
+    },
+    {
+      "id": "metric_TCFD_28_006",
+      "type": "Metric",
+      "label": "Scenario Time Frames Disclosure",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "TCFD-Figure8-Item3",
+        "description": "Time frames used for scenarios, including short-, medium-, and long-term milestones (e.g., how organizations consider timing of potential future implications under the scenarios used)",
+        "disaggregations": [
+          "Short-term",
+          "Medium-term",
+          "Long-term"
+        ]
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_015",
+        "section_title": "Data Availability and Quality and Financial Impact",
+        "extraction_timestamp": "2025-11-18T13:54:11.237053"
+      }
+    },
+    {
+      "id": "metric_TCFD_28_007",
+      "type": "Metric",
+      "label": "Organizational Resiliency Assessment",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "CalculatedMetric",
+        "unit": "Discussion and Analysis",
+        "code": "TCFD-Figure8-Item4",
+        "description": "Information about the resiliency of the organization's strategy, including strategic performance implications, value chain implications, capital allocation decisions, R&D focus, and material financial implications",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_015",
+        "section_title": "Data Availability and Quality and Financial Impact",
+        "extraction_timestamp": "2025-11-18T13:54:11.237056"
+      }
+    },
+    {
+      "id": "model_TCFD_28_007",
+      "type": "Model",
+      "label": "Strategic Resiliency Assessment Model",
+      "properties": {
+        "description": "Composite assessment synthesizing organizational resiliency from strategic performance, value chain implications, capital allocation, R&D priorities, and financial position impacts under scenario analysis",
+        "equation": "f(StrategicPerformance, ValueChainImplications, CapitalAllocation, R&DFocus, FinancialImplications)",
+        "input_variables": [
+          "Strategic performance implications",
+          "Value chain implications",
+          "Capital allocation decisions",
+          "Research and development focus",
+          "Material financial implications"
+        ]
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_015",
+        "section_title": "Data Availability and Quality and Financial Impact",
+        "extraction_timestamp": "2025-11-18T13:54:11.237058"
+      }
+    },
+    {
+      "id": "metric_TCFD_28_008",
+      "type": "Metric",
+      "label": "Strategic Performance Implications",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "InputMetric",
+        "unit": "Discussion and Analysis",
+        "code": "N/A",
+        "description": "Strategic performance implications under the various scenarios considered"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_015",
+        "section_title": "Data Availability and Quality and Financial Impact",
+        "extraction_timestamp": "2025-11-18T13:54:11.237061"
+      }
+    },
+    {
+      "id": "metric_TCFD_28_009",
+      "type": "Metric",
+      "label": "Value Chain Implications",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "InputMetric",
+        "unit": "Discussion and Analysis",
+        "code": "N/A",
+        "description": "Potential qualitative or directional implications for the organization's value chain"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_015",
+        "section_title": "Data Availability and Quality and Financial Impact",
+        "extraction_timestamp": "2025-11-18T13:54:11.237063"
+      }
+    },
+    {
+      "id": "metric_TCFD_28_010",
+      "type": "Metric",
+      "label": "Capital Allocation Decisions",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "InputMetric",
+        "unit": "Discussion and Analysis",
+        "code": "N/A",
+        "description": "Capital allocation decisions under scenario analysis"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_015",
+        "section_title": "Data Availability and Quality and Financial Impact",
+        "extraction_timestamp": "2025-11-18T13:54:11.237066"
+      }
+    },
+    {
+      "id": "metric_TCFD_28_011",
+      "type": "Metric",
+      "label": "Research and Development Focus",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "InputMetric",
+        "unit": "Discussion and Analysis",
+        "code": "N/A",
+        "description": "Research and development focus under scenario considerations"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_015",
+        "section_title": "Data Availability and Quality and Financial Impact",
+        "extraction_timestamp": "2025-11-18T13:54:11.237069"
+      }
+    },
+    {
+      "id": "metric_TCFD_28_012",
+      "type": "Metric",
+      "label": "Material Financial Implications",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "InputMetric",
+        "unit": "Discussion and Analysis",
+        "code": "N/A",
+        "description": "Potential material financial implications for the organization's operating results and/or financial position"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_015",
+        "section_title": "Data Availability and Quality and Financial Impact",
+        "extraction_timestamp": "2025-11-18T13:54:11.237071"
+      }
+    },
+    {
+      "id": "industry_TCFD-FS",
+      "type": "Industry",
+      "label": "Financial Sector Organizations",
+      "properties": {
+        "sector": "Financials",
+        "country": "N/A",
+        "standard_reference": "TCFD"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_016",
+        "section_title": "GHG Emissions Associated with Investments",
+        "extraction_timestamp": "2025-11-18T13:54:33.145231"
+      }
+    },
+    {
+      "id": "industry_TCFD-Generic",
+      "type": "Industry",
+      "label": "Organizations (Financial and Non-Financial)",
+      "properties": {
+        "sector": "Cross-sector",
+        "country": "Global (G20 focus)",
+        "standard_reference": "TCFD"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_019",
+        "section_title": "Organizational Ownership",
+        "extraction_timestamp": "2025-11-18T13:55:38.989819"
+      }
+    },
+    {
+      "id": "category_TCFD_39",
+      "type": "Category",
+      "label": "Key Issues Considered and Areas for Further Work: Organizational Ownership",
+      "properties": {
+        "section_title": "Organizational Ownership",
+        "section_id": "E.10",
+        "page_range": "39"
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_019",
+        "section_title": "Organizational Ownership",
+        "extraction_timestamp": "2025-11-18T13:55:38.989841"
+      }
+    },
+    {
+      "id": "metric_TCFD_39_001",
+      "type": "Metric",
+      "label": "Climate-Related Risk Governance and Responsibility Structure",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "N/A",
+        "description": "Disclosure of whether and how organizations have formalized responsibility for climate-related risk assessment and management, including the relationship between climate-related risk experts (e.g., environmental, social and governance experts, chief investment officers) and the finance function, and the integration of climate-related issues into strategic and financial planning processes.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_019",
+        "section_title": "Organizational Ownership",
+        "extraction_timestamp": "2025-11-18T13:55:38.989844"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "subject": "industry_003",
+      "predicate": "ReportUsing",
+      "object": "framework_TCFD",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_003",
+        "section_title": "The Task Force’s Remit",
+        "extraction_timestamp": "2025-11-18T13:45:29.412713"
+      }
+    },
+    {
+      "subject": "framework_TCFD",
+      "predicate": "Include",
+      "object": "category_TCFD_Governance",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_003",
+        "section_title": "The Task Force’s Remit",
+        "extraction_timestamp": "2025-11-18T13:45:29.412721"
+      }
+    },
+    {
+      "subject": "framework_TCFD",
+      "predicate": "Include",
+      "object": "category_TCFD_Strategy",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_003",
+        "section_title": "The Task Force’s Remit",
+        "extraction_timestamp": "2025-11-18T13:45:29.412725"
+      }
+    },
+    {
+      "subject": "framework_TCFD",
+      "predicate": "Include",
+      "object": "category_TCFD_RiskMgmt",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_003",
+        "section_title": "The Task Force’s Remit",
+        "extraction_timestamp": "2025-11-18T13:45:29.412728"
+      }
+    },
+    {
+      "subject": "framework_TCFD",
+      "predicate": "Include",
+      "object": "category_TCFD_MetricsTargets",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_003",
+        "section_title": "The Task Force’s Remit",
+        "extraction_timestamp": "2025-11-18T13:45:29.412730"
+      }
+    },
+    {
+      "subject": "industry_TCFD",
+      "predicate": "ReportUsing",
+      "object": "framework_TCFD",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_004",
+        "section_title": "Climate-Related Risks",
+        "extraction_timestamp": "2025-11-18T13:45:54.636039"
+      }
+    },
+    {
+      "subject": "industry_TCFD_General",
+      "predicate": "ReportUsing",
+      "object": "framework_TCFD",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_005",
+        "section_title": "Climate-Related Opportunities",
+        "extraction_timestamp": "2025-11-18T13:46:13.640280"
+      }
+    },
+    {
+      "subject": "framework_TCFD",
+      "predicate": "Include",
+      "object": "category_TCFD_B",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_006",
+        "section_title": "Financial Impacts",
+        "extraction_timestamp": "2025-11-18T13:46:42.306855"
+      }
+    },
+    {
+      "subject": "framework_TCFD",
+      "predicate": "Include",
+      "object": "category_TCFD_6_opps",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_007",
+        "section_title": "Overview of Recommendations and Guidance",
+        "extraction_timestamp": "2025-11-18T13:47:59.970923"
+      }
+    },
+    {
+      "subject": "category_TCFD_B",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_6_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_007",
+        "section_title": "Overview of Recommendations and Guidance",
+        "extraction_timestamp": "2025-11-18T13:47:59.970925"
+      }
+    },
+    {
+      "subject": "category_TCFD_B",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_6_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_007",
+        "section_title": "Overview of Recommendations and Guidance",
+        "extraction_timestamp": "2025-11-18T13:47:59.970926"
+      }
+    },
+    {
+      "subject": "category_TCFD_B",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_6_003",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_007",
+        "section_title": "Overview of Recommendations and Guidance",
+        "extraction_timestamp": "2025-11-18T13:47:59.970928"
+      }
+    },
+    {
+      "subject": "category_TCFD_B",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_6_004",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_007",
+        "section_title": "Overview of Recommendations and Guidance",
+        "extraction_timestamp": "2025-11-18T13:47:59.970929"
+      }
+    },
+    {
+      "subject": "category_TCFD_B",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_6_005",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_007",
+        "section_title": "Overview of Recommendations and Guidance",
+        "extraction_timestamp": "2025-11-18T13:47:59.970930"
+      }
+    },
+    {
+      "subject": "category_TCFD_6_opps",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_6_006",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_007",
+        "section_title": "Overview of Recommendations and Guidance",
+        "extraction_timestamp": "2025-11-18T13:47:59.970931"
+      }
+    },
+    {
+      "subject": "category_TCFD_6_opps",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_7_007",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_007",
+        "section_title": "Overview of Recommendations and Guidance",
+        "extraction_timestamp": "2025-11-18T13:47:59.970933"
+      }
+    },
+    {
+      "subject": "category_TCFD_6_opps",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_7_008",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_007",
+        "section_title": "Overview of Recommendations and Guidance",
+        "extraction_timestamp": "2025-11-18T13:47:59.970934"
+      }
+    },
+    {
+      "subject": "category_TCFD_6_opps",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_7_009",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_007",
+        "section_title": "Overview of Recommendations and Guidance",
+        "extraction_timestamp": "2025-11-18T13:47:59.970935"
+      }
+    },
+    {
+      "subject": "category_TCFD_6_opps",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_7_010",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_007",
+        "section_title": "Overview of Recommendations and Guidance",
+        "extraction_timestamp": "2025-11-18T13:47:59.970937"
+      }
+    },
+    {
+      "subject": "category_TCFD_B",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_8_011",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_007",
+        "section_title": "Overview of Recommendations and Guidance",
+        "extraction_timestamp": "2025-11-18T13:47:59.970938"
+      }
+    },
+    {
+      "subject": "category_TCFD_B",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_9_012",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_007",
+        "section_title": "Overview of Recommendations and Guidance",
+        "extraction_timestamp": "2025-11-18T13:47:59.970939"
+      }
+    },
+    {
+      "subject": "category_TCFD_B",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_9_013",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_007",
+        "section_title": "Overview of Recommendations and Guidance",
+        "extraction_timestamp": "2025-11-18T13:47:59.970940"
+      }
+    },
+    {
+      "subject": "category_TCFD_B",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_9_014",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_007",
+        "section_title": "Overview of Recommendations and Guidance",
+        "extraction_timestamp": "2025-11-18T13:47:59.970942"
+      }
+    },
+    {
+      "subject": "industry_TCFD_generic",
+      "predicate": "ReportUsing",
+      "object": "framework_TCFD",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_008",
+        "section_title": "Implementing the Recommendations",
+        "extraction_timestamp": "2025-11-18T13:48:33.326497"
+      }
+    },
+    {
+      "subject": "framework_TCFD",
+      "predicate": "Include",
+      "object": "category_TCFD_10",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_008",
+        "section_title": "Implementing the Recommendations",
+        "extraction_timestamp": "2025-11-18T13:48:33.326499"
+      }
+    },
+    {
+      "subject": "category_TCFD_10",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_10_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_008",
+        "section_title": "Implementing the Recommendations",
+        "extraction_timestamp": "2025-11-18T13:48:33.326501"
+      }
+    },
+    {
+      "subject": "category_TCFD_10",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_11_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_008",
+        "section_title": "Implementing the Recommendations",
+        "extraction_timestamp": "2025-11-18T13:48:33.326503"
+      }
+    },
+    {
+      "subject": "category_TCFD_Governance",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_14_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_009",
+        "section_title": "Guidance for All Sectors",
+        "extraction_timestamp": "2025-11-18T13:49:38.644450"
+      }
+    },
+    {
+      "subject": "category_TCFD_Governance",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_14_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_009",
+        "section_title": "Guidance for All Sectors",
+        "extraction_timestamp": "2025-11-18T13:49:38.644453"
+      }
+    },
+    {
+      "subject": "category_TCFD_Strategy",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_14_003",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_009",
+        "section_title": "Guidance for All Sectors",
+        "extraction_timestamp": "2025-11-18T13:49:38.644456"
+      }
+    },
+    {
+      "subject": "category_TCFD_Strategy",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_14_004",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_009",
+        "section_title": "Guidance for All Sectors",
+        "extraction_timestamp": "2025-11-18T13:49:38.644460"
+      }
+    },
+    {
+      "subject": "category_TCFD_Strategy",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_14_005",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_009",
+        "section_title": "Guidance for All Sectors",
+        "extraction_timestamp": "2025-11-18T13:49:38.644463"
+      }
+    },
+    {
+      "subject": "category_TCFD_RiskMgmt",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_14_006",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_009",
+        "section_title": "Guidance for All Sectors",
+        "extraction_timestamp": "2025-11-18T13:49:38.644465"
+      }
+    },
+    {
+      "subject": "category_TCFD_RiskMgmt",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_14_007",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_009",
+        "section_title": "Guidance for All Sectors",
+        "extraction_timestamp": "2025-11-18T13:49:38.644468"
+      }
+    },
+    {
+      "subject": "category_TCFD_RiskMgmt",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_14_008",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_009",
+        "section_title": "Guidance for All Sectors",
+        "extraction_timestamp": "2025-11-18T13:49:38.644470"
+      }
+    },
+    {
+      "subject": "category_TCFD_MetricsTargets",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_14_009",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_009",
+        "section_title": "Guidance for All Sectors",
+        "extraction_timestamp": "2025-11-18T13:49:38.644474"
+      }
+    },
+    {
+      "subject": "category_TCFD_MetricsTargets",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_14_010",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_009",
+        "section_title": "Guidance for All Sectors",
+        "extraction_timestamp": "2025-11-18T13:49:38.644478"
+      }
+    },
+    {
+      "subject": "category_TCFD_MetricsTargets",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_14_011",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_009",
+        "section_title": "Guidance for All Sectors",
+        "extraction_timestamp": "2025-11-18T13:49:38.644480"
+      }
+    },
+    {
+      "subject": "industry_TCFD-AM-AO",
+      "predicate": "ReportUsing",
+      "object": "framework_TCFD",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_010",
+        "section_title": "Overview of Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:50:17.317808"
+      }
+    },
+    {
+      "subject": "framework_TCFD",
+      "predicate": "Include",
+      "object": "category_TCFD_18",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_010",
+        "section_title": "Overview of Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:50:17.317813"
+      }
+    },
+    {
+      "subject": "category_TCFD_18",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_18_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_010",
+        "section_title": "Overview of Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:50:17.317816"
+      }
+    },
+    {
+      "subject": "category_TCFD_18",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_18_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_010",
+        "section_title": "Overview of Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:50:17.317818"
+      }
+    },
+    {
+      "subject": "category_TCFD_18",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_18_003",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_010",
+        "section_title": "Overview of Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:50:17.317821"
+      }
+    },
+    {
+      "subject": "category_TCFD_18",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_18_004",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_010",
+        "section_title": "Overview of Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:50:17.317823"
+      }
+    },
+    {
+      "subject": "category_TCFD_18",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_18_005",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_010",
+        "section_title": "Overview of Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:50:17.317826"
+      }
+    },
+    {
+      "subject": "category_TCFD_18",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_18_006",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_010",
+        "section_title": "Overview of Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:50:17.317828"
+      }
+    },
+    {
+      "subject": "category_TCFD_18",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_18_007",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_010",
+        "section_title": "Overview of Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:50:17.317831"
+      }
+    },
+    {
+      "subject": "category_TCFD_Governance",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_19_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_011",
+        "section_title": "Exposure to Climate-Related Risks",
+        "extraction_timestamp": "2025-11-18T13:50:44.592025"
+      }
+    },
+    {
+      "subject": "category_TCFD_Governance",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_19_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_011",
+        "section_title": "Exposure to Climate-Related Risks",
+        "extraction_timestamp": "2025-11-18T13:50:44.592027"
+      }
+    },
+    {
+      "subject": "category_TCFD_Strategy",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_20_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_012",
+        "section_title": "Recommended Approach to Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:51:33.957263"
+      }
+    },
+    {
+      "subject": "category_TCFD_Strategy",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_20_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_012",
+        "section_title": "Recommended Approach to Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:51:33.957265"
+      }
+    },
+    {
+      "subject": "category_TCFD_Strategy",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_20_003",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_012",
+        "section_title": "Recommended Approach to Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:51:33.957267"
+      }
+    },
+    {
+      "subject": "category_TCFD_Strategy",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_20_004",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_012",
+        "section_title": "Recommended Approach to Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:51:33.957269"
+      }
+    },
+    {
+      "subject": "category_TCFD_RiskMgmt",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_21_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_012",
+        "section_title": "Recommended Approach to Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:51:33.957271"
+      }
+    },
+    {
+      "subject": "category_TCFD_RiskMgmt",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_21_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_012",
+        "section_title": "Recommended Approach to Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:51:33.957273"
+      }
+    },
+    {
+      "subject": "framework_TCFD",
+      "predicate": "Include",
+      "object": "category_TCFD_26_01",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_013",
+        "section_title": "Applying Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:52:41.224333"
+      }
+    },
+    {
+      "subject": "category_TCFD_RiskMgmt",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_22_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_013",
+        "section_title": "Applying Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:52:41.224335"
+      }
+    },
+    {
+      "subject": "category_TCFD_MetricsTargets",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_22_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_013",
+        "section_title": "Applying Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:52:41.224337"
+      }
+    },
+    {
+      "subject": "category_TCFD_MetricsTargets",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_22_003",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_013",
+        "section_title": "Applying Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:52:41.224339"
+      }
+    },
+    {
+      "subject": "metric_TCFD_22_003",
+      "predicate": "IsCalculatedBy",
+      "object": "model_TCFD_22_003",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_013",
+        "section_title": "Applying Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:52:41.224341"
+      }
+    },
+    {
+      "subject": "model_TCFD_22_003",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_TCFD_22_004",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_013",
+        "section_title": "Applying Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:52:41.224343"
+      }
+    },
+    {
+      "subject": "model_TCFD_22_003",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_TCFD_22_005",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_013",
+        "section_title": "Applying Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:52:41.224346"
+      }
+    },
+    {
+      "subject": "model_TCFD_22_003",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_TCFD_22_006",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_013",
+        "section_title": "Applying Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:52:41.224348"
+      }
+    },
+    {
+      "subject": "category_TCFD_MetricsTargets",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_22_007",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_013",
+        "section_title": "Applying Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:52:41.224350"
+      }
+    },
+    {
+      "subject": "category_TCFD_MetricsTargets",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_23_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_013",
+        "section_title": "Applying Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:52:41.224352"
+      }
+    },
+    {
+      "subject": "category_TCFD_MetricsTargets",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_23_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_013",
+        "section_title": "Applying Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:52:41.224354"
+      }
+    },
+    {
+      "subject": "category_TCFD_26_01",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_25_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_013",
+        "section_title": "Applying Scenario Analysis",
+        "extraction_timestamp": "2025-11-18T13:52:41.224356"
+      }
+    },
+    {
+      "subject": "industry_TCFD-General",
+      "predicate": "ReportUsing",
+      "object": "framework_TCFD",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_014",
+        "section_title": "Location of Disclosures and Materiality",
+        "extraction_timestamp": "2025-11-18T13:53:07.240560"
+      }
+    },
+    {
+      "subject": "category_TCFD_26_01",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_28_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_015",
+        "section_title": "Data Availability and Quality and Financial Impact",
+        "extraction_timestamp": "2025-11-18T13:54:11.237082"
+      }
+    },
+    {
+      "subject": "category_TCFD_26_01",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_28_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_015",
+        "section_title": "Data Availability and Quality and Financial Impact",
+        "extraction_timestamp": "2025-11-18T13:54:11.237085"
+      }
+    },
+    {
+      "subject": "category_TCFD_26_01",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_28_006",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_015",
+        "section_title": "Data Availability and Quality and Financial Impact",
+        "extraction_timestamp": "2025-11-18T13:54:11.237087"
+      }
+    },
+    {
+      "subject": "category_TCFD_26_01",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_28_007",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_015",
+        "section_title": "Data Availability and Quality and Financial Impact",
+        "extraction_timestamp": "2025-11-18T13:54:11.237090"
+      }
+    },
+    {
+      "subject": "metric_TCFD_28_002",
+      "predicate": "IsCalculatedBy",
+      "object": "model_TCFD_28_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_015",
+        "section_title": "Data Availability and Quality and Financial Impact",
+        "extraction_timestamp": "2025-11-18T13:54:11.237093"
+      }
+    },
+    {
+      "subject": "model_TCFD_28_002",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_TCFD_28_003",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_015",
+        "section_title": "Data Availability and Quality and Financial Impact",
+        "extraction_timestamp": "2025-11-18T13:54:11.237096"
+      }
+    },
+    {
+      "subject": "model_TCFD_28_002",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_TCFD_28_004",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_015",
+        "section_title": "Data Availability and Quality and Financial Impact",
+        "extraction_timestamp": "2025-11-18T13:54:11.237098"
+      }
+    },
+    {
+      "subject": "model_TCFD_28_002",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_TCFD_28_005",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_015",
+        "section_title": "Data Availability and Quality and Financial Impact",
+        "extraction_timestamp": "2025-11-18T13:54:11.237101"
+      }
+    },
+    {
+      "subject": "metric_TCFD_28_007",
+      "predicate": "IsCalculatedBy",
+      "object": "model_TCFD_28_007",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_015",
+        "section_title": "Data Availability and Quality and Financial Impact",
+        "extraction_timestamp": "2025-11-18T13:54:11.237103"
+      }
+    },
+    {
+      "subject": "model_TCFD_28_007",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_TCFD_28_008",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_015",
+        "section_title": "Data Availability and Quality and Financial Impact",
+        "extraction_timestamp": "2025-11-18T13:54:11.237106"
+      }
+    },
+    {
+      "subject": "model_TCFD_28_007",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_TCFD_28_009",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_015",
+        "section_title": "Data Availability and Quality and Financial Impact",
+        "extraction_timestamp": "2025-11-18T13:54:11.237108"
+      }
+    },
+    {
+      "subject": "model_TCFD_28_007",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_TCFD_28_010",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_015",
+        "section_title": "Data Availability and Quality and Financial Impact",
+        "extraction_timestamp": "2025-11-18T13:54:11.237110"
+      }
+    },
+    {
+      "subject": "model_TCFD_28_007",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_TCFD_28_011",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_015",
+        "section_title": "Data Availability and Quality and Financial Impact",
+        "extraction_timestamp": "2025-11-18T13:54:11.237113"
+      }
+    },
+    {
+      "subject": "model_TCFD_28_007",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_TCFD_28_012",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_015",
+        "section_title": "Data Availability and Quality and Financial Impact",
+        "extraction_timestamp": "2025-11-18T13:54:11.237116"
+      }
+    },
+    {
+      "subject": "industry_TCFD-FS",
+      "predicate": "ReportUsing",
+      "object": "framework_TCFD",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_016",
+        "section_title": "GHG Emissions Associated with Investments",
+        "extraction_timestamp": "2025-11-18T13:54:33.145244"
+      }
+    },
+    {
+      "subject": "industry_TCFD-Generic",
+      "predicate": "ReportUsing",
+      "object": "framework_TCFD",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_019",
+        "section_title": "Organizational Ownership",
+        "extraction_timestamp": "2025-11-18T13:55:38.989848"
+      }
+    },
+    {
+      "subject": "framework_TCFD",
+      "predicate": "Include",
+      "object": "category_TCFD_39",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_019",
+        "section_title": "Organizational Ownership",
+        "extraction_timestamp": "2025-11-18T13:55:38.989855"
+      }
+    },
+    {
+      "subject": "category_TCFD_39",
+      "predicate": "ConsistOf",
+      "object": "metric_TCFD_39_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "2.FINAL-2017-TCFD-Report",
+        "segment_id": "seg_019",
+        "section_title": "Organizational Ownership",
+        "extraction_timestamp": "2025-11-18T13:55:38.989858"
+      }
+    }
+  ],
+  "metadata": {
+    "document_name": "2.FINAL-2017-TCFD-Report",
+    "total_entities": 88,
+    "total_relationships": 86,
+    "entity_breakdown": {
+      "Industry": 9,
+      "ReportingFramework": 1,
+      "Category": 10,
+      "Metric": 65,
+      "Model": 3
+    },
+    "relationship_breakdown": {
+      "ReportUsing": 8,
+      "Include": 10,
+      "ConsistOf": 54,
+      "IsCalculatedBy": 3,
+      "RequiresInputFrom": 11
+    },
+    "extraction_timestamp": "2025-11-18T13:55:39.000534"
+  }
+}

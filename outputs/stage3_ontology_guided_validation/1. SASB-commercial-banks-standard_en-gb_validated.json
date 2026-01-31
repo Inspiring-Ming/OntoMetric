@@ -1,0 +1,1522 @@
+{
+  "validation_metadata": {
+    "validation_timestamp": "2025-11-20T10:27:38.817045",
+    "validation_approach": "python",
+    "critical_rules_passed": [
+      "VR001",
+      "VR004",
+      "VR005",
+      "VR006"
+    ],
+    "critical_violations_removed": 22,
+    "original_entity_count": 53,
+    "validated_entity_count": 42,
+    "original_relationship_count": 53,
+    "validated_relationship_count": 42,
+    "source_file": "outputs/stage2_ontology_guided_extraction/1. SASB-commercial-banks-standard_en-gb_ontology_guided.json",
+    "quality_metrics": {
+      "schema_compliance_weighted": 82.72,
+      "semantic_type_accuracy": 79.25,
+      "relationship_retention_rate": 79.25
+    },
+    "rule_scores": {
+      "VR001": {
+        "rule_name": "Entity Uniqueness",
+        "score": 100.0,
+        "passed_items": 42,
+        "total_items": 42,
+        "violations": 0
+      },
+      "VR002": {
+        "rule_name": "Entity Type-Specific Schema Compliance",
+        "score": 0.0,
+        "passed_items": 0,
+        "total_items": 42,
+        "violations": 42
+      },
+      "VR003": {
+        "rule_name": "Metric Property Values",
+        "score": 96.3,
+        "passed_items": 26,
+        "total_items": 27,
+        "violations": 1
+      },
+      "VR004": {
+        "rule_name": "Model Property Values",
+        "score": 100.0,
+        "passed_items": 5,
+        "total_items": 5,
+        "violations": 0
+      },
+      "VR005": {
+        "rule_name": "Relationship Predicate Validity",
+        "score": 100.0,
+        "passed_items": 42,
+        "total_items": 42,
+        "violations": 0
+      },
+      "VR006": {
+        "rule_name": "CalculatedMetric-Model Links",
+        "score": 100.0,
+        "passed_items": 4,
+        "total_items": 4,
+        "violations": 0
+      }
+    },
+    "semantic_validation": {
+      "total_entities": 53,
+      "correct_entities": 42,
+      "incorrect_entities": 11,
+      "semantic_type_accuracy": 79.25,
+      "llm_cost": 0.0053,
+      "mismatches": [
+        {
+          "entity_id": "metric_SASB-CB_6_004a",
+          "entity_type": "Metric",
+          "label": "Number of Past Due Small Business Loans",
+          "llm_reasoning": "This entity represents a financial performance metric related to loan portfolio quality, not an ESG (Environmental, Social, Governance) disclosure metric. ESG metrics would include items like carbon emissions, diversity statistics, board composition, or sustainability practices."
+        },
+        {
+          "entity_id": "metric_SASB-CB_6_004b",
+          "entity_type": "Metric",
+          "label": "Amount of Past Due Small Business Loans",
+          "llm_reasoning": "This entity describes a financial accounting metric related to loan portfolio quality, not an ESG (Environmental, Social, Governance) disclosure metric. It lacks any connection to ESG topics such as environmental impact, social responsibility, or governance practices."
+        },
+        {
+          "entity_id": "metric_SASB-CB_7_005",
+          "entity_type": "Metric",
+          "label": "Interconnectedness Category Score",
+          "llm_reasoning": "This entity represents a financial regulatory metric (G-SIB interconnectedness score) used for systemically important bank classification, not an ESG disclosure metric. It does not relate to environmental, social, or governance disclosures as defined in the Metric type definition."
+        },
+        {
+          "entity_id": "metric_SASB-CB_7_006",
+          "entity_type": "Metric",
+          "label": "Substitutability Category Score",
+          "llm_reasoning": "This entity describes a G-SIB (Global Systemically Important Bank) substitutability score, which is a financial regulatory metric, not an ESG (Environmental, Social, Governance) disclosure metric. The entity type definition specifically requires ESG-related disclosures."
+        },
+        {
+          "entity_id": "metric_SASB-CB_7_007",
+          "entity_type": "Metric",
+          "label": "Complexity Category Score",
+          "llm_reasoning": "This entity represents a financial regulatory metric (G-SIB complexity score) rather than an ESG disclosure. It does not relate to environmental, social, or governance sustainability reporting as defined in the Metric type definition."
+        },
+        {
+          "entity_id": "metric_SASB-CB_7_008",
+          "entity_type": "Metric",
+          "label": "Cross-Jurisdictional Activity Category Score",
+          "llm_reasoning": "This entity represents a financial regulatory metric (G-SIB scoring) used for systemically important bank classification, not an ESG disclosure metric. It does not relate to environmental, social, or governance disclosures as defined in the Metric type definition."
+        },
+        {
+          "entity_id": "metric_SASB-CB_7_010",
+          "entity_type": "Metric",
+          "label": "Checking and Savings Accounts",
+          "llm_reasoning": "This describes financial product metrics (checking/savings accounts) segmented by customer type, which are standard banking business metrics. It does not represent ESG (Environmental, Social, Governance) disclosures or sustainability-related metrics as required by the definition."
+        },
+        {
+          "entity_id": "metric_SASB-CB_7_011",
+          "entity_type": "Metric",
+          "label": "Loans by Segment",
+          "llm_reasoning": "This entity describes general business/financial metrics about loan portfolio composition, not ESG (Environmental, Social, Governance) disclosures. The definition specifically requires ESG-related quantitative metrics or qualitative disclosure requirements, which loan segmentation data does not represent."
+        },
+        {
+          "entity_id": "metric_SASB-CB-GB_21_004",
+          "entity_type": "Metric",
+          "label": "G-SIB Interconnectedness Score",
+          "llm_reasoning": "While this is a quantitative metric with a score, it relates to banking regulatory requirements (Global Systemically Important Bank indicators) rather than ESG (Environmental, Social, Governance) disclosures. The G-SIB framework is a financial stability measure, not an ESG metric."
+        },
+        {
+          "entity_id": "metric_SASB-CB-GB_21_005",
+          "entity_type": "Metric",
+          "label": "G-SIB Substitutability Score",
+          "llm_reasoning": "This is a financial regulatory metric related to Global Systemically Important Banks (G-SIB) classification, not an ESG (Environmental, Social, Governance) disclosure metric. It does not match the definition requiring ESG-related quantitative or qualitative disclosures."
+        },
+        {
+          "entity_id": "metric_SASB-CB-GB_21_006",
+          "entity_type": "Metric",
+          "label": "G-SIB Complexity Score",
+          "llm_reasoning": "While this is a quantitative metric with a score, it is a financial regulatory metric (Global Systemically Important Bank complexity indicator) rather than an ESG (Environmental, Social, Governance) disclosure metric as required by the definition."
+        }
+      ]
+    },
+    "rule_compliance": {
+      "critical_rules_total": 6,
+      "critical_rules_passed_count": 4,
+      "critical_rules_failed_count": 2,
+      "critical_rules_failed": [
+        "VR002",
+        "VR003"
+      ]
+    },
+    "violation_statistics": {
+      "total_violations": 43,
+      "entities_with_violations": 11,
+      "relationships_with_violations": 0,
+      "violations_by_rule": {
+        "VR001": {
+          "passed": true,
+          "violation_count": 0
+        },
+        "VR002": {
+          "passed": false,
+          "violation_count": 42
+        },
+        "VR003": {
+          "passed": false,
+          "violation_count": 1
+        },
+        "VR004": {
+          "passed": true,
+          "violation_count": 0
+        },
+        "VR005": {
+          "passed": true,
+          "violation_count": 0
+        },
+        "VR006": {
+          "passed": true,
+          "violation_count": 0
+        }
+      }
+    },
+    "segment_statistics": {
+      "total_segments": 9,
+      "segments_with_entities": 9,
+      "entities_per_segment": {
+        "seg_001": {
+          "original": 2,
+          "validated": 2
+        },
+        "seg_003": {
+          "original": 19,
+          "validated": 17
+        },
+        "seg_004": {
+          "original": 14,
+          "validated": 8
+        },
+        "seg_007": {
+          "original": 3,
+          "validated": 3
+        },
+        "seg_008": {
+          "original": 3,
+          "validated": 3
+        },
+        "seg_009": {
+          "original": 7,
+          "validated": 4
+        },
+        "seg_010": {
+          "original": 1,
+          "validated": 1
+        },
+        "seg_005": {
+          "original": 3,
+          "validated": 3
+        },
+        "seg_006": {
+          "original": 1,
+          "validated": 1
+        }
+      },
+      "retention_per_segment": {
+        "seg_001": 100.0,
+        "seg_003": 89.47,
+        "seg_004": 57.14,
+        "seg_007": 100.0,
+        "seg_008": 100.0,
+        "seg_009": 57.14,
+        "seg_010": 100.0,
+        "seg_005": 100.0,
+        "seg_006": 100.0
+      },
+      "avg_segment_retention": 89.31
+    }
+  },
+  "entities": [
+    {
+      "id": "industry_SASB-CB",
+      "type": "Industry",
+      "label": "Commercial Banks",
+      "properties": {
+        "sector": "Financials",
+        "country": "N/A",
+        "standard_reference": "SICS® FN-CB"
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_001",
+        "section_title": "Title & Document Information",
+        "extraction_timestamp": "2025-11-18T13:55:53.019658"
+      }
+    },
+    {
+      "id": "framework_SASB",
+      "type": "ReportingFramework",
+      "label": "SASB",
+      "properties": {
+        "name": "SASB",
+        "version": "2023-12",
+        "year": "2023",
+        "publisher": "International Sustainability Standards Board (IFRS Foundation)"
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_001",
+        "section_title": "Title & Document Information",
+        "extraction_timestamp": "2025-11-18T13:55:53.019672"
+      }
+    },
+    {
+      "id": "category_SASB-CB_6_01",
+      "type": "Category",
+      "label": "Data Security",
+      "properties": {
+        "section_title": "Data Security",
+        "section_id": "CB-230a",
+        "page_range": "6"
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126400"
+      }
+    },
+    {
+      "id": "category_SASB-CB_6_02",
+      "type": "Category",
+      "label": "Financial Inclusion & Capacity Building",
+      "properties": {
+        "section_title": "Financial Inclusion & Capacity Building",
+        "section_id": "CB-240a",
+        "page_range": "6"
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126410"
+      }
+    },
+    {
+      "id": "category_SASB-CB_6_03",
+      "type": "Category",
+      "label": "Incorporation of Environmental, Social, and Governance (ESG) Factors in Credit Analysis",
+      "properties": {
+        "section_title": "Incorporation of Environmental, Social, and Governance (ESG) Factors in Credit Analysis",
+        "section_id": "CB-410a",
+        "page_range": "6"
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126414"
+      }
+    },
+    {
+      "id": "category_SASB-CB_6_04",
+      "type": "Category",
+      "label": "Financed Emissions",
+      "properties": {
+        "section_title": "Financed Emissions",
+        "section_id": "CB-410b",
+        "page_range": "6"
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126418"
+      }
+    },
+    {
+      "id": "metric_SASB-CB_6_001",
+      "type": "Metric",
+      "label": "Data Breaches Composite Metric",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "CalculatedMetric",
+        "unit": "Number, Percentage (%)",
+        "code": "FN-CB-230a.1",
+        "description": "(1) Number of data breaches, (2) percentage that are personal data breaches, (3) number of account holders affected",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126422"
+      }
+    },
+    {
+      "id": "model_SASB-CB_6_001",
+      "type": "Model",
+      "label": "Data Breaches Composite Model",
+      "properties": {
+        "description": "Composite metric combining number of data breaches, percentage that are personal data breaches, and number of account holders affected",
+        "equation": "f(NumberBreaches, PercentagePersonal, AccountHoldersAffected)",
+        "input_variables": [
+          "Number of data breaches",
+          "Percentage that are personal data breaches",
+          "Number of account holders affected"
+        ]
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126425"
+      }
+    },
+    {
+      "id": "metric_SASB-CB_8_002",
+      "type": "Metric",
+      "label": "Number of Data Breaches",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Number",
+        "code": "N/A",
+        "description": "Total number of data breaches identified during the reporting period"
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:58:57.786847"
+      }
+    },
+    {
+      "id": "metric_SASB-CB_6_001b",
+      "type": "Metric",
+      "label": "Percentage of Personal Data Breaches",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Percentage (%)",
+        "code": "N/A",
+        "description": "Percentage of total breaches that involve personal data"
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126432"
+      }
+    },
+    {
+      "id": "metric_SASB-CB_8_004",
+      "type": "Metric",
+      "label": "Number of Account Holders Affected",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Number",
+        "code": "N/A",
+        "description": "Number of account holders affected by data breaches"
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:58:57.786851"
+      }
+    },
+    {
+      "id": "metric_SASB-CB_6_002",
+      "type": "Metric",
+      "label": "Data Security Risk Approach",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "FN-CB-230a.2",
+        "description": "Description of approach to identifying and addressing data security risks",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126439"
+      }
+    },
+    {
+      "id": "metric_SASB-CB_6_003",
+      "type": "Metric",
+      "label": "Small Business and Community Development Loans",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "CalculatedMetric",
+        "unit": "Number, Presentation currency",
+        "code": "FN-CB-240a.1",
+        "description": "(1) Number and (2) amount of loans outstanding that qualify for programmes designed to promote small business and community development",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126443"
+      }
+    },
+    {
+      "id": "model_SASB-CB_6_003",
+      "type": "Model",
+      "label": "Small Business Loans Composite Model",
+      "properties": {
+        "description": "Composite metric combining number and amount of loans outstanding for small business and community development programmes",
+        "equation": "f(NumberLoans, AmountOutstanding)",
+        "input_variables": [
+          "Number of loans",
+          "Amount of loans outstanding"
+        ]
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126446"
+      }
+    },
+    {
+      "id": "metric_SASB-CB_6_003a",
+      "type": "Metric",
+      "label": "Number of Small Business Loans",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Number",
+        "code": "N/A",
+        "description": "Number of loans outstanding that qualify for small business and community development programmes"
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126449"
+      }
+    },
+    {
+      "id": "metric_SASB-CB_6_003b",
+      "type": "Metric",
+      "label": "Amount of Small Business Loans Outstanding",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Presentation currency",
+        "code": "N/A",
+        "description": "Amount of loans outstanding that qualify for small business and community development programmes"
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126452"
+      }
+    },
+    {
+      "id": "metric_SASB-CB_6_004",
+      "type": "Metric",
+      "label": "Past Due and Nonaccrual Small Business Loans",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "CalculatedMetric",
+        "unit": "Number, Presentation currency",
+        "code": "FN-CB-240a.2",
+        "description": "(1) Number and (2) amount of past due and nonaccrual loans or loans subject to forbearance that qualify for programmes designed to promote small business and community development",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126456"
+      }
+    },
+    {
+      "id": "model_SASB-CB_6_004",
+      "type": "Model",
+      "label": "Past Due Loans Composite Model",
+      "properties": {
+        "description": "Composite metric combining number and amount of past due and nonaccrual loans for small business and community development programmes",
+        "equation": "f(NumberPastDue, AmountPastDue)",
+        "input_variables": [
+          "Number of past due loans",
+          "Amount of past due loans"
+        ]
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126459"
+      }
+    },
+    {
+      "id": "metric_SASB-CB_6_005",
+      "type": "Metric",
+      "label": "No-Cost Retail Checking Accounts",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "DirectMetric",
+        "unit": "Number",
+        "code": "FN-CB-240a.3",
+        "description": "Number of no-cost retail checking accounts provided to previously unbanked or underbanked customers",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126470"
+      }
+    },
+    {
+      "id": "metric_SASB-CB_6_006",
+      "type": "Metric",
+      "label": "Financial Literacy Initiative Participants",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "DirectMetric",
+        "unit": "Number",
+        "code": "FN-CB-240a.4",
+        "description": "Number of participants in financial literacy initiatives for unbanked, underbanked, or underserved customers",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126473"
+      }
+    },
+    {
+      "id": "metric_SASB-CB_6_007",
+      "type": "Metric",
+      "label": "ESG Factors in Credit Analysis",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "FN-CB-410a.2",
+        "description": "Description of approach to incorporation of environmental, social and governance (ESG) factors in credit analysis",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126476"
+      }
+    },
+    {
+      "id": "metric_SASB-CB_16_001",
+      "type": "Metric",
+      "label": "Absolute Gross Financed Emissions",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "DirectMetric",
+        "unit": "Metric tons CO₂-e",
+        "code": "FN-CB-410b.1",
+        "description": "Absolute gross financed emissions, disaggregated by Scope 1, Scope 2 and Scope 3 for each industry by asset class. Measured in accordance with paragraph 29(a) and B62 of IFRS S2 Climate-related Disclosures.",
+        "disaggregations": [
+          "Scope 1",
+          "Scope 2",
+          "Scope 3"
+        ]
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_007",
+        "section_title": "Incorporation of Environmental, Social, and Governance Factors in Credit Analysis",
+        "extraction_timestamp": "2025-11-18T14:00:47.004601"
+      }
+    },
+    {
+      "id": "metric_SASB-CB_16_002",
+      "type": "Metric",
+      "label": "Gross Exposure by Industry and Asset Class",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "DirectMetric",
+        "unit": "Reporting currency",
+        "code": "FN-CB-410b.2",
+        "description": "Gross exposure for each industry by asset class, expressed in the presentation currency of the entity's financial statements. Prepared in accordance with paragraph B62 of IFRS S2 Climate-related Disclosures.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_007",
+        "section_title": "Incorporation of Environmental, Social, and Governance Factors in Credit Analysis",
+        "extraction_timestamp": "2025-11-18T14:00:47.004605"
+      }
+    },
+    {
+      "id": "metric_SASB-CB_18_001",
+      "type": "Metric",
+      "label": "Percentage of Gross Exposure in Financed Emissions",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "DirectMetric",
+        "unit": "Percentage (%)",
+        "code": "FN-CB-410b.3",
+        "description": "Percentage of gross exposure included in the financed emissions calculation. If less than 100%, entity shall disclose information explaining exclusions, including the type of assets excluded.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_008",
+        "section_title": "Financed Emissions",
+        "extraction_timestamp": "2025-11-18T14:01:21.613980"
+      }
+    },
+    {
+      "id": "metric_SASB-CB_18_002",
+      "type": "Metric",
+      "label": "Financed Emissions Methodology Description",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "FN-CB-410b.4",
+        "description": "Description of the methodology used to calculate financed emissions, including the method of allocation used to attribute share of emissions in relation to the size of gross exposure.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_008",
+        "section_title": "Financed Emissions",
+        "extraction_timestamp": "2025-11-18T14:01:21.613983"
+      }
+    },
+    {
+      "id": "category_SASB-CB_7_BE",
+      "type": "Category",
+      "label": "Business Ethics",
+      "properties": {
+        "section_title": "Business Ethics",
+        "section_id": "FN-CB-510a",
+        "page_range": "7"
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:58:57.786808"
+      }
+    },
+    {
+      "id": "category_SASB-CB_7_SRM",
+      "type": "Category",
+      "label": "Systemic Risk Management",
+      "properties": {
+        "section_title": "Systemic Risk Management",
+        "section_id": "FN-CB-550a",
+        "page_range": "7"
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:58:57.786811"
+      }
+    },
+    {
+      "id": "category_SASB-CB_7_AM",
+      "type": "Category",
+      "label": "Activity Metrics",
+      "properties": {
+        "section_title": "Activity Metrics",
+        "section_id": "FN-CB-000",
+        "page_range": "7"
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:58:57.786813"
+      }
+    },
+    {
+      "id": "metric_SASB-CB_18_003",
+      "type": "Metric",
+      "label": "Monetary Losses from Legal Proceedings",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "DirectMetric",
+        "unit": "Monetary value",
+        "code": "FN-CB-510a.1",
+        "description": "Total amount of monetary losses as a result of legal proceedings associated with fraud, insider trading, antitrust, anti-competitive behaviour, market manipulation, malpractice, or other related financial industry laws or regulations.",
+        "disaggregations": [
+          "Fraud",
+          "Insider trading",
+          "Antitrust",
+          "Anti-competitive behaviour",
+          "Market manipulation",
+          "Malpractice",
+          "Civil actions",
+          "Regulatory proceedings",
+          "Criminal actions"
+        ]
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_008",
+        "section_title": "Financed Emissions",
+        "extraction_timestamp": "2025-11-18T14:01:21.613986"
+      }
+    },
+    {
+      "id": "metric_SASB-CB-GB_20_001",
+      "type": "Metric",
+      "label": "Whistleblower Policies and Procedures",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "FN-CB-510a.2",
+        "description": "Description of whistleblower policies and procedures including internal compliance programmes, hotline details, publication of hotline number, incentives for reporting violations, methods for submitting tips, applicable jurisdictional laws, and any violations with corrective actions",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_009",
+        "section_title": "Business Ethics",
+        "extraction_timestamp": "2025-11-18T14:02:10.314737"
+      }
+    },
+    {
+      "id": "metric_SASB-CB-GB_21_001",
+      "type": "Metric",
+      "label": "G-SIB Overall Score",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "CalculatedMetric",
+        "unit": "Score",
+        "code": "FN-CB-550a.1",
+        "description": "Global Systemically Important Bank (G-SIB) overall score calculated from (1) size, (2) cross-jurisdictional activity, (3) interconnectedness, (4) substitutability, and (5) complexity categories",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_009",
+        "section_title": "Business Ethics",
+        "extraction_timestamp": "2025-11-18T14:02:10.314739"
+      }
+    },
+    {
+      "id": "model_SASB-CB_7_003",
+      "type": "Model",
+      "label": "G-SIB Score Calculation Model",
+      "properties": {
+        "description": "G-SIB score calculated by category including size, interconnectedness, substitutability, complexity, and cross-jurisdictional activity as per Basel III framework",
+        "equation": "N/A",
+        "input_variables": [
+          "Size category score",
+          "Interconnectedness category score",
+          "Substitutability category score",
+          "Complexity category score",
+          "Cross-jurisdictional activity category score"
+        ]
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:58:57.786825"
+      }
+    },
+    {
+      "id": "metric_SASB-CB_7_004",
+      "type": "Metric",
+      "label": "Size Category Score",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Basis points (bps)",
+        "code": "N/A",
+        "description": "G-SIB category score for size indicator"
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:58:57.786827"
+      }
+    },
+    {
+      "id": "metric_SASB-CB_22_002",
+      "type": "Metric",
+      "label": "Integration of Stress Test Results into Business Strategy",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "FN-CB-550a.2",
+        "description": "Description of approach to integrate results of mandatory and voluntary stress tests into capital adequacy planning, long-term corporate strategy, and other business activities.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_010",
+        "section_title": "Systemic Risk Management",
+        "extraction_timestamp": "2025-11-18T14:02:44.353487"
+      }
+    },
+    {
+      "id": "metric_SASB-CB_8_003",
+      "type": "Metric",
+      "label": "Percentage Personal Data Breaches",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Percentage (%)",
+        "code": "N/A",
+        "description": "Percentage of data breaches that were personal data breaches"
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:58:57.786849"
+      }
+    },
+    {
+      "id": "model_SASB-CB_11_001",
+      "type": "Model",
+      "label": "Small Business and Community Development Loans Model",
+      "properties": {
+        "description": "Composite metric combining the number and amount of loans outstanding for small business and community development programmes",
+        "equation": "f(NumberOfLoans, AmountOfLoans)",
+        "input_variables": [
+          "Number of loans outstanding",
+          "Amount of loans outstanding"
+        ]
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_005",
+        "section_title": "Data Security",
+        "extraction_timestamp": "2025-11-18T13:59:33.152376"
+      }
+    },
+    {
+      "id": "metric_SASB-CB_11_002",
+      "type": "Metric",
+      "label": "Number of Loans Outstanding",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Number",
+        "code": "N/A",
+        "description": "Total number of loans outstanding that qualify for programmes designed to promote small business and community development"
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_005",
+        "section_title": "Data Security",
+        "extraction_timestamp": "2025-11-18T13:59:33.152379"
+      }
+    },
+    {
+      "id": "metric_SASB-CB_11_003",
+      "type": "Metric",
+      "label": "Amount of Loans Outstanding",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Currency",
+        "code": "N/A",
+        "description": "Total amount outstanding on loans that qualify for programmes designed to promote small business and community development"
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_005",
+        "section_title": "Data Security",
+        "extraction_timestamp": "2025-11-18T13:59:33.152382"
+      }
+    },
+    {
+      "id": "category_SASB-CB_14",
+      "type": "Category",
+      "label": "Incorporation of Environmental, Social, and Governance Factors in Credit Analysis",
+      "properties": {
+        "section_title": "Incorporation of Environmental, Social, and Governance Factors in Credit Analysis",
+        "section_id": "CB-410a",
+        "page_range": "13-14"
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_006",
+        "section_title": "Financial Inclusion & Capacity Building",
+        "extraction_timestamp": "2025-11-18T14:00:08.912044"
+      }
+    },
+    {
+      "id": "metric_SASB-CB_15_001",
+      "type": "Metric",
+      "label": "ESG Factors in Credit Analysis",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "N/A",
+        "description": "Description of approach to incorporation of environmental, social, and governance (ESG) factors in credit analysis, including: parties responsible, roles and responsibilities, ESG research approach, creditworthiness assessment approach, oversight and accountability, scenario analysis at portfolio level, ESG trends consideration, credit exposure concentrations, and influence on traditional macro/microeconomic factors and creditworthiness.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_007",
+        "section_title": "Incorporation of Environmental, Social, and Governance Factors in Credit Analysis",
+        "extraction_timestamp": "2025-11-18T14:00:47.004598"
+      }
+    },
+    {
+      "id": "metric_SASB-CB-GB_21_002",
+      "type": "Metric",
+      "label": "G-SIB Size Score",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Score",
+        "code": "N/A",
+        "description": "G-SIB category score for size indicator",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_009",
+        "section_title": "Business Ethics",
+        "extraction_timestamp": "2025-11-18T14:02:10.314746"
+      }
+    },
+    {
+      "id": "metric_SASB-CB-GB_21_003",
+      "type": "Metric",
+      "label": "G-SIB Cross-Jurisdictional Activity Score",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Score",
+        "code": "N/A",
+        "description": "G-SIB category score for cross-jurisdictional activity indicator",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_009",
+        "section_title": "Business Ethics",
+        "extraction_timestamp": "2025-11-18T14:02:10.314748"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "subject": "industry_SASB-CB",
+      "predicate": "ReportUsing",
+      "object": "framework_SASB",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_001",
+        "section_title": "Title & Document Information",
+        "extraction_timestamp": "2025-11-18T13:55:53.019677"
+      }
+    },
+    {
+      "subject": "framework_SASB",
+      "predicate": "Include",
+      "object": "category_SASB-CB_6_01",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126499"
+      }
+    },
+    {
+      "subject": "framework_SASB",
+      "predicate": "Include",
+      "object": "category_SASB-CB_6_02",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126502"
+      }
+    },
+    {
+      "subject": "framework_SASB",
+      "predicate": "Include",
+      "object": "category_SASB-CB_6_03",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126506"
+      }
+    },
+    {
+      "subject": "framework_SASB",
+      "predicate": "Include",
+      "object": "category_SASB-CB_6_04",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126509"
+      }
+    },
+    {
+      "subject": "category_SASB-CB_6_01",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-CB_6_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126512"
+      }
+    },
+    {
+      "subject": "category_SASB-CB_6_01",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-CB_6_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126515"
+      }
+    },
+    {
+      "subject": "category_SASB-CB_6_02",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-CB_6_003",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126519"
+      }
+    },
+    {
+      "subject": "category_SASB-CB_6_02",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-CB_6_004",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126522"
+      }
+    },
+    {
+      "subject": "category_SASB-CB_6_02",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-CB_6_005",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126525"
+      }
+    },
+    {
+      "subject": "category_SASB-CB_6_02",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-CB_6_006",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126529"
+      }
+    },
+    {
+      "subject": "category_SASB-CB_6_03",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-CB_6_007",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126533"
+      }
+    },
+    {
+      "subject": "category_SASB-CB_6_04",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-CB_16_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126536"
+      }
+    },
+    {
+      "subject": "category_SASB-CB_6_04",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-CB_16_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126539"
+      }
+    },
+    {
+      "subject": "category_SASB-CB_6_04",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-CB_18_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126543"
+      }
+    },
+    {
+      "subject": "category_SASB-CB_6_04",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-CB_18_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126546"
+      }
+    },
+    {
+      "subject": "metric_SASB-CB_6_001",
+      "predicate": "IsCalculatedBy",
+      "object": "model_SASB-CB_6_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126550"
+      }
+    },
+    {
+      "subject": "model_SASB-CB_6_001",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_SASB-CB_6_001b",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126558"
+      }
+    },
+    {
+      "subject": "metric_SASB-CB_6_003",
+      "predicate": "IsCalculatedBy",
+      "object": "model_SASB-CB_6_003",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126565"
+      }
+    },
+    {
+      "subject": "model_SASB-CB_6_003",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_SASB-CB_6_003a",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126568"
+      }
+    },
+    {
+      "subject": "model_SASB-CB_6_003",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_SASB-CB_6_003b",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126572"
+      }
+    },
+    {
+      "subject": "metric_SASB-CB_6_004",
+      "predicate": "IsCalculatedBy",
+      "object": "model_SASB-CB_6_004",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_003",
+        "section_title": "Industry Description",
+        "extraction_timestamp": "2025-11-18T13:57:40.126575"
+      }
+    },
+    {
+      "subject": "framework_SASB",
+      "predicate": "Include",
+      "object": "category_SASB-CB_7_BE",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:58:57.786857"
+      }
+    },
+    {
+      "subject": "framework_SASB",
+      "predicate": "Include",
+      "object": "category_SASB-CB_7_SRM",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:58:57.786859"
+      }
+    },
+    {
+      "subject": "framework_SASB",
+      "predicate": "Include",
+      "object": "category_SASB-CB_7_AM",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:58:57.786861"
+      }
+    },
+    {
+      "subject": "category_SASB-CB_7_BE",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-CB_18_003",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:58:57.786865"
+      }
+    },
+    {
+      "subject": "category_SASB-CB_7_BE",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-CB-GB_20_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:58:57.786867"
+      }
+    },
+    {
+      "subject": "category_SASB-CB_7_SRM",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-CB-GB_21_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:58:57.786869"
+      }
+    },
+    {
+      "subject": "category_SASB-CB_7_SRM",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-CB_22_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:58:57.786871"
+      }
+    },
+    {
+      "subject": "metric_SASB-CB-GB_21_001",
+      "predicate": "IsCalculatedBy",
+      "object": "model_SASB-CB_7_003",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:58:57.786880"
+      }
+    },
+    {
+      "subject": "model_SASB-CB_7_003",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_SASB-CB_7_004",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:58:57.786882"
+      }
+    },
+    {
+      "subject": "model_SASB-CB_6_001",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_SASB-CB_8_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:58:57.786895"
+      }
+    },
+    {
+      "subject": "model_SASB-CB_6_001",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_SASB-CB_8_003",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:58:57.786897"
+      }
+    },
+    {
+      "subject": "model_SASB-CB_6_001",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_SASB-CB_8_004",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_004",
+        "section_title": "Sustainability Disclosure Topics & Metrics",
+        "extraction_timestamp": "2025-11-18T13:58:57.786899"
+      }
+    },
+    {
+      "subject": "metric_SASB-CB_6_003",
+      "predicate": "IsCalculatedBy",
+      "object": "model_SASB-CB_11_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_005",
+        "section_title": "Data Security",
+        "extraction_timestamp": "2025-11-18T13:59:33.152399"
+      }
+    },
+    {
+      "subject": "model_SASB-CB_11_001",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_SASB-CB_11_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_005",
+        "section_title": "Data Security",
+        "extraction_timestamp": "2025-11-18T13:59:33.152403"
+      }
+    },
+    {
+      "subject": "model_SASB-CB_11_001",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_SASB-CB_11_003",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_005",
+        "section_title": "Data Security",
+        "extraction_timestamp": "2025-11-18T13:59:33.152406"
+      }
+    },
+    {
+      "subject": "framework_SASB",
+      "predicate": "Include",
+      "object": "category_SASB-CB_14",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_006",
+        "section_title": "Financial Inclusion & Capacity Building",
+        "extraction_timestamp": "2025-11-18T14:00:08.912074"
+      }
+    },
+    {
+      "subject": "category_SASB-CB_14",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-CB_6_007",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_006",
+        "section_title": "Financial Inclusion & Capacity Building",
+        "extraction_timestamp": "2025-11-18T14:00:08.912089"
+      }
+    },
+    {
+      "subject": "category_SASB-CB_14",
+      "predicate": "ConsistOf",
+      "object": "metric_SASB-CB_15_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_007",
+        "section_title": "Incorporation of Environmental, Social, and Governance Factors in Credit Analysis",
+        "extraction_timestamp": "2025-11-18T14:00:47.004625"
+      }
+    },
+    {
+      "subject": "model_SASB-CB_7_003",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_SASB-CB-GB_21_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_009",
+        "section_title": "Business Ethics",
+        "extraction_timestamp": "2025-11-18T14:02:10.314781"
+      }
+    },
+    {
+      "subject": "model_SASB-CB_7_003",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_SASB-CB-GB_21_003",
+      "properties": {},
+      "provenance": {
+        "document_id": "1. SASB-commercial-banks-standard_en-gb",
+        "segment_id": "seg_009",
+        "section_title": "Business Ethics",
+        "extraction_timestamp": "2025-11-18T14:02:10.314789"
+      }
+    }
+  ]
+}

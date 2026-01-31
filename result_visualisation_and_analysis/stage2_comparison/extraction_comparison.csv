@@ -1,0 +1,11 @@
+Document,Method,Entities Extracted,Relationships Extracted
+Australia AASB,Baseline,96,117
+Australia AASB,Ontology-Guided,74,75
+IFRS S2,Baseline,126,176
+IFRS S2,Ontology-Guided,80,65
+SASB Banks,Baseline,123,161
+SASB Banks,Ontology-Guided,53,53
+SASB Semiconductors,Baseline,149,200
+SASB Semiconductors,Ontology-Guided,69,71
+TCFD Report,Baseline,235,286
+TCFD Report,Ontology-Guided,88,86

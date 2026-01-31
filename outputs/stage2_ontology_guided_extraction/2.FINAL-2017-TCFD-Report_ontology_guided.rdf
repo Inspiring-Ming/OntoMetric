@@ -1,0 +1,976 @@
+@prefix esg: <http://example.org/esg-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+# Knowledge Graph extracted from: DRAFT – FOR DISCUSSION PURPOSES ONLY Final Report Recommendations of
+# Extraction timestamp: 2025-11-18T13:55:39.004148
+# Total entities: 88
+# Total relationships: 86
+
+esg:industry_TCFD a esg:Industry ;
+    rdfs:label "Cross-Sector Organizations" ;
+    esg:sector "All Sectors" ;
+    esg:country "Global (G20)" ;
+    esg:standard_reference "TCFD" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:45:29.412625"^^xsd:dateTime .
+
+esg:framework_TCFD a esg:ReportingFramework ;
+    rdfs:label "TCFD" ;
+    esg:name "Task Force on Climate-related Financial Disclosures" ;
+    esg:version "Final Report" ;
+    esg:year "2017" ;
+    esg:publisher "Financial Stability Board" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:45:29.412636"^^xsd:dateTime .
+
+esg:category_TCFD_Governance a esg:Category ;
+    rdfs:label "Governance" ;
+    esg:section_title "Governance" ;
+    esg:section_id "TCFD-Governance" ;
+    esg:page_range "N/A" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:45:29.412639"^^xsd:dateTime .
+
+esg:category_TCFD_Strategy a esg:Category ;
+    rdfs:label "Strategy" ;
+    esg:section_title "Strategy" ;
+    esg:section_id "TCFD-Strategy" ;
+    esg:page_range "N/A" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:45:29.412642"^^xsd:dateTime .
+
+esg:category_TCFD_RiskMgmt a esg:Category ;
+    rdfs:label "Risk Management" ;
+    esg:section_title "Risk Management" ;
+    esg:section_id "TCFD-RiskManagement" ;
+    esg:page_range "N/A" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:45:29.412645"^^xsd:dateTime .
+
+esg:category_TCFD_MetricsTargets a esg:Category ;
+    rdfs:label "Metrics and Targets" ;
+    esg:section_title "Metrics and Targets" ;
+    esg:section_id "TCFD-MetricsTargets" ;
+    esg:page_range "N/A" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:45:29.412648"^^xsd:dateTime .
+
+esg:industry_TCFD_General a esg:Industry ;
+    rdfs:label "Cross-Sector (TCFD Applicable)" ;
+    esg:sector "All Sectors" ;
+    esg:country "Global" ;
+    esg:standard_reference "TCFD" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:46:13.640265"^^xsd:dateTime .
+
+esg:industry_001 a esg:Industry ;
+    rdfs:label "Financial Markets" ;
+    esg:sector "Financials" ;
+    esg:country "G20 jurisdictions" ;
+    esg:standard_reference "TCFD" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:46:42.306834"^^xsd:dateTime .
+
+esg:category_TCFD_B a esg:Category ;
+    rdfs:label "Climate-Related Risks, Opportunities, and Financial Impacts" ;
+    esg:section_title "Climate-Related Risks, Opportunities, and Financial Impacts" ;
+    esg:section_id "B" ;
+    esg:page_range "5-11" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:46:42.306845"^^xsd:dateTime .
+
+esg:category_TCFD_6_opps a esg:Category ;
+    rdfs:label "Climate-Related Opportunities" ;
+    esg:section_title "Climate-Related Opportunities" ;
+    esg:section_id "2" ;
+    esg:page_range "6-7" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:47:59.970898"^^xsd:dateTime .
+
+esg:metric_TCFD_6_001 a esg:Metric ;
+    rdfs:label "Technology Risk" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "N/A" ;
+    esg:description "Technological improvements or innovations that support the transition to a lower-carbon, energy-efficient economic system can have a significant impact on organizations. For example, the development and use of emerging technologies such as renewable energy, battery storage, energy efficiency, and carbon capture and storage will affect the competitiveness of certain organizations." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:47:59.970901"^^xsd:dateTime .
+
+esg:metric_TCFD_6_002 a esg:Metric ;
+    rdfs:label "Market Risk" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "N/A" ;
+    esg:description "Market risks resulting from shifts in supply and demand for certain commodities, products, and services as climate-related risks and opportunities are increasingly taken into account." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:47:59.970902"^^xsd:dateTime .
+
+esg:metric_TCFD_6_003 a esg:Metric ;
+    rdfs:label "Reputation Risk" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "N/A" ;
+    esg:description "Climate change has been identified as a potential source of reputational risk tied to changing customer or community perceptions of an organization's contribution to or detraction from the transition to a lower-carbon economy." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:47:59.970903"^^xsd:dateTime .
+
+esg:metric_TCFD_6_004 a esg:Metric ;
+    rdfs:label "Acute Physical Risk" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "N/A" ;
+    esg:description "Acute physical risks refer to those that are event-driven, including increased severity of extreme weather events, such as cyclones, hurricanes, or floods." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:47:59.970905"^^xsd:dateTime .
+
+esg:metric_TCFD_6_005 a esg:Metric ;
+    rdfs:label "Chronic Physical Risk" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "N/A" ;
+    esg:description "Chronic physical risks refer to longer-term shifts in climate patterns (e.g., sustained higher temperatures) that may cause sea level rise or chronic heat waves." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:47:59.970906"^^xsd:dateTime .
+
+esg:metric_TCFD_6_006 a esg:Metric ;
+    rdfs:label "Resource Efficiency Opportunity" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "N/A" ;
+    esg:description "Organizations that have successfully reduced operating costs by improving efficiency across their production and distribution processes, buildings, machinery/appliances, and transport/mobility." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:47:59.970907"^^xsd:dateTime .
+
+esg:metric_TCFD_7_007 a esg:Metric ;
+    rdfs:label "Energy Source Opportunity" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "N/A" ;
+    esg:description "Organizations that shift their energy usage toward low emission energy sources (e.g., wind, solar, wave, tidal, hydro, geothermal, nuclear, biofuels, and carbon capture and storage) could potentially save on annual energy costs." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:47:59.970908"^^xsd:dateTime .
+
+esg:metric_TCFD_7_008 a esg:Metric ;
+    rdfs:label "Products and Services Opportunity" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "N/A" ;
+    esg:description "Organizations that innovate and develop new low-emission products and services may improve their competitive position and capitalize on shifting consumer and producer preferences." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:47:59.970910"^^xsd:dateTime .
+
+esg:metric_TCFD_7_009 a esg:Metric ;
+    rdfs:label "Markets Opportunity" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "N/A" ;
+    esg:description "Organizations that pro-actively seek opportunities in new markets or types of assets may be able to diversify their activities and better position themselves for the transition to a lower-carbon economy." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:47:59.970911"^^xsd:dateTime .
+
+esg:metric_TCFD_7_010 a esg:Metric ;
+    rdfs:label "Resilience Opportunity" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "N/A" ;
+    esg:description "Climate resilience involves organizations developing adaptive capacity to respond to climate change to better manage the associated risks and seize opportunities, including the ability to respond to transition risks and physical risks." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:47:59.970912"^^xsd:dateTime .
+
+esg:metric_TCFD_8_011 a esg:Metric ;
+    rdfs:label "Revenue Impact from Climate Risks" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "N/A" ;
+    esg:description "Transition and physical risks may affect demand for products and services. Organizations should consider the potential impact on revenues and identify potential opportunities for enhancing or developing new revenues." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:47:59.970913"^^xsd:dateTime .
+
+esg:metric_TCFD_9_012 a esg:Metric ;
+    rdfs:label "Expenditure Impact from Climate Risks" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "N/A" ;
+    esg:description "An organization's response to climate-related risks and opportunities may depend on the organization's cost structure. Lower-cost suppliers may be more resilient to changes in cost resulting from climate-related issues." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:47:59.970915"^^xsd:dateTime .
+
+esg:metric_TCFD_9_013 a esg:Metric ;
+    rdfs:label "Assets and Liabilities Impact" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "N/A" ;
+    esg:description "Supply and demand changes from changes in policies, technology, and market dynamics related to climate change could affect the valuation of organizations' assets and liabilities. Use of long-lived assets and reserves may be particularly affected by climate-related issues." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:47:59.970916"^^xsd:dateTime .
+
+esg:metric_TCFD_9_014 a esg:Metric ;
+    rdfs:label "Capital and Financing Impact" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "N/A" ;
+    esg:description "Climate-related risks and opportunities may change the profile of an organization's debt and equity structure, either by increasing debt levels to compensate for reduced operating cash flows or for new capital expenditures or R&D." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:47:59.970917"^^xsd:dateTime .
+
+esg:industry_TCFD_generic a esg:Industry ;
+    rdfs:label "All Sectors" ;
+    esg:sector "Cross-Sector" ;
+    esg:country "N/A" ;
+    esg:standard_reference "TCFD" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:48:33.326482"^^xsd:dateTime .
+
+esg:category_TCFD_10 a esg:Category ;
+    rdfs:label "Climate-Related Risks and Opportunities" ;
+    esg:section_title "Implementing the Recommendations" ;
+    esg:section_id "Section B" ;
+    esg:page_range "10-11" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:48:33.326490"^^xsd:dateTime .
+
+esg:metric_TCFD_10_001 a esg:Metric ;
+    rdfs:label "Climate-Related Risks Disclosure" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "N/A" ;
+    esg:description "Description of climate-related risks including transition risks (policy and legal, technology, market, reputation) and physical risks (acute and chronic) with associated potential financial impacts such as increased operating costs, write-offs, asset impairment, reduced revenues, and increased capital costs" ;
+    esg:disaggregations ['Policy and Legal Risks', 'Technology Risks', 'Market Risks', 'Reputation Risks', 'Acute Physical Risks', 'Chronic Physical Risks'] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:48:33.326492"^^xsd:dateTime .
+
+esg:metric_TCFD_11_001 a esg:Metric ;
+    rdfs:label "Climate-Related Opportunities Disclosure" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "N/A" ;
+    esg:description "Description of climate-related opportunities including resource efficiency, energy source transitions, products and services development, market access, and resilience strategies with associated potential financial impacts such as reduced operating costs, increased revenues, improved competitive position, and enhanced market valuation" ;
+    esg:disaggregations ['Resource Efficiency', 'Energy Source', 'Products and Services', 'Markets', 'Resilience'] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:48:33.326494"^^xsd:dateTime .
+
+esg:metric_TCFD_14_001 a esg:Metric ;
+    rdfs:label "Board Oversight of Climate-related Risks and Opportunities" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "Governance-a" ;
+    esg:description "Describe the board's oversight of climate-related risks and opportunities." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:49:38.644397"^^xsd:dateTime .
+
+esg:metric_TCFD_14_002 a esg:Metric ;
+    rdfs:label "Management's Role in Climate-related Risk Assessment" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "Governance-b" ;
+    esg:description "Describe management's role in assessing and managing climate-related risks and opportunities." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:49:38.644399"^^xsd:dateTime .
+
+esg:metric_TCFD_14_003 a esg:Metric ;
+    rdfs:label "Climate-related Risks and Opportunities Identified" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "Strategy-a" ;
+    esg:description "Describe the climate-related risks and opportunities the organization has identified over the short, medium, and long term." ;
+    esg:disaggregations ['Short term', 'Medium term', 'Long term'] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:49:38.644402"^^xsd:dateTime .
+
+esg:metric_TCFD_14_004 a esg:Metric ;
+    rdfs:label "Impact of Climate-related Risks on Business and Strategy" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "Strategy-b" ;
+    esg:description "Describe the impact of climate-related risks and opportunities on the organization's businesses, strategy, and financial planning." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:49:38.644406"^^xsd:dateTime .
+
+esg:metric_TCFD_14_005 a esg:Metric ;
+    rdfs:label "Resilience of Strategy under Climate Scenarios" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "Strategy-c" ;
+    esg:description "Describe the resilience of the organization's strategy, taking into consideration different climate-related scenarios, including a 2°C or lower scenario." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:49:38.644409"^^xsd:dateTime .
+
+esg:metric_TCFD_14_006 a esg:Metric ;
+    rdfs:label "Processes for Identifying Climate-related Risks" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "RiskManagement-a" ;
+    esg:description "Describe the organization's processes for identifying and assessing climate-related risks." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:49:38.644412"^^xsd:dateTime .
+
+esg:metric_TCFD_14_007 a esg:Metric ;
+    rdfs:label "Processes for Managing Climate-related Risks" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "RiskManagement-b" ;
+    esg:description "Describe the organization's processes for managing climate-related risks." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:49:38.644414"^^xsd:dateTime .
+
+esg:metric_TCFD_14_008 a esg:Metric ;
+    rdfs:label "Integration of Climate Risk Processes into Overall Risk Management" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "RiskManagement-c" ;
+    esg:description "Describe how processes for identifying, assessing, and managing climate-related risks are integrated into the organization's overall risk management." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:49:38.644417"^^xsd:dateTime .
+
+esg:metric_TCFD_14_009 a esg:Metric ;
+    rdfs:label "Metrics for Assessing Climate-related Risks and Opportunities" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Various" ;
+    esg:code "MetricsTargets-a" ;
+    esg:description "Disclose the metrics used by the organization to assess climate-related risks and opportunities in line with its strategy and risk management process." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:49:38.644419"^^xsd:dateTime .
+
+esg:metric_TCFD_14_010 a esg:Metric ;
+    rdfs:label "Greenhouse Gas Emissions (Scope 1, 2, and 3)" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Metric tons CO2 equivalent (tCO2e)" ;
+    esg:code "MetricsTargets-b" ;
+    esg:description "Disclose Scope 1, Scope 2, and, if appropriate, Scope 3 greenhouse gas (GHG) emissions, and the related risks." ;
+    esg:disaggregations ['Scope 1', 'Scope 2', 'Scope 3'] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:49:38.644422"^^xsd:dateTime .
+
+esg:metric_TCFD_14_011 a esg:Metric ;
+    rdfs:label "Targets for Managing Climate-related Risks and Performance" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Various" ;
+    esg:code "MetricsTargets-c" ;
+    esg:description "Describe the targets used by the organization to manage climate-related risks and opportunities and performance against targets." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:49:38.644425"^^xsd:dateTime .
+
+esg:industry_TCFD-AM-AO a esg:Industry ;
+    rdfs:label "Asset Managers and Asset Owners" ;
+    esg:sector "Financials" ;
+    esg:country "N/A" ;
+    esg:standard_reference "TCFD" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:50:17.317765"^^xsd:dateTime .
+
+esg:category_TCFD_18 a esg:Category ;
+    rdfs:label "Principles for Effective Disclosures" ;
+    esg:section_title "Principles for Effective Disclosures" ;
+    esg:section_id "C" ;
+    esg:page_range "18" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:50:17.317783"^^xsd:dateTime .
+
+esg:metric_TCFD_18_001 a esg:Metric ;
+    rdfs:label "Disclosure Relevance" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "TCFD-Principle-1" ;
+    esg:description "Disclosures should represent relevant information" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:50:17.317786"^^xsd:dateTime .
+
+esg:metric_TCFD_18_002 a esg:Metric ;
+    rdfs:label "Disclosure Specificity and Completeness" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "TCFD-Principle-2" ;
+    esg:description "Disclosures should be specific and complete" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:50:17.317789"^^xsd:dateTime .
+
+esg:metric_TCFD_18_003 a esg:Metric ;
+    rdfs:label "Disclosure Clarity and Understandability" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "TCFD-Principle-3" ;
+    esg:description "Disclosures should be clear, balanced, and understandable" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:50:17.317792"^^xsd:dateTime .
+
+esg:metric_TCFD_18_004 a esg:Metric ;
+    rdfs:label "Disclosure Consistency Over Time" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "TCFD-Principle-4" ;
+    esg:description "Disclosures should be consistent over time" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:50:17.317796"^^xsd:dateTime .
+
+esg:metric_TCFD_18_005 a esg:Metric ;
+    rdfs:label "Disclosure Comparability" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "TCFD-Principle-5" ;
+    esg:description "Disclosures should be comparable among companies within a sector, industry, or portfolio" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:50:17.317799"^^xsd:dateTime .
+
+esg:metric_TCFD_18_006 a esg:Metric ;
+    rdfs:label "Disclosure Reliability and Objectivity" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "TCFD-Principle-6" ;
+    esg:description "Disclosures should be reliable, verifiable, and objective" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:50:17.317801"^^xsd:dateTime .
+
+esg:metric_TCFD_18_007 a esg:Metric ;
+    rdfs:label "Disclosure Timeliness" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "TCFD-Principle-7" ;
+    esg:description "Disclosures should be provided on a timely basis" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:50:17.317804"^^xsd:dateTime .
+
+esg:metric_TCFD_19_001 a esg:Metric ;
+    rdfs:label "Board Oversight of Climate-Related Issues" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "TCFD-Gov-a" ;
+    esg:description "Describe the board's oversight of climate-related risks and opportunities" ;
+    esg:disaggregations ['Processes and frequency by which the board and/or board committees are informed about climate-related issues', 'Whether the board and/or board committees consider climate-related issues when reviewing and guiding strategy, major plans of action, risk management policies, annual budgets, and business plans', 'How the board monitors and oversees progress against goals and targets for addressing climate-related issues'] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:50:44.592011"^^xsd:dateTime .
+
+esg:metric_TCFD_19_002 a esg:Metric ;
+    rdfs:label "Management's Role in Climate-Related Issues" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "TCFD-Gov-b" ;
+    esg:description "Describe management's role in assessing and managing climate-related risks and opportunities" ;
+    esg:disaggregations ['Whether the organization has assigned climate-related responsibilities to management-level positions or committees', 'Description of the associated organizational structure(s)', 'Processes by which management is informed about climate-related issues', 'How management monitors climate-related issues'] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:50:44.592014"^^xsd:dateTime .
+
+esg:metric_TCFD_20_001 a esg:Metric ;
+    rdfs:label "Climate-related Risks and Opportunities Description" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "TCFD-Strategy-a" ;
+    esg:description "Describe the climate-related risks and opportunities the organization has identified over the short, medium, and long term." ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:51:33.957233"^^xsd:dateTime .
+
+esg:metric_TCFD_20_002 a esg:Metric ;
+    rdfs:label "Time Horizons Definition" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "TCFD-Strategy-a1" ;
+    esg:description "A description of what the organization considers to be the relevant short-, medium-, and long-term time horizons, taking into consideration the useful life of assets or infrastructure and climate-related issues." ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:51:33.957235"^^xsd:dateTime .
+
+esg:metric_TCFD_20_003 a esg:Metric ;
+    rdfs:label "Impact on Businesses, Strategy, and Financial Planning" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "TCFD-Strategy-b" ;
+    esg:description "Describe the impact of climate-related risks and opportunities on the organization's businesses, strategy, and financial planning." ;
+    esg:disaggregations ['Products and services', 'Supply chain and/or value chain', 'Adaptation and mitigation activities', 'Investment in research and development', 'Operations', 'Operating costs and revenues', 'Capital expenditures and capital allocation', 'Acquisitions or divestments', 'Access to capital'] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:51:33.957238"^^xsd:dateTime .
+
+esg:metric_TCFD_20_004 a esg:Metric ;
+    rdfs:label "Scenario Analysis Description" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "TCFD-Strategy-c" ;
+    esg:description "Describe the resilience of the organization's strategy, taking into consideration different climate-related scenarios, including a 2°C or lower scenario." ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:51:33.957240"^^xsd:dateTime .
+
+esg:metric_TCFD_21_001 a esg:Metric ;
+    rdfs:label "Processes for Identifying and Assessing Climate-related Risks" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "TCFD-RiskMgmt-a" ;
+    esg:description "Describe the organization's processes for identifying and assessing climate-related risks, including how the relative significance is determined and existing and emerging regulatory requirements are considered." ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:51:33.957242"^^xsd:dateTime .
+
+esg:metric_TCFD_21_002 a esg:Metric ;
+    rdfs:label "Processes for Managing Climate-related Risks" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "TCFD-RiskMgmt-b" ;
+    esg:description "Describe the organization's processes for managing climate-related risks, including how decisions to mitigate, transfer, accept, or control risks are made and how risks are prioritized." ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:51:33.957245"^^xsd:dateTime .
+
+esg:category_TCFD_26_01 a esg:Category ;
+    rdfs:label "Scenario Analysis and Climate-Related Issues" ;
+    esg:section_title "Scenario Analysis and Climate-Related Issues" ;
+    esg:section_id "D" ;
+    esg:page_range "26-27" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:53:07.240556"^^xsd:dateTime .
+
+esg:metric_TCFD_22_001 a esg:Metric ;
+    rdfs:label "Climate-Related Risk Management Integration" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "N/A" ;
+    esg:code "TCFD-RM-c" ;
+    esg:description "Description of how processes for identifying, assessing, and managing climate-related risks are integrated into the organization's overall risk management" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:52:41.224300"^^xsd:dateTime .
+
+esg:metric_TCFD_22_002 a esg:Metric ;
+    rdfs:label "Key Climate-Related Metrics" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Various" ;
+    esg:code "TCFD-MT-a" ;
+    esg:description "Key metrics used to measure and manage climate-related risks and opportunities, including metrics on climate-related risks associated with water, energy, land use, and waste management" ;
+    esg:disaggregations ['water', 'energy', 'land use', 'waste management'] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:52:41.224303"^^xsd:dateTime .
+
+esg:metric_TCFD_22_003 a esg:Metric ;
+    rdfs:label "Total GHG Emissions (Scope 1, 2, and 3)" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:unit "Metric tons CO₂-e" ;
+    esg:code "TCFD-MT-a.1" ;
+    esg:description "Scope 1, Scope 2, and, if appropriate, Scope 3 greenhouse gas (GHG) emissions, and the related risks. GHG emissions calculated in line with the GHG Protocol methodology to allow for aggregation and comparability across organizations and jurisdictions." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:52:41.224306"^^xsd:dateTime .
+
+esg:model_TCFD_22_003 a esg:Model ;
+    rdfs:label "GHG Emissions Aggregation Model" ;
+    esg:description "Aggregation model that calculates total GHG emissions by combining Scope 1, Scope 2, and Scope 3 emissions in line with GHG Protocol methodology for comparability across organizations and jurisdictions" ;
+    esg:equation "Total GHG Emissions = Scope 1 + Scope 2 + Scope 3 (if appropriate)" ;
+    esg:input_variables ['Scope 1 GHG emissions', 'Scope 2 GHG emissions', 'Scope 3 GHG emissions'] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:52:41.224308"^^xsd:dateTime .
+
+esg:metric_TCFD_22_004 a esg:Metric ;
+    rdfs:label "Scope 1 GHG Emissions" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Metric tons CO₂-e" ;
+    esg:code "N/A" ;
+    esg:description "Direct greenhouse gas emissions from sources owned or controlled by the organization" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:52:41.224310"^^xsd:dateTime .
+
+esg:metric_TCFD_22_005 a esg:Metric ;
+    rdfs:label "Scope 2 GHG Emissions" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Metric tons CO₂-e" ;
+    esg:code "N/A" ;
+    esg:description "Indirect greenhouse gas emissions from the generation of purchased electricity, steam, heating, and cooling consumed by the organization" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:52:41.224312"^^xsd:dateTime .
+
+esg:metric_TCFD_22_006 a esg:Metric ;
+    rdfs:label "Scope 3 GHG Emissions" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Metric tons CO₂-e" ;
+    esg:code "N/A" ;
+    esg:description "All other indirect greenhouse gas emissions that occur in the organization's value chain" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:52:41.224314"^^xsd:dateTime .
+
+esg:metric_TCFD_22_007 a esg:Metric ;
+    rdfs:label "GHG Efficiency Ratios" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Ratio" ;
+    esg:code "N/A" ;
+    esg:description "Industry-specific GHG efficiency ratios (e.g., emissions per unit of production, per employee, or per value-added)" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:52:41.224316"^^xsd:dateTime .
+
+esg:metric_TCFD_23_001 a esg:Metric ;
+    rdfs:label "Base Year for Progress Measurement" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Year" ;
+    esg:code "TCFD-MT-b.1" ;
+    esg:description "Base year from which progress against targets is measured" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:52:41.224319"^^xsd:dateTime .
+
+esg:metric_TCFD_23_002 a esg:Metric ;
+    rdfs:label "Key Performance Indicators for Target Assessment" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Various" ;
+    esg:code "TCFD-MT-b.2" ;
+    esg:description "Key performance indicators used to assess progress against targets for managing climate-related risks and opportunities" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:52:41.224321"^^xsd:dateTime .
+
+esg:metric_TCFD_25_001 a esg:Metric ;
+    rdfs:label "Scenario Analysis Assessment" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "N/A" ;
+    esg:code "TCFD-SA-1" ;
+    esg:description "Use of scenario analysis to assess potential business, strategic, and financial implications of climate-related risks and opportunities under a range of plausible future states" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:52:41.224323"^^xsd:dateTime .
+
+esg:industry_TCFD-General a esg:Industry ;
+    rdfs:label "Climate-Exposed Organizations" ;
+    esg:sector "Cross-sector" ;
+    esg:country "Global" ;
+    esg:standard_reference "TCFD" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:53:07.240543"^^xsd:dateTime .
+
+esg:industry_003 a esg:Industry ;
+    rdfs:label "Organizations with Climate-Related Exposures" ;
+    esg:sector "Cross-sector" ;
+    esg:country "N/A" ;
+    esg:standard_reference "TCFD" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:54:11.236994"^^xsd:dateTime .
+
+esg:metric_TCFD_28_001 a esg:Metric ;
+    rdfs:label "Scenarios Used Disclosure" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "TCFD-Figure8-Item1" ;
+    esg:description "The scenarios used, including the 2°C or lower scenario" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:54:11.237033"^^xsd:dateTime .
+
+esg:metric_TCFD_28_002 a esg:Metric ;
+    rdfs:label "Critical Input Parameters and Assumptions" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "TCFD-Figure8-Item2" ;
+    esg:description "Critical input parameters, assumptions, and analytical choices for the scenarios used, including technology responses, regional differences, and sensitivities" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:54:11.237037"^^xsd:dateTime .
+
+esg:model_TCFD_28_002 a esg:Model ;
+    rdfs:label "Scenario Input Parameters Analysis Model" ;
+    esg:description "Composite analysis aggregating critical input parameters including technology assumptions, regional variations, and sensitivity analyses to characterize scenario analytical choices" ;
+    esg:equation "f(TechnologyResponses, RegionalDifferences, KeySensitivities)" ;
+    esg:input_variables ['Technology responses and timing assumptions', 'Regional and market differences in parameters', 'Sensitivities to key assumptions'] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:54:11.237041"^^xsd:dateTime .
+
+esg:metric_TCFD_28_003 a esg:Metric ;
+    rdfs:label "Technology Responses and Timing Assumptions" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "N/A" ;
+    esg:description "Assumptions about possible technology responses and timing (e.g., evolution of products/services, the technology used to produce them, and costs to implement)" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:54:11.237044"^^xsd:dateTime .
+
+esg:metric_TCFD_28_004 a esg:Metric ;
+    rdfs:label "Regional and Market Parameter Differences" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "N/A" ;
+    esg:description "Assumptions made around potential differences in input parameters across regions, countries, asset locations, and/or markets" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:54:11.237047"^^xsd:dateTime .
+
+esg:metric_TCFD_28_005 a esg:Metric ;
+    rdfs:label "Sensitivities to Key Assumptions" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "N/A" ;
+    esg:description "Approximate sensitivities to key assumptions" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:54:11.237050"^^xsd:dateTime .
+
+esg:metric_TCFD_28_006 a esg:Metric ;
+    rdfs:label "Scenario Time Frames Disclosure" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "TCFD-Figure8-Item3" ;
+    esg:description "Time frames used for scenarios, including short-, medium-, and long-term milestones (e.g., how organizations consider timing of potential future implications under the scenarios used)" ;
+    esg:disaggregations ['Short-term', 'Medium-term', 'Long-term'] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:54:11.237053"^^xsd:dateTime .
+
+esg:metric_TCFD_28_007 a esg:Metric ;
+    rdfs:label "Organizational Resiliency Assessment" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "TCFD-Figure8-Item4" ;
+    esg:description "Information about the resiliency of the organization's strategy, including strategic performance implications, value chain implications, capital allocation decisions, R&D focus, and material financial implications" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:54:11.237056"^^xsd:dateTime .
+
+esg:model_TCFD_28_007 a esg:Model ;
+    rdfs:label "Strategic Resiliency Assessment Model" ;
+    esg:description "Composite assessment synthesizing organizational resiliency from strategic performance, value chain implications, capital allocation, R&D priorities, and financial position impacts under scenario analysis" ;
+    esg:equation "f(StrategicPerformance, ValueChainImplications, CapitalAllocation, R&DFocus, FinancialImplications)" ;
+    esg:input_variables ['Strategic performance implications', 'Value chain implications', 'Capital allocation decisions', 'Research and development focus', 'Material financial implications'] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:54:11.237058"^^xsd:dateTime .
+
+esg:metric_TCFD_28_008 a esg:Metric ;
+    rdfs:label "Strategic Performance Implications" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "N/A" ;
+    esg:description "Strategic performance implications under the various scenarios considered" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:54:11.237061"^^xsd:dateTime .
+
+esg:metric_TCFD_28_009 a esg:Metric ;
+    rdfs:label "Value Chain Implications" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "N/A" ;
+    esg:description "Potential qualitative or directional implications for the organization's value chain" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:54:11.237063"^^xsd:dateTime .
+
+esg:metric_TCFD_28_010 a esg:Metric ;
+    rdfs:label "Capital Allocation Decisions" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "N/A" ;
+    esg:description "Capital allocation decisions under scenario analysis" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:54:11.237066"^^xsd:dateTime .
+
+esg:metric_TCFD_28_011 a esg:Metric ;
+    rdfs:label "Research and Development Focus" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "N/A" ;
+    esg:description "Research and development focus under scenario considerations" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:54:11.237069"^^xsd:dateTime .
+
+esg:metric_TCFD_28_012 a esg:Metric ;
+    rdfs:label "Material Financial Implications" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "N/A" ;
+    esg:description "Potential material financial implications for the organization's operating results and/or financial position" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:54:11.237071"^^xsd:dateTime .
+
+esg:industry_TCFD-FS a esg:Industry ;
+    rdfs:label "Financial Sector Organizations" ;
+    esg:sector "Financials" ;
+    esg:country "N/A" ;
+    esg:standard_reference "TCFD" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:54:33.145231"^^xsd:dateTime .
+
+esg:industry_TCFD-Generic a esg:Industry ;
+    rdfs:label "Organizations (Financial and Non-Financial)" ;
+    esg:sector "Cross-sector" ;
+    esg:country "Global (G20 focus)" ;
+    esg:standard_reference "TCFD" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:55:38.989819"^^xsd:dateTime .
+
+esg:category_TCFD_39 a esg:Category ;
+    rdfs:label "Key Issues Considered and Areas for Further Work: Organizational Ownership" ;
+    esg:section_title "Organizational Ownership" ;
+    esg:section_id "E.10" ;
+    esg:page_range "39" ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:55:38.989841"^^xsd:dateTime .
+
+esg:metric_TCFD_39_001 a esg:Metric ;
+    rdfs:label "Climate-Related Risk Governance and Responsibility Structure" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "N/A" ;
+    esg:description "Disclosure of whether and how organizations have formalized responsibility for climate-related risk assessment and management, including the relationship between climate-related risk experts (e.g., environmental, social and governance experts, chief investment officers) and the finance function, and the integration of climate-related issues into strategic and financial planning processes." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.FINAL-2017-TCFD-Report" ;
+    prov:generatedAtTime "2025-11-18T13:55:38.989844"^^xsd:dateTime .
+
+esg:industry_003 esg:ReportUsing esg:framework_TCFD .
+esg:framework_TCFD esg:Include esg:category_TCFD_Governance .
+esg:framework_TCFD esg:Include esg:category_TCFD_Strategy .
+esg:framework_TCFD esg:Include esg:category_TCFD_RiskMgmt .
+esg:framework_TCFD esg:Include esg:category_TCFD_MetricsTargets .
+esg:industry_TCFD esg:ReportUsing esg:framework_TCFD .
+esg:industry_TCFD_General esg:ReportUsing esg:framework_TCFD .
+esg:framework_TCFD esg:Include esg:category_TCFD_B .
+esg:framework_TCFD esg:Include esg:category_TCFD_6_opps .
+esg:category_TCFD_B esg:ConsistOf esg:metric_TCFD_6_001 .
+esg:category_TCFD_B esg:ConsistOf esg:metric_TCFD_6_002 .
+esg:category_TCFD_B esg:ConsistOf esg:metric_TCFD_6_003 .
+esg:category_TCFD_B esg:ConsistOf esg:metric_TCFD_6_004 .
+esg:category_TCFD_B esg:ConsistOf esg:metric_TCFD_6_005 .
+esg:category_TCFD_6_opps esg:ConsistOf esg:metric_TCFD_6_006 .
+esg:category_TCFD_6_opps esg:ConsistOf esg:metric_TCFD_7_007 .
+esg:category_TCFD_6_opps esg:ConsistOf esg:metric_TCFD_7_008 .
+esg:category_TCFD_6_opps esg:ConsistOf esg:metric_TCFD_7_009 .
+esg:category_TCFD_6_opps esg:ConsistOf esg:metric_TCFD_7_010 .
+esg:category_TCFD_B esg:ConsistOf esg:metric_TCFD_8_011 .
+esg:category_TCFD_B esg:ConsistOf esg:metric_TCFD_9_012 .
+esg:category_TCFD_B esg:ConsistOf esg:metric_TCFD_9_013 .
+esg:category_TCFD_B esg:ConsistOf esg:metric_TCFD_9_014 .
+esg:industry_TCFD_generic esg:ReportUsing esg:framework_TCFD .
+esg:framework_TCFD esg:Include esg:category_TCFD_10 .
+esg:category_TCFD_10 esg:ConsistOf esg:metric_TCFD_10_001 .
+esg:category_TCFD_10 esg:ConsistOf esg:metric_TCFD_11_001 .
+esg:category_TCFD_Governance esg:ConsistOf esg:metric_TCFD_14_001 .
+esg:category_TCFD_Governance esg:ConsistOf esg:metric_TCFD_14_002 .
+esg:category_TCFD_Strategy esg:ConsistOf esg:metric_TCFD_14_003 .
+esg:category_TCFD_Strategy esg:ConsistOf esg:metric_TCFD_14_004 .
+esg:category_TCFD_Strategy esg:ConsistOf esg:metric_TCFD_14_005 .
+esg:category_TCFD_RiskMgmt esg:ConsistOf esg:metric_TCFD_14_006 .
+esg:category_TCFD_RiskMgmt esg:ConsistOf esg:metric_TCFD_14_007 .
+esg:category_TCFD_RiskMgmt esg:ConsistOf esg:metric_TCFD_14_008 .
+esg:category_TCFD_MetricsTargets esg:ConsistOf esg:metric_TCFD_14_009 .
+esg:category_TCFD_MetricsTargets esg:ConsistOf esg:metric_TCFD_14_010 .
+esg:category_TCFD_MetricsTargets esg:ConsistOf esg:metric_TCFD_14_011 .
+esg:industry_TCFD-AM-AO esg:ReportUsing esg:framework_TCFD .
+esg:framework_TCFD esg:Include esg:category_TCFD_18 .
+esg:category_TCFD_18 esg:ConsistOf esg:metric_TCFD_18_001 .
+esg:category_TCFD_18 esg:ConsistOf esg:metric_TCFD_18_002 .
+esg:category_TCFD_18 esg:ConsistOf esg:metric_TCFD_18_003 .
+esg:category_TCFD_18 esg:ConsistOf esg:metric_TCFD_18_004 .
+esg:category_TCFD_18 esg:ConsistOf esg:metric_TCFD_18_005 .
+esg:category_TCFD_18 esg:ConsistOf esg:metric_TCFD_18_006 .
+esg:category_TCFD_18 esg:ConsistOf esg:metric_TCFD_18_007 .
+esg:category_TCFD_Governance esg:ConsistOf esg:metric_TCFD_19_001 .
+esg:category_TCFD_Governance esg:ConsistOf esg:metric_TCFD_19_002 .
+esg:category_TCFD_Strategy esg:ConsistOf esg:metric_TCFD_20_001 .
+esg:category_TCFD_Strategy esg:ConsistOf esg:metric_TCFD_20_002 .
+esg:category_TCFD_Strategy esg:ConsistOf esg:metric_TCFD_20_003 .
+esg:category_TCFD_Strategy esg:ConsistOf esg:metric_TCFD_20_004 .
+esg:category_TCFD_RiskMgmt esg:ConsistOf esg:metric_TCFD_21_001 .
+esg:category_TCFD_RiskMgmt esg:ConsistOf esg:metric_TCFD_21_002 .
+esg:framework_TCFD esg:Include esg:category_TCFD_26_01 .
+esg:category_TCFD_RiskMgmt esg:ConsistOf esg:metric_TCFD_22_001 .
+esg:category_TCFD_MetricsTargets esg:ConsistOf esg:metric_TCFD_22_002 .
+esg:category_TCFD_MetricsTargets esg:ConsistOf esg:metric_TCFD_22_003 .
+esg:metric_TCFD_22_003 esg:IsCalculatedBy esg:model_TCFD_22_003 .
+esg:model_TCFD_22_003 esg:RequiresInputFrom esg:metric_TCFD_22_004 .
+esg:model_TCFD_22_003 esg:RequiresInputFrom esg:metric_TCFD_22_005 .
+esg:model_TCFD_22_003 esg:RequiresInputFrom esg:metric_TCFD_22_006 .
+esg:category_TCFD_MetricsTargets esg:ConsistOf esg:metric_TCFD_22_007 .
+esg:category_TCFD_MetricsTargets esg:ConsistOf esg:metric_TCFD_23_001 .
+esg:category_TCFD_MetricsTargets esg:ConsistOf esg:metric_TCFD_23_002 .
+esg:category_TCFD_26_01 esg:ConsistOf esg:metric_TCFD_25_001 .
+esg:industry_TCFD-General esg:ReportUsing esg:framework_TCFD .
+esg:category_TCFD_26_01 esg:ConsistOf esg:metric_TCFD_28_001 .
+esg:category_TCFD_26_01 esg:ConsistOf esg:metric_TCFD_28_002 .
+esg:category_TCFD_26_01 esg:ConsistOf esg:metric_TCFD_28_006 .
+esg:category_TCFD_26_01 esg:ConsistOf esg:metric_TCFD_28_007 .
+esg:metric_TCFD_28_002 esg:IsCalculatedBy esg:model_TCFD_28_002 .
+esg:model_TCFD_28_002 esg:RequiresInputFrom esg:metric_TCFD_28_003 .
+esg:model_TCFD_28_002 esg:RequiresInputFrom esg:metric_TCFD_28_004 .
+esg:model_TCFD_28_002 esg:RequiresInputFrom esg:metric_TCFD_28_005 .
+esg:metric_TCFD_28_007 esg:IsCalculatedBy esg:model_TCFD_28_007 .
+esg:model_TCFD_28_007 esg:RequiresInputFrom esg:metric_TCFD_28_008 .
+esg:model_TCFD_28_007 esg:RequiresInputFrom esg:metric_TCFD_28_009 .
+esg:model_TCFD_28_007 esg:RequiresInputFrom esg:metric_TCFD_28_010 .
+esg:model_TCFD_28_007 esg:RequiresInputFrom esg:metric_TCFD_28_011 .
+esg:model_TCFD_28_007 esg:RequiresInputFrom esg:metric_TCFD_28_012 .
+esg:industry_TCFD-FS esg:ReportUsing esg:framework_TCFD .
+esg:industry_TCFD-Generic esg:ReportUsing esg:framework_TCFD .
+esg:framework_TCFD esg:Include esg:category_TCFD_39 .
+esg:category_TCFD_39 esg:ConsistOf esg:metric_TCFD_39_001 .

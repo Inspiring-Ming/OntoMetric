@@ -1,0 +1,217 @@
+{
+  "document_name": "1.SASB-semiconductors-standard_en-gb_ontology_guided",
+  "report_timestamp": "2025-11-18T13:44:22.044107",
+  "summary": {
+    "total_segments": 13,
+    "total_input_tokens": 63953,
+    "total_output_tokens": 45312,
+    "total_tokens": 109265,
+    "total_cost_usd": 0.871539,
+    "input_cost_usd": 0.19185899999999997,
+    "output_cost_usd": 0.67968,
+    "models_used": [
+      "claude-sonnet-4-5-20250929"
+    ],
+    "average_cost_per_segment_usd": 0.06704146153846154
+  },
+  "per_segment_usage": [
+    {
+      "timestamp": "2025-11-18T13:35:55.160553",
+      "segment_id": "seg_001",
+      "model": "claude-sonnet-4-5-20250929",
+      "input_tokens": 4239,
+      "output_tokens": 964,
+      "input_cost_usd": 0.012717,
+      "output_cost_usd": 0.01446,
+      "total_cost_usd": 0.027177,
+      "page_start": 0,
+      "page_end": 0,
+      "page_span": 1
+    },
+    {
+      "timestamp": "2025-11-18T13:36:13.580865",
+      "segment_id": "seg_002",
+      "model": "claude-sonnet-4-5-20250929",
+      "input_tokens": 4424,
+      "output_tokens": 1346,
+      "input_cost_usd": 0.013271999999999999,
+      "output_cost_usd": 0.02019,
+      "total_cost_usd": 0.033462,
+      "page_start": 4,
+      "page_end": 4,
+      "page_span": 1
+    },
+    {
+      "timestamp": "2025-11-18T13:38:04.207335",
+      "segment_id": "seg_003",
+      "model": "claude-sonnet-4-5-20250929",
+      "input_tokens": 4693,
+      "output_tokens": 9491,
+      "input_cost_usd": 0.014079000000000001,
+      "output_cost_usd": 0.142365,
+      "total_cost_usd": 0.156444,
+      "page_start": 5,
+      "page_end": 5,
+      "page_span": 1
+    },
+    {
+      "timestamp": "2025-11-18T13:39:02.240849",
+      "segment_id": "seg_004",
+      "model": "claude-sonnet-4-5-20250929",
+      "input_tokens": 5287,
+      "output_tokens": 5770,
+      "input_cost_usd": 0.015861,
+      "output_cost_usd": 0.08655,
+      "total_cost_usd": 0.102411,
+      "page_start": 6,
+      "page_end": 7,
+      "page_span": 2
+    },
+    {
+      "timestamp": "2025-11-18T13:39:43.817050",
+      "segment_id": "seg_005",
+      "model": "claude-sonnet-4-5-20250929",
+      "input_tokens": 5841,
+      "output_tokens": 3698,
+      "input_cost_usd": 0.017523,
+      "output_cost_usd": 0.05547,
+      "total_cost_usd": 0.072993,
+      "page_start": 8,
+      "page_end": 10,
+      "page_span": 3
+    },
+    {
+      "timestamp": "2025-11-18T13:40:21.192556",
+      "segment_id": "seg_006",
+      "model": "claude-sonnet-4-5-20250929",
+      "input_tokens": 5176,
+      "output_tokens": 3050,
+      "input_cost_usd": 0.015528,
+      "output_cost_usd": 0.045750000000000006,
+      "total_cost_usd": 0.061278000000000006,
+      "page_start": 11,
+      "page_end": 12,
+      "page_span": 2
+    },
+    {
+      "timestamp": "2025-11-18T13:41:20.560043",
+      "segment_id": "seg_007",
+      "model": "claude-sonnet-4-5-20250929",
+      "input_tokens": 4873,
+      "output_tokens": 5993,
+      "input_cost_usd": 0.014619,
+      "output_cost_usd": 0.089895,
+      "total_cost_usd": 0.104514,
+      "page_start": 13,
+      "page_end": 14,
+      "page_span": 2
+    },
+    {
+      "timestamp": "2025-11-18T13:41:42.506276",
+      "segment_id": "seg_008",
+      "model": "claude-sonnet-4-5-20250929",
+      "input_tokens": 4869,
+      "output_tokens": 1657,
+      "input_cost_usd": 0.014607,
+      "output_cost_usd": 0.024855000000000002,
+      "total_cost_usd": 0.039462000000000004,
+      "page_start": 15,
+      "page_end": 16,
+      "page_span": 2
+    },
+    {
+      "timestamp": "2025-11-18T13:42:18.231381",
+      "segment_id": "seg_009",
+      "model": "claude-sonnet-4-5-20250929",
+      "input_tokens": 5071,
+      "output_tokens": 3144,
+      "input_cost_usd": 0.015213,
+      "output_cost_usd": 0.04716,
+      "total_cost_usd": 0.062373,
+      "page_start": 17,
+      "page_end": 18,
+      "page_span": 2
+    },
+    {
+      "timestamp": "2025-11-18T13:42:44.649756",
+      "segment_id": "seg_010",
+      "model": "claude-sonnet-4-5-20250929",
+      "input_tokens": 4680,
+      "output_tokens": 2615,
+      "input_cost_usd": 0.01404,
+      "output_cost_usd": 0.039225,
+      "total_cost_usd": 0.05326500000000001,
+      "page_start": 19,
+      "page_end": 19,
+      "page_span": 1
+    },
+    {
+      "timestamp": "2025-11-18T13:43:38.204786",
+      "segment_id": "seg_011",
+      "model": "claude-sonnet-4-5-20250929",
+      "input_tokens": 5682,
+      "output_tokens": 4755,
+      "input_cost_usd": 0.017046000000000002,
+      "output_cost_usd": 0.071325,
+      "total_cost_usd": 0.088371,
+      "page_start": 20,
+      "page_end": 22,
+      "page_span": 3
+    },
+    {
+      "timestamp": "2025-11-18T13:44:08.796577",
+      "segment_id": "seg_012",
+      "model": "claude-sonnet-4-5-20250929",
+      "input_tokens": 4899,
+      "output_tokens": 2321,
+      "input_cost_usd": 0.014696999999999998,
+      "output_cost_usd": 0.034815,
+      "total_cost_usd": 0.049512,
+      "page_start": 23,
+      "page_end": 24,
+      "page_span": 2
+    },
+    {
+      "timestamp": "2025-11-18T13:44:22.031622",
+      "segment_id": "seg_013",
+      "model": "claude-sonnet-4-5-20250929",
+      "input_tokens": 4219,
+      "output_tokens": 508,
+      "input_cost_usd": 0.012656999999999998,
+      "output_cost_usd": 0.00762,
+      "total_cost_usd": 0.020276999999999996,
+      "page_start": 25,
+      "page_end": 26,
+      "page_span": 2
+    }
+  ],
+  "pricing_reference": {
+    "note": "Pricing per million tokens (MTok) in USD",
+    "models": {
+      "claude-3-5-sonnet-20241022": {
+        "input": 3.0,
+        "output": 15.0
+      },
+      "claude-3-5-sonnet-20240620": {
+        "input": 3.0,
+        "output": 15.0
+      },
+      "claude-3-5-haiku-20241022": {
+        "input": 1.0,
+        "output": 5.0
+      },
+      "claude-3-opus-20240229": {
+        "input": 15.0,
+        "output": 75.0
+      },
+      "claude-3-sonnet-20240229": {
+        "input": 3.0,
+        "output": 15.0
+      },
+      "claude-3-haiku-20240307": {
+        "input": 0.25,
+        "output": 1.25
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+Document: Commercial Banks Sustainability Accounting Standard FINANCIALS SECTOR
+Total Pages: 23
+Total Segments: 10
+Processed: 2025-10-20 13:19:24
+
+============================================================
+
+Section 1: Title & Document Information
+  Pages: 0-0
+  Words: 35
+  Tables: 0
+
+Section 2: Overview of SASB Standards
+  Pages: 4-4
+  Words: 346
+  Tables: 0
+
+Section 3: Industry Description
+  Pages: 5-5
+  Words: 324
+  Tables: 1
+
+Section 4: Sustainability Disclosure Topics & Metrics
+  Pages: 6-7
+  Words: 660
+  Tables: 2
+
+Section 5: Data Security
+  Pages: 8-10
+  Words: 989
+  Tables: 0
+
+Section 6: Financial Inclusion & Capacity Building
+  Pages: 11-13
+  Words: 1079
+  Tables: 0
+
+Section 7: Incorporation of Environmental, Social, and Governance Factors in Credit Analysis
+  Pages: 14-16
+  Words: 782
+  Tables: 0
+
+Section 8: Financed Emissions
+  Pages: 17-18
+  Words: 600
+  Tables: 0
+
+Section 9: Business Ethics
+  Pages: 19-20
+  Words: 574
+  Tables: 0
+
+Section 10: Systemic Risk Management
+  Pages: 21-22
+  Words: 214
+  Tables: 0
+

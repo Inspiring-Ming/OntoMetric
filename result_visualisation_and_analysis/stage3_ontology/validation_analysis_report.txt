@@ -1,0 +1,62 @@
+====================================================================================================
+STAGE 3 ONTOLOGY-GUIDED VALIDATION: DETAILED ANALYSIS
+====================================================================================================
+
+OVERALL STATISTICS
+----------------------------------------------------------------------------------------------------
+  Total Documents Analyzed:        5
+  Total Entities (Before):         364
+  Total Entities (After):          295
+  Overall Retention Rate:          81.04%
+  Total Validation Cost:           $0.0364
+
+  Average Schema Compliance:       81.93%
+  Average Semantic Accuracy:       81.61%
+  Average Relationship Retention:  81.62%
+
+PER-DOCUMENT DETAILS
+----------------------------------------------------------------------------------------------------
+
+Australia AASB:
+  Entities: 74 → 66 (89.2% retention)
+  Schema Compliance: 83.33%
+  Semantic Accuracy: 89.19%
+  Relationship Retention: 86.67%
+  Validation Cost: $0.0074
+  Failed Rules: VR002 (0.0%)
+
+IFRS S2:
+  Entities: 80 → 68 (85.0% retention)
+  Schema Compliance: 81.48%
+  Semantic Accuracy: 85.00%
+  Relationship Retention: 89.23%
+  Validation Cost: $0.0080
+  Failed Rules: VR002 (0.0%), VR003 (88.9%)
+
+SASB Banks:
+  Entities: 53 → 42 (79.2% retention)
+  Schema Compliance: 82.72%
+  Semantic Accuracy: 79.25%
+  Relationship Retention: 79.25%
+  Validation Cost: $0.0053
+  Failed Rules: VR002 (0.0%), VR003 (96.3%)
+
+SASB Semiconductors:
+  Entities: 69 → 62 (89.9% retention)
+  Schema Compliance: 82.02%
+  Semantic Accuracy: 89.86%
+  Relationship Retention: 90.14%
+  Validation Cost: $0.0069
+  Failed Rules: VR002 (0.0%), VR003 (92.1%)
+
+TCFD Report:
+  Entities: 88 → 57 (64.8% retention)
+  Schema Compliance: 80.09%
+  Semantic Accuracy: 64.77%
+  Relationship Retention: 62.79%
+  Validation Cost: $0.0088
+  Failed Rules: VR002 (0.0%), VR003 (80.6%)
+
+====================================================================================================
+END OF REPORT
+====================================================================================================

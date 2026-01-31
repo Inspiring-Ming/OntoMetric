@@ -1,0 +1,53 @@
+ESG Knowledge Extraction Log
+==================================================
+Document: Australian Sustainability Reporting Standard AASB S2 September 2024 Climate-related Disclosures
+Processing Date: 2025-11-18 13:35:40
+Total Segments: 8
+
+Segment 1: Title & Document Information
+  Entities: 2
+  Relationships: 1
+  Quality Score: 1.00
+  Validation Notes: None
+
+Segment 2: PREFACE
+  Entities: 6
+  Relationships: 5
+  Quality Score: 1.00
+  Validation Notes: None
+
+Segment 3: OBJECTIVE
+  Entities: 6
+  Relationships: 5
+  Quality Score: 1.00
+  Validation Notes: None
+
+Segment 4: SCOPE
+  Entities: 6
+  Relationships: 5
+  Quality Score: 0.83
+  Validation Notes: Some entities have invalid types
+
+Segment 5: Governance
+  Entities: 9
+  Relationships: 8
+  Quality Score: 0.81
+  Validation Notes: Some entities have invalid types
+
+Segment 6: Strategy
+  Entities: 24
+  Relationships: 23
+  Quality Score: 0.76
+  Validation Notes: Some entities have invalid types
+
+Segment 7: Risk management
+  Entities: 30
+  Relationships: 29
+  Quality Score: 0.77
+  Validation Notes: Some entities have invalid types
+
+Segment 8: APPENDICES
+  Entities: 18
+  Relationships: 20
+  Quality Score: 0.76
+  Validation Notes: Some entities have invalid types

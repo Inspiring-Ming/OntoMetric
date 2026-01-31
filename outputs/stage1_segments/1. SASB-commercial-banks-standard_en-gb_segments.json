@@ -1,0 +1,271 @@
+[
+  {
+    "segment_id": "seg_001",
+    "section_title": "Title & Document Information",
+    "section_number": "1",
+    "page_start": 0,
+    "page_end": 0,
+    "content": "Commercial Banks\nSustainability Accounting Standard\nFINANCIALS SECTOR\nSustainable Industry Classification System® (SICS®) FN-CB\nUnder Stewardship of the International Sustainability Standards Board\nINDUSTRY STANDARD | VERSION 2023-12\nsasb.org\n© 2023 The IFRS Foundation. All Rights Reserved.",
+    "has_tables": false,
+    "tables": []
+  },
+  {
+    "segment_id": "seg_002",
+    "section_title": "Overview of SASB Standards",
+    "section_number": "2",
+    "page_start": 4,
+    "page_end": 4,
+    "content": "Use of the Standards\nSASB Standards are intended to aid entities in disclosing information about sustainability-related risks and\nopportunities that could reasonably be expected to affect the entity’s cash flows, its access to finance or cost of capital\nover the short, medium or long term. An entity determines which Industry Standard(s) and which disclosure topics are\nrelevant to its business, and which associated metrics to report. In general, an entity should use the SASB Standard\n® ®\nspecific to its primary industry as identified in SICS . However, companies with substantial business in multiple SICS\nindustries should refer to and consider the applicability of the disclosure topics and associated metrics in additional\nSASB Standards.\nThe disclosure topics and associated metrics contained in this Standard have been identified as those that are likely\nto be useful to investors. However, the responsibility for making materiality judgements and determinations rests with\nthe reporting entity.\nIndustry Description\nCommercial banks accept deposits and make loans to individuals and corporations, and engage in lending to\ninfrastructure, real estate and other projects. By providing these services, the industry serves an essential role in the\nfunctioning of global economies and in facilitating the transfer of financial resources to their most productive capacity.\nThe industry is driven by the volume of deposits, quality of loans made, the economic environment and interest rates.\nThe risk from mismatched assets and liabilities further characterises the industry. The regulatory environment\ngoverning the commercial banking industry witnessed significant changes in the wake of the 2008 global financial\ncrisis and continues to evolve today. These and other regulatory trends may affect performance. Commercial banks\nwith global operations must manage new regulations in many jurisdictions that are creating regulatory uncertainty,\nparticularly regarding the consistent application of new rules.\nNote: This standard addresses ‘pure play’ commercial banking services, which may not include all the activities of\nintegrated financial institutions, such as investment banking and brokerage services, mortgage finance, consumer\nfinance, asset management and custody services, and insurance. Separate standards address the sustainability\nissues for activities in those industries.\nSUSTAINABILITY ACCOUNTING STANDARD |COMMERCIAL BANKS|5",
+    "has_tables": false,
+    "tables": []
+  },
+  {
+    "segment_id": "seg_003",
+    "section_title": "Industry Description",
+    "section_number": "3",
+    "page_start": 5,
+    "page_end": 5,
+    "content": "SUSTAINABILITY DISCLOSURE TOPICS & METRICS\nTable 1. Sustainability Disclosure Topics & Metrics\nUNIT OF\nTOPIC METRIC CATEGORY CODE\nMEASURE\n(1) Number of data breaches,\nNumber,\n(2) percentage that are personal data\nQuantitative Percentage FN-CB-230a.1\nbreaches, (3) number of account holders\n(%)\nData Security affected 1\nDescription of approach to identifying and Discussion and\nn/a FN-CB-230a.2\naddressing data security risks Analysis\n(1) Number and (2) amount of loans\nNumber,\noutstanding that qualify for programmes\nQuantitative Presentation FN-CB-240a.1\ndesigned to promote small business and\ncurrency\ncommunity development 2\n(1) Number and (2) amount of past due\nand nonaccrual loans or loans subject to Number,\nFinancial forbearance that qualify for programmes Quantitative Presentation FN-CB-240a.2\nInclusion & designed to promote small business and currency\nCapacity community development\nBuilding\nNumber of no-cost retail checking\naccounts provided to previously unbanked Quantitative Number FN-CB-240a.3\nor underbanked customers\nNumber of participants in financial literacy\ninitiatives for unbanked, underbanked, or Quantitative Number FN-CB-240a.4\nunderserved customers 3\nIncorporation\nof\nEnvironmental, Description of approach to incorporation\nDiscussion and\nSocial, and of environmental, social and governance n/a FN-CB-410a.2\nAnalysis\nGovernance (ESG) factors in credit analysis\nFactors in\nCredit Analysis\nAbsolute gross financed emissions,\nMetric tons (t)\ndisaggregated by (1) Scope 1, (2) Scope 2 Quantitative FN-CB-410b.1\nCO₂-e\nand (3) Scope 3\nGross exposure for each industry by asset Presentation\nQuantitative FN-CB-410b.2\nFinanced class currency\nEmissions\nPercentage of gross exposure included in\nQuantitative Percentage % FN-CB-410b.3\nthe financed emissions calculation\nDescription of the methodology used to Discussion and\nn/a FN-CB-410b.4\ncalculate financed emissions Analysis\ncontinued...\n1 Note to FN-CB-230a.1 – The disclosure shall include a description of corrective actions implemented in response to data breaches.\n2 Note to FN-CB-240a.1 – The disclosure shall include a description of how the entity’s compliance with applicable jurisdictional laws or\nregulations are integrated into its financial inclusion and capacity building strategy.\n3 Note to FN-CB-240a.4 – The disclosure shall include a description of financial literacy initiatives.\nSUSTAINABILITY ACCOUNTING STANDARD |COMMERCIAL BANKS|6",
+    "has_tables": true,
+    "tables": [
+      {
+        "page": 5,
+        "table_id": "table_p5_t0",
+        "headers": [
+          "TOPIC",
+          "METRIC",
+          "CATEGORY",
+          "UNIT OF\nMEASURE",
+          "CODE"
+        ],
+        "rows": [
+          [
+            "Data Security",
+            "(1) Number of data breaches,\n(2) percentage that are personal data\nbreaches, (3) number of account holders\naffected 1",
+            "Quantitative",
+            "Number,\nPercentage\n(%)",
+            "FN-CB-230a.1"
+          ],
+          [
+            null,
+            "Description of approach to identifying and\naddressing data security risks",
+            "Discussion and\nAnalysis",
+            "n/a",
+            "FN-CB-230a.2"
+          ],
+          [
+            "Financial\nInclusion &\nCapacity\nBuilding",
+            "(1) Number and (2) amount of loans\noutstanding that qualify for programmes\ndesigned to promote small business and\ncommunity development 2",
+            "Quantitative",
+            "Number,\nPresentation\ncurrency",
+            "FN-CB-240a.1"
+          ],
+          [
+            null,
+            "(1) Number and (2) amount of past due\nand nonaccrual loans or loans subject to\nforbearance that qualify for programmes\ndesigned to promote small business and\ncommunity development",
+            "Quantitative",
+            "Number,\nPresentation\ncurrency",
+            "FN-CB-240a.2"
+          ],
+          [
+            null,
+            "Number of no-cost retail checking\naccounts provided to previously unbanked\nor underbanked customers",
+            "Quantitative",
+            "Number",
+            "FN-CB-240a.3"
+          ],
+          [
+            null,
+            "Number of participants in financial literacy\ninitiatives for unbanked, underbanked, or\nunderserved customers 3",
+            "Quantitative",
+            "Number",
+            "FN-CB-240a.4"
+          ],
+          [
+            "Incorporation\nof\nEnvironmental,\nSocial, and\nGovernance\nFactors in\nCredit Analysis",
+            "Description of approach to incorporation\nof environmental, social and governance\n(ESG) factors in credit analysis",
+            "Discussion and\nAnalysis",
+            "n/a",
+            "FN-CB-410a.2"
+          ],
+          [
+            "Financed\nEmissions",
+            "Absolute gross financed emissions,\ndisaggregated by (1) Scope 1, (2) Scope 2\nand (3) Scope 3",
+            "Quantitative",
+            "Metric tons (t)\nCO₂-e",
+            "FN-CB-410b.1"
+          ],
+          [
+            null,
+            "Gross exposure for each industry by asset\nclass",
+            "Quantitative",
+            "Presentation\ncurrency",
+            "FN-CB-410b.2"
+          ],
+          [
+            null,
+            "Percentage of gross exposure included in\nthe financed emissions calculation",
+            "Quantitative",
+            "Percentage %",
+            "FN-CB-410b.3"
+          ],
+          [
+            null,
+            "Description of the methodology used to\ncalculate financed emissions",
+            "Discussion and\nAnalysis",
+            "n/a",
+            "FN-CB-410b.4"
+          ]
+        ],
+        "pages": [
+          5
+        ],
+        "last_page": 5
+      }
+    ]
+  },
+  {
+    "segment_id": "seg_004",
+    "section_title": "Sustainability Disclosure Topics & Metrics",
+    "section_number": "4",
+    "page_start": 6,
+    "page_end": 7,
+    "content": "...continued\nUNIT OF\nTOPIC METRIC CATEGORY CODE\nMEASURE\nTotal amount of monetary losses as a\nresult of legal proceedings associated with\nfraud, insider trading, antitrust, anti- Presentation\nQuantitative FN-CB-510a.1\ncompetitive behaviour, market currency\nBusiness\nmanipulation, malpractice, or other related\nEthics\nfinancial industry laws or regulations 4\nDescription of whistleblower policies and Discussion and\nn/a FN-CB-510a.2\nprocedures Analysis\nGlobal Systemically Important Bank (G- Basis points\nQuantitative FN-CB-550a.1\nSIB) score, by category 5 (bps)\nSystemic Risk Description of approach to integrate\nManagement results of mandatory and voluntary stress\nDiscussion and\ntests into capital adequacy planning, long- n/a FN-CB-550a.2\nAnalysis\nterm corporate strategy, and other\nbusiness activities\nTable 2. Activity Metrics\nUNIT OF\nACTIVITY METRIC CATEGORY CODE\nMEASURE\nNumber,\n(1) Number and (2) value of checking and savings accounts\nQuantitative Presentation FN-CB-000.A\nby segment: (a) personal and (b) small business\ncurrency\nNumber,\n(1) Number and (2) value of loans by segment: (a) personal,\nQuantitative Presentation FN-CB-000.B\n(b) small business, and (c) corporate6\ncurrency\n4 Note to FN-CB-510a.1 – The entity shall briefly describe the nature, context and any corrective actions taken because of monetary\nlosses.\n5 Note to FN-CB-550a.1 – The entity shall describe whether the Global Systemically Important Bank (G-SIB) score is calculated by the\nentity or obtained from regulatory authorities and whether the entity is required to report the underlying data to the regulators.\n6 Note to FN-CB-000.B – Mortgage loans as well as revolving credit loans shall be excluded from the scope of the disclosure.\nSUSTAINABILITY ACCOUNTING STANDARD |COMMERCIAL BANKS|7\n\nData Security\nTopic Summary\nEnsuring personal financial data privacy and security is an essential responsibility of Commercial Banks. Entities that\nfail to safeguard customer data may be susceptible to decreased revenue and consumer confidence. As the growth in\nmobile banking and cloud storage continues and more bank operations become technology- and internet-dependent,\ndata security management becomes increasingly important. Sophisticated technology and continuous staff training\nare essential amid growing cybersecurity threats. The metrics for this disclosure topic focus on providing more detail\non efforts related to safeguarding data against emerging and continuously evolving cybersecurity threats and\ntechnologies, and security breaches compromising customers’ information. Enhanced disclosure on management\nstrategies to address these risks may permit shareholders to understand how commercial banks are protecting\nshareholder value.\nMetrics\nFN-CB-230a.1. (1) Number of data breaches, (2) percentage that are personal data\nbreaches, (3) number of account holders affected\n1 The entity shall disclose (1) the total number of data breaches identified during the reporting period.\n1.1 A data breach is defined as an unauthorised occurrence on, or conducted through, an entity’s information\nsystems that jeopardises the confidentiality, integrity or availability of an entity’s information systems or any\ninformation contained therein.\n1.1.1 Information systems are defined as information resources, owned or used by the entity, including\nphysical or virtual infrastructure controlled by such information resources, or components thereof,\norganised for the collection, processing, maintenance, use, sharing, dissemination or disposition of\nan entity’s information to maintain or support operations.\n1.2 The scope of the disclosure excludes occurrences in which an entity has reasonable and supportable belief\nthat the occurrence (i) does not pose a risk of damage to the entity’s business performance or prospects\nand (ii) does not pose a risk of economic or social disadvantage to individuals.\n2 The entity shall disclose (2) the percentage of data breaches that were personal data breaches.\n2.1 A personal data breach is defined as a data breach resulting in the accidental or unauthorised destruction,\nloss, alteration, disclosure of, or access to, personal data transmitted, stored or otherwise processed.\n2.2 Personal data is defined as any information that relates to an identified or identifiable living individual.\nVarious pieces of information, which collected together can lead to the identification of a particular person,\nalso constitute personal data.\n2.2.1 The entity may define personal data based on applicable jurisdictional laws or regulations. In such\ncases, the entity shall disclose the applicable jurisdictional standard or definition used.\nSUSTAINABILITY ACCOUNTING STANDARD | COMMERCIAL BANKS|8",
+    "has_tables": true,
+    "tables": [
+      {
+        "page": 6,
+        "table_id": "table_p6_t0",
+        "headers": [
+          "TOPIC",
+          "METRIC",
+          "CATEGORY",
+          "UNIT OF\nMEASURE",
+          "CODE"
+        ],
+        "rows": [
+          [
+            "Business\nEthics",
+            "Total amount of monetary losses as a\nresult of legal proceedings associated with\nfraud, insider trading, antitrust, anti-\ncompetitive behaviour, market\nmanipulation, malpractice, or other related\nfinancial industry laws or regulations 4",
+            "Quantitative",
+            "Presentation\ncurrency",
+            "FN-CB-510a.1"
+          ],
+          [
+            null,
+            "Description of whistleblower policies and\nprocedures",
+            "Discussion and\nAnalysis",
+            "n/a",
+            "FN-CB-510a.2"
+          ],
+          [
+            "Systemic Risk\nManagement",
+            "Global Systemically Important Bank (G-\nSIB) score, by category 5",
+            "Quantitative",
+            "Basis points\n(bps)",
+            "FN-CB-550a.1"
+          ],
+          [
+            null,
+            "Description of approach to integrate\nresults of mandatory and voluntary stress\ntests into capital adequacy planning, long-\nterm corporate strategy, and other\nbusiness activities",
+            "Discussion and\nAnalysis",
+            "n/a",
+            "FN-CB-550a.2"
+          ]
+        ],
+        "pages": [
+          6
+        ],
+        "last_page": 6
+      },
+      {
+        "page": 6,
+        "table_id": "table_p6_t1",
+        "headers": [
+          "ACTIVITY METRIC",
+          "CATEGORY",
+          "UNIT OF\nMEASURE",
+          "CODE"
+        ],
+        "rows": [
+          [
+            "(1) Number and (2) value of checking and savings accounts\nby segment: (a) personal and (b) small business",
+            "Quantitative",
+            "Number,\nPresentation\ncurrency",
+            "FN-CB-000.A"
+          ],
+          [
+            "(1) Number and (2) value of loans by segment: (a) personal,\n(b) small business, and (c) corporate6",
+            "Quantitative",
+            "Number,\nPresentation\ncurrency",
+            "FN-CB-000.B"
+          ]
+        ],
+        "pages": [
+          6
+        ],
+        "last_page": 6
+      }
+    ]
+  },
+  {
+    "segment_id": "seg_005",
+    "section_title": "Data Security",
+    "section_number": "5",
+    "page_start": 8,
+    "page_end": 10,
+    "content": "2.3 The scope of the disclosure shall include incidents during which encrypted data was acquired with an\nencryption key that also was acquired, as well as whether a reasonable belief exists that encrypted data\ncould be converted readily to plaintext.\n2.3.1 Encryption is defined as the process of transforming plaintext into ciphertext.\n3 The entity shall disclose (3) the total number of unique account holders affected by personal data breaches.\n3.1 Accounts that the entity cannot verify as belonging to the same account holder shall be disclosed\nseparately.\n4 The entity may delay disclosure if a law enforcement agency has determined that notification impedes a criminal\ninvestigation, and may be delayed until the law enforcement agency determines that such notification does not\ncompromise the investigation.\nNote to FN-CB-230a.1\n1 The entity shall describe any corrective actions taken in response to data breaches, such as changes in\noperations, management, processes, products, business partners, training or technology.\n2 All disclosure shall be sufficient such that it is specific to the risks the entity faces, but disclosure itself would not\ncompromise the entity’s ability to maintain data privacy and security.\n3 The entity may disclose its policy for disclosing data breaches to affected account holders in a timely manner.\nFN-CB-230a.2. Description of approach to identifying and addressing data\nsecurity risks\n1 The entity shall describe its approach to identifying information system vulnerabilities that may pose a data\nsecurity risk.\n1.1 Vulnerability is defined as a weakness in an information system, implementation, system security procedure\nor internal control that could be exploited.\n1.2 Data security risk is defined as the risk of any circumstance or event with the potential to affect\norganisational operations (including mission, functions, image or reputation), assets, individuals, or other\norganisations or governments through an information system via unauthorised access, destruction,\ndisclosure, modification of information or denial of service.\n2 The entity shall describe its approach to managing identified data security risks and vulnerabilities, which may\ninclude operational procedures, management processes, structure of products, selection of business partners,\nemployee training and use of technology.\n3 The entity shall discuss observed trends in type, frequency and origination of attacks on its data security and\ninformation systems.\n4 The entity shall describe its policies and procedures for disclosing data breaches to its customers in a timely\nmanner.\nSUSTAINABILITY ACCOUNTING STANDARD | COMMERCIAL BANKS|9\n\n5 The entity’s disclosure shall include a discussion of data and system security efforts that relate to new and\nemerging cyber threats and attack vectors facing the financial services industry.\n5.1 Emerging cyber threats may include cyber threats arising from the use of near-field communication\npayment systems, mobile banking and web-based banking.\n5.2 Attack vectors may include ransomware, loan stacking schemes, money mule schemes and remote access\nattacks.\n6 The entity shall describe the regulatory environment in which it operates related to data security.\n6.1 The discussion shall include data security policies and procedures the entity adopted for regulatory\ncompliance or voluntarily as an industry best practice.\n7 The entity shall describe the degree to which its approach aligns with an external standard or framework or\napplicable jurisdictional legal or regulatory framework for managing data security, such as:\n7.1 the ISO/IEC 2700 series;\n7.2 the National Institute of Standards and Technology (NIST), Framework for Improving Critical Infrastructure\nCybersecurity, 2018;\n7.3 the New York State Department of Financial Services 23 NYCRR 500, Cybersecurity Requirements for\nFinancial Services Companies; and\n7.4 the Office of the Comptroller of the Currency (OCC) Bulletin 2013-29, Third-Party Relationships: Risk\nManagement Guidance, 2013.\n8 All disclosure shall be sufficient such that it is specific to the risks the entity faces, but disclosure itself would not\ncompromise the entity’s ability to maintain data privacy and security.\nSUSTAINABILITY ACCOUNTING STANDARD | COMMERCIAL BANKS|10\n\nFinancial Inclusion & Capacity Building\nTopic Summary\nAs their primary business activity, commercial banks must continuously balance their capacity building efforts with the\nrisks and opportunities associated with lending to unbanked, underbanked or underserved customers. Emerging\nfinancing models and technologies provide banks with an opportunity to offer products and services in previously\nunderserved markets and obtain additional sources of revenue. Entities that can meet the need to extend credit and\nfinancial services to low-income populations and small businesses while avoiding predatory and irresponsible lending\npractices may create long-term value and improve brand reputation. These services also should be complemented by\nefforts to improve financial literacy, which will assist customers in making informed decisions. By disclosing their\napproach to financial inclusion and capacity building, commercial banks can provide investors with decision-useful\ninformation for assessing banks’ ability to ensure long-term, sustainable value creation.\nMetrics\nFN-CB-240a.1. (1) Number and (2) amount of loans outstanding that qualify for\nprogrammes designed to promote small business and community development\n1 The entity shall disclose (1) the total number of loans outstanding that qualify for programmes designed to\npromote small business and community development, and (2) the total amount outstanding on these loans.\n1.1 Loans that qualify for programmes designed to promote small business and community development are\ndefined in accordance with applicable jurisdictional laws or regulations. The entity shall disclose the\njurisdictional standards or definitions used.\n2 The scope of community development loans includes loans primarily funding community services for low- or\nmoderate-income individuals, and the development, revitalisation or stabilisation of low- or moderate-income\nregions.\n3 The scope of community development loans includes loans related to microfinance lenders, social banks or\ncommunity development finance institutions (CDFIs).\n4 The scope of small business loans includes loans to farms.\n5 The scope of the disclosure excludes loans for personal expenditures or residential property.\nNote to FN-CB-240a.1\n1 The entity shall provide a description of its short- and long-term strategy or plan to expand its portfolio of qualified\nloans promoting small business and community development.\n2 The entity shall include a discussion of its examination results for compliance with applicable jurisdictional laws or\nregulations related to the disclosure.\nSUSTAINABILITY ACCOUNTING STANDARD | COMMERCIAL BANKS|11",
+    "has_tables": false,
+    "tables": []
+  },
+  {
+    "segment_id": "seg_006",
+    "section_title": "Financial Inclusion & Capacity Building",
+    "section_number": "6",
+    "page_start": 11,
+    "page_end": 13,
+    "content": "3 The entity shall describe how its examination results are integrated into its short- and long-term financial inclusion\nand capacity building strategy.\nFN-CB-240a.2. (1) Number and (2) amount of past due and nonaccrual loans or\nloans subject to forbearance that qualify for programmes designed to promote\nsmall business and community development\n1 The entity shall disclose (1) the total number of past due and nonaccrual loans or, alternatively, the total number\nof loans subject to forbearance that qualify for programmes designed to promote small business and community\ndevelopment, and (2) the total amount outstanding on these loans.\n1.1 Loans that qualify for programmes designed to promote small business and community development are\ndefined in accordance with applicable jurisdictional laws or regulations. The entity shall disclose the\njurisdictional standards or definitions used.\n2 The scope of community development loans includes loans primarily funding community services targeted to low-\nor moderate-income individuals, and the development, revitalisation or stabilisation of low- or moderate-income\nregions.\n3 The scope of community development loans includes loans related to microfinance lenders, social banks or\ncommunity development finance institutions (CDFIs).\n4 The scope of small business loans includes loans to farms.\n5 The scope of the disclosure excludes loans for personal expenditures or residential property.\n6 The scope of disclosure includes loans originated and purchased by the entity.\nFN-CB-240a.3. Number of no-cost retail checking accounts provided to previously\nunbanked or underbanked customers\n1 The entity shall disclose the total number of no-cost checking accounts held by unbanked or underbanked\ncustomers as of the end of the reporting period.\n1.1 No-cost checking accounts are defined as bank accounts providing core services without extra fees,\nmonthly or annual maintenance fees, or minimum average balance requirements.\n1.1.1 Core services may include access to a debit card, access to internet and mobile banking, or access\nto deposits and withdrawals.\n1.2 Unbanked customers are defined as individuals and families who have rarely, if ever, held a checking\naccount, a savings account, or other type of transaction or cheque cashing account at an insured\ndepository institution.\n1.3 A household is categorised as underbanked if it had a checking or savings account and used one of these\nproducts or services from an alternative financial services (AFS) provider in the past 12 months: money\norders, cheque cashing, international remittances, payday loans, refund anticipation loans, rent-to-own\nservices, pawn shop loans or auto title loans.\nSUSTAINABILITY ACCOUNTING STANDARD | COMMERCIAL BANKS|12\n\n2 The entity may also disclose the number of no-cost checking accounts opened and closed during the reporting\nperiod by unbanked and underbanked customers.\nFN-CB-240a.4. Number of participants in financial literacy initiatives for unbanked,\nunderbanked, or underserved customers\n1 The entity shall disclose the number of individuals that participated in financial literacy initiatives for unbanked,\nunderbanked or underserved customers.\n1.1 The scope of financial literacy initiatives may include educational programmes, workshops, seminars,\ncourses, counselling and community partnerships.\n1.2 Unbanked customers are those in households without a checking or savings account who may rely on\nalternative financial services (AFS), such as payday loans, non-bank money orders, non-bank cheque\ncashing services, non-bank remittances, rent-to-own services, pawn shops or refund anticipation loans.\n1.3 Underbanked customers are in households that have a checking or a savings account but may still use AFS\nregularly.\n1.4 Underserved customers include those who are unbanked, underbanked or otherwise have limited access to\nmainstream financial services, often because of limited or no credit history.\n2 The entity shall calculate the total number of unique individuals who are documented to have participated in at\nleast one initiative conducted by the entity during the reporting period.\n2.1 The disclosure shall include participants in ongoing programmes for which active participation can be\ndocumented during the reporting period.\n3 The scope of the disclosure shall include both individual retail customers and relevant commercial customers (for\nexample, small and medium-sized enterprises and minority owned business).\n4 The scope of the disclosure shall include financial literacy initiatives provided by the entity directly as well as by\nthird parties that have a contractual agreement with the entity to provide such initiatives.\nNote to FN-CB-240a.4\n1 The entity shall describe its initiatives, programmes or financial services focused on enhancing the financial\nliteracy of unbanked, underbanked or underserved customers.\nSUSTAINABILITY ACCOUNTING STANDARD | COMMERCIAL BANKS|13\n\nIncorporation of Environmental, Social, and Governance\nFactors in Credit Analysis\nTopic Summary\nAs financial intermediaries, commercial banks contribute to significant positive and negative environmental and social\nexternalities through their lending practices. Environmental, social and governance (ESG) factors can have material\nimplications for the underlying entities, assets and projects to which commercial banks lend across a range of\nindustries. Therefore, entities increasingly must examine ESG factors when determining the quality of collateral.\nCommercial banks also may enable positive environmental and social externalities to generate significant revenue\nstreams through their lending practices. Commercial banks that fail to address these risks and opportunities could\nface diminished returns and reduced value for shareholders. Commercial banks should subsequently disclose how\nESG factors are integrated into lending processes and the current level of portfolio risk associated with specific\nsustainability trends. Specifically, investor and regulatory pressure is mounting for banks to disclose how they address\nclimate change related risks.\nMetrics\nFN-CB-410a.2. Description of approach to incorporation of environmental, social\nand governance (ESG) factors in credit analysis\n1 The entity shall describe its approach to the incorporation of environmental, social and governance (ESG) factors\nin its credit analysis.\n1.1 The definition of incorporation of ESG factors is aligned with that of the Global Sustainable Investment\nAlliance (GSIA) and includes the use of ESG information in the investment decision-making processes.\n1.2 Examples of ESG factors and issues are provided in the PRI Reporting Framework—Main definitions 2018,\nsection ‘ESG issues’.\n1.3 Credit analysis is defined as a method to calculate the creditworthiness of a business or organisation to\nhonour debt obligations. This method seeks to identify the appropriate level of default risk associated with\nfinancing such business, organisation or project.\n2 The scope of disclosure shall include commercial and industrial lending as well as project finance.\n3 The entity shall describe the policies that determine its approach to the incorporation of ESG factors in its credit\nanalysis.\n4 The entity shall discuss how it incorporates ESG factors when estimating credit losses over the contractual term\nof the entity’s financial assets.\n5 The entity shall describe its approach to implementation of the aspects of the entity’s ESG incorporation\npractices.\n5.1 The description shall include:\nSUSTAINABILITY ACCOUNTING STANDARD | COMMERCIAL BANKS|14",
+    "has_tables": false,
+    "tables": []
+  },
+  {
+    "segment_id": "seg_007",
+    "section_title": "Incorporation of Environmental, Social, and Governance Factors in Credit Analysis",
+    "section_number": "7",
+    "page_start": 14,
+    "page_end": 16,
+    "content": "5.1.1 Parties responsible for the day-to-day incorporation of ESG factors\n5.1.2 Roles and responsibilities of employees involved\n5.1.3 Approach to ESG-related research\n5.1.4 Approach to incorporating ESG factors into assessing creditworthiness of borrowers\n6 The entity shall describe its oversight and accountability approach to the incorporation of ESG factors.\n6.1 The description shall include:\n6.1.1 Formal oversight individuals or bodies involved\n6.1.2 Roles and responsibilities of employees involved\n6.1.3 Criteria used in assessing the quality of ESG incorporation\n7 The entity shall discuss whether it conducts scenario analysis or modelling in which the risk profile of future ESG\ntrends is calculated at the portfolio level of commercial and industrial credit exposure.\n7.1 ESG trends may include climate change, natural resource constraints, human capital risks and\nopportunities, and cybersecurity risks.\n8 The entity shall discuss ESG trends it considers apply broadly in terms of their effect on sectors and industries, as\nwell as the trends it deems as sector- or industry-specific.\n8.1 The entity may further provide the discussion in the context of geographical exposure of its commercial and\nindustrial credit portfolio.\n9 The entity shall describe significant concentrations of credit exposure to ESG factors, which may include carbon-\nrelated assets, water-stressed regions and cybersecurity risks.\n10 The entity shall describe how ESG factors are incorporated in the assessment of and influence the entity’s views\non:\n10.1 Traditional macroeconomic factors such as the economic conditions, central bank monetary policy, industry\ntrends, and geopolitical risks that affect creditworthiness of borrowers\n10.2 Traditional microeconomic factors such as supply and demand for products or services that affect financial\nconditions and operational results of borrowers as well as their creditworthiness\n10.3 Overall creditworthiness of a borrower\n10.4 Maturity or tenor of a loan\n10.5 Expected loss, including probability of default, exposure at default and loss given default\n10.6 Value of posted collateral\nSUSTAINABILITY ACCOUNTING STANDARD | COMMERCIAL BANKS|15\n\n11 The entity may disclose additional quantitative measures related to its approach to the incorporation of ESG\nfactors in credit analysis, such as:\n11.1 Number of commercial and industrial loans and project finance screened according to the Equator\nPrinciples (EP III) (or equivalent) by EP Category\n11.2 Number of loans for which a review of environmental or social risks was performed, for example, by the\nentity’s Environmental and Social Risk Management (ESRM) group\nSUSTAINABILITY ACCOUNTING STANDARD | COMMERCIAL BANKS|16\n\nFinanced Emissions\nTopic Summary\nEntities participating in commercial banking activities face risks and opportunities related to the greenhouse gas\nemissions associated with those activities. Counterparties, borrowers or investees with higher emissions might be\nmore susceptible to risks associated with technological changes, shifts in supply and demand and policy change\nwhich in turn can impact the prospects of a financial institution that is providing financial services to these entities.\nThese risks and opportunities can arise in the form of credit risk, market risk, reputational risk and other financial and\noperational risks. For example, credit risk might arise in relation to financing clients affected by increasingly stringent\ncarbon taxes, fuel efficiency regulations or other policies; credit risk might also arise through related technological\nshifts. Reputational risk might arise from financing fossil-fuel projects. Entities participating in commercial banking\nactivities are increasingly monitoring and managing such risks by measuring their financed emissions. This\nmeasurement serves as an indicator of an entity’s exposure to climate-related risks and opportunities and how it might\nneed to adapt its financial activities over time.\nMetrics\nFN-CB-410b.1. Absolute gross financed emissions, disaggregated by (1) Scope 1,\n(2) Scope 2 and (3) Scope 3\n1 The entity shall disclose its absolute gross financed emissions, disaggregated by Scope 1, Scope 2, and Scope 3\nemissions for each industry by asset class.\n1.1 In preparing this disclosure, the entity shall apply the requirements for measuring greenhouse gas\nemissions in accordance with paragraph 29(a) of IFRS S2 Climate-related Disclosures (S2) and the\ncorresponding requirements in paragraph B62 for entities with commercial banking activities.\n1.2 In applying paragraph B62 of S2, the entity shall apply the principles of aggregation and disaggregation\nfrom paragraphs B29 and B30 of IFRS S1 General Requirements for Disclosure of Sustainability-related\nFinancial Information.\nFN-CB-410b.2. Gross exposure for each industry by asset class\n1 The entity shall disclose the gross exposure for each industry by asset class, expressed in the presentation\ncurrency of the entity’s financial statements.\n1.1 In preparing this disclosure, the entity shall apply the requirements in paragraph B62 of IFRS S2 Climate-\nrelated Disclosures for entities with commercial banking activities.\n1.2 In applying paragraph B62 of S2, the entity shall apply the principles of aggregation and disaggregation\nfrom paragraphs B29 and B30 of IFRS S1 General Requirements for Disclosure of Sustainability-related\nFinancial Information.\nSUSTAINABILITY ACCOUNTING STANDARD | COMMERCIAL BANKS|17",
+    "has_tables": false,
+    "tables": []
+  },
+  {
+    "segment_id": "seg_008",
+    "section_title": "Financed Emissions",
+    "section_number": "8",
+    "page_start": 17,
+    "page_end": 18,
+    "content": "FN-CB-410b.3. Percentage of gross exposure included in the financed emissions\ncalculation\n1 The entity shall disclose the percentage of the entity’s gross exposure included in the financed emissions\ncalculation.\n1.1 In preparing this disclosure, the entity shall apply the corresponding requirements in paragraph B62 of\nIFRS S2 Climate-related Disclosures (S2) for entities with commercial banking activities.\n1.2 In applying paragraph B62 of S2, the entity shall apply the principles of aggregation and disaggregation\nfrom paragraphs B29 and B30 of IFRS S1 General Requirements for Disclosure of Sustainability-related\nFinancial Information.\n2 If the percentage of the entity’s gross exposure included in the financed emissions calculation is less than 100%,\nthe entity shall disclose information that explains the exclusions, including the type of assets excluded.\nFN-CB-410b.4. Description of the methodology used to calculate financed\nemissions\n1 The entity shall disclose the methodology the entity used to calculate its financed emissions, including the method\nof allocation the entity used to attribute its share of emissions in relation to the size of gross exposure.\n1.1 In preparing this disclosure, the entity shall apply the requirements in paragraph B62 of IFRS S2 Climate-\nrelated Disclosures (S2) for entities with commercial banking activities.\n1.2 In applying paragraph B62 of S2, the entity shall apply the principle of estimation from Paragraph 78 of\nIFRS S1 General Requirements for Disclosure of Sustainability-related Financial Information.\nSUSTAINABILITY ACCOUNTING STANDARD | COMMERCIAL BANKS|18\n\nBusiness Ethics\nTopic Summary\nThe regulatory environment surrounding the Commercial Banks industry continues to evolve internationally. Entities\nmust adhere to a complex and often inconsistent set of rules relating to performance and conduct, as well as provide\ndisclosure on issues including insider trading, antitrust behaviour, price fixing and market manipulation. Entities are\nsubject to strict legal requirements against tax evasion, fraud, money laundering and corrupt practices. In some\njurisdictions, enhanced rewards for whistle-blowers may increase the number of complaints brought to regulators.\nEntities that ensure regulatory compliance through robust internal controls may build trust with clients, increase\nrevenue and protect shareholder value by minimising losses incurred because of legal proceedings.\nMetrics\nFN-CB-510a.1. Total amount of monetary losses as a result of legal proceedings\nassociated with fraud, insider trading, antitrust, anti-competitive behaviour,\nmarket manipulation, malpractice, or other related financial industry laws or\nregulations\n1 The entity shall disclose the total amount of monetary losses incurred during the reporting period resulting from\nlegal proceedings associated with fraud, insider trading, antitrust, anti-competitive behaviour, market\nmanipulation, malpractice or other related financial industry laws or regulations.\n2 The legal proceedings shall include any adjudicative proceeding involving the entity, whether before a court, a\nregulator, an arbitrator or otherwise.\n3 The losses shall include all monetary liabilities to the opposing party or to others (whether as the result of\nsettlement, verdict after trial or otherwise), including fines and other monetary liabilities incurred during the\nreporting period as a result of civil actions (for example, civil judgements or settlements), regulatory proceedings\n(for example, penalties, disgorgement or restitution) and criminal actions (for example, criminal judgements,\npenalties or restitution) brought by any entity (for example, governmental, business or individual).\n4 The scope of monetary losses shall exclude legal and other fees and expenses incurred by the entity in its\ndefence.\n5 The scope of the disclosure shall include legal proceedings associated with the enforcement of applicable\njurisdictional laws or regulations.\n6 The disclosure also shall include enforcements related to activities adjudicated by applicable jurisdictional\nregulators with mandates broader than the financial industry.\n7 The entity shall disclose the relevant jurisdictional regulatory authority or authorities used in its calculation.\nNote to FN-CB-510a.1\nSUSTAINABILITY ACCOUNTING STANDARD | COMMERCIAL BANKS|19",
+    "has_tables": false,
+    "tables": []
+  },
+  {
+    "segment_id": "seg_009",
+    "section_title": "Business Ethics",
+    "section_number": "9",
+    "page_start": 19,
+    "page_end": 20,
+    "content": "1 The entity shall briefly describe the nature (for example, judgement or order issued after trial, settlement, guilty\nplea, deferred prosecution agreement or non-prosecution agreement) and context (for example, fraud, antitrust or\nmarket manipulation) of all monetary losses resulting from legal proceedings.\n2 The entity shall describe any corrective actions implemented in response to the legal proceedings. This may\ninclude specific changes in operations, management, processes, products, business partners, training or\ntechnology.\nFN-CB-510a.2. Description of whistleblower policies and procedures\n1 The entity shall describe the processes and policies that are set out in its whistleblower programme, including\ninternal compliance programmes; whistleblower hotline details (for example, whether it is managed by an\nindependent third party); reference to, and publication of, the hotline number (for example, within corporate\ncompliance manuals or codes of ethics); whistleblower incentives for reporting violations; and methods for\nsubmitting tips.\n2 The disclosure shall identify the applicable jurisdictional whistleblower laws or regulations with which the entity\nmust comply.\n3 The disclosure shall include a discussion of any violations of whistleblower regulations and any corrective actions\nthe entity has implemented in response to violations.\nSUSTAINABILITY ACCOUNTING STANDARD | COMMERCIAL BANKS|20\n\nSystemic Risk Management\nTopic Summary\nCommercial Bank entities that fail to manage risks to capital effectively may suffer significant losses while increasing\ntheir liabilities. Because of the interconnectedness of the global financial system, these failures can contribute to\nsignificant market disruption and financial crises. The systemic interconnectedness of financial institutions has\nbecome a central concern for regulators. As a result, many jurisdictions require that banks undergo supervised stress\ntests to evaluate whether the entity has sufficient capital reserves and liquidity to absorb losses, continue operations\nand meet obligations during adverse economic and financial conditions. Failure to meet regulatory requirements may\nlead to penalties and substantially increased future compliance costs. Commercial banks should improve their\ndisclosures by measuring how well they can absorb shocks arising from systemic stresses to demonstrate how risks\nassociated with their size, complexity, interconnectedness, substitutability and cross-jurisdictional activity are being\nmanaged. Entities that commit to enhanced disclosures may experience improved investor and shareholder\nconfidence, potentially leading to increased revenues.\nMetrics\nFN-CB-550a.1. Global Systemically Important Bank (G-SIB) score, by category\n1 The entity shall disclose its Globally Systematically Important Bank (G-SIB) score for these categories: (1) size,\n(2) cross-jurisdictional activity, (3) interconnectedness, (4) substitutability, (5) complexity and (6) overall score.\n2 The G-SIB scores are defined by, and shall be calculated according to, the methodology established by the latest\nversion of the Bank of International Settlements’ (BIS) Basel Committee on Banking Supervision’s Global\nsystematically important banks: updated assessment methodology and the higher loss absorbency requirement\n(BCBS assessment methodology).\n2.1 The set of indicators used in the calculation of the G-SIB score is outlined by the BCBS assessment\nmethodology in the reporting instructions and the reporting template.\n2.1.1 The entity shall refer to the reporting instructions and the reporting template for the relevant\nreporting period.\n2.2 The G-SIB score calculation is provided by the technical summary of the BCBS assessment methodology.\nThe BCBS assessment methodology further provides:\n2.2.1 denominators used for score calculation for the relevant reporting period; and\n2.2.2 the cut-off score used to identify G-SIBs, and bucket thresholds used to allocate G-SIBs to buckets\nfor the purposes of calculating the specific higher loss absorbency (HLA) requirements for each\ninstitution.\n3 The entity shall disclose the latest available G-SIB score at the time of reporting.\nSUSTAINABILITY ACCOUNTING STANDARD | COMMERCIAL BANKS|21",
+    "has_tables": false,
+    "tables": []
+  },
+  {
+    "segment_id": "seg_010",
+    "section_title": "Systemic Risk Management",
+    "section_number": "10",
+    "page_start": 21,
+    "page_end": 22,
+    "content": "4 The entity shall consider the above references used to determine the G-SIB score to be normative references,\nmeaning that any future updates made to them shall be considered updates to this guidance.\nNote to FN-CB-550a.1\n1 The entity shall describe whether it obtains the score from the relevant supervisory authority after reporting the\nindicators used to calculate the G-SIB score, or whether it calculates the score internally using the BCBS\nassessment methodology.\n2 The entity shall describe whether its applicable jurisdictional legal or regulatory authority requires the entity to\nreport the data required for the G-SIB calculation, or whether the entity chooses to report the data voluntarily.\nFN-CB-550a.2. Description of approach to integrate results of mandatory and\nvoluntary stress tests into capital adequacy planning, long-term corporate\nstrategy, and other business activities\n1 The entity shall discuss how results of mandatory and voluntary stress tests and capital planning reports for\nprudential regulatory purposes inform the entity’s decisions and are integrated into capital planning, long-term\ncorporate strategy and other business activities.\n2 The entity shall discuss how the stress test results inform its approach with respect to its environmental, social\nand governance (ESG) strategy.\n3 The entity may disclose the results of its stress tests along with this discussion.\nSUSTAINABILITY ACCOUNTING STANDARD | COMMERCIAL BANKS|22",
+    "has_tables": false,
+    "tables": []
+  }
+]

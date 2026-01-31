@@ -1,0 +1,8 @@
+Document,Validation Cost (USD),Entities Validated,Cost per Entity (USD)
+Australia AASB,0.0074,74,0.000100
+IFRS S2,0.0080,80,0.000100
+SASB Banks,0.0053,53,0.000100
+SASB Semiconductors,0.0069,69,0.000100
+TCFD Report,0.0088,88,0.000100
+
+TOTAL,0.0364,364,0.000100

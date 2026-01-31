@@ -1,0 +1,47 @@
+Document: Australian Sustainability Reporting Standard AASB S2 September 2024 Climate-related Disclosures
+Total Pages: 58
+Total Segments: 8
+Processed: 2025-10-20 13:19:23
+
+============================================================
+
+Section 1: Title & Document Information
+  Pages: 0-0
+  Words: 10
+  Tables: 0
+
+Section 2: PREFACE
+  Pages: 2-2
+  Words: 139
+  Tables: 0
+
+Section 3: OBJECTIVE
+  Pages: 1-2
+  Words: 321
+  Tables: 0
+
+Section 4: SCOPE
+  Pages: 3-4
+  Words: 1074
+  Tables: 0
+
+Section 5: Governance
+  Pages: 5-7
+  Words: 1507
+  Tables: 0
+
+Section 6: Strategy
+  Pages: 8-23
+  Words: 9254
+  Tables: 0
+
+Section 7: Risk management
+  Pages: 24-26
+  Words: 1818
+  Tables: 0
+
+Section 8: APPENDICES
+  Pages: 11-57
+  Words: 28131
+  Tables: 0
+

@@ -1,0 +1,65 @@
+ESG Knowledge Extraction Log
+==================================================
+Document: Commercial Banks Sustainability Accounting Standard FINANCIALS SECTOR
+Processing Date: 2025-11-18 14:02:44
+Total Segments: 10
+
+Segment 1: Title & Document Information
+  Entities: 2
+  Relationships: 1
+  Quality Score: 1.00
+  Validation Notes: None
+
+Segment 2: Overview of SASB Standards
+  Entities: 2
+  Relationships: 1
+  Quality Score: 1.00
+  Validation Notes: None
+
+Segment 3: Industry Description
+  Entities: 27
+  Relationships: 26
+  Quality Score: 0.78
+  Validation Notes: Some entities have invalid types
+
+Segment 4: Sustainability Disclosure Topics & Metrics
+  Entities: 23
+  Relationships: 22
+  Quality Score: 0.78
+  Validation Notes: Some entities have invalid types
+
+Segment 5: Data Security
+  Entities: 9
+  Relationships: 8
+  Quality Score: 0.85
+  Validation Notes: Some entities have invalid types
+
+Segment 6: Financial Inclusion & Capacity Building
+  Entities: 8
+  Relationships: 7
+  Quality Score: 0.83
+  Validation Notes: Some entities have invalid types
+
+Segment 7: Incorporation of Environmental, Social, and Governance Factors in Credit Analysis
+  Entities: 7
+  Relationships: 6
+  Quality Score: 0.86
+  Validation Notes: Some entities have invalid types
+
+Segment 8: Financed Emissions
+  Entities: 7
+  Relationships: 6
+  Quality Score: 0.86
+  Validation Notes: Some entities have invalid types
+
+Segment 9: Business Ethics
+  Entities: 12
+  Relationships: 11
+  Quality Score: 0.81
+  Validation Notes: Some entities have invalid types
+
+Segment 10: Systemic Risk Management
+  Entities: 5
+  Relationships: 4
+  Quality Score: 0.87
+  Validation Notes: Some entities have invalid types

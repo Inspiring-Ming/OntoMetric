@@ -1,0 +1,740 @@
+@prefix esg: <http://example.org/esg-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+esg:industry_1.SASB-semiconductors a esg:Industry ;
+    rdfs:label "Semiconductors" ;
+    esg:ReportUsing esg:framework_1.SASB-semiconductors ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:35:55.160688" ;
+    esg:provenance_section_title "Title & Document Information" ;
+    esg:provenance_segment_id "seg_001" ;
+    esg:sector "Technology & Communications" ;
+    esg:standard_reference "SICS TC-SC" .
+
+esg:model_SASB-SC_6_003 a esg:Model ;
+    rdfs:label "Energy Management Composite Model" ;
+    esg:RequiresInputFrom esg:metric_SASB-SC_6_003b,
+        esg:metric_SASB-SC_6_003c ;
+    esg:description "Composite metric derived from total energy consumed, percentage grid electricity, and percentage renewable" ;
+    esg:equation "f(TotalEnergy, GridElectricityPct, RenewablePct)" ;
+    esg:input_variables "['Total energy consumed', 'Percentage grid electricity', 'Percentage renewable']" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:38:04.207855" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" .
+
+esg:model_SASB-SC_6_004 a esg:Model ;
+    rdfs:label "Water Management Composite Model" ;
+    esg:description "Composite metric derived from total water withdrawn and total water consumed with percentage breakdown by baseline water stress" ;
+    esg:equation "f(WaterWithdrawn, WaterConsumed)" ;
+    esg:input_variables "['Total water withdrawn', 'Total water consumed']" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:38:04.207873" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" .
+
+esg:category_SASB-SC_6_01 a esg:Category ;
+    rdfs:label "Greenhouse Gas Emissions" ;
+    esg:ConsistOf esg:metric_SASB-SC_20_001,
+        esg:metric_SASB-SC_21_001,
+        esg:metric_SASB-SC_6_001,
+        esg:metric_SASB-SC_6_002 ;
+    esg:page_range "6" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:38:04.207817" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" ;
+    esg:section_id "TC-SC-110a" ;
+    esg:section_title "Greenhouse Gas Emissions" .
+
+esg:category_SASB-SC_6_02 a esg:Category ;
+    rdfs:label "Energy Management in Manufacturing" ;
+    esg:ConsistOf esg:metric_SASB-SC_23_001,
+        esg:metric_SASB-SC_6_003 ;
+    esg:page_range "6" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:38:04.207821" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" ;
+    esg:section_id "TC-SC-130a" ;
+    esg:section_title "Energy Management in Manufacturing" .
+
+esg:category_SASB-SC_6_03 a esg:Category ;
+    rdfs:label "Water Management" ;
+    esg:ConsistOf esg:metric_SASB-SC_14_001,
+        esg:metric_SASB-SC_14_002,
+        esg:metric_SASB-SC_14_005,
+        esg:metric_SASB-SC_6_004,
+        esg:metric_SASB-SC_6_012 ;
+    esg:page_range "6" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:38:04.207824" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" ;
+    esg:section_id "TC-SC-140a" ;
+    esg:section_title "Water Management" .
+
+esg:category_SASB-SC_6_04 a esg:Category ;
+    rdfs:label "Waste Management" ;
+    esg:ConsistOf esg:metric_SASB-SC_6_005 ;
+    esg:page_range "6" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:38:04.207828" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" ;
+    esg:section_id "TC-SC-150a" ;
+    esg:section_title "Waste Management" .
+
+esg:category_SASB-SC_6_05 a esg:Category ;
+    rdfs:label "Workforce Health & Safety" ;
+    esg:ConsistOf esg:metric_SASB-SC_6_006,
+        esg:metric_SASB-SC_6_007 ;
+    esg:page_range "6" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:38:04.207831" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" ;
+    esg:section_id "TC-SC-320a" ;
+    esg:section_title "Workforce Health & Safety" .
+
+esg:category_SASB-SC_6_06 a esg:Category ;
+    rdfs:label "Recruiting & Managing a Global & Skilled Workforce" ;
+    esg:ConsistOf esg:metric_SASB-SC_19_001 ;
+    esg:page_range "6" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:38:04.207834" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" ;
+    esg:section_id "TC-SC-330a" ;
+    esg:section_title "Recruiting & Managing a Global & Skilled Workforce" .
+
+esg:category_SASB-SC_6_IP a esg:Category ;
+    rdfs:label "Intellectual Property Protection & Competitive Behaviour" ;
+    esg:ConsistOf esg:metric_SASB-SC_25_002,
+        esg:metric_SASB-SC_6_012 ;
+    esg:page_range "6" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:39:02.241094" ;
+    esg:provenance_section_title "Sustainability Disclosure Topics & Metrics" ;
+    esg:provenance_segment_id "seg_004" ;
+    esg:section_id "TC-SC-520a" ;
+    esg:section_title "Intellectual Property Protection & Competitive Behaviour" .
+
+esg:category_SASB-SC_6_MS a esg:Category ;
+    rdfs:label "Materials Sourcing" ;
+    esg:ConsistOf esg:metric_SASB-SC_23_001 ;
+    esg:page_range "6" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:39:02.241091" ;
+    esg:provenance_section_title "Sustainability Disclosure Topics & Metrics" ;
+    esg:provenance_segment_id "seg_004" ;
+    esg:section_id "TC-SC-440a" ;
+    esg:section_title "Materials Sourcing" .
+
+esg:category_SASB-SC_6_PLC a esg:Category ;
+    rdfs:label "Product Lifecycle Management" ;
+    esg:ConsistOf esg:metric_SASB-SC_20_001,
+        esg:metric_SASB-SC_21_001 ;
+    esg:page_range "6" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:39:02.241089" ;
+    esg:provenance_section_title "Sustainability Disclosure Topics & Metrics" ;
+    esg:provenance_segment_id "seg_004" ;
+    esg:section_id "TC-SC-410a" ;
+    esg:section_title "Product Lifecycle Management" .
+
+esg:category_SASB-SC_7_AM a esg:Category ;
+    rdfs:label "Activity Metrics" ;
+    esg:ConsistOf esg:metric_SASB-SC_7_002 ;
+    esg:page_range "7" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:39:02.241097" ;
+    esg:provenance_section_title "Sustainability Disclosure Topics & Metrics" ;
+    esg:provenance_segment_id "seg_004" ;
+    esg:section_id "TC-SC-000" ;
+    esg:section_title "Activity Metrics" .
+
+esg:framework_1.SASB-semiconductors a esg:ReportingFramework ;
+    rdfs:label "SASB" ;
+    esg:Include esg:category_SASB-SC_6_01,
+        esg:category_SASB-SC_6_02,
+        esg:category_SASB-SC_6_03,
+        esg:category_SASB-SC_6_04,
+        esg:category_SASB-SC_6_05,
+        esg:category_SASB-SC_6_06,
+        esg:category_SASB-SC_6_IP,
+        esg:category_SASB-SC_6_MS,
+        esg:category_SASB-SC_6_PLC,
+        esg:category_SASB-SC_7_AM ;
+    esg:name "SASB" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:35:55.160700" ;
+    esg:provenance_section_title "Title & Document Information" ;
+    esg:provenance_segment_id "seg_001" ;
+    esg:publisher "International Sustainability Standards Board (IFRS Foundation)" ;
+    esg:version "2023-12" ;
+    esg:year "2023" .
+
+esg:metric_SASB-SC_10_002 a esg:Metric ;
+    rdfs:label "Total Energy Consumed" ;
+    esg:description "Total amount of energy consumed as an aggregate figure, including energy from all sources" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:39:43.817386" ;
+    esg:provenance_section_title "Greenhouse Gas Emissions" ;
+    esg:provenance_segment_id "seg_005" ;
+    esg:unit "Gigajoules (GJ)" .
+
+esg:metric_SASB-SC_10_003 a esg:Metric ;
+    rdfs:label "Grid Electricity Consumed" ;
+    esg:description "Energy consumed that was supplied from grid electricity" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:39:43.817388" ;
+    esg:provenance_section_title "Greenhouse Gas Emissions" ;
+    esg:provenance_segment_id "seg_005" ;
+    esg:unit "Gigajoules (GJ)" .
+
+esg:metric_SASB-SC_10_004 a esg:Metric ;
+    rdfs:label "Renewable Energy Consumed" ;
+    esg:description "Energy consumed that was renewable energy from sources replenished at a rate greater than or equal to their rate of depletion" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:39:43.817392" ;
+    esg:provenance_section_title "Greenhouse Gas Emissions" ;
+    esg:provenance_segment_id "seg_005" ;
+    esg:unit "Gigajoules (GJ)" .
+
+esg:metric_SASB-SC_14_001 a esg:Metric ;
+    rdfs:label "Water Risk Analysis" ;
+    esg:description "Analysis of all operations for water risks and identification of activities that withdraw and consume water in locations with High or Extremely High Baseline Water Stress" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:41:20.560505" ;
+    esg:provenance_section_title "Water Management" ;
+    esg:provenance_segment_id "seg_007" ;
+    esg:unit "Discussion and Analysis" .
+
+esg:metric_SASB-SC_14_002 a esg:Metric ;
+    rdfs:label "Water Withdrawn in High Stress Locations (Percentage)" ;
+    esg:IsCalculatedBy esg:model_SASB-SC_14_002 ;
+    esg:description "Water withdrawn in locations with High or Extremely High Baseline Water Stress as a percentage of the total water withdrawn" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:41:20.560512" ;
+    esg:provenance_section_title "Water Management" ;
+    esg:provenance_segment_id "seg_007" ;
+    esg:unit "Percentage (%)" .
+
+esg:metric_SASB-SC_14_003 a esg:Metric ;
+    rdfs:label "Water Withdrawn in High Stress Locations" ;
+    esg:description "Volume of water withdrawn in locations with High or Extremely High Baseline Water Stress" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:41:20.560525" ;
+    esg:provenance_section_title "Water Management" ;
+    esg:provenance_segment_id "seg_007" ;
+    esg:unit "Cubic meters (m³)" .
+
+esg:metric_SASB-SC_14_004 a esg:Metric ;
+    rdfs:label "Total Water Withdrawn" ;
+    esg:description "Total volume of water withdrawn across all operations" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:41:20.560533" ;
+    esg:provenance_section_title "Water Management" ;
+    esg:provenance_segment_id "seg_007" ;
+    esg:unit "Cubic meters (m³)" .
+
+esg:metric_SASB-SC_14_005 a esg:Metric ;
+    rdfs:label "Water Consumed in High Stress Locations (Percentage)" ;
+    esg:IsCalculatedBy esg:model_SASB-SC_14_005 ;
+    esg:description "Water consumed in locations with High or Extremely High Baseline Water Stress as a percentage of the total water consumed" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:41:20.560540" ;
+    esg:provenance_section_title "Water Management" ;
+    esg:provenance_segment_id "seg_007" ;
+    esg:unit "Percentage (%)" .
+
+esg:metric_SASB-SC_14_006 a esg:Metric ;
+    rdfs:label "Water Consumed in High Stress Locations" ;
+    esg:description "Volume of water consumed in locations with High or Extremely High Baseline Water Stress" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:41:20.560552" ;
+    esg:provenance_section_title "Water Management" ;
+    esg:provenance_segment_id "seg_007" ;
+    esg:unit "Cubic meters (m³)" .
+
+esg:metric_SASB-SC_14_007 a esg:Metric ;
+    rdfs:label "Total Water Consumed" ;
+    esg:description "Total volume of water consumed across all operations" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:41:20.560558" ;
+    esg:provenance_section_title "Water Management" ;
+    esg:provenance_segment_id "seg_007" ;
+    esg:unit "Cubic meters (m³)" .
+
+esg:metric_SASB-SC_15_002 a esg:Metric ;
+    rdfs:label "Total Weight of Hazardous Waste Generated" ;
+    esg:description "Total weight of hazardous waste generated from manufacturing operations" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:41:20.560576" ;
+    esg:provenance_section_title "Water Management" ;
+    esg:provenance_segment_id "seg_007" ;
+    esg:unit "Metric tonnes (t)" .
+
+esg:metric_SASB-SC_15_003 a esg:Metric ;
+    rdfs:label "Weight of Hazardous Waste Recycled" ;
+    esg:description "Weight of hazardous waste generated from manufacturing operations that was recycled, reused, reclaimed or remanufactured" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:41:20.560582" ;
+    esg:provenance_section_title "Water Management" ;
+    esg:provenance_segment_id "seg_007" ;
+    esg:unit "Metric tonnes (t)" .
+
+esg:metric_SASB-SC_19_001 a esg:Metric ;
+    rdfs:label "Percentage of Employees Requiring Work Visa" ;
+    esg:IsCalculatedBy esg:model_SASB-SC_19_001 ;
+    esg:code "TC-SC-330a.1" ;
+    esg:description "Percentage of employees that require a work visa, calculated as the number of employees requiring a work visa divided by the total number of the entity's employees at the close of the reporting period" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:42:18.231595" ;
+    esg:provenance_section_title "Workforce Health & Safety" ;
+    esg:provenance_segment_id "seg_009" ;
+    esg:unit "Percentage (%)" .
+
+esg:metric_SASB-SC_19_002 a esg:Metric ;
+    rdfs:label "Number of Employees Requiring Work Visa" ;
+    esg:description "Number of employees requiring a work visa at the close of the reporting period" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:42:18.231599" ;
+    esg:provenance_section_title "Workforce Health & Safety" ;
+    esg:provenance_segment_id "seg_009" ;
+    esg:unit "Number" .
+
+esg:metric_SASB-SC_19_003 a esg:Metric ;
+    rdfs:label "Total Number of Employees" ;
+    esg:description "Total number of the entity's employees at the close of the reporting period" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:42:18.231601" ;
+    esg:provenance_section_title "Workforce Health & Safety" ;
+    esg:provenance_segment_id "seg_009" ;
+    esg:unit "Number" .
+
+esg:metric_SASB-SC_20_002 a esg:Metric ;
+    rdfs:label "Revenue from Products Containing Declarable Substances" ;
+    esg:description "Revenue from electrical, electronic and related technology products sold that contain IEC 62474 declarable substance(s)" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:42:44.649937" ;
+    esg:provenance_section_title "Recruiting & Managing a Global & Skilled Workforce" ;
+    esg:provenance_segment_id "seg_010" ;
+    esg:unit "Reporting currency" .
+
+esg:metric_SASB-SC_21_002 a esg:Metric ;
+    rdfs:label "Server Performance per Watt" ;
+    esg:description "Server processor energy efficiency measured as overall ssj_ops/watt using SPEC Power SPECpower_ssj2008 benchmark" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:43:38.204895" ;
+    esg:provenance_section_title "Product Lifecycle Management" ;
+    esg:provenance_segment_id "seg_011" ;
+    esg:unit "ssj_ops/watt" .
+
+esg:metric_SASB-SC_25_002 a esg:Metric ;
+    rdfs:label "Description of Anti-competitive Fines and Settlements" ;
+    esg:code "TC-SC-520a.1 (Note)" ;
+    esg:description "Brief description of the nature (e.g., guilty plea, deferred agreement or non-prosecution agreement) and context (e.g., price fixing, patent misuse or antitrust) of fines and settlements" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:44:08.796704" ;
+    esg:provenance_section_title "Materials Sourcing" ;
+    esg:provenance_segment_id "seg_012" ;
+    esg:unit "Discussion and Analysis" .
+
+esg:metric_SASB-SC_6_001 a esg:Metric ;
+    rdfs:label "Gross Global Scope 1 Emissions and PFC Emissions" ;
+    esg:IsCalculatedBy esg:model_SASB-SC_6_001 ;
+    esg:code "TC-SC-110a.1" ;
+    esg:description "(1) Gross global Scope 1 emissions and (2) amount of total emissions from perfluorinated compounds" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:38:04.207837" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" ;
+    esg:unit "Metric tonnes (t) CO₂-e" .
+
+esg:metric_SASB-SC_6_001a a esg:Metric ;
+    rdfs:label "Gross Global Scope 1 Emissions" ;
+    esg:description "Gross global Scope 1 emissions" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:38:04.207843" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" ;
+    esg:unit "Metric tonnes (t) CO₂-e" .
+
+esg:metric_SASB-SC_6_001b a esg:Metric ;
+    rdfs:label "Emissions from Perfluorinated Compounds" ;
+    esg:description "Amount of total emissions from perfluorinated compounds" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:38:04.207846" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" ;
+    esg:unit "Metric tonnes (t) CO₂-e" .
+
+esg:metric_SASB-SC_6_002 a esg:Metric ;
+    rdfs:label "GHG Emissions Management Strategy" ;
+    esg:code "TC-SC-110a.2" ;
+    esg:description "Discussion of long- and short-term strategy or plan to manage Scope 1 emissions, emissions reduction targets, and an analysis of performance against those targets" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:38:04.207849" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" ;
+    esg:unit "Discussion and Analysis" .
+
+esg:metric_SASB-SC_6_003 a esg:Metric ;
+    rdfs:label "Total Energy Consumed with Grid and Renewable Breakdown" ;
+    esg:IsCalculatedBy esg:model_SASB-SC_10_001 ;
+    esg:code "TC-SC-130a.1" ;
+    esg:description "(1) Total energy consumed, (2) percentage grid electricity and (3) percentage renewable" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:38:04.207853" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" ;
+    esg:unit "Gigajoules (GJ), Percentage (%)" .
+
+esg:metric_SASB-SC_6_003b a esg:Metric ;
+    rdfs:label "Percentage Grid Electricity" ;
+    esg:description "Percentage grid electricity" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:38:04.207862" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" ;
+    esg:unit "Percentage (%)" .
+
+esg:metric_SASB-SC_6_003c a esg:Metric ;
+    rdfs:label "Percentage Renewable" ;
+    esg:description "Percentage renewable" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:38:04.207865" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" ;
+    esg:unit "Percentage (%)" .
+
+esg:metric_SASB-SC_6_004 a esg:Metric ;
+    rdfs:label "Water Withdrawn and Consumed with Baseline Stress" ;
+    esg:IsCalculatedBy esg:model_SASB-SC_12_001 ;
+    esg:code "TC-SC-140a.1" ;
+    esg:description "(1) Total water withdrawn, (2) total water consumed; percentage of each in regions with High or Extremely High Baseline Water Stress" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:38:04.207869" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" ;
+    esg:unit "Thousand cubic metres (m³), Percentage (%)" .
+
+esg:metric_SASB-SC_6_005 a esg:Metric ;
+    rdfs:label "Hazardous Waste and Recycling Rate" ;
+    esg:IsCalculatedBy esg:model_SASB-SC_15_001,
+        esg:model_SASB-SC_6_005 ;
+    esg:code "TC-SC-150a.1" ;
+    esg:description "(1) Amount of hazardous waste from manufacturing, (2) percentage recycled" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:38:04.207881" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" ;
+    esg:unit "Metric tonnes (t), Percentage (%)" .
+
+esg:metric_SASB-SC_6_005a a esg:Metric ;
+    rdfs:label "Amount of Hazardous Waste" ;
+    esg:description "Amount of hazardous waste from manufacturing" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:38:04.207887" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" ;
+    esg:unit "Metric tonnes (t)" .
+
+esg:metric_SASB-SC_6_005b a esg:Metric ;
+    rdfs:label "Percentage of Hazardous Waste Recycled" ;
+    esg:description "Percentage of hazardous waste recycled" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:38:04.207890" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" ;
+    esg:unit "Percentage (%)" .
+
+esg:metric_SASB-SC_6_006 a esg:Metric ;
+    rdfs:label "Workforce Health Hazards Assessment" ;
+    esg:code "TC-SC-320a.1" ;
+    esg:description "Description of efforts to assess, monitor, and reduce exposure of workforce to human health hazards" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:38:04.207892" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" ;
+    esg:unit "Discussion and Analysis" .
+
+esg:metric_SASB-SC_6_007 a esg:Metric ;
+    rdfs:label "Monetary Losses from Health and Safety Violations" ;
+    esg:code "TC-SC-320a.2" ;
+    esg:description "Total amount of monetary losses as a result of legal proceedings associated with employee health and safety violations" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:38:04.207895" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" ;
+    esg:unit "Presentation currency" .
+
+esg:metric_SASB-SC_7_002 a esg:Metric ;
+    rdfs:label "Percentage of production from owned facilities" ;
+    esg:code "TC-SC-000.B" ;
+    esg:description "Percentage of production from owned facilities" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:39:02.241117" ;
+    esg:provenance_section_title "Sustainability Disclosure Topics & Metrics" ;
+    esg:provenance_segment_id "seg_004" ;
+    esg:unit "Percentage (%)" .
+
+esg:metric_SASB-SC_8_002 a esg:Metric ;
+    rdfs:label "Gross global Scope 1 emissions" ;
+    esg:description "Gross global Scope 1 greenhouse gas emissions to the atmosphere of the seven GHGs covered under the Kyoto Protocol" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:39:02.241125" ;
+    esg:provenance_section_title "Sustainability Disclosure Topics & Metrics" ;
+    esg:provenance_segment_id "seg_004" ;
+    esg:unit "Metric tons (t) CO₂-e" .
+
+esg:metric_SASB-SC_8_003 a esg:Metric ;
+    rdfs:label "Emissions from perfluorinated compounds" ;
+    esg:description "Gross global Scope 1 GHG emissions originated from perfluorinated compounds" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:39:02.241127" ;
+    esg:provenance_section_title "Sustainability Disclosure Topics & Metrics" ;
+    esg:provenance_segment_id "seg_004" ;
+    esg:unit "Metric tons (t) CO₂-e" .
+
+esg:model_SASB-SC_10_001 a esg:Model ;
+    rdfs:label "Energy Consumption Analysis Model" ;
+    esg:RequiresInputFrom esg:metric_SASB-SC_10_002,
+        esg:metric_SASB-SC_10_003,
+        esg:metric_SASB-SC_10_004 ;
+    esg:description "Composite metric calculating total energy consumed and percentages of grid electricity and renewable energy from total energy consumption" ;
+    esg:equation "Grid % = (Grid Electricity / Total Energy) × 100; Renewable % = (Renewable Energy / Total Energy) × 100" ;
+    esg:input_variables "['Total Energy Consumed', 'Grid Electricity Consumed', 'Renewable Energy Consumed']" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:39:43.817383" ;
+    esg:provenance_section_title "Greenhouse Gas Emissions" ;
+    esg:provenance_segment_id "seg_005" .
+
+esg:model_SASB-SC_12_001 a esg:Model ;
+    rdfs:label "Water Stress Assessment Model" ;
+    esg:description "Composite metric combining total water withdrawn and total water consumed with geographic analysis of percentage in regions with High or Extremely High Baseline Water Stress" ;
+    esg:equation "f(TotalWithdrawn, TotalConsumed, StressRegionPct)" ;
+    esg:input_variables "['Total water withdrawn', 'Total water consumed', 'Percentage in High or Extremely High Baseline Water Stress regions']" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:40:21.192780" ;
+    esg:provenance_section_title "Energy Management in Manufacturing" ;
+    esg:provenance_segment_id "seg_006" .
+
+esg:model_SASB-SC_14_002 a esg:Model ;
+    rdfs:label "Water Withdrawn Stress Percentage Model" ;
+    esg:RequiresInputFrom esg:metric_SASB-SC_14_003,
+        esg:metric_SASB-SC_14_004 ;
+    esg:description "Calculates the percentage of water withdrawn from high or extremely high baseline water stress locations relative to total water withdrawn" ;
+    esg:equation "(Water withdrawn in high stress locations / Total water withdrawn) × 100" ;
+    esg:input_variables "['Water withdrawn in high stress locations', 'Total water withdrawn']" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:41:20.560519" ;
+    esg:provenance_section_title "Water Management" ;
+    esg:provenance_segment_id "seg_007" .
+
+esg:model_SASB-SC_14_005 a esg:Model ;
+    rdfs:label "Water Consumed Stress Percentage Model" ;
+    esg:RequiresInputFrom esg:metric_SASB-SC_14_006,
+        esg:metric_SASB-SC_14_007 ;
+    esg:description "Calculates the percentage of water consumed from high or extremely high baseline water stress locations relative to total water consumed" ;
+    esg:equation "(Water consumed in high stress locations / Total water consumed) × 100" ;
+    esg:input_variables "['Water consumed in high stress locations', 'Total water consumed']" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:41:20.560546" ;
+    esg:provenance_section_title "Water Management" ;
+    esg:provenance_segment_id "seg_007" .
+
+esg:model_SASB-SC_15_001 a esg:Model ;
+    rdfs:label "Hazardous Waste Recycling Model" ;
+    esg:RequiresInputFrom esg:metric_SASB-SC_15_002,
+        esg:metric_SASB-SC_15_003 ;
+    esg:description "Composite metric combining total hazardous waste generated and the percentage recycled, calculated as weight of recycled hazardous waste divided by total weight of hazardous waste" ;
+    esg:equation "(Weight of hazardous waste recycled / Total weight of hazardous waste) × 100" ;
+    esg:input_variables "['Total weight of hazardous waste generated', 'Weight of hazardous waste recycled']" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:41:20.560571" ;
+    esg:provenance_section_title "Water Management" ;
+    esg:provenance_segment_id "seg_007" .
+
+esg:model_SASB-SC_19_001 a esg:Model ;
+    rdfs:label "Work Visa Percentage Calculation Model" ;
+    esg:RequiresInputFrom esg:metric_SASB-SC_19_002,
+        esg:metric_SASB-SC_19_003 ;
+    esg:description "Calculates percentage of employees requiring work visa from count of visa-requiring employees divided by total employee count" ;
+    esg:equation "(Number of employees requiring work visa / Total number of employees) × 100" ;
+    esg:input_variables "['Number of employees requiring a work visa', 'Total number of employees']" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:42:18.231597" ;
+    esg:provenance_section_title "Workforce Health & Safety" ;
+    esg:provenance_segment_id "seg_009" .
+
+esg:model_SASB-SC_20_001 a esg:Model ;
+    rdfs:label "IEC 62474 Declarable Substances Percentage Model" ;
+    esg:RequiresInputFrom esg:metric_SASB-SC_20_002 ;
+    esg:description "Calculated as the revenue from electrical, electronic and related technology products sold that contain a declarable substance(s) divided by total revenue from electrical, electronic and related technology products sold." ;
+    esg:equation "(Revenue from products with declarable substances / Total revenue from products) × 100" ;
+    esg:input_variables "['Revenue from products containing declarable substances', 'Total revenue from electrical, electronic and related technology products']" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:42:44.649934" ;
+    esg:provenance_section_title "Recruiting & Managing a Global & Skilled Workforce" ;
+    esg:provenance_segment_id "seg_010" .
+
+esg:model_SASB-SC_21_001 a esg:Model ;
+    rdfs:label "Processor Energy Efficiency Benchmarking Model" ;
+    esg:RequiresInputFrom esg:metric_SASB-SC_21_002 ;
+    esg:description "System-level energy efficiency calculated from standardized benchmark testing: servers use SPECpower_ssj2008 (ssj_ops/watt), desktops use SPEC CPU2006 (SPECspeed scores per watt), laptops use MobileMark 2014 (performance score and battery life)" ;
+    esg:equation "f(ServerBenchmark, DesktopBenchmark, LaptopBenchmark) where each benchmark = PerformanceScore / PowerConsumption" ;
+    esg:input_variables "['Server SPECpower ssj_ops/watt', 'Desktop SPECspeed2017_int_base score/watt', 'Desktop SPECspeed2017_fp_base score/watt', 'Laptop MobileMark performance qualification score', 'Laptop MobileMark battery life score']" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:43:38.204893" ;
+    esg:provenance_section_title "Product Lifecycle Management" ;
+    esg:provenance_segment_id "seg_011" .
+
+esg:model_SASB-SC_6_005 a esg:Model ;
+    rdfs:label "Waste Management Composite Model" ;
+    esg:RequiresInputFrom esg:metric_SASB-SC_6_005a,
+        esg:metric_SASB-SC_6_005b ;
+    esg:description "Composite metric derived from amount of hazardous waste and percentage recycled" ;
+    esg:equation "f(HazardousWaste, RecycledPct)" ;
+    esg:input_variables "['Amount of hazardous waste from manufacturing', 'Percentage recycled']" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:38:04.207884" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" .
+
+esg:metric_SASB-SC_20_001 a esg:Metric ;
+    rdfs:label "Percentage of Products Containing IEC 62474 Declarable Substances" ;
+    esg:IsCalculatedBy esg:model_SASB-SC_20_001,
+        esg:model_SASB-SC_6_001 ;
+    esg:code "TC-SC-410a.1" ;
+    esg:description "Percentage of products by revenue that contain IEC 62474 declarable substances" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:42:44.649931" ;
+    esg:provenance_section_title "Recruiting & Managing a Global & Skilled Workforce" ;
+    esg:provenance_segment_id "seg_010" ;
+    esg:unit "Percentage (%)" .
+
+esg:metric_SASB-SC_21_001 a esg:Metric ;
+    rdfs:label "Processor Energy Efficiency" ;
+    esg:IsCalculatedBy esg:model_SASB-SC_21_001 ;
+    esg:code "TC-SC-410a.2" ;
+    esg:description "Processor energy efficiency at a system-level for: (1) servers, (2) desktops and (3) laptops, calculated using specified benchmarks (SPEC Power, SPEC CPU2006, MobileMark 2014)" ;
+    esg:disaggregations "['servers', 'desktops', 'laptops']" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:43:38.204892" ;
+    esg:provenance_section_title "Product Lifecycle Management" ;
+    esg:provenance_segment_id "seg_011" ;
+    esg:unit "Performance per Watt (various units)" .
+
+esg:metric_SASB-SC_23_001 a esg:Metric ;
+    rdfs:label "Critical Materials Risk Management" ;
+    esg:code "TC-SC-440a.1" ;
+    esg:description "Description of the management of risks associated with the use of critical materials, including physical availability limits, price changes, and regulatory and reputational risks" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:43:38.204900" ;
+    esg:provenance_section_title "Product Lifecycle Management" ;
+    esg:provenance_segment_id "seg_011" ;
+    esg:unit "Discussion and Analysis" .
+
+esg:metric_SASB-SC_6_012 a esg:Metric ;
+    rdfs:label "Monetary losses from anti-competitive behaviour" ;
+    esg:code "TC-SC-520a.1" ;
+    esg:description "Total amount of monetary losses as a result of legal proceedings associated with anti-competitive behaviour regulations" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:39:02.241112" ;
+    esg:provenance_section_title "Sustainability Disclosure Topics & Metrics" ;
+    esg:provenance_segment_id "seg_004" ;
+    esg:unit "Presentation currency" .
+
+esg:model_SASB-SC_6_001 a esg:Model ;
+    rdfs:label "GHG Emissions Composite Model" ;
+    esg:RequiresInputFrom esg:metric_SASB-SC_6_001a,
+        esg:metric_SASB-SC_6_001b,
+        esg:metric_SASB-SC_8_002,
+        esg:metric_SASB-SC_8_003 ;
+    esg:description "Composite metric derived from gross global Scope 1 emissions and amount of emissions from perfluorinated compounds" ;
+    esg:equation "f(Scope1Emissions, PFCEmissions)" ;
+    esg:input_variables "['Gross global Scope 1 emissions', 'Amount of total emissions from perfluorinated compounds']" ;
+    esg:provenance_document_id "1.SASB-semiconductors-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:38:04.207840" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" .
+

@@ -1,0 +1,3097 @@
+{
+  "document": "2.FINAL-2017-TCFD-Report",
+  "timestamp": "2025-11-18T13:40:21.795358",
+  "experiments": {
+    "1_ontology_guided": {
+      "entities": [],
+      "relationships": []
+    },
+    "2_baseline_llm": {
+      "name": "Baseline (Unconstrained)",
+      "description": "Unconstrained LLM (no ontology schema, no SPARQL validation)",
+      "entities": [
+        {
+          "id": "TCFD_2017",
+          "label": "TCFD Final Report 2017",
+          "type": "Report",
+          "description": "Final Report of the Task Force on Climate-related Financial Disclosures published in June 2017",
+          "unit": null
+        },
+        {
+          "id": "TCFD",
+          "label": "Task Force on Climate-related Financial Disclosures",
+          "type": "Organization",
+          "description": "Task force responsible for developing climate-related financial disclosure recommendations",
+          "unit": null
+        },
+        {
+          "id": "climate_related_disclosures",
+          "label": "Climate-related Financial Disclosures",
+          "type": "ESG Framework",
+          "description": "Framework for disclosing climate-related financial information",
+          "unit": null
+        },
+        {
+          "id": "TCFD",
+          "label": "Task Force on Climate-related Financial Disclosures",
+          "type": "Organization",
+          "description": "Industry task force established to develop recommendations for climate-related financial disclosures",
+          "unit": null
+        },
+        {
+          "id": "FSB",
+          "label": "Financial Stability Board",
+          "type": "Organization",
+          "description": "International body that monitors and makes recommendations about the global financial system",
+          "unit": null
+        },
+        {
+          "id": "climate_change",
+          "label": "Climate Change",
+          "type": "Environmental Risk",
+          "description": "Warming of the planet caused by greenhouse gas emissions posing serious risks to the global economy",
+          "unit": null
+        },
+        {
+          "id": "ghg_emissions",
+          "label": "Greenhouse Gas Emissions",
+          "type": "Environmental Metric",
+          "description": "Emissions causing planetary warming",
+          "unit": null
+        },
+        {
+          "id": "climate_disclosures",
+          "label": "Climate-related Financial Disclosures",
+          "type": "Reporting Framework",
+          "description": "Clear, comparable and consistent information about risks and opportunities presented by climate change",
+          "unit": null
+        },
+        {
+          "id": "michael_bloomberg",
+          "label": "Michael R. Bloomberg",
+          "type": "Person",
+          "description": "Chair of the Task Force on Climate-related Financial Disclosures",
+          "unit": null
+        },
+        {
+          "id": "mark_carney",
+          "label": "Mark Carney",
+          "type": "Person",
+          "description": "Chairman of Financial Stability Board",
+          "unit": null
+        },
+        {
+          "id": "tcfd_report_2017",
+          "label": "2017 TCFD Final Report",
+          "type": "Document",
+          "description": "Final report setting out recommendations for climate-related financial disclosures",
+          "unit": null
+        },
+        {
+          "id": "low_carbon_economy",
+          "label": "Low-Carbon Economy",
+          "type": "Economic Concept",
+          "description": "Sustainable economic system with reduced carbon emissions",
+          "unit": null
+        },
+        {
+          "id": "climate_change",
+          "label": "Climate Change",
+          "type": "Environmental Risk",
+          "description": "Significant risk facing organizations related to greenhouse gas emissions and global warming with physical and financial implications",
+          "unit": null
+        },
+        {
+          "id": "greenhouse_gas_emissions",
+          "label": "Greenhouse Gas Emissions",
+          "type": "Environmental Metric",
+          "description": "Emissions that cause warming of the planet and lead to climate change impacts",
+          "unit": null
+        },
+        {
+          "id": "lower_carbon_economy_investment",
+          "label": "Lower-Carbon Economy Investment",
+          "type": "Financial Metric",
+          "description": "Annual investment required for transition to lower-carbon economy",
+          "unit": "USD",
+          "value": "1 trillion per year"
+        },
+        {
+          "id": "climate_value_at_risk",
+          "label": "Climate Value at Risk",
+          "type": "Financial Metric",
+          "description": "Estimated value at risk to global stock of manageable assets due to climate change by end of century",
+          "unit": "USD",
+          "value": "4.2 trillion to 43 trillion"
+        },
+        {
+          "id": "tcfd",
+          "label": "Task Force on Climate-related Financial Disclosures",
+          "type": "Organization",
+          "description": "Task force established to identify information needed by investors, lenders, and insurance underwriters for climate-related financial decisions",
+          "unit": null
+        },
+        {
+          "id": "financial_stability_board",
+          "label": "Financial Stability Board",
+          "type": "Organization",
+          "description": "Organization tasked by G20 to review how financial sector can account for climate-related issues",
+          "unit": null
+        },
+        {
+          "id": "g20",
+          "label": "G20 Finance Ministers and Central Bank Governors",
+          "type": "Organization",
+          "description": "Group that requested review of climate-related issues in financial sector",
+          "unit": null
+        },
+        {
+          "id": "paris_agreement",
+          "label": "Paris Agreement (December 2015)",
+          "type": "Policy",
+          "description": "Agreement by nearly 200 countries to reduce greenhouse gas emissions and accelerate transition to lower-carbon economy",
+          "unit": null
+        },
+        {
+          "id": "climate_related_risks",
+          "label": "Climate-related Risks",
+          "type": "Risk Category",
+          "description": "Risks including physical impacts, policy changes, and technological shifts affecting organizations across economic sectors",
+          "unit": null
+        },
+        {
+          "id": "climate_related_opportunities",
+          "label": "Climate-related Opportunities",
+          "type": "Opportunity Category",
+          "description": "Opportunities for organizations focused on climate change mitigation and adaptation solutions",
+          "unit": null
+        },
+        {
+          "id": "fossil_fuel_assets",
+          "label": "Fossil Fuel Assets",
+          "type": "Asset Category",
+          "description": "Physical assets related to extracting, producing, and using coal, oil, and natural gas",
+          "unit": null
+        },
+        {
+          "id": "clean_energy_technologies",
+          "label": "Clean and Energy-Efficient Technologies",
+          "type": "Technology",
+          "description": "Technologies with rapidly declining costs and increased deployment as alternatives to fossil fuels",
+          "unit": null
+        },
+        {
+          "id": "climate_disclosure",
+          "label": "Climate-related Financial Disclosures",
+          "type": "Disclosure Framework",
+          "description": "Information disclosure to support informed investment, lending, and insurance underwriting decisions regarding climate risks",
+          "unit": null
+        },
+        {
+          "id": "climate_related_risks",
+          "label": "Climate-Related Risks",
+          "type": "Risk Category",
+          "description": "Risks associated with climate change that may impact organizations",
+          "unit": null
+        },
+        {
+          "id": "climate_related_opportunities",
+          "label": "Climate-Related Opportunities",
+          "type": "Opportunity Category",
+          "description": "Opportunities arising from climate change and transition to lower-carbon economy",
+          "unit": null
+        },
+        {
+          "id": "governance",
+          "label": "Governance",
+          "type": "Disclosure Pillar",
+          "description": "The organization's governance around climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "strategy",
+          "label": "Strategy",
+          "type": "Disclosure Pillar",
+          "description": "The actual and potential impacts of climate-related risks and opportunities on the organization's businesses, strategy, and financial planning",
+          "unit": null
+        },
+        {
+          "id": "risk_management",
+          "label": "Risk Management",
+          "type": "Disclosure Pillar",
+          "description": "The processes used by the organization to identify, assess, and manage climate-related risks",
+          "unit": null
+        },
+        {
+          "id": "metrics_and_targets",
+          "label": "Metrics and Targets",
+          "type": "Disclosure Pillar",
+          "description": "The metrics and targets used to assess and manage relevant climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "2c_scenario",
+          "label": "2°C Scenario",
+          "type": "Climate Scenario",
+          "description": "An energy system deployment pathway and emissions trajectory consistent with limiting global average temperature increase to 2°C above pre-industrial average",
+          "unit": "degrees Celsius"
+        },
+        {
+          "id": "tcfd_recommendations",
+          "label": "TCFD Recommendations",
+          "type": "Framework",
+          "description": "Task Force on Climate-related Financial Disclosures recommendations for climate-related financial disclosures",
+          "unit": null
+        },
+        {
+          "id": "climate_related_financial_disclosures",
+          "label": "Climate-Related Financial Disclosures",
+          "type": "Reporting Output",
+          "description": "Financial disclosures related to the potential effects of climate change on organizations",
+          "unit": null
+        },
+        {
+          "id": "scenario_analysis",
+          "label": "Climate-Related Scenario Analysis",
+          "type": "Assessment Method",
+          "description": "Analysis of organization's strategy resilience under different climate-related scenarios",
+          "unit": null
+        },
+        {
+          "id": "tcfd_report_2017",
+          "label": "2017 TCFD Report",
+          "type": "Report",
+          "description": "Final 2017 Task Force on Climate-related Financial Disclosures Report",
+          "unit": null
+        },
+        {
+          "id": "climate_related_risks",
+          "label": "Climate-Related Risks",
+          "type": "ESG Category",
+          "description": "Risks associated with climate change impacts on organizations",
+          "unit": null
+        },
+        {
+          "id": "climate_related_opportunities",
+          "label": "Climate-Related Opportunities",
+          "type": "ESG Category",
+          "description": "Opportunities arising from climate change and transition to lower-carbon economy",
+          "unit": null
+        },
+        {
+          "id": "financial_impacts",
+          "label": "Financial Impacts",
+          "type": "ESG Metric Category",
+          "description": "Financial impacts of climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "scenario_analysis",
+          "label": "Scenario Analysis",
+          "type": "Methodology",
+          "description": "Analysis approach for assessing climate-related issues under different future scenarios",
+          "unit": null
+        },
+        {
+          "id": "ghg_emissions",
+          "label": "GHG Emissions",
+          "type": "ESG Metric",
+          "description": "Greenhouse gas emissions associated with investments",
+          "unit": null
+        },
+        {
+          "id": "tcfd_recommendations",
+          "label": "TCFD Recommendations",
+          "type": "Framework",
+          "description": "Recommendations and guidance for climate-related financial disclosures",
+          "unit": null
+        },
+        {
+          "id": "remuneration",
+          "label": "Remuneration",
+          "type": "Governance Metric",
+          "description": "Compensation considerations related to climate performance",
+          "unit": null
+        },
+        {
+          "id": "disclosure_frameworks",
+          "label": "Disclosure Frameworks",
+          "type": "Framework",
+          "description": "Frameworks for reporting climate-related information",
+          "unit": null
+        },
+        {
+          "id": "E1",
+          "label": "Global Temperature Increase",
+          "type": "Environmental Metric",
+          "description": "Target to hold increase in global average temperature to well below 2°C above pre-industrial levels and pursue efforts to limit to 1.5°C",
+          "unit": "Celsius"
+        },
+        {
+          "id": "E2",
+          "label": "Greenhouse Gas Emissions",
+          "type": "Environmental Metric",
+          "description": "GHG emissions disclosed as part of climate-related information",
+          "unit": "Not specified"
+        },
+        {
+          "id": "E3",
+          "label": "Climate-related Risks",
+          "type": "Risk Category",
+          "description": "Financial risks posed by climate change to companies, investors, and the financial system",
+          "unit": "Not applicable"
+        },
+        {
+          "id": "E4",
+          "label": "Climate-related Opportunities",
+          "type": "Opportunity Category",
+          "description": "Opportunities arising from climate-related issues for organizations",
+          "unit": "Not applicable"
+        },
+        {
+          "id": "ORG1",
+          "label": "Task Force on Climate-related Financial Disclosures (TCFD)",
+          "type": "Organization",
+          "description": "Industry-led task force established by FSB to develop climate-related disclosure framework",
+          "unit": "Not applicable"
+        },
+        {
+          "id": "ORG2",
+          "label": "Financial Stability Board (FSB)",
+          "type": "Organization",
+          "description": "Organization that convened public and private-sector participants to review climate-related issues in financial sector",
+          "unit": "Not applicable"
+        },
+        {
+          "id": "ORG3",
+          "label": "G20",
+          "type": "Organization",
+          "description": "Group of 20 Finance Ministers and Central Bank Governors that requested FSB action on climate issues",
+          "unit": "Not applicable"
+        },
+        {
+          "id": "DOC1",
+          "label": "Paris Agreement",
+          "type": "Policy Document",
+          "description": "Agreement by nearly 200 governments in December 2015 to strengthen global response to climate change",
+          "unit": "Not applicable"
+        },
+        {
+          "id": "STAKE1",
+          "label": "Investors",
+          "type": "Stakeholder",
+          "description": "Financial market participants demanding climate-related risk information",
+          "unit": "Not applicable"
+        },
+        {
+          "id": "STAKE2",
+          "label": "Creditors",
+          "type": "Stakeholder",
+          "description": "Financial market participants demanding consistent, comparable, reliable climate-related information",
+          "unit": "Not applicable"
+        },
+        {
+          "id": "STAKE3",
+          "label": "Insurance Underwriters",
+          "type": "Stakeholder",
+          "description": "Users of climate-related disclosures for underwriting decisions",
+          "unit": "Not applicable"
+        },
+        {
+          "id": "ISSUE1",
+          "label": "Financial Stability Concerns",
+          "type": "Financial Impact",
+          "description": "Concerns about market vulnerability to abrupt corrections due to inadequate climate risk information",
+          "unit": "Not applicable"
+        },
+        {
+          "id": "ISSUE2",
+          "label": "Asset Mispricing",
+          "type": "Financial Impact",
+          "description": "Mispricing of assets due to inadequate information about climate-related risks",
+          "unit": "Not applicable"
+        },
+        {
+          "id": "ISSUE3",
+          "label": "Capital Misallocation",
+          "type": "Financial Impact",
+          "description": "Misallocation of capital resulting from inadequate climate risk information",
+          "unit": "Not applicable"
+        },
+        {
+          "id": "GAP1",
+          "label": "Financial Implications Disclosure Gap",
+          "type": "Reporting Gap",
+          "description": "Lack of information on financial implications of climate-related aspects of organizations",
+          "unit": "Not applicable"
+        },
+        {
+          "id": "GAP2",
+          "label": "Disclosure Inconsistency",
+          "type": "Reporting Gap",
+          "description": "Inconsistencies in disclosure practices, lack of context, use of boilerplate, and non-comparable reporting",
+          "unit": "Not applicable"
+        },
+        {
+          "id": "technology_risk",
+          "label": "Technology Risk",
+          "type": "Risk",
+          "description": "Risk from technological improvements or innovations that support the transition to a lower-carbon, energy-efficient economic system",
+          "unit": null
+        },
+        {
+          "id": "market_risk",
+          "label": "Market Risk",
+          "type": "Risk",
+          "description": "Risk from shifts in supply and demand for certain commodities, products, and services as climate-related risks and opportunities are taken into account",
+          "unit": null
+        },
+        {
+          "id": "reputation_risk",
+          "label": "Reputation Risk",
+          "type": "Risk",
+          "description": "Risk tied to changing customer or community perceptions of an organization's contribution to or detraction from the transition to a lower-carbon economy",
+          "unit": null
+        },
+        {
+          "id": "physical_risk",
+          "label": "Physical Risk",
+          "type": "Risk",
+          "description": "Physical risks resulting from climate change that can be event driven (acute) or longer-term shifts (chronic) in climate patterns",
+          "unit": null
+        },
+        {
+          "id": "acute_risk",
+          "label": "Acute Physical Risk",
+          "type": "Risk",
+          "description": "Event-driven physical risks including increased severity of extreme weather events such as cyclones, hurricanes, or floods",
+          "unit": null
+        },
+        {
+          "id": "chronic_risk",
+          "label": "Chronic Physical Risk",
+          "type": "Risk",
+          "description": "Longer-term shifts in climate patterns that may cause sea level rise or chronic heat waves",
+          "unit": null
+        },
+        {
+          "id": "resource_efficiency",
+          "label": "Resource Efficiency",
+          "type": "Opportunity",
+          "description": "Opportunity to reduce operating costs by improving efficiency across production, distribution, buildings, machinery, and transport",
+          "unit": null
+        },
+        {
+          "id": "energy_source",
+          "label": "Energy Source",
+          "type": "Opportunity",
+          "description": "Opportunity to transition to low emission energy alternatives such as wind, solar, wave, tidal, hydro, geothermal, nuclear, biofuels, and carbon capture",
+          "unit": null
+        },
+        {
+          "id": "products_services",
+          "label": "Products and Services",
+          "type": "Opportunity",
+          "description": "Opportunity to innovate and develop new low-emission products and services to improve competitive position",
+          "unit": null
+        },
+        {
+          "id": "markets",
+          "label": "Markets",
+          "type": "Opportunity",
+          "description": "Opportunity to access new markets and diversify activities for transition to a lower-carbon economy",
+          "unit": null
+        },
+        {
+          "id": "renewable_energy",
+          "label": "Renewable Energy",
+          "type": "Technology",
+          "description": "Emerging technology supporting transition to lower-carbon economy",
+          "unit": null
+        },
+        {
+          "id": "battery_storage",
+          "label": "Battery Storage",
+          "type": "Technology",
+          "description": "Emerging technology supporting transition to lower-carbon economy",
+          "unit": null
+        },
+        {
+          "id": "carbon_capture",
+          "label": "Carbon Capture and Storage",
+          "type": "Technology",
+          "description": "Emerging technology supporting transition to lower-carbon economy",
+          "unit": null
+        },
+        {
+          "id": "financial_impacts",
+          "label": "Financial Impacts",
+          "type": "Impact",
+          "description": "Direct damage to assets, supply chain disruption, and effects from water availability, food security, and temperature changes",
+          "unit": null
+        },
+        {
+          "id": "GHG_emissions",
+          "label": "GHG emissions",
+          "type": "Environmental Metric",
+          "description": "Greenhouse gas emissions subject to pricing and regulation",
+          "unit": "not specified"
+        },
+        {
+          "id": "operating_costs",
+          "label": "Operating costs",
+          "type": "Financial Metric",
+          "description": "Costs associated with business operations including compliance and insurance",
+          "unit": "currency"
+        },
+        {
+          "id": "compliance_costs",
+          "label": "Compliance costs",
+          "type": "Financial Metric",
+          "description": "Costs related to regulatory compliance",
+          "unit": "currency"
+        },
+        {
+          "id": "insurance_premiums",
+          "label": "Insurance premiums",
+          "type": "Financial Metric",
+          "description": "Costs of insurance coverage",
+          "unit": "currency"
+        },
+        {
+          "id": "carbon_pricing",
+          "label": "Carbon pricing",
+          "type": "Policy Risk",
+          "description": "Increased pricing of GHG emissions",
+          "unit": "currency per ton CO2e"
+        },
+        {
+          "id": "emissions_reporting",
+          "label": "Emissions reporting obligations",
+          "type": "Policy Risk",
+          "description": "Enhanced requirements for reporting emissions",
+          "unit": "not applicable"
+        },
+        {
+          "id": "asset_impairment",
+          "label": "Asset impairment",
+          "type": "Financial Impact",
+          "description": "Write-offs and early retirement of existing assets",
+          "unit": "currency"
+        },
+        {
+          "id": "revenue",
+          "label": "Revenue",
+          "type": "Financial Metric",
+          "description": "Income from business operations and sales",
+          "unit": "currency"
+        },
+        {
+          "id": "RD_expenditures",
+          "label": "R&D expenditures",
+          "type": "Financial Metric",
+          "description": "Research and development spending on new technologies",
+          "unit": "currency"
+        },
+        {
+          "id": "capital_investments",
+          "label": "Capital investments",
+          "type": "Financial Metric",
+          "description": "Investments in technology development and infrastructure",
+          "unit": "currency"
+        },
+        {
+          "id": "water_usage",
+          "label": "Water usage",
+          "type": "Environmental Metric",
+          "description": "Water consumption in operations",
+          "unit": "volume"
+        },
+        {
+          "id": "energy_costs",
+          "label": "Energy costs",
+          "type": "Financial Metric",
+          "description": "Costs associated with energy consumption",
+          "unit": "currency"
+        },
+        {
+          "id": "extreme_weather_events",
+          "label": "Extreme weather events",
+          "type": "Physical Risk",
+          "description": "Increased severity of cyclones and floods",
+          "unit": "not applicable"
+        },
+        {
+          "id": "temperature_rise",
+          "label": "Rising mean temperatures",
+          "type": "Physical Risk",
+          "description": "Chronic climate change impact from temperature increase",
+          "unit": "degrees Celsius"
+        },
+        {
+          "id": "sea_level_rise",
+          "label": "Rising sea levels",
+          "type": "Physical Risk",
+          "description": "Chronic climate change impact from ocean level increase",
+          "unit": "meters"
+        },
+        {
+          "id": "precipitation_changes",
+          "label": "Changes in precipitation patterns",
+          "type": "Physical Risk",
+          "description": "Variability in weather patterns affecting operations",
+          "unit": "not applicable"
+        },
+        {
+          "id": "production_capacity",
+          "label": "Production capacity",
+          "type": "Operational Metric",
+          "description": "Ability to produce goods and services",
+          "unit": "units or percentage"
+        },
+        {
+          "id": "energy_efficiency",
+          "label": "Energy efficiency",
+          "type": "Environmental Opportunity",
+          "description": "Use of more efficient production and distribution processes",
+          "unit": "percentage or ratio"
+        },
+        {
+          "id": "renewable_energy",
+          "label": "Renewable energy",
+          "type": "Environmental Opportunity",
+          "description": "Use of lower-emission sources of energy",
+          "unit": "percentage or MWh"
+        },
+        {
+          "id": "recycling",
+          "label": "Recycling",
+          "type": "Environmental Opportunity",
+          "description": "Use of recycling processes",
+          "unit": "percentage or volume"
+        },
+        {
+          "id": "low_emission_products",
+          "label": "Low emission products and services",
+          "type": "Product Opportunity",
+          "description": "Development of goods and services with reduced emissions",
+          "unit": "not applicable"
+        },
+        {
+          "id": "workforce_impacts",
+          "label": "Workforce impacts",
+          "type": "Social Metric",
+          "description": "Effects on employee health, safety, attraction and retention",
+          "unit": "not applicable"
+        },
+        {
+          "id": "stakeholder_concern",
+          "label": "Stakeholder concern",
+          "type": "Reputational Risk",
+          "description": "Increased concern or negative feedback from stakeholders",
+          "unit": "not applicable"
+        },
+        {
+          "id": "consumer_preferences",
+          "label": "Consumer preferences",
+          "type": "Market Risk/Opportunity",
+          "description": "Shifts in customer behavior and demand patterns",
+          "unit": "not applicable"
+        },
+        {
+          "id": "carbon_market",
+          "label": "Carbon market",
+          "type": "Market Opportunity",
+          "description": "Participation in carbon trading mechanisms",
+          "unit": "currency"
+        },
+        {
+          "id": "green_bonds",
+          "label": "Green bonds",
+          "type": "Financial Opportunity",
+          "description": "Diversification through green financial instruments",
+          "unit": "currency"
+        },
+        {
+          "id": "capital_availability",
+          "label": "Capital availability",
+          "type": "Financial Metric",
+          "description": "Access to investment capital",
+          "unit": "currency"
+        },
+        {
+          "id": "TCFD",
+          "label": "Task Force on Climate-related Financial Disclosures",
+          "type": "Organization",
+          "description": "Task force that developed recommendations on climate-related financial disclosures applicable to organizations across sectors and jurisdictions",
+          "unit": null
+        },
+        {
+          "id": "governance_pillar",
+          "label": "Governance",
+          "type": "Disclosure Theme",
+          "description": "Organization's governance around climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "strategy_pillar",
+          "label": "Strategy",
+          "type": "Disclosure Theme",
+          "description": "Actual and potential impacts of climate-related risks and opportunities on the organization's businesses, strategy, and financial planning",
+          "unit": null
+        },
+        {
+          "id": "risk_management_pillar",
+          "label": "Risk Management",
+          "type": "Disclosure Theme",
+          "description": "How the organization identifies, assesses, and manages climate-related risks",
+          "unit": null
+        },
+        {
+          "id": "metrics_targets_pillar",
+          "label": "Metrics and Targets",
+          "type": "Disclosure Theme",
+          "description": "Metrics and targets used to assess and manage relevant climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "board_oversight",
+          "label": "Board's Oversight",
+          "type": "Governance Metric",
+          "description": "Board's oversight of climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "management_role",
+          "label": "Management's Role",
+          "type": "Governance Metric",
+          "description": "Management's role in assessing and managing climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "climate_risks_opportunities",
+          "label": "Climate-related Risks and Opportunities",
+          "type": "Strategy Metric",
+          "description": "Climate-related risks and opportunities identified over the short, medium, and long term",
+          "unit": null
+        },
+        {
+          "id": "climate_impact",
+          "label": "Climate Impact on Business",
+          "type": "Strategy Metric",
+          "description": "Impact of climate-related risks and opportunities on the organization's businesses, strategy, and financial planning",
+          "unit": null
+        },
+        {
+          "id": "strategy_resilience",
+          "label": "Strategy Resilience",
+          "type": "Strategy Metric",
+          "description": "Resilience of the organization's strategy under different climate-related scenarios, including a 2°C or lower scenario",
+          "unit": "degrees Celsius"
+        },
+        {
+          "id": "risk_identification_process",
+          "label": "Risk Identification Process",
+          "type": "Risk Management Metric",
+          "description": "Organization's processes for identifying and assessing climate-related risks",
+          "unit": null
+        },
+        {
+          "id": "risk_management_process",
+          "label": "Risk Management Process",
+          "type": "Risk Management Metric",
+          "description": "Organization's processes for managing climate-related risks",
+          "unit": null
+        },
+        {
+          "id": "risk_integration",
+          "label": "Risk Integration",
+          "type": "Risk Management Metric",
+          "description": "How processes for identifying, assessing, and managing climate-related risks are integrated into the organization's overall risk management",
+          "unit": null
+        },
+        {
+          "id": "climate_metrics",
+          "label": "Climate Metrics",
+          "type": "Performance Metric",
+          "description": "Metrics used by the organization to assess climate-related risks and opportunities in line with its strategy and risk management process",
+          "unit": null
+        },
+        {
+          "id": "scope1_emissions",
+          "label": "Scope 1 GHG Emissions",
+          "type": "Environmental Metric",
+          "description": "Direct greenhouse gas emissions from sources owned or controlled by the organization",
+          "unit": "tonnes CO2e"
+        },
+        {
+          "id": "scope2_emissions",
+          "label": "Scope 2 GHG Emissions",
+          "type": "Environmental Metric",
+          "description": "Indirect greenhouse gas emissions from the generation of purchased energy",
+          "unit": "tonnes CO2e"
+        },
+        {
+          "id": "scope3_emissions",
+          "label": "Scope 3 GHG Emissions",
+          "type": "Environmental Metric",
+          "description": "All other indirect greenhouse gas emissions in the value chain",
+          "unit": "tonnes CO2e"
+        },
+        {
+          "id": "climate_targets",
+          "label": "Climate Targets",
+          "type": "Performance Metric",
+          "description": "Targets used by the organization to manage climate-related risks and opportunities and performance against targets",
+          "unit": null
+        },
+        {
+          "id": "2degree_scenario",
+          "label": "2°C Scenario",
+          "type": "Climate Scenario",
+          "description": "Climate scenario limiting global warming to 2°C or lower",
+          "unit": "degrees Celsius"
+        },
+        {
+          "id": "TCFD",
+          "label": "Task Force on Climate-related Financial Disclosures",
+          "type": "Organization",
+          "description": "Task Force that developed recommendations for climate-related financial disclosures",
+          "unit": ""
+        },
+        {
+          "id": "asset_managers",
+          "label": "Asset Managers",
+          "type": "Stakeholder",
+          "description": "Financial entities that manage investments on behalf of clients",
+          "unit": ""
+        },
+        {
+          "id": "asset_owners",
+          "label": "Asset Owners",
+          "type": "Stakeholder",
+          "description": "Financial entities that own investment assets",
+          "unit": ""
+        },
+        {
+          "id": "climate_disclosures",
+          "label": "Climate-related Financial Disclosures",
+          "type": "ESG Metric Category",
+          "description": "Financial disclosures related to climate risks, opportunities, and impacts",
+          "unit": ""
+        },
+        {
+          "id": "carbon_footprint",
+          "label": "Carbon Footprinting",
+          "type": "ESG Metric",
+          "description": "Information about carbon emissions associated with investments or operations",
+          "unit": ""
+        },
+        {
+          "id": "governance_processes",
+          "label": "Internal Governance Processes",
+          "type": "Process",
+          "description": "Processes for reviewing and approving climate-related financial disclosures",
+          "unit": ""
+        },
+        {
+          "id": "disclosure_principles",
+          "label": "Seven Principles for Effective Disclosure",
+          "type": "Framework",
+          "description": "Principles including relevance, specificity, clarity, consistency, comparability, reliability, and timeliness",
+          "unit": ""
+        },
+        {
+          "id": "climate_risks",
+          "label": "Climate-related Risks",
+          "type": "Risk Category",
+          "description": "Risks to organizations arising from climate change",
+          "unit": ""
+        },
+        {
+          "id": "climate_opportunities",
+          "label": "Climate-related Opportunities",
+          "type": "Opportunity Category",
+          "description": "Business opportunities arising from climate change and transition",
+          "unit": ""
+        },
+        {
+          "id": "TCFD",
+          "label": "Task Force on Climate-related Financial Disclosures",
+          "type": "Organization",
+          "description": "Organization that developed guidance for climate-related financial disclosures",
+          "unit": ""
+        },
+        {
+          "id": "governance_disclosure",
+          "label": "Governance Disclosure",
+          "type": "ESG Metric Category",
+          "description": "Disclosure of organization's governance around climate-related risks and opportunities",
+          "unit": ""
+        },
+        {
+          "id": "board_oversight",
+          "label": "Board Oversight of Climate-Related Issues",
+          "type": "ESG Metric",
+          "description": "Board's oversight processes, frequency, and consideration of climate-related issues in strategy, risk management, and performance monitoring",
+          "unit": ""
+        },
+        {
+          "id": "management_role",
+          "label": "Management Role in Climate Assessment",
+          "type": "ESG Metric",
+          "description": "Management's role in assessing and managing climate-related risks and opportunities, including assigned responsibilities and organizational structure",
+          "unit": ""
+        },
+        {
+          "id": "climate_risks",
+          "label": "Climate-Related Risks",
+          "type": "Risk Category",
+          "description": "Risks related to climate change that organizations need to assess and manage",
+          "unit": ""
+        },
+        {
+          "id": "climate_opportunities",
+          "label": "Climate-Related Opportunities",
+          "type": "Opportunity Category",
+          "description": "Opportunities related to climate change that organizations can pursue",
+          "unit": ""
+        },
+        {
+          "id": "board_committees",
+          "label": "Board Committees",
+          "type": "Governance Structure",
+          "description": "Committees such as audit, risk, or other committees that oversee climate-related issues",
+          "unit": ""
+        },
+        {
+          "id": "climate_goals_targets",
+          "label": "Climate Goals and Targets",
+          "type": "ESG Metric",
+          "description": "Goals and targets for addressing climate-related issues that are monitored by the board",
+          "unit": ""
+        },
+        {
+          "id": "climate_related_risks",
+          "label": "Climate-Related Risks",
+          "type": "Risk Category",
+          "description": "Risks arising from climate change that may affect an organization's businesses, strategy, and financial planning",
+          "unit": null
+        },
+        {
+          "id": "climate_related_opportunities",
+          "label": "Climate-Related Opportunities",
+          "type": "Opportunity Category",
+          "description": "Opportunities arising from climate change that may affect an organization's businesses, strategy, and financial planning",
+          "unit": null
+        },
+        {
+          "id": "short_term_horizon",
+          "label": "Short-Term Time Horizon",
+          "type": "Time Period",
+          "description": "Short-term time period for assessing climate-related impacts",
+          "unit": "years"
+        },
+        {
+          "id": "medium_term_horizon",
+          "label": "Medium-Term Time Horizon",
+          "type": "Time Period",
+          "description": "Medium-term time period for assessing climate-related impacts",
+          "unit": "years"
+        },
+        {
+          "id": "long_term_horizon",
+          "label": "Long-Term Time Horizon",
+          "type": "Time Period",
+          "description": "Long-term time period for assessing climate-related impacts",
+          "unit": "years"
+        },
+        {
+          "id": "products_services",
+          "label": "Products and Services",
+          "type": "Business Area",
+          "description": "Products and services impacted by climate-related issues",
+          "unit": null
+        },
+        {
+          "id": "supply_chain",
+          "label": "Supply Chain and/or Value Chain",
+          "type": "Business Area",
+          "description": "Supply chain and value chain impacted by climate-related issues",
+          "unit": null
+        },
+        {
+          "id": "adaptation_mitigation",
+          "label": "Adaptation and Mitigation Activities",
+          "type": "Business Area",
+          "description": "Activities related to climate change adaptation and mitigation",
+          "unit": null
+        },
+        {
+          "id": "research_development",
+          "label": "Investment in Research and Development",
+          "type": "Business Area",
+          "description": "R&D investments related to climate-related issues",
+          "unit": "currency"
+        },
+        {
+          "id": "operations",
+          "label": "Operations",
+          "type": "Business Area",
+          "description": "Operations including types of operations and location of facilities",
+          "unit": null
+        },
+        {
+          "id": "operating_costs",
+          "label": "Operating Costs and Revenues",
+          "type": "Financial Metric",
+          "description": "Operating costs and revenues impacted by climate-related issues",
+          "unit": "currency"
+        },
+        {
+          "id": "capital_expenditures",
+          "label": "Capital Expenditures and Capital Allocation",
+          "type": "Financial Metric",
+          "description": "Capital expenditures and allocation impacted by climate-related issues",
+          "unit": "currency"
+        },
+        {
+          "id": "acquisitions_divestments",
+          "label": "Acquisitions or Divestments",
+          "type": "Financial Metric",
+          "description": "Acquisitions or divestments related to climate-related issues",
+          "unit": "currency"
+        },
+        {
+          "id": "access_to_capital",
+          "label": "Access to Capital",
+          "type": "Financial Metric",
+          "description": "Access to capital impacted by climate-related issues",
+          "unit": null
+        },
+        {
+          "id": "climate_scenarios",
+          "label": "Climate-Related Scenarios",
+          "type": "Analysis Tool",
+          "description": "Scenarios used to inform organization's strategy and financial planning",
+          "unit": null
+        },
+        {
+          "id": "2_degree_scenario",
+          "label": "2°C Scenario",
+          "type": "Climate Scenario",
+          "description": "Climate scenario aligned with 2 degrees Celsius warming limit",
+          "unit": "degrees Celsius"
+        },
+        {
+          "id": "tcfd_strategy",
+          "label": "TCFD Strategy Disclosure",
+          "type": "Disclosure Category",
+          "description": "Disclosure of actual and potential impacts of climate-related risks and opportunities on organization's businesses, strategy, and financial planning",
+          "unit": null
+        },
+        {
+          "id": "tcfd_risk_management",
+          "label": "TCFD Risk Management Disclosure",
+          "type": "Disclosure Category",
+          "description": "Disclosure of how climate-related risks are identified, assessed, and managed",
+          "unit": null
+        },
+        {
+          "id": "scenario_analysis",
+          "label": "Scenario Analysis",
+          "type": "Methodology",
+          "description": "Analytical approach to assess climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "financial_planning",
+          "label": "Financial Planning",
+          "type": "Business Process",
+          "description": "Financial planning process incorporating climate-related issues",
+          "unit": null
+        },
+        {
+          "id": "climate_related_risks",
+          "label": "Climate-Related Risks",
+          "type": "Risk Category",
+          "description": "Risks associated with climate change that organizations need to identify, assess, and manage",
+          "unit": null
+        },
+        {
+          "id": "climate_related_opportunities",
+          "label": "Climate-Related Opportunities",
+          "type": "Opportunity Category",
+          "description": "Opportunities arising from climate change that organizations can leverage",
+          "unit": null
+        },
+        {
+          "id": "ghg_emissions_scope3",
+          "label": "Scope 3 GHG Emissions",
+          "type": "Environmental Metric",
+          "description": "Greenhouse gas emissions from indirect sources in the value chain",
+          "unit": "metric tons CO2 equivalent"
+        },
+        {
+          "id": "ghg_protocol",
+          "label": "GHG Protocol",
+          "type": "Standard/Framework",
+          "description": "Most widely recognized international standard for calculating GHG emissions",
+          "unit": null
+        },
+        {
+          "id": "water_metrics",
+          "label": "Water Metrics",
+          "type": "Environmental Metric",
+          "description": "Metrics related to water usage and management",
+          "unit": "varies"
+        },
+        {
+          "id": "energy_metrics",
+          "label": "Energy Metrics",
+          "type": "Environmental Metric",
+          "description": "Metrics related to energy consumption and management",
+          "unit": "varies"
+        },
+        {
+          "id": "land_use_metrics",
+          "label": "Land Use Metrics",
+          "type": "Environmental Metric",
+          "description": "Metrics related to land use and management",
+          "unit": "varies"
+        },
+        {
+          "id": "waste_management_metrics",
+          "label": "Waste Management Metrics",
+          "type": "Environmental Metric",
+          "description": "Metrics related to waste generation and management",
+          "unit": "varies"
+        },
+        {
+          "id": "ghg_efficiency_ratios",
+          "label": "GHG Efficiency Ratios",
+          "type": "Environmental Metric",
+          "description": "Industry-specific ratios measuring GHG emissions efficiency (e.g., emissions per unit of production, per employee, or per value-added)",
+          "unit": "ratio"
+        },
+        {
+          "id": "transition_risk",
+          "label": "Transition Risk",
+          "type": "Risk Category",
+          "description": "Risks arising from policy, regulatory, market, and technology responses to limit climate change",
+          "unit": null
+        },
+        {
+          "id": "risk_management_process",
+          "label": "Risk Management Process",
+          "type": "Process",
+          "description": "Organization's overall process for identifying, assessing, and managing risks",
+          "unit": null
+        },
+        {
+          "id": "metrics_and_targets",
+          "label": "Metrics and Targets",
+          "type": "Disclosure Category",
+          "description": "Quantitative measures and goals used to assess and manage climate-related risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "tcfd",
+          "label": "Task Force on Climate-related Financial Disclosures",
+          "type": "Framework",
+          "description": "Framework for climate-related financial disclosures",
+          "unit": null
+        },
+        {
+          "id": "GHG_EMISSIONS",
+          "label": "GHG Emissions",
+          "type": "Environmental Metric",
+          "description": "Greenhouse gas emissions within organizational value chains",
+          "unit": "Not specified"
+        },
+        {
+          "id": "GLOBAL_TEMP_INCREASE",
+          "label": "Global Temperature Increase",
+          "type": "Environmental Metric",
+          "description": "Increase in global average temperature above pre-industrial levels",
+          "unit": "Degrees Celsius (°C)"
+        },
+        {
+          "id": "2C_SCENARIO",
+          "label": "2°C Scenario",
+          "type": "Climate Scenario",
+          "description": "Pathway and emissions trajectory consistent with holding global temperature increase to 2°C above pre-industrial levels",
+          "unit": "°C"
+        },
+        {
+          "id": "PARIS_AGREEMENT",
+          "label": "Paris Agreement",
+          "type": "Policy Framework",
+          "description": "International agreement to hold temperature increase well below 2°C and pursue efforts to limit to 1.5°C above pre-industrial levels",
+          "unit": "N/A"
+        },
+        {
+          "id": "TRANSITION_RISK",
+          "label": "Transition Risk",
+          "type": "Climate Risk",
+          "description": "Risks from policy actions, technology, or market changes aimed at emissions reductions, energy efficiency, subsidies, taxes, or other climate-related constraints",
+          "unit": "N/A"
+        },
+        {
+          "id": "PHYSICAL_RISK",
+          "label": "Physical Risk",
+          "type": "Climate Risk",
+          "description": "Risks from acute or chronic climate change impacts including extreme weather and long-term climate shifts",
+          "unit": "N/A"
+        },
+        {
+          "id": "SCENARIO_ANALYSIS",
+          "label": "Scenario Analysis",
+          "type": "Assessment Tool",
+          "description": "Tool for assessing potential implications of climate-related risks and opportunities using internally consistent, logical scenarios based on explicit assumptions",
+          "unit": "N/A"
+        },
+        {
+          "id": "ENERGY_EFFICIENCY",
+          "label": "Energy Efficiency",
+          "type": "Environmental Metric",
+          "description": "Measure of energy use efficiency, subject to policy actions and market changes",
+          "unit": "Not specified"
+        },
+        {
+          "id": "WATER_AVAILABILITY",
+          "label": "Water Availability",
+          "type": "Environmental Metric",
+          "description": "Availability of water resources for organizational operations",
+          "unit": "Not specified"
+        },
+        {
+          "id": "FOSSIL_FUEL_INDUSTRIES",
+          "label": "Fossil Fuel Industries",
+          "type": "Industry Sector",
+          "description": "Industries significantly affected by transition risk due to fossil fuel dependence",
+          "unit": "N/A"
+        },
+        {
+          "id": "AGRICULTURE_SECTOR",
+          "label": "Agriculture Sector",
+          "type": "Industry Sector",
+          "description": "Sector significantly affected by physical climate risks",
+          "unit": "N/A"
+        },
+        {
+          "id": "ndc",
+          "label": "Nationally Determined Contributions",
+          "type": "Policy Framework",
+          "description": "Commonly accepted guide for energy and/or emissions pathway in various jurisdictions",
+          "unit": ""
+        },
+        {
+          "id": "temp_target_2c",
+          "label": "2°C Temperature Target",
+          "type": "Climate Scenario",
+          "description": "Temperature scenario of 2°C or lower above pre-industrial levels",
+          "unit": "degrees Celsius"
+        },
+        {
+          "id": "temp_target_1.5c",
+          "label": "1.5°C Temperature Target",
+          "type": "Climate Scenario",
+          "description": "Temperature increase limit target of 1.5°C above pre-industrial levels",
+          "unit": "degrees Celsius"
+        },
+        {
+          "id": "scenario_analysis",
+          "label": "Climate-Related Scenario Analysis",
+          "type": "Assessment Method",
+          "description": "Analytical process to assess organization's resilience to climate-related issues across different future states",
+          "unit": ""
+        },
+        {
+          "id": "paris_agreement",
+          "label": "Paris Agreement",
+          "type": "International Agreement",
+          "description": "International agreement with objective to hold global average temperature increase to well below 2°C and pursue efforts to limit to 1.5°C",
+          "unit": ""
+        },
+        {
+          "id": "strategy_resilience",
+          "label": "Strategy Resilience",
+          "type": "ESG Metric",
+          "description": "Robustness of organization's forward-looking strategy and financial plans across climate change scenarios",
+          "unit": ""
+        },
+        {
+          "id": "climate_exposure",
+          "label": "Climate-Related Exposure",
+          "type": "Risk Metric",
+          "description": "Degree of organization's exposure to climate-related issues",
+          "unit": ""
+        },
+        {
+          "id": "technology_response",
+          "label": "Technology Response Assumptions",
+          "type": "Scenario Parameter",
+          "description": "Assumptions about evolution of products/services, technology used to produce them, and implementation costs",
+          "unit": ""
+        },
+        {
+          "id": "time_frames",
+          "label": "Scenario Time Frames",
+          "type": "Temporal Metric",
+          "description": "Short-, medium-, and long-term milestones for scenario analysis",
+          "unit": "years"
+        },
+        {
+          "id": "financial_impact",
+          "label": "Financial Impact",
+          "type": "Financial Metric",
+          "description": "Potential material financial implications for organization's operating results and/or financial position",
+          "unit": "monetary"
+        },
+        {
+          "id": "scenario_analysis",
+          "label": "Scenario Analysis",
+          "type": "Methodology",
+          "description": "A method used to assess climate-related risks and opportunities by evaluating different plausible future states",
+          "unit": null
+        },
+        {
+          "id": "climate_related_risks",
+          "label": "Climate-Related Risks",
+          "type": "Risk Category",
+          "description": "Risks associated with climate change impacts on organizations",
+          "unit": null
+        },
+        {
+          "id": "climate_related_opportunities",
+          "label": "Climate-Related Opportunities",
+          "type": "Opportunity Category",
+          "description": "Opportunities arising from climate change and transition to lower-carbon economy",
+          "unit": null
+        },
+        {
+          "id": "transparency",
+          "label": "Transparency",
+          "type": "Governance Principle",
+          "description": "Transparency around parameters, assumptions, analytical approaches, and time frames in scenario analysis",
+          "unit": null
+        },
+        {
+          "id": "comparability",
+          "label": "Comparability",
+          "type": "Governance Principle",
+          "description": "Comparability of results across different scenarios and analytical approaches",
+          "unit": null
+        },
+        {
+          "id": "consistency",
+          "label": "Consistency",
+          "type": "Governance Principle",
+          "description": "Consistency of methodology year over year",
+          "unit": null
+        },
+        {
+          "id": "governance",
+          "label": "Sound Governance",
+          "type": "Governance Principle",
+          "description": "Sound governance over scenario analysis conduct, validation, approval, and application",
+          "unit": null
+        },
+        {
+          "id": "financial_impacts",
+          "label": "Financial Impacts",
+          "type": "Impact Category",
+          "description": "Financial implications including costs, revenues, and capital allocation under climate scenarios",
+          "unit": null
+        },
+        {
+          "id": "strategy_robustness",
+          "label": "Strategy Robustness",
+          "type": "Strategic Metric",
+          "description": "Degree of robustness of organization's strategy and financial plans under different plausible future states",
+          "unit": null
+        },
+        {
+          "id": "tcfd",
+          "label": "Task Force on Climate-related Financial Disclosures",
+          "type": "Organization",
+          "description": "Task Force providing recommendations on climate-related financial disclosures",
+          "unit": null
+        },
+        {
+          "id": "sensitivity_analysis",
+          "label": "Sensitivity Analysis",
+          "type": "Methodology",
+          "description": "Analysis around key climate factors as a precursor to scenario analysis",
+          "unit": null
+        },
+        {
+          "id": "scenario_analysis",
+          "label": "Scenario Analysis",
+          "type": "Method",
+          "description": "A well-established method for developing strategic plans that are more flexible and robust to a range of plausible future states, particularly useful for assessing issues with highly uncertain outcomes that play out over medium to longer term",
+          "unit": ""
+        },
+        {
+          "id": "climate_related_scenario_analysis",
+          "label": "Climate-Related Scenario Analysis",
+          "type": "Method",
+          "description": "Application of scenario analysis to assess climate-related risks and opportunities, providing foundation for engagement with investors on organizational strategic and business resiliency",
+          "unit": ""
+        },
+        {
+          "id": "strategic_planning",
+          "label": "Strategic Planning",
+          "type": "Business Process",
+          "description": "Process that uses scenario analysis to develop flexible and robust plans",
+          "unit": ""
+        },
+        {
+          "id": "climate_related_risks",
+          "label": "Climate-Related Risks",
+          "type": "Risk Category",
+          "description": "Risks associated with climate change that organizations need to assess using scenario analysis",
+          "unit": ""
+        },
+        {
+          "id": "climate_related_opportunities",
+          "label": "Climate-Related Opportunities",
+          "type": "Opportunity Category",
+          "description": "Opportunities associated with climate change that organizations can identify through scenario analysis",
+          "unit": ""
+        },
+        {
+          "id": "business_resiliency",
+          "label": "Business Resiliency",
+          "type": "Business Metric",
+          "description": "Organization's ability to withstand climate-related impacts, assessed through scenario analysis",
+          "unit": ""
+        },
+        {
+          "id": "data_availability_challenge",
+          "label": "Data Availability and Granularity Challenge",
+          "type": "Challenge",
+          "description": "Challenge related to availability and granularity of data for assessing energy and technology pathways or carbon constraints in different jurisdictions and geographic locations",
+          "unit": ""
+        },
+        {
+          "id": "scenario_transparency_challenge",
+          "label": "Scenario Transparency Challenge",
+          "type": "Challenge",
+          "description": "Challenge that most scenarios developed for global and macro assessments do not provide ideal level of transparency, range of data outputs, and functionality for business or investment context",
+          "unit": ""
+        },
+        {
+          "id": "early_stage_adoption_challenge",
+          "label": "Early Stage Adoption Challenge",
+          "type": "Challenge",
+          "description": "Challenge that use of climate-related scenario analysis to assess business implications is still at early stage, with only handful of largest organizations using it",
+          "unit": ""
+        },
+        {
+          "id": "investors",
+          "label": "Investors",
+          "type": "Stakeholder",
+          "description": "Key stakeholders who engage with organizations on strategic and business resiliency through climate-related scenario analysis",
+          "unit": ""
+        },
+        {
+          "id": "risk_management",
+          "label": "Risk Management",
+          "type": "Business Process",
+          "description": "Process that incorporates climate-related scenario analysis for assessing and managing risks",
+          "unit": ""
+        },
+        {
+          "id": "tcfd_report_2017",
+          "label": "2017 TCFD Report",
+          "type": "Document",
+          "description": "Final 2017 Task Force on Climate-related Financial Disclosures Report",
+          "unit": null
+        },
+        {
+          "id": "climate_related_risks",
+          "label": "Climate-Related Risks",
+          "type": "ESG Topic",
+          "description": "Risks associated with climate change impacts",
+          "unit": null
+        },
+        {
+          "id": "climate_opportunities",
+          "label": "Climate-Related Opportunities",
+          "type": "ESG Topic",
+          "description": "Opportunities arising from climate-related changes",
+          "unit": null
+        },
+        {
+          "id": "financial_impacts",
+          "label": "Financial Impacts",
+          "type": "ESG Metric Category",
+          "description": "Financial impacts related to climate risks and opportunities",
+          "unit": null
+        },
+        {
+          "id": "scenario_analysis",
+          "label": "Scenario Analysis",
+          "type": "Methodology",
+          "description": "Analysis methodology for climate-related issues",
+          "unit": null
+        },
+        {
+          "id": "tcfd_recommendations",
+          "label": "TCFD Recommendations",
+          "type": "Framework",
+          "description": "Recommendations of the Task Force on Climate-related Financial Disclosures",
+          "unit": null
+        },
+        {
+          "id": "TCFD",
+          "label": "Task Force on Climate-related Financial Disclosures",
+          "type": "Organization",
+          "description": "Task force that developed recommendations for climate-related financial disclosures",
+          "unit": ""
+        },
+        {
+          "id": "PUBLIC_CONSULTATION",
+          "label": "Public Consultations",
+          "type": "Engagement Process",
+          "description": "Two public consultations resulting in over 500 responses",
+          "unit": "responses"
+        },
+        {
+          "id": "SCENARIO_ANALYSIS",
+          "label": "Scenario Analysis",
+          "type": "ESG Metric/Methodology",
+          "description": "Analysis methodology for evaluating climate-related risks using 2°C or lower transition scenarios",
+          "unit": ""
+        },
+        {
+          "id": "CARBON_RELATED_ASSETS",
+          "label": "Carbon-related Assets",
+          "type": "ESG Metric",
+          "description": "Financial sector metric requiring better definition and standardization",
+          "unit": ""
+        },
+        {
+          "id": "CDP",
+          "label": "Carbon Disclosure Project",
+          "type": "Organization",
+          "description": "Climate-related reporting framework organization",
+          "unit": ""
+        },
+        {
+          "id": "CDSB",
+          "label": "Climate Disclosure Standards Board",
+          "type": "Organization",
+          "description": "Climate-related reporting framework organization",
+          "unit": ""
+        },
+        {
+          "id": "GRI",
+          "label": "Global Reporting Initiative",
+          "type": "Organization",
+          "description": "Sustainability reporting framework organization",
+          "unit": ""
+        },
+        {
+          "id": "IIRC",
+          "label": "International Integrated Reporting Council",
+          "type": "Organization",
+          "description": "Integrated reporting framework organization",
+          "unit": ""
+        },
+        {
+          "id": "SASB",
+          "label": "Sustainability Accounting Standards Board",
+          "type": "Organization",
+          "description": "Sustainability accounting standards organization",
+          "unit": ""
+        },
+        {
+          "id": "CLIMATE_RISKS",
+          "label": "Climate-related Risks",
+          "type": "ESG Risk Category",
+          "description": "Risks arising from climate change including physical and transition risks",
+          "unit": ""
+        },
+        {
+          "id": "CLIMATE_OPPORTUNITIES",
+          "label": "Climate-related Opportunities",
+          "type": "ESG Opportunity Category",
+          "description": "Opportunities arising from climate change mitigation and adaptation",
+          "unit": ""
+        },
+        {
+          "id": "PHYSICAL_RISK",
+          "label": "Physical Risk",
+          "type": "ESG Risk Subcategory",
+          "description": "Climate-related physical risks requiring scenario-based evaluation methodologies",
+          "unit": ""
+        },
+        {
+          "id": "FINANCIAL_IMPACTS",
+          "label": "Financial Impacts",
+          "type": "ESG Metric Category",
+          "description": "Translation of climate-related issues into potential financial impacts for organizations",
+          "unit": ""
+        },
+        {
+          "id": "G20_COUNTRIES",
+          "label": "G20 Countries",
+          "type": "Geographic Scope",
+          "description": "Countries reviewed for climate-related disclosure regimes",
+          "unit": ""
+        },
+        {
+          "id": "DATA_QUALITY",
+          "label": "Data Quality",
+          "type": "Data Governance Issue",
+          "description": "Area requiring improvement for climate-related financial disclosures",
+          "unit": ""
+        },
+        {
+          "id": "MATERIALITY",
+          "label": "Materiality",
+          "type": "Disclosure Principle",
+          "description": "Legal obligation to disclose material climate-related information in financial reports",
+          "unit": ""
+        }
+      ],
+      "relationships": [
+        {
+          "subject": "TCFD",
+          "predicate": "published",
+          "object": "TCFD_2017"
+        },
+        {
+          "subject": "TCFD_2017",
+          "predicate": "contains_recommendations_for",
+          "object": "climate_related_disclosures"
+        },
+        {
+          "subject": "TCFD_2017",
+          "predicate": "publication_date",
+          "object": "June 2017"
+        },
+        {
+          "subject": "michael_bloomberg",
+          "predicate": "chairs",
+          "object": "TCFD"
+        },
+        {
+          "subject": "mark_carney",
+          "predicate": "chairs",
+          "object": "FSB"
+        },
+        {
+          "subject": "TCFD",
+          "predicate": "established_by",
+          "object": "FSB"
+        },
+        {
+          "subject": "TCFD",
+          "predicate": "published",
+          "object": "tcfd_report_2017"
+        },
+        {
+          "subject": "ghg_emissions",
+          "predicate": "causes",
+          "object": "climate_change"
+        },
+        {
+          "subject": "climate_change",
+          "predicate": "poses_risk_to",
+          "object": "global economy"
+        },
+        {
+          "subject": "TCFD",
+          "predicate": "recommends",
+          "object": "climate_disclosures"
+        },
+        {
+          "subject": "climate_disclosures",
+          "predicate": "addresses",
+          "object": "climate_change"
+        },
+        {
+          "subject": "climate_disclosures",
+          "predicate": "supports_transition_to",
+          "object": "low_carbon_economy"
+        },
+        {
+          "subject": "TCFD",
+          "predicate": "consulted_with",
+          "object": "business and financial leaders"
+        },
+        {
+          "subject": "climate_disclosures",
+          "predicate": "improves",
+          "object": "capital allocation"
+        },
+        {
+          "subject": "greenhouse_gas_emissions",
+          "predicate": "causes",
+          "object": "climate_change"
+        },
+        {
+          "subject": "paris_agreement",
+          "predicate": "aims_to_reduce",
+          "object": "greenhouse_gas_emissions"
+        },
+        {
+          "subject": "paris_agreement",
+          "predicate": "accelerates_transition_to",
+          "object": "lower_carbon_economy_investment"
+        },
+        {
+          "subject": "lower_carbon_economy_investment",
+          "predicate": "requires_annual_investment_of",
+          "object": "1 trillion USD"
+        },
+        {
+          "subject": "climate_change",
+          "predicate": "creates_value_at_risk_of",
+          "object": "climate_value_at_risk"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "affects",
+          "object": "fossil_fuel_assets"
+        },
+        {
+          "subject": "clean_energy_technologies",
+          "predicate": "replaces",
+          "object": "fossil_fuel_assets"
+        },
+        {
+          "subject": "climate_change",
+          "predicate": "creates",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "climate_change",
+          "predicate": "creates",
+          "object": "climate_related_opportunities"
+        },
+        {
+          "subject": "g20",
+          "predicate": "requested_review_from",
+          "object": "financial_stability_board"
+        },
+        {
+          "subject": "financial_stability_board",
+          "predicate": "established",
+          "object": "tcfd"
+        },
+        {
+          "subject": "tcfd",
+          "predicate": "develops",
+          "object": "climate_disclosure"
+        },
+        {
+          "subject": "climate_disclosure",
+          "predicate": "addresses",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "climate_disclosure",
+          "predicate": "supports_identification_of",
+          "object": "climate_related_opportunities"
+        },
+        {
+          "subject": "governance",
+          "predicate": "addresses",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "governance",
+          "predicate": "addresses",
+          "object": "climate_related_opportunities"
+        },
+        {
+          "subject": "strategy",
+          "predicate": "assesses_impact_of",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "strategy",
+          "predicate": "assesses_impact_of",
+          "object": "climate_related_opportunities"
+        },
+        {
+          "subject": "risk_management",
+          "predicate": "identifies",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "risk_management",
+          "predicate": "assesses",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "risk_management",
+          "predicate": "manages",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "metrics_and_targets",
+          "predicate": "measures",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "metrics_and_targets",
+          "predicate": "measures",
+          "object": "climate_related_opportunities"
+        },
+        {
+          "subject": "tcfd_recommendations",
+          "predicate": "includes",
+          "object": "governance"
+        },
+        {
+          "subject": "tcfd_recommendations",
+          "predicate": "includes",
+          "object": "strategy"
+        },
+        {
+          "subject": "tcfd_recommendations",
+          "predicate": "includes",
+          "object": "risk_management"
+        },
+        {
+          "subject": "tcfd_recommendations",
+          "predicate": "includes",
+          "object": "metrics_and_targets"
+        },
+        {
+          "subject": "scenario_analysis",
+          "predicate": "uses",
+          "object": "2c_scenario"
+        },
+        {
+          "subject": "scenario_analysis",
+          "predicate": "evaluates",
+          "object": "strategy"
+        },
+        {
+          "subject": "tcfd_recommendations",
+          "predicate": "recommends",
+          "object": "scenario_analysis"
+        },
+        {
+          "subject": "tcfd_recommendations",
+          "predicate": "produces",
+          "object": "climate_related_financial_disclosures"
+        },
+        {
+          "subject": "climate_related_financial_disclosures",
+          "predicate": "supports",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "tcfd_report_2017",
+          "predicate": "addresses",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "tcfd_report_2017",
+          "predicate": "addresses",
+          "object": "climate_related_opportunities"
+        },
+        {
+          "subject": "tcfd_report_2017",
+          "predicate": "provides",
+          "object": "tcfd_recommendations"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "leads_to",
+          "object": "financial_impacts"
+        },
+        {
+          "subject": "climate_related_opportunities",
+          "predicate": "leads_to",
+          "object": "financial_impacts"
+        },
+        {
+          "subject": "scenario_analysis",
+          "predicate": "assesses",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "scenario_analysis",
+          "predicate": "evaluates",
+          "object": "climate_related_opportunities"
+        },
+        {
+          "subject": "tcfd_recommendations",
+          "predicate": "includes",
+          "object": "scenario_analysis"
+        },
+        {
+          "subject": "tcfd_report_2017",
+          "predicate": "covers",
+          "object": "ghg_emissions"
+        },
+        {
+          "subject": "tcfd_report_2017",
+          "predicate": "discusses",
+          "object": "remuneration"
+        },
+        {
+          "subject": "tcfd_recommendations",
+          "predicate": "utilizes",
+          "object": "disclosure_frameworks"
+        },
+        {
+          "subject": "ghg_emissions",
+          "predicate": "contributes_to",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "E2",
+          "predicate": "contributes_to",
+          "object": "E1"
+        },
+        {
+          "subject": "E1",
+          "predicate": "could_lead_to",
+          "object": "ISSUE1"
+        },
+        {
+          "subject": "DOC1",
+          "predicate": "sets_target_for",
+          "object": "E1"
+        },
+        {
+          "subject": "ORG3",
+          "predicate": "requested",
+          "object": "ORG2"
+        },
+        {
+          "subject": "ORG2",
+          "predicate": "established",
+          "object": "ORG1"
+        },
+        {
+          "subject": "STAKE1",
+          "predicate": "demands_information_about",
+          "object": "E3"
+        },
+        {
+          "subject": "STAKE2",
+          "predicate": "demands_information_about",
+          "object": "E3"
+        },
+        {
+          "subject": "STAKE3",
+          "predicate": "uses_information_about",
+          "object": "E3"
+        },
+        {
+          "subject": "E3",
+          "predicate": "poses_risk_to",
+          "object": "STAKE1"
+        },
+        {
+          "subject": "GAP1",
+          "predicate": "hinders",
+          "object": "STAKE1"
+        },
+        {
+          "subject": "GAP2",
+          "predicate": "creates_obstacle_for",
+          "object": "STAKE1"
+        },
+        {
+          "subject": "GAP1",
+          "predicate": "leads_to",
+          "object": "ISSUE2"
+        },
+        {
+          "subject": "GAP1",
+          "predicate": "leads_to",
+          "object": "ISSUE3"
+        },
+        {
+          "subject": "ISSUE2",
+          "predicate": "contributes_to",
+          "object": "ISSUE1"
+        },
+        {
+          "subject": "ISSUE3",
+          "predicate": "contributes_to",
+          "object": "ISSUE1"
+        },
+        {
+          "subject": "ORG1",
+          "predicate": "addresses",
+          "object": "GAP1"
+        },
+        {
+          "subject": "ORG1",
+          "predicate": "addresses",
+          "object": "GAP2"
+        },
+        {
+          "subject": "E2",
+          "predicate": "is_disclosed_in",
+          "object": "GAP1"
+        },
+        {
+          "subject": "E3",
+          "predicate": "includes",
+          "object": "E4"
+        },
+        {
+          "subject": "technology_risk",
+          "predicate": "affects",
+          "object": "financial_impacts"
+        },
+        {
+          "subject": "market_risk",
+          "predicate": "affects",
+          "object": "financial_impacts"
+        },
+        {
+          "subject": "reputation_risk",
+          "predicate": "relates_to",
+          "object": "market_risk"
+        },
+        {
+          "subject": "acute_risk",
+          "predicate": "is_subtype_of",
+          "object": "physical_risk"
+        },
+        {
+          "subject": "chronic_risk",
+          "predicate": "is_subtype_of",
+          "object": "physical_risk"
+        },
+        {
+          "subject": "physical_risk",
+          "predicate": "causes",
+          "object": "financial_impacts"
+        },
+        {
+          "subject": "renewable_energy",
+          "predicate": "contributes_to",
+          "object": "technology_risk"
+        },
+        {
+          "subject": "battery_storage",
+          "predicate": "contributes_to",
+          "object": "technology_risk"
+        },
+        {
+          "subject": "carbon_capture",
+          "predicate": "contributes_to",
+          "object": "technology_risk"
+        },
+        {
+          "subject": "resource_efficiency",
+          "predicate": "mitigates",
+          "object": "technology_risk"
+        },
+        {
+          "subject": "energy_source",
+          "predicate": "mitigates",
+          "object": "technology_risk"
+        },
+        {
+          "subject": "products_services",
+          "predicate": "addresses",
+          "object": "market_risk"
+        },
+        {
+          "subject": "markets",
+          "predicate": "addresses",
+          "object": "market_risk"
+        },
+        {
+          "subject": "renewable_energy",
+          "predicate": "enables",
+          "object": "energy_source"
+        },
+        {
+          "subject": "resource_efficiency",
+          "predicate": "reduces",
+          "object": "financial_impacts"
+        },
+        {
+          "subject": "carbon_pricing",
+          "predicate": "increases",
+          "object": "operating_costs"
+        },
+        {
+          "subject": "carbon_pricing",
+          "predicate": "increases",
+          "object": "compliance_costs"
+        },
+        {
+          "subject": "emissions_reporting",
+          "predicate": "leads_to",
+          "object": "asset_impairment"
+        },
+        {
+          "subject": "GHG_emissions",
+          "predicate": "subject_to",
+          "object": "carbon_pricing"
+        },
+        {
+          "subject": "extreme_weather_events",
+          "predicate": "reduces",
+          "object": "production_capacity"
+        },
+        {
+          "subject": "extreme_weather_events",
+          "predicate": "increases",
+          "object": "insurance_premiums"
+        },
+        {
+          "subject": "production_capacity",
+          "predicate": "affects",
+          "object": "revenue"
+        },
+        {
+          "subject": "temperature_rise",
+          "predicate": "increases",
+          "object": "operating_costs"
+        },
+        {
+          "subject": "sea_level_rise",
+          "predicate": "causes",
+          "object": "asset_impairment"
+        },
+        {
+          "subject": "precipitation_changes",
+          "predicate": "affects",
+          "object": "water_usage"
+        },
+        {
+          "subject": "water_usage",
+          "predicate": "impacts",
+          "object": "operating_costs"
+        },
+        {
+          "subject": "energy_efficiency",
+          "predicate": "reduces",
+          "object": "operating_costs"
+        },
+        {
+          "subject": "energy_efficiency",
+          "predicate": "increases",
+          "object": "production_capacity"
+        },
+        {
+          "subject": "renewable_energy",
+          "predicate": "reduces",
+          "object": "GHG_emissions"
+        },
+        {
+          "subject": "renewable_energy",
+          "predicate": "reduces",
+          "object": "energy_costs"
+        },
+        {
+          "subject": "recycling",
+          "predicate": "reduces",
+          "object": "operating_costs"
+        },
+        {
+          "subject": "low_emission_products",
+          "predicate": "increases",
+          "object": "revenue"
+        },
+        {
+          "subject": "low_emission_products",
+          "predicate": "requires",
+          "object": "RD_expenditures"
+        },
+        {
+          "subject": "RD_expenditures",
+          "predicate": "enables",
+          "object": "low_emission_products"
+        },
+        {
+          "subject": "consumer_preferences",
+          "predicate": "drives_demand_for",
+          "object": "low_emission_products"
+        },
+        {
+          "subject": "consumer_preferences",
+          "predicate": "affects",
+          "object": "revenue"
+        },
+        {
+          "subject": "stakeholder_concern",
+          "predicate": "impacts",
+          "object": "revenue"
+        },
+        {
+          "subject": "stakeholder_concern",
+          "predicate": "affects",
+          "object": "workforce_impacts"
+        },
+        {
+          "subject": "carbon_market",
+          "predicate": "provides",
+          "object": "revenue"
+        },
+        {
+          "subject": "green_bonds",
+          "predicate": "increases",
+          "object": "capital_availability"
+        },
+        {
+          "subject": "low_emission_products",
+          "predicate": "increases",
+          "object": "capital_availability"
+        },
+        {
+          "subject": "capital_investments",
+          "predicate": "enables",
+          "object": "energy_efficiency"
+        },
+        {
+          "subject": "capital_investments",
+          "predicate": "enables",
+          "object": "renewable_energy"
+        },
+        {
+          "subject": "workforce_impacts",
+          "predicate": "affects",
+          "object": "operating_costs"
+        },
+        {
+          "subject": "energy_efficiency",
+          "predicate": "benefits",
+          "object": "workforce_impacts"
+        },
+        {
+          "subject": "TCFD",
+          "predicate": "developed",
+          "object": "governance_pillar"
+        },
+        {
+          "subject": "TCFD",
+          "predicate": "developed",
+          "object": "strategy_pillar"
+        },
+        {
+          "subject": "TCFD",
+          "predicate": "developed",
+          "object": "risk_management_pillar"
+        },
+        {
+          "subject": "TCFD",
+          "predicate": "developed",
+          "object": "metrics_targets_pillar"
+        },
+        {
+          "subject": "governance_pillar",
+          "predicate": "includes",
+          "object": "board_oversight"
+        },
+        {
+          "subject": "governance_pillar",
+          "predicate": "includes",
+          "object": "management_role"
+        },
+        {
+          "subject": "strategy_pillar",
+          "predicate": "includes",
+          "object": "climate_risks_opportunities"
+        },
+        {
+          "subject": "strategy_pillar",
+          "predicate": "includes",
+          "object": "climate_impact"
+        },
+        {
+          "subject": "strategy_pillar",
+          "predicate": "includes",
+          "object": "strategy_resilience"
+        },
+        {
+          "subject": "strategy_resilience",
+          "predicate": "considers",
+          "object": "2degree_scenario"
+        },
+        {
+          "subject": "risk_management_pillar",
+          "predicate": "includes",
+          "object": "risk_identification_process"
+        },
+        {
+          "subject": "risk_management_pillar",
+          "predicate": "includes",
+          "object": "risk_management_process"
+        },
+        {
+          "subject": "risk_management_pillar",
+          "predicate": "includes",
+          "object": "risk_integration"
+        },
+        {
+          "subject": "metrics_targets_pillar",
+          "predicate": "includes",
+          "object": "climate_metrics"
+        },
+        {
+          "subject": "metrics_targets_pillar",
+          "predicate": "includes",
+          "object": "scope1_emissions"
+        },
+        {
+          "subject": "metrics_targets_pillar",
+          "predicate": "includes",
+          "object": "scope2_emissions"
+        },
+        {
+          "subject": "metrics_targets_pillar",
+          "predicate": "includes",
+          "object": "scope3_emissions"
+        },
+        {
+          "subject": "metrics_targets_pillar",
+          "predicate": "includes",
+          "object": "climate_targets"
+        },
+        {
+          "subject": "board_oversight",
+          "predicate": "oversees",
+          "object": "climate_risks_opportunities"
+        },
+        {
+          "subject": "management_role",
+          "predicate": "assesses",
+          "object": "climate_risks_opportunities"
+        },
+        {
+          "subject": "management_role",
+          "predicate": "manages",
+          "object": "climate_risks_opportunities"
+        },
+        {
+          "subject": "risk_identification_process",
+          "predicate": "identifies",
+          "object": "climate_risks_opportunities"
+        },
+        {
+          "subject": "risk_management_process",
+          "predicate": "manages",
+          "object": "climate_risks_opportunities"
+        },
+        {
+          "subject": "climate_metrics",
+          "predicate": "assesses",
+          "object": "climate_risks_opportunities"
+        },
+        {
+          "subject": "climate_targets",
+          "predicate": "manages",
+          "object": "climate_risks_opportunities"
+        },
+        {
+          "subject": "scope1_emissions",
+          "predicate": "relates_to",
+          "object": "climate_risks_opportunities"
+        },
+        {
+          "subject": "scope2_emissions",
+          "predicate": "relates_to",
+          "object": "climate_risks_opportunities"
+        },
+        {
+          "subject": "scope3_emissions",
+          "predicate": "relates_to",
+          "object": "climate_risks_opportunities"
+        },
+        {
+          "subject": "TCFD",
+          "predicate": "developed",
+          "object": "disclosure_principles"
+        },
+        {
+          "subject": "TCFD",
+          "predicate": "provides_recommendations_for",
+          "object": "asset_managers"
+        },
+        {
+          "subject": "TCFD",
+          "predicate": "provides_recommendations_for",
+          "object": "asset_owners"
+        },
+        {
+          "subject": "asset_managers",
+          "predicate": "should_report",
+          "object": "carbon_footprint"
+        },
+        {
+          "subject": "asset_owners",
+          "predicate": "should_report",
+          "object": "carbon_footprint"
+        },
+        {
+          "subject": "climate_disclosures",
+          "predicate": "subject_to",
+          "object": "governance_processes"
+        },
+        {
+          "subject": "climate_disclosures",
+          "predicate": "should_follow",
+          "object": "disclosure_principles"
+        },
+        {
+          "subject": "climate_disclosures",
+          "predicate": "addresses",
+          "object": "climate_risks"
+        },
+        {
+          "subject": "climate_disclosures",
+          "predicate": "addresses",
+          "object": "climate_opportunities"
+        },
+        {
+          "subject": "carbon_footprint",
+          "predicate": "supports_assessment_of",
+          "object": "climate_risks"
+        },
+        {
+          "subject": "disclosure_principles",
+          "predicate": "guides",
+          "object": "climate_disclosures"
+        },
+        {
+          "subject": "TCFD",
+          "predicate": "developed",
+          "object": "governance_disclosure"
+        },
+        {
+          "subject": "governance_disclosure",
+          "predicate": "includes",
+          "object": "board_oversight"
+        },
+        {
+          "subject": "governance_disclosure",
+          "predicate": "includes",
+          "object": "management_role"
+        },
+        {
+          "subject": "board_oversight",
+          "predicate": "monitors",
+          "object": "climate_risks"
+        },
+        {
+          "subject": "board_oversight",
+          "predicate": "monitors",
+          "object": "climate_opportunities"
+        },
+        {
+          "subject": "management_role",
+          "predicate": "assesses",
+          "object": "climate_risks"
+        },
+        {
+          "subject": "management_role",
+          "predicate": "manages",
+          "object": "climate_opportunities"
+        },
+        {
+          "subject": "board_committees",
+          "predicate": "informed_about",
+          "object": "climate_risks"
+        },
+        {
+          "subject": "board_oversight",
+          "predicate": "oversees_progress_against",
+          "object": "climate_goals_targets"
+        },
+        {
+          "subject": "management_role",
+          "predicate": "reports_to",
+          "object": "board_committees"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "impacts",
+          "object": "tcfd_strategy"
+        },
+        {
+          "subject": "climate_related_opportunities",
+          "predicate": "impacts",
+          "object": "tcfd_strategy"
+        },
+        {
+          "subject": "tcfd_strategy",
+          "predicate": "considers",
+          "object": "short_term_horizon"
+        },
+        {
+          "subject": "tcfd_strategy",
+          "predicate": "considers",
+          "object": "medium_term_horizon"
+        },
+        {
+          "subject": "tcfd_strategy",
+          "predicate": "considers",
+          "object": "long_term_horizon"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "affects",
+          "object": "products_services"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "affects",
+          "object": "supply_chain"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "affects",
+          "object": "operations"
+        },
+        {
+          "subject": "climate_related_opportunities",
+          "predicate": "affects",
+          "object": "products_services"
+        },
+        {
+          "subject": "climate_related_opportunities",
+          "predicate": "affects",
+          "object": "supply_chain"
+        },
+        {
+          "subject": "climate_related_opportunities",
+          "predicate": "affects",
+          "object": "operations"
+        },
+        {
+          "subject": "adaptation_mitigation",
+          "predicate": "addresses",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "research_development",
+          "predicate": "supports",
+          "object": "adaptation_mitigation"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "impacts",
+          "object": "operating_costs"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "impacts",
+          "object": "capital_expenditures"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "impacts",
+          "object": "acquisitions_divestments"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "impacts",
+          "object": "access_to_capital"
+        },
+        {
+          "subject": "climate_related_opportunities",
+          "predicate": "impacts",
+          "object": "operating_costs"
+        },
+        {
+          "subject": "climate_related_opportunities",
+          "predicate": "impacts",
+          "object": "capital_expenditures"
+        },
+        {
+          "subject": "climate_scenarios",
+          "predicate": "informs",
+          "object": "tcfd_strategy"
+        },
+        {
+          "subject": "climate_scenarios",
+          "predicate": "informs",
+          "object": "financial_planning"
+        },
+        {
+          "subject": "2_degree_scenario",
+          "predicate": "is_type_of",
+          "object": "climate_scenarios"
+        },
+        {
+          "subject": "scenario_analysis",
+          "predicate": "uses",
+          "object": "climate_scenarios"
+        },
+        {
+          "subject": "scenario_analysis",
+          "predicate": "evaluates",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "scenario_analysis",
+          "predicate": "evaluates",
+          "object": "climate_related_opportunities"
+        },
+        {
+          "subject": "financial_planning",
+          "predicate": "incorporates",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "financial_planning",
+          "predicate": "incorporates",
+          "object": "climate_related_opportunities"
+        },
+        {
+          "subject": "tcfd_risk_management",
+          "predicate": "identifies",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "tcfd_risk_management",
+          "predicate": "assesses",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "tcfd_risk_management",
+          "predicate": "manages",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "integrated_into",
+          "object": "risk_management_process"
+        },
+        {
+          "subject": "metrics_and_targets",
+          "predicate": "used_to_assess",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "metrics_and_targets",
+          "predicate": "used_to_manage",
+          "object": "climate_related_opportunities"
+        },
+        {
+          "subject": "ghg_emissions_scope3",
+          "predicate": "calculated_using",
+          "object": "ghg_protocol"
+        },
+        {
+          "subject": "water_metrics",
+          "predicate": "measures",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "energy_metrics",
+          "predicate": "measures",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "land_use_metrics",
+          "predicate": "measures",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "waste_management_metrics",
+          "predicate": "measures",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "ghg_emissions_scope3",
+          "predicate": "drives",
+          "object": "transition_risk"
+        },
+        {
+          "subject": "ghg_efficiency_ratios",
+          "predicate": "measures",
+          "object": "ghg_emissions_scope3"
+        },
+        {
+          "subject": "tcfd",
+          "predicate": "recommends",
+          "object": "metrics_and_targets"
+        },
+        {
+          "subject": "ghg_protocol",
+          "predicate": "enables",
+          "object": "comparability_across_organizations"
+        },
+        {
+          "subject": "SCENARIO_ANALYSIS",
+          "predicate": "assesses",
+          "object": "TRANSITION_RISK"
+        },
+        {
+          "subject": "SCENARIO_ANALYSIS",
+          "predicate": "assesses",
+          "object": "PHYSICAL_RISK"
+        },
+        {
+          "subject": "2C_SCENARIO",
+          "predicate": "limits",
+          "object": "GLOBAL_TEMP_INCREASE"
+        },
+        {
+          "subject": "PARIS_AGREEMENT",
+          "predicate": "targets",
+          "object": "GLOBAL_TEMP_INCREASE"
+        },
+        {
+          "subject": "2C_SCENARIO",
+          "predicate": "aligns_with",
+          "object": "PARIS_AGREEMENT"
+        },
+        {
+          "subject": "TRANSITION_RISK",
+          "predicate": "affects",
+          "object": "FOSSIL_FUEL_INDUSTRIES"
+        },
+        {
+          "subject": "TRANSITION_RISK",
+          "predicate": "relates_to",
+          "object": "GHG_EMISSIONS"
+        },
+        {
+          "subject": "TRANSITION_RISK",
+          "predicate": "relates_to",
+          "object": "ENERGY_EFFICIENCY"
+        },
+        {
+          "subject": "PHYSICAL_RISK",
+          "predicate": "affects",
+          "object": "AGRICULTURE_SECTOR"
+        },
+        {
+          "subject": "PHYSICAL_RISK",
+          "predicate": "relates_to",
+          "object": "WATER_AVAILABILITY"
+        },
+        {
+          "subject": "SCENARIO_ANALYSIS",
+          "predicate": "evaluates",
+          "object": "2C_SCENARIO"
+        },
+        {
+          "subject": "GHG_EMISSIONS",
+          "predicate": "influences",
+          "object": "GLOBAL_TEMP_INCREASE"
+        },
+        {
+          "subject": "ndc",
+          "predicate": "is_used_in",
+          "object": "scenario_analysis"
+        },
+        {
+          "subject": "paris_agreement",
+          "predicate": "establishes_target",
+          "object": "temp_target_2c"
+        },
+        {
+          "subject": "paris_agreement",
+          "predicate": "establishes_target",
+          "object": "temp_target_1.5c"
+        },
+        {
+          "subject": "scenario_analysis",
+          "predicate": "includes_scenario",
+          "object": "temp_target_2c"
+        },
+        {
+          "subject": "scenario_analysis",
+          "predicate": "assesses",
+          "object": "strategy_resilience"
+        },
+        {
+          "subject": "scenario_analysis",
+          "predicate": "considers",
+          "object": "climate_exposure"
+        },
+        {
+          "subject": "scenario_analysis",
+          "predicate": "requires_input",
+          "object": "technology_response"
+        },
+        {
+          "subject": "scenario_analysis",
+          "predicate": "uses",
+          "object": "time_frames"
+        },
+        {
+          "subject": "scenario_analysis",
+          "predicate": "evaluates",
+          "object": "financial_impact"
+        },
+        {
+          "subject": "climate_exposure",
+          "predicate": "influences_disclosure_of",
+          "object": "scenario_analysis"
+        },
+        {
+          "subject": "strategy_resilience",
+          "predicate": "impacts",
+          "object": "financial_impact"
+        },
+        {
+          "subject": "scenario_analysis",
+          "predicate": "assesses",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "scenario_analysis",
+          "predicate": "assesses",
+          "object": "climate_related_opportunities"
+        },
+        {
+          "subject": "scenario_analysis",
+          "predicate": "requires",
+          "object": "transparency"
+        },
+        {
+          "subject": "scenario_analysis",
+          "predicate": "requires",
+          "object": "comparability"
+        },
+        {
+          "subject": "scenario_analysis",
+          "predicate": "requires",
+          "object": "consistency"
+        },
+        {
+          "subject": "scenario_analysis",
+          "predicate": "requires",
+          "object": "governance"
+        },
+        {
+          "subject": "scenario_analysis",
+          "predicate": "evaluates",
+          "object": "financial_impacts"
+        },
+        {
+          "subject": "scenario_analysis",
+          "predicate": "informs",
+          "object": "strategy_robustness"
+        },
+        {
+          "subject": "tcfd",
+          "predicate": "recommends",
+          "object": "scenario_analysis"
+        },
+        {
+          "subject": "sensitivity_analysis",
+          "predicate": "precedes",
+          "object": "scenario_analysis"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "impacts",
+          "object": "financial_impacts"
+        },
+        {
+          "subject": "climate_related_opportunities",
+          "predicate": "impacts",
+          "object": "financial_impacts"
+        },
+        {
+          "subject": "scenario_analysis",
+          "predicate": "is_used_for",
+          "object": "strategic_planning"
+        },
+        {
+          "subject": "climate_related_scenario_analysis",
+          "predicate": "is_type_of",
+          "object": "scenario_analysis"
+        },
+        {
+          "subject": "climate_related_scenario_analysis",
+          "predicate": "assesses",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "climate_related_scenario_analysis",
+          "predicate": "assesses",
+          "object": "climate_related_opportunities"
+        },
+        {
+          "subject": "climate_related_scenario_analysis",
+          "predicate": "provides_foundation_for",
+          "object": "business_resiliency"
+        },
+        {
+          "subject": "climate_related_scenario_analysis",
+          "predicate": "enables_engagement_with",
+          "object": "investors"
+        },
+        {
+          "subject": "climate_related_scenario_analysis",
+          "predicate": "is_part_of",
+          "object": "risk_management"
+        },
+        {
+          "subject": "climate_related_scenario_analysis",
+          "predicate": "faces_challenge",
+          "object": "scenario_transparency_challenge"
+        },
+        {
+          "subject": "climate_related_scenario_analysis",
+          "predicate": "faces_challenge",
+          "object": "data_availability_challenge"
+        },
+        {
+          "subject": "climate_related_scenario_analysis",
+          "predicate": "faces_challenge",
+          "object": "early_stage_adoption_challenge"
+        },
+        {
+          "subject": "scenario_analysis",
+          "predicate": "helps_frame",
+          "object": "strategic_planning"
+        },
+        {
+          "subject": "scenario_analysis",
+          "predicate": "is_suitable_for",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "tcfd_report_2017",
+          "predicate": "covers",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "tcfd_report_2017",
+          "predicate": "covers",
+          "object": "climate_opportunities"
+        },
+        {
+          "subject": "tcfd_report_2017",
+          "predicate": "covers",
+          "object": "financial_impacts"
+        },
+        {
+          "subject": "tcfd_report_2017",
+          "predicate": "includes",
+          "object": "tcfd_recommendations"
+        },
+        {
+          "subject": "tcfd_report_2017",
+          "predicate": "discusses",
+          "object": "scenario_analysis"
+        },
+        {
+          "subject": "climate_related_risks",
+          "predicate": "leads_to",
+          "object": "financial_impacts"
+        },
+        {
+          "subject": "climate_opportunities",
+          "predicate": "leads_to",
+          "object": "financial_impacts"
+        },
+        {
+          "subject": "scenario_analysis",
+          "predicate": "analyzes",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "tcfd_recommendations",
+          "predicate": "addresses",
+          "object": "climate_related_risks"
+        },
+        {
+          "subject": "TCFD",
+          "predicate": "conducted",
+          "object": "PUBLIC_CONSULTATION"
+        },
+        {
+          "subject": "TCFD",
+          "predicate": "recommends",
+          "object": "SCENARIO_ANALYSIS"
+        },
+        {
+          "subject": "TCFD",
+          "predicate": "seeks_alignment_with",
+          "object": "CDP"
+        },
+        {
+          "subject": "TCFD",
+          "predicate": "seeks_alignment_with",
+          "object": "CDSB"
+        },
+        {
+          "subject": "TCFD",
+          "predicate": "seeks_alignment_with",
+          "object": "GRI"
+        },
+        {
+          "subject": "TCFD",
+          "predicate": "seeks_alignment_with",
+          "object": "IIRC"
+        },
+        {
+          "subject": "TCFD",
+          "predicate": "seeks_alignment_with",
+          "object": "SASB"
+        },
+        {
+          "subject": "SCENARIO_ANALYSIS",
+          "predicate": "evaluates",
+          "object": "PHYSICAL_RISK"
+        },
+        {
+          "subject": "SCENARIO_ANALYSIS",
+          "predicate": "evaluates",
+          "object": "CLIMATE_RISKS"
+        },
+        {
+          "subject": "CLIMATE_RISKS",
+          "predicate": "translates_into",
+          "object": "FINANCIAL_IMPACTS"
+        },
+        {
+          "subject": "CLIMATE_OPPORTUNITIES",
+          "predicate": "translates_into",
+          "object": "FINANCIAL_IMPACTS"
+        },
+        {
+          "subject": "CARBON_RELATED_ASSETS",
+          "predicate": "requires_improvement_in",
+          "object": "DATA_QUALITY"
+        },
+        {
+          "subject": "TCFD",
+          "predicate": "reviewed_disclosure_regimes_in",
+          "object": "G20_COUNTRIES"
+        },
+        {
+          "subject": "MATERIALITY",
+          "predicate": "applies_to",
+          "object": "CLIMATE_RISKS"
+        },
+        {
+          "subject": "TCFD",
+          "predicate": "addresses",
+          "object": "CLIMATE_RISKS"
+        },
+        {
+          "subject": "TCFD",
+          "predicate": "addresses",
+          "object": "CLIMATE_OPPORTUNITIES"
+        },
+        {
+          "subject": "PHYSICAL_RISK",
+          "predicate": "is_subcategory_of",
+          "object": "CLIMATE_RISKS"
+        }
+      ],
+      "entity_count": 235,
+      "relationship_count": 286
+    }
+  }
+}

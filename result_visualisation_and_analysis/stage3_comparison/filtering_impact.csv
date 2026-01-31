@@ -1,0 +1,6 @@
+Document,Method,Original Entities,Validated Entities,Entities Filtered,Entity Retention (%),Original Relationships,Validated Relationships,Relationships Filtered,Relationship Retention (%)
+Australia AASB,Ontology-Guided,74,66,8,89.2,75,65,10,86.7
+IFRS S2,Ontology-Guided,80,68,12,85.0,65,58,7,89.2
+SASB Banks,Ontology-Guided,53,42,11,79.2,53,42,11,79.2
+SASB Semiconductors,Ontology-Guided,69,62,7,89.9,71,64,7,90.1
+TCFD Report,Ontology-Guided,88,57,31,64.8,86,54,32,62.8

@@ -1,0 +1,738 @@
+@prefix esg: <http://example.org/esg-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+# Knowledge Graph extracted from: Semiconductors Sustainability Accounting Standard TECHNOLOGY & COMMUNICATIONS SECTOR
+# Extraction timestamp: 2025-11-18T13:44:22.042881
+# Total entities: 69
+# Total relationships: 71
+
+esg:industry_1.SASB-semiconductors a esg:Industry ;
+    rdfs:label "Semiconductors" ;
+    esg:sector "Technology & Communications" ;
+    esg:country "N/A" ;
+    esg:standard_reference "SICS TC-SC" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:35:55.160688"^^xsd:dateTime .
+
+esg:framework_1.SASB-semiconductors a esg:ReportingFramework ;
+    rdfs:label "SASB" ;
+    esg:name "SASB" ;
+    esg:version "2023-12" ;
+    esg:year "2023" ;
+    esg:publisher "International Sustainability Standards Board (IFRS Foundation)" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:35:55.160700"^^xsd:dateTime .
+
+esg:category_SASB-semiconductors_5 a esg:Category ;
+    rdfs:label "Overview of SASB Standards" ;
+    esg:section_title "Overview of SASB Standards" ;
+    esg:section_id "N/A" ;
+    esg:page_range "5" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:36:13.580996"^^xsd:dateTime .
+
+esg:category_SASB-SC_6_01 a esg:Category ;
+    rdfs:label "Greenhouse Gas Emissions" ;
+    esg:section_title "Greenhouse Gas Emissions" ;
+    esg:section_id "TC-SC-110a" ;
+    esg:page_range "6" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:38:04.207817"^^xsd:dateTime .
+
+esg:category_SASB-SC_6_02 a esg:Category ;
+    rdfs:label "Energy Management in Manufacturing" ;
+    esg:section_title "Energy Management in Manufacturing" ;
+    esg:section_id "TC-SC-130a" ;
+    esg:page_range "6" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:38:04.207821"^^xsd:dateTime .
+
+esg:category_SASB-SC_6_03 a esg:Category ;
+    rdfs:label "Water Management" ;
+    esg:section_title "Water Management" ;
+    esg:section_id "TC-SC-140a" ;
+    esg:page_range "6" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:38:04.207824"^^xsd:dateTime .
+
+esg:category_SASB-SC_6_04 a esg:Category ;
+    rdfs:label "Waste Management" ;
+    esg:section_title "Waste Management" ;
+    esg:section_id "TC-SC-150a" ;
+    esg:page_range "6" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:38:04.207828"^^xsd:dateTime .
+
+esg:category_SASB-SC_6_05 a esg:Category ;
+    rdfs:label "Workforce Health & Safety" ;
+    esg:section_title "Workforce Health & Safety" ;
+    esg:section_id "TC-SC-320a" ;
+    esg:page_range "6" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:38:04.207831"^^xsd:dateTime .
+
+esg:category_SASB-SC_6_06 a esg:Category ;
+    rdfs:label "Recruiting & Managing a Global & Skilled Workforce" ;
+    esg:section_title "Recruiting & Managing a Global & Skilled Workforce" ;
+    esg:section_id "TC-SC-330a" ;
+    esg:page_range "6" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:38:04.207834"^^xsd:dateTime .
+
+esg:metric_SASB-SC_6_001 a esg:Metric ;
+    rdfs:label "Gross Global Scope 1 Emissions and PFC Emissions" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:unit "Metric tonnes (t) CO₂-e" ;
+    esg:code "TC-SC-110a.1" ;
+    esg:description "(1) Gross global Scope 1 emissions and (2) amount of total emissions from perfluorinated compounds" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:38:04.207837"^^xsd:dateTime .
+
+esg:model_SASB-SC_6_001 a esg:Model ;
+    rdfs:label "GHG Emissions Composite Model" ;
+    esg:description "Composite metric derived from gross global Scope 1 emissions and amount of emissions from perfluorinated compounds" ;
+    esg:equation "f(Scope1Emissions, PFCEmissions)" ;
+    esg:input_variables ['Gross global Scope 1 emissions', 'Amount of total emissions from perfluorinated compounds'] ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:38:04.207840"^^xsd:dateTime .
+
+esg:metric_SASB-SC_6_001a a esg:Metric ;
+    rdfs:label "Gross Global Scope 1 Emissions" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Metric tonnes (t) CO₂-e" ;
+    esg:code "N/A" ;
+    esg:description "Gross global Scope 1 emissions" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:38:04.207843"^^xsd:dateTime .
+
+esg:metric_SASB-SC_6_001b a esg:Metric ;
+    rdfs:label "Emissions from Perfluorinated Compounds" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Metric tonnes (t) CO₂-e" ;
+    esg:code "N/A" ;
+    esg:description "Amount of total emissions from perfluorinated compounds" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:38:04.207846"^^xsd:dateTime .
+
+esg:metric_SASB-SC_6_002 a esg:Metric ;
+    rdfs:label "GHG Emissions Management Strategy" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "TC-SC-110a.2" ;
+    esg:description "Discussion of long- and short-term strategy or plan to manage Scope 1 emissions, emissions reduction targets, and an analysis of performance against those targets" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:38:04.207849"^^xsd:dateTime .
+
+esg:metric_SASB-SC_6_003 a esg:Metric ;
+    rdfs:label "Total Energy Consumed with Grid and Renewable Breakdown" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:unit "Gigajoules (GJ), Percentage (%)" ;
+    esg:code "TC-SC-130a.1" ;
+    esg:description "(1) Total energy consumed, (2) percentage grid electricity and (3) percentage renewable" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:38:04.207853"^^xsd:dateTime .
+
+esg:model_SASB-SC_6_003 a esg:Model ;
+    rdfs:label "Energy Management Composite Model" ;
+    esg:description "Composite metric derived from total energy consumed, percentage grid electricity, and percentage renewable" ;
+    esg:equation "f(TotalEnergy, GridElectricityPct, RenewablePct)" ;
+    esg:input_variables ['Total energy consumed', 'Percentage grid electricity', 'Percentage renewable'] ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:38:04.207855"^^xsd:dateTime .
+
+esg:metric_SASB-SC_10_002 a esg:Metric ;
+    rdfs:label "Total Energy Consumed" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Gigajoules (GJ)" ;
+    esg:code "N/A" ;
+    esg:description "Total amount of energy consumed as an aggregate figure, including energy from all sources" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:39:43.817386"^^xsd:dateTime .
+
+esg:metric_SASB-SC_6_003b a esg:Metric ;
+    rdfs:label "Percentage Grid Electricity" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Percentage (%)" ;
+    esg:code "N/A" ;
+    esg:description "Percentage grid electricity" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:38:04.207862"^^xsd:dateTime .
+
+esg:metric_SASB-SC_6_003c a esg:Metric ;
+    rdfs:label "Percentage Renewable" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Percentage (%)" ;
+    esg:code "N/A" ;
+    esg:description "Percentage renewable" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:38:04.207865"^^xsd:dateTime .
+
+esg:metric_SASB-SC_6_004 a esg:Metric ;
+    rdfs:label "Water Withdrawn and Consumed with Baseline Stress" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:unit "Thousand cubic metres (m³), Percentage (%)" ;
+    esg:code "TC-SC-140a.1" ;
+    esg:description "(1) Total water withdrawn, (2) total water consumed; percentage of each in regions with High or Extremely High Baseline Water Stress" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:38:04.207869"^^xsd:dateTime .
+
+esg:model_SASB-SC_6_004 a esg:Model ;
+    rdfs:label "Water Management Composite Model" ;
+    esg:description "Composite metric derived from total water withdrawn and total water consumed with percentage breakdown by baseline water stress" ;
+    esg:equation "f(WaterWithdrawn, WaterConsumed)" ;
+    esg:input_variables ['Total water withdrawn', 'Total water consumed'] ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:38:04.207873"^^xsd:dateTime .
+
+esg:metric_SASB-SC_14_004 a esg:Metric ;
+    rdfs:label "Total Water Withdrawn" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Cubic meters (m³)" ;
+    esg:code "N/A" ;
+    esg:description "Total volume of water withdrawn across all operations" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:41:20.560533"^^xsd:dateTime .
+
+esg:metric_SASB-SC_14_007 a esg:Metric ;
+    rdfs:label "Total Water Consumed" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Cubic meters (m³)" ;
+    esg:code "N/A" ;
+    esg:description "Total volume of water consumed across all operations" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:41:20.560558"^^xsd:dateTime .
+
+esg:metric_SASB-SC_6_005 a esg:Metric ;
+    rdfs:label "Hazardous Waste and Recycling Rate" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:unit "Metric tonnes (t), Percentage (%)" ;
+    esg:code "TC-SC-150a.1" ;
+    esg:description "(1) Amount of hazardous waste from manufacturing, (2) percentage recycled" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:38:04.207881"^^xsd:dateTime .
+
+esg:model_SASB-SC_6_005 a esg:Model ;
+    rdfs:label "Waste Management Composite Model" ;
+    esg:description "Composite metric derived from amount of hazardous waste and percentage recycled" ;
+    esg:equation "f(HazardousWaste, RecycledPct)" ;
+    esg:input_variables ['Amount of hazardous waste from manufacturing', 'Percentage recycled'] ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:38:04.207884"^^xsd:dateTime .
+
+esg:metric_SASB-SC_6_005a a esg:Metric ;
+    rdfs:label "Amount of Hazardous Waste" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Metric tonnes (t)" ;
+    esg:code "N/A" ;
+    esg:description "Amount of hazardous waste from manufacturing" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:38:04.207887"^^xsd:dateTime .
+
+esg:metric_SASB-SC_6_005b a esg:Metric ;
+    rdfs:label "Percentage of Hazardous Waste Recycled" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Percentage (%)" ;
+    esg:code "N/A" ;
+    esg:description "Percentage of hazardous waste recycled" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:38:04.207890"^^xsd:dateTime .
+
+esg:metric_SASB-SC_6_006 a esg:Metric ;
+    rdfs:label "Workforce Health Hazards Assessment" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "TC-SC-320a.1" ;
+    esg:description "Description of efforts to assess, monitor, and reduce exposure of workforce to human health hazards" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:38:04.207892"^^xsd:dateTime .
+
+esg:metric_SASB-SC_6_007 a esg:Metric ;
+    rdfs:label "Monetary Losses from Health and Safety Violations" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Presentation currency" ;
+    esg:code "TC-SC-320a.2" ;
+    esg:description "Total amount of monetary losses as a result of legal proceedings associated with employee health and safety violations" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:38:04.207895"^^xsd:dateTime .
+
+esg:metric_SASB-SC_19_001 a esg:Metric ;
+    rdfs:label "Percentage of Employees Requiring Work Visa" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:unit "Percentage (%)" ;
+    esg:code "TC-SC-330a.1" ;
+    esg:description "Percentage of employees that require a work visa, calculated as the number of employees requiring a work visa divided by the total number of the entity's employees at the close of the reporting period" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:42:18.231595"^^xsd:dateTime .
+
+esg:category_SASB-SC_6_PLC a esg:Category ;
+    rdfs:label "Product Lifecycle Management" ;
+    esg:section_title "Product Lifecycle Management" ;
+    esg:section_id "TC-SC-410a" ;
+    esg:page_range "6" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:39:02.241089"^^xsd:dateTime .
+
+esg:category_SASB-SC_6_MS a esg:Category ;
+    rdfs:label "Materials Sourcing" ;
+    esg:section_title "Materials Sourcing" ;
+    esg:section_id "TC-SC-440a" ;
+    esg:page_range "6" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:39:02.241091"^^xsd:dateTime .
+
+esg:category_SASB-SC_6_IP a esg:Category ;
+    rdfs:label "Intellectual Property Protection & Competitive Behaviour" ;
+    esg:section_title "Intellectual Property Protection & Competitive Behaviour" ;
+    esg:section_id "TC-SC-520a" ;
+    esg:page_range "6" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:39:02.241094"^^xsd:dateTime .
+
+esg:category_SASB-SC_7_AM a esg:Category ;
+    rdfs:label "Activity Metrics" ;
+    esg:section_title "Activity Metrics" ;
+    esg:section_id "TC-SC-000" ;
+    esg:page_range "7" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:39:02.241097"^^xsd:dateTime .
+
+esg:metric_SASB-SC_20_001 a esg:Metric ;
+    rdfs:label "Percentage of Products Containing IEC 62474 Declarable Substances" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:unit "Percentage (%)" ;
+    esg:code "TC-SC-410a.1" ;
+    esg:description "Percentage of products by revenue that contain IEC 62474 declarable substances" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:42:44.649931"^^xsd:dateTime .
+
+esg:metric_SASB-SC_21_001 a esg:Metric ;
+    rdfs:label "Processor Energy Efficiency" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:unit "Performance per Watt (various units)" ;
+    esg:code "TC-SC-410a.2" ;
+    esg:description "Processor energy efficiency at a system-level for: (1) servers, (2) desktops and (3) laptops, calculated using specified benchmarks (SPEC Power, SPEC CPU2006, MobileMark 2014)" ;
+    esg:disaggregations ['servers', 'desktops', 'laptops'] ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:43:38.204892"^^xsd:dateTime .
+
+esg:metric_SASB-SC_23_001 a esg:Metric ;
+    rdfs:label "Critical Materials Risk Management" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "TC-SC-440a.1" ;
+    esg:description "Description of the management of risks associated with the use of critical materials, including physical availability limits, price changes, and regulatory and reputational risks" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:43:38.204900"^^xsd:dateTime .
+
+esg:metric_SASB-SC_6_012 a esg:Metric ;
+    rdfs:label "Monetary losses from anti-competitive behaviour" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Presentation currency" ;
+    esg:code "TC-SC-520a.1" ;
+    esg:description "Total amount of monetary losses as a result of legal proceedings associated with anti-competitive behaviour regulations" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:39:02.241112"^^xsd:dateTime .
+
+esg:metric_SASB-SC_7_001 a esg:Metric ;
+    rdfs:label "Total production" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "See note" ;
+    esg:code "TC-SC-000.A" ;
+    esg:description "Total production from own manufacturing facilities and contracted manufacturing services" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:39:02.241115"^^xsd:dateTime .
+
+esg:metric_SASB-SC_7_002 a esg:Metric ;
+    rdfs:label "Percentage of production from owned facilities" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Percentage (%)" ;
+    esg:code "TC-SC-000.B" ;
+    esg:description "Percentage of production from owned facilities" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:39:02.241117"^^xsd:dateTime .
+
+esg:metric_SASB-SC_8_002 a esg:Metric ;
+    rdfs:label "Gross global Scope 1 emissions" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Metric tons (t) CO₂-e" ;
+    esg:code "N/A" ;
+    esg:description "Gross global Scope 1 greenhouse gas emissions to the atmosphere of the seven GHGs covered under the Kyoto Protocol" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:39:02.241125"^^xsd:dateTime .
+
+esg:metric_SASB-SC_8_003 a esg:Metric ;
+    rdfs:label "Emissions from perfluorinated compounds" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Metric tons (t) CO₂-e" ;
+    esg:code "N/A" ;
+    esg:description "Gross global Scope 1 GHG emissions originated from perfluorinated compounds" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:39:02.241127"^^xsd:dateTime .
+
+esg:model_SASB-SC_10_001 a esg:Model ;
+    rdfs:label "Energy Consumption Analysis Model" ;
+    esg:description "Composite metric calculating total energy consumed and percentages of grid electricity and renewable energy from total energy consumption" ;
+    esg:equation "Grid % = (Grid Electricity / Total Energy) × 100; Renewable % = (Renewable Energy / Total Energy) × 100" ;
+    esg:input_variables ['Total Energy Consumed', 'Grid Electricity Consumed', 'Renewable Energy Consumed'] ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:39:43.817383"^^xsd:dateTime .
+
+esg:metric_SASB-SC_10_003 a esg:Metric ;
+    rdfs:label "Grid Electricity Consumed" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Gigajoules (GJ)" ;
+    esg:code "N/A" ;
+    esg:description "Energy consumed that was supplied from grid electricity" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:39:43.817388"^^xsd:dateTime .
+
+esg:metric_SASB-SC_10_004 a esg:Metric ;
+    rdfs:label "Renewable Energy Consumed" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Gigajoules (GJ)" ;
+    esg:code "N/A" ;
+    esg:description "Energy consumed that was renewable energy from sources replenished at a rate greater than or equal to their rate of depletion" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:39:43.817392"^^xsd:dateTime .
+
+esg:model_SASB-SC_12_001 a esg:Model ;
+    rdfs:label "Water Stress Assessment Model" ;
+    esg:description "Composite metric combining total water withdrawn and total water consumed with geographic analysis of percentage in regions with High or Extremely High Baseline Water Stress" ;
+    esg:equation "f(TotalWithdrawn, TotalConsumed, StressRegionPct)" ;
+    esg:input_variables ['Total water withdrawn', 'Total water consumed', 'Percentage in High or Extremely High Baseline Water Stress regions'] ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:40:21.192780"^^xsd:dateTime .
+
+esg:metric_SASB-SC_14_001 a esg:Metric ;
+    rdfs:label "Water Risk Analysis" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "N/A" ;
+    esg:description "Analysis of all operations for water risks and identification of activities that withdraw and consume water in locations with High or Extremely High Baseline Water Stress" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:41:20.560505"^^xsd:dateTime .
+
+esg:metric_SASB-SC_14_002 a esg:Metric ;
+    rdfs:label "Water Withdrawn in High Stress Locations (Percentage)" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:unit "Percentage (%)" ;
+    esg:code "N/A" ;
+    esg:description "Water withdrawn in locations with High or Extremely High Baseline Water Stress as a percentage of the total water withdrawn" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:41:20.560512"^^xsd:dateTime .
+
+esg:model_SASB-SC_14_002 a esg:Model ;
+    rdfs:label "Water Withdrawn Stress Percentage Model" ;
+    esg:description "Calculates the percentage of water withdrawn from high or extremely high baseline water stress locations relative to total water withdrawn" ;
+    esg:equation "(Water withdrawn in high stress locations / Total water withdrawn) × 100" ;
+    esg:input_variables ['Water withdrawn in high stress locations', 'Total water withdrawn'] ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:41:20.560519"^^xsd:dateTime .
+
+esg:metric_SASB-SC_14_003 a esg:Metric ;
+    rdfs:label "Water Withdrawn in High Stress Locations" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Cubic meters (m³)" ;
+    esg:code "N/A" ;
+    esg:description "Volume of water withdrawn in locations with High or Extremely High Baseline Water Stress" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:41:20.560525"^^xsd:dateTime .
+
+esg:metric_SASB-SC_14_005 a esg:Metric ;
+    rdfs:label "Water Consumed in High Stress Locations (Percentage)" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:unit "Percentage (%)" ;
+    esg:code "N/A" ;
+    esg:description "Water consumed in locations with High or Extremely High Baseline Water Stress as a percentage of the total water consumed" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:41:20.560540"^^xsd:dateTime .
+
+esg:model_SASB-SC_14_005 a esg:Model ;
+    rdfs:label "Water Consumed Stress Percentage Model" ;
+    esg:description "Calculates the percentage of water consumed from high or extremely high baseline water stress locations relative to total water consumed" ;
+    esg:equation "(Water consumed in high stress locations / Total water consumed) × 100" ;
+    esg:input_variables ['Water consumed in high stress locations', 'Total water consumed'] ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:41:20.560546"^^xsd:dateTime .
+
+esg:metric_SASB-SC_14_006 a esg:Metric ;
+    rdfs:label "Water Consumed in High Stress Locations" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Cubic meters (m³)" ;
+    esg:code "N/A" ;
+    esg:description "Volume of water consumed in locations with High or Extremely High Baseline Water Stress" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:41:20.560552"^^xsd:dateTime .
+
+esg:model_SASB-SC_15_001 a esg:Model ;
+    rdfs:label "Hazardous Waste Recycling Model" ;
+    esg:description "Composite metric combining total hazardous waste generated and the percentage recycled, calculated as weight of recycled hazardous waste divided by total weight of hazardous waste" ;
+    esg:equation "(Weight of hazardous waste recycled / Total weight of hazardous waste) × 100" ;
+    esg:input_variables ['Total weight of hazardous waste generated', 'Weight of hazardous waste recycled'] ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:41:20.560571"^^xsd:dateTime .
+
+esg:metric_SASB-SC_15_002 a esg:Metric ;
+    rdfs:label "Total Weight of Hazardous Waste Generated" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Metric tonnes (t)" ;
+    esg:code "N/A" ;
+    esg:description "Total weight of hazardous waste generated from manufacturing operations" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:41:20.560576"^^xsd:dateTime .
+
+esg:metric_SASB-SC_15_003 a esg:Metric ;
+    rdfs:label "Weight of Hazardous Waste Recycled" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Metric tonnes (t)" ;
+    esg:code "N/A" ;
+    esg:description "Weight of hazardous waste generated from manufacturing operations that was recycled, reused, reclaimed or remanufactured" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:41:20.560582"^^xsd:dateTime .
+
+esg:model_SASB-SC_19_001 a esg:Model ;
+    rdfs:label "Work Visa Percentage Calculation Model" ;
+    esg:description "Calculates percentage of employees requiring work visa from count of visa-requiring employees divided by total employee count" ;
+    esg:equation "(Number of employees requiring work visa / Total number of employees) × 100" ;
+    esg:input_variables ['Number of employees requiring a work visa', 'Total number of employees'] ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:42:18.231597"^^xsd:dateTime .
+
+esg:metric_SASB-SC_19_002 a esg:Metric ;
+    rdfs:label "Number of Employees Requiring Work Visa" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Number" ;
+    esg:code "N/A" ;
+    esg:description "Number of employees requiring a work visa at the close of the reporting period" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:42:18.231599"^^xsd:dateTime .
+
+esg:metric_SASB-SC_19_003 a esg:Metric ;
+    rdfs:label "Total Number of Employees" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Number" ;
+    esg:code "N/A" ;
+    esg:description "Total number of the entity's employees at the close of the reporting period" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:42:18.231601"^^xsd:dateTime .
+
+esg:model_SASB-SC_20_001 a esg:Model ;
+    rdfs:label "IEC 62474 Declarable Substances Percentage Model" ;
+    esg:description "Calculated as the revenue from electrical, electronic and related technology products sold that contain a declarable substance(s) divided by total revenue from electrical, electronic and related technology products sold." ;
+    esg:equation "(Revenue from products with declarable substances / Total revenue from products) × 100" ;
+    esg:input_variables ['Revenue from products containing declarable substances', 'Total revenue from electrical, electronic and related technology products'] ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:42:44.649934"^^xsd:dateTime .
+
+esg:metric_SASB-SC_20_002 a esg:Metric ;
+    rdfs:label "Revenue from Products Containing Declarable Substances" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Reporting currency" ;
+    esg:code "N/A" ;
+    esg:description "Revenue from electrical, electronic and related technology products sold that contain IEC 62474 declarable substance(s)" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:42:44.649937"^^xsd:dateTime .
+
+esg:metric_SASB-SC_20_003 a esg:Metric ;
+    rdfs:label "Total Revenue from Electrical, Electronic and Related Technology Products" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Reporting currency" ;
+    esg:code "N/A" ;
+    esg:description "Total revenue from electrical, electronic and related technology products sold" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:42:44.649940"^^xsd:dateTime .
+
+esg:model_SASB-SC_21_001 a esg:Model ;
+    rdfs:label "Processor Energy Efficiency Benchmarking Model" ;
+    esg:description "System-level energy efficiency calculated from standardized benchmark testing: servers use SPECpower_ssj2008 (ssj_ops/watt), desktops use SPEC CPU2006 (SPECspeed scores per watt), laptops use MobileMark 2014 (performance score and battery life)" ;
+    esg:equation "f(ServerBenchmark, DesktopBenchmark, LaptopBenchmark) where each benchmark = PerformanceScore / PowerConsumption" ;
+    esg:input_variables ['Server SPECpower ssj_ops/watt', 'Desktop SPECspeed2017_int_base score/watt', 'Desktop SPECspeed2017_fp_base score/watt', 'Laptop MobileMark performance qualification score', 'Laptop MobileMark battery life score'] ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:43:38.204893"^^xsd:dateTime .
+
+esg:metric_SASB-SC_21_002 a esg:Metric ;
+    rdfs:label "Server Performance per Watt" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "ssj_ops/watt" ;
+    esg:code "N/A" ;
+    esg:description "Server processor energy efficiency measured as overall ssj_ops/watt using SPEC Power SPECpower_ssj2008 benchmark" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:43:38.204895"^^xsd:dateTime .
+
+esg:metric_SASB-SC_21_003 a esg:Metric ;
+    rdfs:label "Desktop Integer Speed Score per Watt" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "SPECspeed2017_int_base score/watt" ;
+    esg:code "N/A" ;
+    esg:description "Desktop processor integer performance per watt using SPEC CPU2006 benchmark" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:43:38.204896"^^xsd:dateTime .
+
+esg:metric_SASB-SC_21_004 a esg:Metric ;
+    rdfs:label "Desktop Floating Point Speed Score per Watt" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "SPECspeed2017_fp_base score/watt" ;
+    esg:code "N/A" ;
+    esg:description "Desktop processor floating point performance per watt using SPEC CPU2006 benchmark" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:43:38.204897"^^xsd:dateTime .
+
+esg:metric_SASB-SC_21_005 a esg:Metric ;
+    rdfs:label "Laptop Performance Qualification Score" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Score" ;
+    esg:code "N/A" ;
+    esg:description "Laptop processor performance qualification score using MobileMark 2014 v1.5 benchmark" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:43:38.204898"^^xsd:dateTime .
+
+esg:metric_SASB-SC_21_006 a esg:Metric ;
+    rdfs:label "Laptop Battery Life Score" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Minutes" ;
+    esg:code "N/A" ;
+    esg:description "Laptop battery life score in minutes using MobileMark 2014 v1.5 benchmark" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:43:38.204899"^^xsd:dateTime .
+
+esg:metric_SASB-SC_25_002 a esg:Metric ;
+    rdfs:label "Description of Anti-competitive Fines and Settlements" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "TC-SC-520a.1 (Note)" ;
+    esg:description "Brief description of the nature (e.g., guilty plea, deferred agreement or non-prosecution agreement) and context (e.g., price fixing, patent misuse or antitrust) of fines and settlements" ;
+    prov:wasDerivedFrom "1.SASB-semiconductors-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:44:08.796704"^^xsd:dateTime .
+
+esg:industry_1.SASB-semiconductors esg:ReportUsing esg:framework_1.SASB-semiconductors .
+esg:framework_1.SASB-semiconductors esg:Include esg:category_SASB-semiconductors_5 .
+esg:framework_1.SASB-semiconductors esg:Include esg:category_SASB-SC_6_01 .
+esg:framework_1.SASB-semiconductors esg:Include esg:category_SASB-SC_6_02 .
+esg:framework_1.SASB-semiconductors esg:Include esg:category_SASB-SC_6_03 .
+esg:framework_1.SASB-semiconductors esg:Include esg:category_SASB-SC_6_04 .
+esg:framework_1.SASB-semiconductors esg:Include esg:category_SASB-SC_6_05 .
+esg:framework_1.SASB-semiconductors esg:Include esg:category_SASB-SC_6_06 .
+esg:category_SASB-SC_6_01 esg:ConsistOf esg:metric_SASB-SC_20_001 .
+esg:category_SASB-SC_6_01 esg:ConsistOf esg:metric_SASB-SC_21_001 .
+esg:metric_SASB-SC_20_001 esg:IsCalculatedBy esg:model_SASB-SC_6_001 .
+esg:model_SASB-SC_6_001 esg:RequiresInputFrom esg:metric_SASB-SC_6_001a .
+esg:model_SASB-SC_6_001 esg:RequiresInputFrom esg:metric_SASB-SC_6_001b .
+esg:category_SASB-SC_6_02 esg:ConsistOf esg:metric_SASB-SC_23_001 .
+esg:model_SASB-SC_6_003 esg:RequiresInputFrom esg:metric_SASB-SC_6_003b .
+esg:model_SASB-SC_6_003 esg:RequiresInputFrom esg:metric_SASB-SC_6_003c .
+esg:category_SASB-SC_6_03 esg:ConsistOf esg:metric_SASB-SC_6_012 .
+esg:category_SASB-SC_6_04 esg:ConsistOf esg:metric_SASB-SC_6_005 .
+esg:metric_SASB-SC_6_005 esg:IsCalculatedBy esg:model_SASB-SC_6_005 .
+esg:model_SASB-SC_6_005 esg:RequiresInputFrom esg:metric_SASB-SC_6_005a .
+esg:model_SASB-SC_6_005 esg:RequiresInputFrom esg:metric_SASB-SC_6_005b .
+esg:category_SASB-SC_6_05 esg:ConsistOf esg:metric_SASB-SC_6_006 .
+esg:category_SASB-SC_6_05 esg:ConsistOf esg:metric_SASB-SC_6_007 .
+esg:category_SASB-SC_6_06 esg:ConsistOf esg:metric_SASB-SC_19_001 .
+esg:framework_1.SASB-semiconductors esg:Include esg:category_SASB-SC_6_PLC .
+esg:framework_1.SASB-semiconductors esg:Include esg:category_SASB-SC_6_MS .
+esg:framework_1.SASB-semiconductors esg:Include esg:category_SASB-SC_6_IP .
+esg:framework_1.SASB-semiconductors esg:Include esg:category_SASB-SC_7_AM .
+esg:category_SASB-SC_6_PLC esg:ConsistOf esg:metric_SASB-SC_20_001 .
+esg:category_SASB-SC_6_PLC esg:ConsistOf esg:metric_SASB-SC_21_001 .
+esg:category_SASB-SC_6_MS esg:ConsistOf esg:metric_SASB-SC_23_001 .
+esg:category_SASB-SC_6_IP esg:ConsistOf esg:metric_SASB-SC_6_012 .
+esg:category_SASB-SC_7_AM esg:ConsistOf esg:metric_SASB-SC_7_001 .
+esg:category_SASB-SC_7_AM esg:ConsistOf esg:metric_SASB-SC_7_002 .
+esg:category_SASB-SC_6_01 esg:ConsistOf esg:metric_SASB-SC_6_001 .
+esg:metric_SASB-SC_6_001 esg:IsCalculatedBy esg:model_SASB-SC_6_001 .
+esg:model_SASB-SC_6_001 esg:RequiresInputFrom esg:metric_SASB-SC_8_002 .
+esg:model_SASB-SC_6_001 esg:RequiresInputFrom esg:metric_SASB-SC_8_003 .
+esg:category_SASB-SC_6_01 esg:ConsistOf esg:metric_SASB-SC_6_002 .
+esg:category_SASB-SC_6_02 esg:ConsistOf esg:metric_SASB-SC_6_003 .
+esg:metric_SASB-SC_6_003 esg:IsCalculatedBy esg:model_SASB-SC_10_001 .
+esg:model_SASB-SC_10_001 esg:RequiresInputFrom esg:metric_SASB-SC_10_002 .
+esg:model_SASB-SC_10_001 esg:RequiresInputFrom esg:metric_SASB-SC_10_003 .
+esg:model_SASB-SC_10_001 esg:RequiresInputFrom esg:metric_SASB-SC_10_004 .
+esg:category_SASB-SC_6_03 esg:ConsistOf esg:metric_SASB-SC_6_004 .
+esg:metric_SASB-SC_6_004 esg:IsCalculatedBy esg:model_SASB-SC_12_001 .
+esg:category_SASB-SC_6_03 esg:ConsistOf esg:metric_SASB-SC_14_001 .
+esg:category_SASB-SC_6_03 esg:ConsistOf esg:metric_SASB-SC_14_002 .
+esg:category_SASB-SC_6_03 esg:ConsistOf esg:metric_SASB-SC_14_005 .
+esg:metric_SASB-SC_14_002 esg:IsCalculatedBy esg:model_SASB-SC_14_002 .
+esg:model_SASB-SC_14_002 esg:RequiresInputFrom esg:metric_SASB-SC_14_003 .
+esg:model_SASB-SC_14_002 esg:RequiresInputFrom esg:metric_SASB-SC_14_004 .
+esg:metric_SASB-SC_14_005 esg:IsCalculatedBy esg:model_SASB-SC_14_005 .
+esg:model_SASB-SC_14_005 esg:RequiresInputFrom esg:metric_SASB-SC_14_006 .
+esg:model_SASB-SC_14_005 esg:RequiresInputFrom esg:metric_SASB-SC_14_007 .
+esg:metric_SASB-SC_6_005 esg:IsCalculatedBy esg:model_SASB-SC_15_001 .
+esg:model_SASB-SC_15_001 esg:RequiresInputFrom esg:metric_SASB-SC_15_002 .
+esg:model_SASB-SC_15_001 esg:RequiresInputFrom esg:metric_SASB-SC_15_003 .
+esg:metric_SASB-SC_19_001 esg:IsCalculatedBy esg:model_SASB-SC_19_001 .
+esg:model_SASB-SC_19_001 esg:RequiresInputFrom esg:metric_SASB-SC_19_002 .
+esg:model_SASB-SC_19_001 esg:RequiresInputFrom esg:metric_SASB-SC_19_003 .
+esg:metric_SASB-SC_20_001 esg:IsCalculatedBy esg:model_SASB-SC_20_001 .
+esg:model_SASB-SC_20_001 esg:RequiresInputFrom esg:metric_SASB-SC_20_002 .
+esg:model_SASB-SC_20_001 esg:RequiresInputFrom esg:metric_SASB-SC_20_003 .
+esg:metric_SASB-SC_21_001 esg:IsCalculatedBy esg:model_SASB-SC_21_001 .
+esg:model_SASB-SC_21_001 esg:RequiresInputFrom esg:metric_SASB-SC_21_002 .
+esg:model_SASB-SC_21_001 esg:RequiresInputFrom esg:metric_SASB-SC_21_003 .
+esg:model_SASB-SC_21_001 esg:RequiresInputFrom esg:metric_SASB-SC_21_004 .
+esg:model_SASB-SC_21_001 esg:RequiresInputFrom esg:metric_SASB-SC_21_005 .
+esg:model_SASB-SC_21_001 esg:RequiresInputFrom esg:metric_SASB-SC_21_006 .
+esg:category_SASB-SC_6_IP esg:ConsistOf esg:metric_SASB-SC_25_002 .

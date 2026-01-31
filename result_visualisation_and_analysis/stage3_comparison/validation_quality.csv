@@ -1,0 +1,6 @@
+Document,Method,Ontology Schema Compliance Rate (%),Entity Semantic Accuracy (%)
+Australia AASB,Ontology-Guided,0.0,89.2
+IFRS S2,Ontology-Guided,0.0,85.0
+SASB Banks,Ontology-Guided,0.0,79.2
+SASB Semiconductors,Ontology-Guided,0.0,89.9
+TCFD Report,Ontology-Guided,0.0,64.8

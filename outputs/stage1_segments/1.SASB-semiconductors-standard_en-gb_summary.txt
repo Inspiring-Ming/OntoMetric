@@ -1,0 +1,72 @@
+Document: Semiconductors Sustainability Accounting Standard TECHNOLOGY & COMMUNICATIONS SECTOR
+Total Pages: 27
+Total Segments: 13
+Processed: 2025-10-20 13:19:19
+
+============================================================
+
+Section 1: Title & Document Information
+  Pages: 0-0
+  Words: 36
+  Tables: 0
+
+Section 2: Overview of SASB Standards
+  Pages: 4-4
+  Words: 192
+  Tables: 0
+
+Section 3: Industry Description
+  Pages: 5-5
+  Words: 269
+  Tables: 1
+
+Section 4: Sustainability Disclosure Topics & Metrics
+  Pages: 6-7
+  Words: 625
+  Tables: 2
+
+Section 5: Greenhouse Gas Emissions
+  Pages: 8-10
+  Words: 1071
+  Tables: 0
+
+Section 6: Energy Management in Manufacturing
+  Pages: 11-12
+  Words: 702
+  Tables: 0
+
+Section 7: Water Management
+  Pages: 13-14
+  Words: 454
+  Tables: 0
+
+Section 8: Waste Management
+  Pages: 15-16
+  Words: 454
+  Tables: 0
+
+Section 9: Workforce Health & Safety
+  Pages: 17-18
+  Words: 655
+  Tables: 0
+
+Section 10: Recruiting & Managing a Global & Skilled Workforce
+  Pages: 19-19
+  Words: 354
+  Tables: 0
+
+Section 11: Product Lifecycle Management
+  Pages: 20-22
+  Words: 932
+  Tables: 0
+
+Section 12: Materials Sourcing
+  Pages: 23-24
+  Words: 523
+  Tables: 0
+
+Section 13: Intellectual Property Protection & Competitive Behaviour
+  Pages: 25-26
+  Words: 35
+  Tables: 0
+

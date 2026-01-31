@@ -1,0 +1,823 @@
+@prefix esg: <http://example.org/esg-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+# Knowledge Graph extracted from: Australian Sustainability Reporting Standard AASB S2 September 2024 Climate-related Disclosures
+# Extraction timestamp: 2025-11-18T13:35:40.635787
+# Total entities: 74
+# Total relationships: 75
+
+esg:industry_002 a esg:Industry ;
+    rdfs:label "General Reporting Entities" ;
+    esg:sector "N/A" ;
+    esg:country "Australia" ;
+    esg:standard_reference "AASB S2" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:30:26.359294"^^xsd:dateTime .
+
+esg:framework_001 a esg:ReportingFramework ;
+    rdfs:label "AASB S2 Climate-related Disclosures" ;
+    esg:name "AASB S2" ;
+    esg:version "2024" ;
+    esg:year "2024" ;
+    esg:publisher "Australian Accounting Standards Board" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:29:37.021440"^^xsd:dateTime .
+
+esg:industry_2.Australia-AASBS2_09-24 a esg:Industry ;
+    rdfs:label "Australian Reporting Entities" ;
+    esg:sector "Cross-sector" ;
+    esg:country "Australia" ;
+    esg:standard_reference "AASB S2" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:28:38.437257"^^xsd:dateTime .
+
+esg:category_2.Australia-AASBS2_09-24_governance a esg:Category ;
+    rdfs:label "Governance" ;
+    esg:section_title "Governance" ;
+    esg:section_id "5" ;
+    esg:page_range "5+" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:28:38.437275"^^xsd:dateTime .
+
+esg:category_2.Australia-AASBS2_09-24_strategy a esg:Category ;
+    rdfs:label "Strategy" ;
+    esg:section_title "Strategy" ;
+    esg:section_id "8" ;
+    esg:page_range "8+" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:28:38.437278"^^xsd:dateTime .
+
+esg:category_AASBS2_25 a esg:Category ;
+    rdfs:label "Risk Management - Scope 3 and Financed Emissions" ;
+    esg:section_title "Risk management" ;
+    esg:section_id "B52-B65" ;
+    esg:page_range "25-27" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:33:50.439417"^^xsd:dateTime .
+
+esg:category_2.Australia-AASBS2_09-24_metrics a esg:Category ;
+    rdfs:label "Metrics and Targets" ;
+    esg:section_title "Metrics and targets" ;
+    esg:section_id "27" ;
+    esg:page_range "27+" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:28:38.437283"^^xsd:dateTime .
+
+esg:metric_AASB-S2_006 a esg:Metric ;
+    rdfs:label "Scope 1 Greenhouse Gas Emissions" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Metric tonnes CO2-e" ;
+    esg:code "N/A" ;
+    esg:description "Direct greenhouse gas emissions that occur from sources owned or controlled by the entity" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:32:06.720156"^^xsd:dateTime .
+
+esg:metric_AASB-S2_007 a esg:Metric ;
+    rdfs:label "Scope 2 Greenhouse Gas Emissions" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Metric tonnes CO2-e" ;
+    esg:code "N/A" ;
+    esg:description "Indirect greenhouse gas emissions from the generation of purchased or acquired electricity, steam, heating or cooling consumed by the entity" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:32:06.720162"^^xsd:dateTime .
+
+esg:metric_AASB-S2_008 a esg:Metric ;
+    rdfs:label "Scope 3 Greenhouse Gas Emissions" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Metric tonnes CO2-e" ;
+    esg:code "N/A" ;
+    esg:description "Indirect greenhouse gas emissions that occur in the value chain of the entity, including both upstream and downstream emissions across 15 categories" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:32:06.720168"^^xsd:dateTime .
+
+esg:metric_AASB-S2_gov_001 a esg:Metric ;
+    rdfs:label "Governance Body Oversight Disclosures" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "AASB S2.6(a)" ;
+    esg:description "Information about the governance body(s) or individual(s) responsible for oversight of climate-related risks and opportunities" ;
+    esg:disaggregations ['Responsibilities in terms of reference and policies', 'Skills and competencies determination', 'Information frequency about climate risks', 'Consideration in strategy and risk management', 'Target setting and performance monitoring'] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:30:26.359321"^^xsd:dateTime .
+
+esg:metric_AASB-S2_gov_002 a esg:Metric ;
+    rdfs:label "Management Role in Climate Governance" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "AASB S2.6(b)" ;
+    esg:description "Management's role in the governance processes, controls and procedures used to monitor, manage and oversee climate-related risks and opportunities" ;
+    esg:disaggregations ['Delegation to management positions or committees', 'Controls and procedures integration'] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:30:26.359324"^^xsd:dateTime .
+
+esg:metric_AASB-S2_strat_001 a esg:Metric ;
+    rdfs:label "Climate-related Risks and Opportunities Identification" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "AASB S2.10" ;
+    esg:description "Information that enables users to understand the climate-related risks and opportunities that could reasonably be expected to affect the entity's prospects" ;
+    esg:disaggregations ['Description of climate-related risks and opportunities', 'Classification as physical or transition risk', 'Time horizons (short, medium, long term)', 'Definition of time horizon terms'] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:30:26.359328"^^xsd:dateTime .
+
+esg:metric_AASB-S2_strat_002 a esg:Metric ;
+    rdfs:label "Business Model and Value Chain Effects" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "AASB S2.13" ;
+    esg:description "Information about the current and anticipated effects of climate-related risks and opportunities on the entity's business model and value chain" ;
+    esg:disaggregations ['Description of current and anticipated effects', 'Concentration areas in business model and value chain'] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:30:26.359348"^^xsd:dateTime .
+
+esg:metric_AASB-S2_strat_003 a esg:Metric ;
+    rdfs:label "Strategy and Decision-making Disclosures" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "AASB S2.14" ;
+    esg:description "Information about the effects of climate-related risks and opportunities on entity's strategy and decision-making" ;
+    esg:disaggregations ['Response to climate risks and opportunities including targets and transition plans', 'Resourcing of activities', 'Progress of plans from previous reporting periods'] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:30:26.359352"^^xsd:dateTime .
+
+esg:metric_AASB-S2_001 a esg:Metric ;
+    rdfs:label "Current Financial Effects of Climate-related Risks and Opportunities" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "AASB-S2-15(a)" ;
+    esg:description "Effects of climate-related risks and opportunities on the entity's financial position, financial performance and cash flows for the reporting period" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:32:06.720119"^^xsd:dateTime .
+
+esg:metric_AASB-S2_002 a esg:Metric ;
+    rdfs:label "Anticipated Financial Effects of Climate-related Risks and Opportunities" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "AASB-S2-15(b)" ;
+    esg:description "Anticipated effects of climate-related risks and opportunities on the entity's financial position, financial performance and cash flows over the short, medium and long term" ;
+    esg:disaggregations ['Short term', 'Medium term', 'Long term'] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:32:06.720125"^^xsd:dateTime .
+
+esg:metric_AASB-S2_003 a esg:Metric ;
+    rdfs:label "Climate Resilience Assessment" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "AASB-S2-22" ;
+    esg:description "Assessment of the resilience of the entity's strategy and business model to climate-related changes, developments and uncertainties using climate-related scenario analysis" ;
+    esg:disaggregations ['Strategy implications', 'Areas of uncertainty', 'Capacity to adjust', 'Scenario analysis inputs'] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:32:06.720131"^^xsd:dateTime .
+
+esg:metric_AASB-S2_004 a esg:Metric ;
+    rdfs:label "Risk Management Processes" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "AASB-S2-25" ;
+    esg:description "Processes and related policies to identify, assess, prioritise and monitor climate-related risks and opportunities" ;
+    esg:disaggregations ['Identification processes', 'Assessment processes', 'Prioritisation processes', 'Monitoring processes'] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:32:06.720137"^^xsd:dateTime .
+
+esg:metric_AASB-S2_005 a esg:Metric ;
+    rdfs:label "Absolute Gross Greenhouse Gas Emissions" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:unit "Metric tonnes CO2-e" ;
+    esg:code "AASB-S2-29(a)(i)" ;
+    esg:description "Absolute gross greenhouse gas emissions generated during the reporting period, classified as Scope 1, Scope 2, and Scope 3 emissions" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:32:06.720144"^^xsd:dateTime .
+
+esg:model_AASB-S2_005 a esg:Model ;
+    rdfs:label "GHG Emissions Aggregation Model" ;
+    esg:description "Model for aggregating greenhouse gas emissions across three scopes to determine total absolute gross emissions in CO2 equivalent" ;
+    esg:equation "Total GHG Emissions = Scope 1 + Scope 2 + Scope 3" ;
+    esg:input_variables ['Scope 1 greenhouse gas emissions', 'Scope 2 greenhouse gas emissions', 'Scope 3 greenhouse gas emissions'] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:32:06.720150"^^xsd:dateTime .
+
+esg:metric_AASB-S2_009 a esg:Metric ;
+    rdfs:label "Assets Vulnerable to Climate-related Transition Risks" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Amount and Percentage" ;
+    esg:code "AASB-S2-29(b)" ;
+    esg:description "Amount and percentage of assets or business activities vulnerable to climate-related transition risks" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:32:06.720173"^^xsd:dateTime .
+
+esg:metric_AASB-S2_010 a esg:Metric ;
+    rdfs:label "Assets Vulnerable to Climate-related Physical Risks" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Amount and Percentage" ;
+    esg:code "AASB-S2-29(c)" ;
+    esg:description "Amount and percentage of assets or business activities vulnerable to climate-related physical risks" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:32:06.720179"^^xsd:dateTime .
+
+esg:metric_AASB-S2_011 a esg:Metric ;
+    rdfs:label "Assets Aligned with Climate-related Opportunities" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Amount and Percentage" ;
+    esg:code "AASB-S2-29(d)" ;
+    esg:description "Amount and percentage of assets or business activities aligned with climate-related opportunities" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:32:06.720185"^^xsd:dateTime .
+
+esg:metric_AASB-S2_012 a esg:Metric ;
+    rdfs:label "Capital Deployment for Climate" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Currency Amount" ;
+    esg:code "AASB-S2-29(e)" ;
+    esg:description "Amount of capital expenditure, financing or investment deployed towards climate-related risks and opportunities" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:32:06.720209"^^xsd:dateTime .
+
+esg:metric_AASB-S2_013 a esg:Metric ;
+    rdfs:label "Internal Carbon Price" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Currency per Metric Tonne CO2-e" ;
+    esg:code "AASB-S2-29(f)" ;
+    esg:description "Price for each metric tonne of greenhouse gas emissions the entity uses to assess the costs of its greenhouse gas emissions" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:32:06.720215"^^xsd:dateTime .
+
+esg:metric_AASB-S2_014 a esg:Metric ;
+    rdfs:label "Executive Remuneration Linked to Climate Considerations" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:unit "Percentage (%)" ;
+    esg:code "AASB-S2-29(g)(ii)" ;
+    esg:description "Percentage of executive management remuneration recognised in the current period that is linked to climate-related considerations" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:32:06.720221"^^xsd:dateTime .
+
+esg:model_AASB-S2_014 a esg:Model ;
+    rdfs:label "Climate-linked Executive Remuneration Model" ;
+    esg:description "Model for calculating the percentage of executive remuneration linked to climate-related considerations relative to total executive remuneration" ;
+    esg:equation "Climate-linked Remuneration % = (Climate-linked Remuneration / Total Executive Remuneration) × 100" ;
+    esg:input_variables ['Total Executive Remuneration', 'Climate-linked Remuneration Amount'] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:32:06.720228"^^xsd:dateTime .
+
+esg:metric_AASB-S2_015 a esg:Metric ;
+    rdfs:label "Total Executive Remuneration" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Currency Amount" ;
+    esg:code "N/A" ;
+    esg:description "Total executive management remuneration recognised in the current period" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:32:06.720234"^^xsd:dateTime .
+
+esg:metric_AASB-S2_016 a esg:Metric ;
+    rdfs:label "Climate-linked Remuneration Amount" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Currency Amount" ;
+    esg:code "N/A" ;
+    esg:description "Portion of executive management remuneration that is linked to climate-related considerations" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:32:06.720240"^^xsd:dateTime .
+
+esg:metric_AASB-S2_017 a esg:Metric ;
+    rdfs:label "Climate-related Targets" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Various" ;
+    esg:code "AASB-S2-33" ;
+    esg:description "Quantitative and qualitative climate-related targets set to monitor progress towards achieving strategic goals, including greenhouse gas emissions targets" ;
+    esg:disaggregations ['Metric used', 'Objective', 'Scope', 'Period', 'Base period', 'Milestones', 'Target type', 'International agreement alignment'] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:32:06.720245"^^xsd:dateTime .
+
+esg:industry_004 a esg:Industry ;
+    rdfs:label "Financial Services" ;
+    esg:sector "Financials" ;
+    esg:country "Australia" ;
+    esg:standard_reference "AASB S2" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:33:50.439399"^^xsd:dateTime .
+
+esg:category_AASBS2_25_AssetMgmt a esg:Category ;
+    rdfs:label "Asset Management Financed Emissions" ;
+    esg:section_title "Asset management" ;
+    esg:section_id "B61" ;
+    esg:page_range "25-26" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:33:50.439421"^^xsd:dateTime .
+
+esg:category_AASBS2_26_CommBank a esg:Category ;
+    rdfs:label "Commercial Banking Financed Emissions" ;
+    esg:section_title "Commercial banking" ;
+    esg:section_id "B62" ;
+    esg:page_range "26" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:33:50.439424"^^xsd:dateTime .
+
+esg:category_AASBS2_26_Insurance a esg:Category ;
+    rdfs:label "Insurance Financed Emissions" ;
+    esg:section_title "Insurance" ;
+    esg:section_id "B63" ;
+    esg:page_range "26-27" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:33:50.439427"^^xsd:dateTime .
+
+esg:metric_AASBS2_25_001 a esg:Metric ;
+    rdfs:label "Absolute Gross Financed Emissions - Asset Management" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:unit "Metric tons CO₂-e" ;
+    esg:code "B61(a)" ;
+    esg:description "Absolute gross financed emissions for asset management activities, disaggregated by Scope 1, Scope 2 and Scope 3 greenhouse gas emissions" ;
+    esg:disaggregations ['Scope 1', 'Scope 2', 'Scope 3'] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:33:50.439430"^^xsd:dateTime .
+
+esg:model_AASBS2_25_001 a esg:Model ;
+    rdfs:label "Asset Management Financed Emissions Calculation Model" ;
+    esg:description "Aggregation model that combines Scope 1, Scope 2, and Scope 3 emissions to calculate total absolute gross financed emissions for asset management portfolios" ;
+    esg:equation "Total Financed Emissions = Scope 1 + Scope 2 + Scope 3" ;
+    esg:input_variables ['Scope 1 financed emissions', 'Scope 2 financed emissions', 'Scope 3 financed emissions'] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:33:50.439433"^^xsd:dateTime .
+
+esg:metric_AASBS2_25_002 a esg:Metric ;
+    rdfs:label "Scope 1 Financed Emissions - Asset Management" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Metric tons CO₂-e" ;
+    esg:code "N/A" ;
+    esg:description "Scope 1 greenhouse gas emissions component of financed emissions for asset management" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:33:50.439436"^^xsd:dateTime .
+
+esg:metric_AASBS2_25_003 a esg:Metric ;
+    rdfs:label "Scope 2 Financed Emissions - Asset Management" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Metric tons CO₂-e" ;
+    esg:code "N/A" ;
+    esg:description "Scope 2 greenhouse gas emissions component of financed emissions for asset management" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:33:50.439439"^^xsd:dateTime .
+
+esg:metric_AASBS2_25_004 a esg:Metric ;
+    rdfs:label "Scope 3 Financed Emissions - Asset Management" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Metric tons CO₂-e" ;
+    esg:code "N/A" ;
+    esg:description "Scope 3 greenhouse gas emissions component of financed emissions for asset management" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:33:50.439442"^^xsd:dateTime .
+
+esg:metric_AASBS2_25_005 a esg:Metric ;
+    rdfs:label "Total AUM Included in Financed Emissions" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Currency (presentation currency)" ;
+    esg:code "B61(b)" ;
+    esg:description "Total amount of assets under management (AUM) that is included in the financed emissions disclosure, expressed in the presentation currency of the entity's financial statements" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:33:50.439445"^^xsd:dateTime .
+
+esg:metric_AASBS2_25_006 a esg:Metric ;
+    rdfs:label "Percentage of Total AUM Included" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Percentage (%)" ;
+    esg:code "B61(c)" ;
+    esg:description "The percentage of the entity's total AUM included in the financed emissions calculation" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:33:50.439448"^^xsd:dateTime .
+
+esg:metric_AASBS2_25_007 a esg:Metric ;
+    rdfs:label "Financed Emissions Calculation Methodology" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "B61(d)" ;
+    esg:description "The methodology used to calculate the financed emissions, including the method of allocation the entity used to attribute its share of emissions in relation to the size of investments" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:33:50.439451"^^xsd:dateTime .
+
+esg:metric_AASBS2_26_001 a esg:Metric ;
+    rdfs:label "Absolute Gross Financed Emissions - Commercial Banking" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:unit "Metric tons CO₂-e" ;
+    esg:code "B62(a)" ;
+    esg:description "Absolute gross financed emissions for commercial banking, disaggregated by Scope 1, Scope 2 and Scope 3 greenhouse gas emissions for each industry by asset class" ;
+    esg:disaggregations ['Scope 1', 'Scope 2', 'Scope 3', 'Industry (GICS 6-digit)', 'Asset class'] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:33:50.439454"^^xsd:dateTime .
+
+esg:model_AASBS2_26_001 a esg:Model ;
+    rdfs:label "Commercial Banking Financed Emissions Calculation Model" ;
+    esg:description "Aggregation model combining Scope 1, Scope 2, and Scope 3 emissions across industries and asset classes to calculate total financed emissions for commercial banking activities" ;
+    esg:equation "Total Financed Emissions = Σ(Scope 1 + Scope 2 + Scope 3) by Industry by Asset Class" ;
+    esg:input_variables ['Scope 1 financed emissions by industry by asset class', 'Scope 2 financed emissions by industry by asset class', 'Scope 3 financed emissions by industry by asset class'] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:33:50.439458"^^xsd:dateTime .
+
+esg:metric_AASBS2_26_002 a esg:Metric ;
+    rdfs:label "Scope 1 Financed Emissions - Commercial Banking" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Metric tons CO₂-e" ;
+    esg:code "N/A" ;
+    esg:description "Scope 1 greenhouse gas emissions component of financed emissions for commercial banking by industry by asset class" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:33:50.439461"^^xsd:dateTime .
+
+esg:metric_AASBS2_26_003 a esg:Metric ;
+    rdfs:label "Scope 2 Financed Emissions - Commercial Banking" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Metric tons CO₂-e" ;
+    esg:code "N/A" ;
+    esg:description "Scope 2 greenhouse gas emissions component of financed emissions for commercial banking by industry by asset class" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:33:50.439465"^^xsd:dateTime .
+
+esg:metric_AASBS2_26_004 a esg:Metric ;
+    rdfs:label "Scope 3 Financed Emissions - Commercial Banking" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Metric tons CO₂-e" ;
+    esg:code "N/A" ;
+    esg:description "Scope 3 greenhouse gas emissions component of financed emissions for commercial banking by industry by asset class" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:33:50.439485"^^xsd:dateTime .
+
+esg:metric_AASBS2_26_005 a esg:Metric ;
+    rdfs:label "Gross Exposure by Industry by Asset Class" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Currency (presentation currency)" ;
+    esg:code "B62(b)" ;
+    esg:description "Gross exposure to each industry by asset class, expressed in the presentation currency of the entity's financial statements" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:33:50.439489"^^xsd:dateTime .
+
+esg:metric_AASBS2_26_006 a esg:Metric ;
+    rdfs:label "Percentage of Gross Exposure Included - Commercial Banking" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Percentage (%)" ;
+    esg:code "B62(c)" ;
+    esg:description "The percentage of the entity's gross exposure included in the financed emissions calculation for commercial banking" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:33:50.439492"^^xsd:dateTime .
+
+esg:metric_AASBS2_26_007 a esg:Metric ;
+    rdfs:label "Financed Emissions Methodology - Commercial Banking" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "B62(d)" ;
+    esg:description "The methodology the entity used to calculate its financed emissions, including the method of allocation the entity used to attribute its share of emissions in relation to the size of its gross exposure" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:33:50.439495"^^xsd:dateTime .
+
+esg:metric_AASBS2_26_008 a esg:Metric ;
+    rdfs:label "Absolute Gross Financed Emissions - Insurance" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:unit "Metric tons CO₂-e" ;
+    esg:code "B63(a)" ;
+    esg:description "Absolute gross financed emissions for insurance activities, disaggregated by Scope 1, Scope 2 and Scope 3 greenhouse gas emissions for each industry by asset class" ;
+    esg:disaggregations ['Scope 1', 'Scope 2', 'Scope 3', 'Industry (GICS 6-digit)', 'Asset class'] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:33:50.439498"^^xsd:dateTime .
+
+esg:model_AASBS2_26_008 a esg:Model ;
+    rdfs:label "Insurance Financed Emissions Calculation Model" ;
+    esg:description "Aggregation model combining Scope 1, Scope 2, and Scope 3 emissions across industries and asset classes to calculate total financed emissions for insurance activities" ;
+    esg:equation "Total Financed Emissions = Σ(Scope 1 + Scope 2 + Scope 3) by Industry by Asset Class" ;
+    esg:input_variables ['Scope 1 financed emissions by industry by asset class', 'Scope 2 financed emissions by industry by asset class', 'Scope 3 financed emissions by industry by asset class'] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:33:50.439500"^^xsd:dateTime .
+
+esg:metric_AASBS2_26_009 a esg:Metric ;
+    rdfs:label "Scope 1 Financed Emissions - Insurance" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Metric tons CO₂-e" ;
+    esg:code "N/A" ;
+    esg:description "Scope 1 greenhouse gas emissions component of financed emissions for insurance by industry by asset class" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:33:50.439503"^^xsd:dateTime .
+
+esg:metric_AASBS2_26_010 a esg:Metric ;
+    rdfs:label "Scope 2 Financed Emissions - Insurance" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Metric tons CO₂-e" ;
+    esg:code "N/A" ;
+    esg:description "Scope 2 greenhouse gas emissions component of financed emissions for insurance by industry by asset class" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:33:50.439506"^^xsd:dateTime .
+
+esg:metric_AASBS2_26_011 a esg:Metric ;
+    rdfs:label "Scope 3 Financed Emissions - Insurance" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Metric tons CO₂-e" ;
+    esg:code "N/A" ;
+    esg:description "Scope 3 greenhouse gas emissions component of financed emissions for insurance by industry by asset class" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:33:50.439509"^^xsd:dateTime .
+
+esg:metric_AASBS2_27_001 a esg:Metric ;
+    rdfs:label "Gross Exposure by Industry by Asset Class - Insurance" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Currency (presentation currency)" ;
+    esg:code "B63(b)" ;
+    esg:description "The gross exposure for each industry by asset class for insurance entities, expressed in the presentation currency of the entity's financial statements" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:33:50.439512"^^xsd:dateTime .
+
+esg:metric_AASBS2_27_002 a esg:Metric ;
+    rdfs:label "Percentage of Gross Exposure Included - Insurance" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Percentage (%)" ;
+    esg:code "B63(c)" ;
+    esg:description "The percentage of the entity's gross exposure included in the financed emissions calculation for insurance" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:33:50.439515"^^xsd:dateTime .
+
+esg:metric_AASBS2_27_003 a esg:Metric ;
+    rdfs:label "Financed Emissions Methodology - Insurance" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "B63(d)" ;
+    esg:description "The methodology the entity used to calculate its financed emissions for insurance, including the method of allocation the entity used to attribute its share of emissions in relation to the size of its gross exposure" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:33:50.439518"^^xsd:dateTime .
+
+esg:industry_005 a esg:Industry ;
+    rdfs:label "Entities applying AASB S2" ;
+    esg:sector "Broad (Financials, Commercial, Insurance, Public Sector)" ;
+    esg:country "Australia" ;
+    esg:standard_reference "AASB S2" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:35:40.624698"^^xsd:dateTime .
+
+esg:category_AASB-S2_12 a esg:Category ;
+    rdfs:label "Climate-related metrics" ;
+    esg:section_title "Climate-related metrics" ;
+    esg:section_id "Paragraph 29" ;
+    esg:page_range "12-14" ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:35:40.624747"^^xsd:dateTime .
+
+esg:metric_AASB-S2_12_001 a esg:Metric ;
+    rdfs:label "Scope 1 greenhouse gas emissions" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Metric tonnes of CO₂ equivalent (t CO₂-e)" ;
+    esg:code "29(a)(i)(1)" ;
+    esg:description "Direct greenhouse gas emissions that occur from sources that are owned or controlled by an entity, expressed as metric tonnes of CO₂ equivalent." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:35:40.624750"^^xsd:dateTime .
+
+esg:metric_AASB-S2_12_002 a esg:Metric ;
+    rdfs:label "Scope 2 greenhouse gas emissions" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Metric tonnes of CO₂ equivalent (t CO₂-e)" ;
+    esg:code "29(a)(i)(2)" ;
+    esg:description "Indirect greenhouse gas emissions from the generation of purchased or acquired electricity, steam, heating or cooling consumed by an entity, expressed as metric tonnes of CO₂ equivalent." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:35:40.624752"^^xsd:dateTime .
+
+esg:metric_AASB-S2_12_003 a esg:Metric ;
+    rdfs:label "Scope 3 greenhouse gas emissions" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Metric tonnes of CO₂ equivalent (t CO₂-e)" ;
+    esg:code "29(a)(i)(3)" ;
+    esg:description "Indirect greenhouse gas emissions (not included in Scope 2) that occur in the value chain of an entity, including both upstream and downstream emissions, expressed as metric tonnes of CO₂ equivalent." ;
+    esg:disaggregations ['15 Scope 3 categories per GHG Protocol Corporate Value Chain (Scope 3) Accounting and Reporting Standard (2011)'] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:35:40.624755"^^xsd:dateTime .
+
+esg:metric_AASB-S2_12_004 a esg:Metric ;
+    rdfs:label "Absolute gross greenhouse gas emissions" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:unit "Metric tonnes of CO₂ equivalent (t CO₂-e)" ;
+    esg:code "29(a)(i)" ;
+    esg:description "An entity's absolute gross greenhouse gas emissions generated during the reporting period, expressed as metric tonnes of CO₂ equivalent, classified as Scope 1, Scope 2, and Scope 3 greenhouse gas emissions." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:35:40.624758"^^xsd:dateTime .
+
+esg:metric_AASB-S2_12_005 a esg:Metric ;
+    rdfs:label "Assets or business activities vulnerable to climate-related transition risks" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Amount and Percentage" ;
+    esg:code "29(b)" ;
+    esg:description "The amount and percentage of assets or business activities vulnerable to climate-related transition risks." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:35:40.624764"^^xsd:dateTime .
+
+esg:metric_AASB-S2_12_006 a esg:Metric ;
+    rdfs:label "Assets or business activities vulnerable to climate-related physical risks" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Amount and Percentage" ;
+    esg:code "29(c)" ;
+    esg:description "The amount and percentage of assets or business activities vulnerable to climate-related physical risks." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:35:40.624767"^^xsd:dateTime .
+
+esg:metric_AASB-S2_12_007 a esg:Metric ;
+    rdfs:label "Assets or business activities aligned with climate-related opportunities" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Amount and Percentage" ;
+    esg:code "29(d)" ;
+    esg:description "The amount and percentage of assets or business activities aligned with climate-related opportunities." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:35:40.624770"^^xsd:dateTime .
+
+esg:metric_AASB-S2_12_008 a esg:Metric ;
+    rdfs:label "Capital deployment towards climate-related risks and opportunities" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Currency amount (presentation currency of entity's financial statements)" ;
+    esg:code "29(e)" ;
+    esg:description "The amount of capital expenditure, financing or investment deployed towards climate-related risks and opportunities." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:35:40.624773"^^xsd:dateTime .
+
+esg:metric_AASB-S2_12_009 a esg:Metric ;
+    rdfs:label "Internal carbon price" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Currency per metric tonne of greenhouse gas emissions" ;
+    esg:code "29(f)(ii)" ;
+    esg:description "The price for each metric tonne of greenhouse gas emissions the entity uses to assess the costs of its greenhouse gas emissions." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:35:40.624775"^^xsd:dateTime .
+
+esg:metric_AASB-S2_12_010 a esg:Metric ;
+    rdfs:label "Percentage of executive remuneration linked to climate-related considerations" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Percentage (%)" ;
+    esg:code "29(g)(ii)" ;
+    esg:description "The percentage of executive management remuneration recognised in the current period that is linked to climate-related considerations." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:35:40.624778"^^xsd:dateTime .
+
+esg:metric_AASB-S2_25_001 a esg:Metric ;
+    rdfs:label "Financed emissions (absolute gross)" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:unit "Metric tonnes of CO₂ equivalent (t CO₂-e)" ;
+    esg:code "B61(a), B62(a), B63(a)" ;
+    esg:description "The portion of gross greenhouse gas emissions of an investee or counterparty attributed to the loans and investments made by an entity to the investee or counterparty. Disaggregated by Scope 1, Scope 2, and Scope 3 greenhouse gas emissions for each industry by asset class." ;
+    esg:disaggregations ['By Scope 1, 2, 3', 'By industry (GICS 6-digit)', 'By asset class (loans, project finance, bonds, equity, undrawn commitments)'] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:35:40.624781"^^xsd:dateTime .
+
+esg:metric_AASB-S2_25_002 a esg:Metric ;
+    rdfs:label "Entity financial exposure (AUM or gross exposure)" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Currency amount (presentation currency of entity's financial statements)" ;
+    esg:code "B61(b), B62(b), B63(b)" ;
+    esg:description "For asset management: total amount of assets under management (AUM) included in the financed emissions disclosure. For commercial banking and insurance: gross exposure for each industry by asset class (funded carrying amounts before loss allowance, full amount of undrawn commitments)." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:35:40.624786"^^xsd:dateTime .
+
+esg:metric_AASB-S2_25_003 a esg:Metric ;
+    rdfs:label "Counterparty greenhouse gas emissions (Scope 1, 2, 3)" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Metric tonnes of CO₂ equivalent (t CO₂-e)" ;
+    esg:code "B58–B63" ;
+    esg:description "The gross greenhouse gas emissions (Scope 1, 2, 3) of the investee or counterparty to which the entity has financial exposure, used as an input to calculate financed emissions." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "2.Australia-AASBS2_09-24" ;
+    prov:generatedAtTime "2025-11-18T13:35:40.624789"^^xsd:dateTime .
+
+esg:industry_005 esg:ReportUsing esg:framework_001 .
+esg:industry_004 esg:ReportUsing esg:framework_001 .
+esg:framework_001 esg:Include esg:category_2.Australia-AASBS2_09-24_governance .
+esg:framework_001 esg:Include esg:category_2.Australia-AASBS2_09-24_strategy .
+esg:framework_001 esg:Include esg:category_2.Australia-AASBS2_09-24_metrics .
+esg:category_2.Australia-AASBS2_09-24_governance esg:ConsistOf esg:metric_AASB-S2_gov_001 .
+esg:category_2.Australia-AASBS2_09-24_governance esg:ConsistOf esg:metric_AASB-S2_gov_002 .
+esg:category_2.Australia-AASBS2_09-24_strategy esg:ConsistOf esg:metric_AASB-S2_strat_001 .
+esg:category_2.Australia-AASBS2_09-24_strategy esg:ConsistOf esg:metric_AASB-S2_strat_002 .
+esg:category_2.Australia-AASBS2_09-24_strategy esg:ConsistOf esg:metric_AASB-S2_strat_003 .
+esg:category_2.Australia-AASBS2_09-24_strategy esg:ConsistOf esg:metric_AASB-S2_001 .
+esg:category_2.Australia-AASBS2_09-24_strategy esg:ConsistOf esg:metric_AASB-S2_002 .
+esg:category_2.Australia-AASBS2_09-24_strategy esg:ConsistOf esg:metric_AASB-S2_003 .
+esg:category_2.Australia-AASBS2_09-24_metrics esg:ConsistOf esg:metric_AASB-S2_005 .
+esg:metric_AASB-S2_005 esg:IsCalculatedBy esg:model_AASB-S2_005 .
+esg:model_AASB-S2_005 esg:RequiresInputFrom esg:metric_AASB-S2_006 .
+esg:model_AASB-S2_005 esg:RequiresInputFrom esg:metric_AASB-S2_007 .
+esg:model_AASB-S2_005 esg:RequiresInputFrom esg:metric_AASB-S2_008 .
+esg:category_2.Australia-AASBS2_09-24_metrics esg:ConsistOf esg:metric_AASB-S2_009 .
+esg:category_2.Australia-AASBS2_09-24_metrics esg:ConsistOf esg:metric_AASB-S2_010 .
+esg:category_2.Australia-AASBS2_09-24_metrics esg:ConsistOf esg:metric_AASB-S2_011 .
+esg:category_2.Australia-AASBS2_09-24_metrics esg:ConsistOf esg:metric_AASB-S2_012 .
+esg:category_2.Australia-AASBS2_09-24_metrics esg:ConsistOf esg:metric_AASB-S2_013 .
+esg:category_2.Australia-AASBS2_09-24_metrics esg:ConsistOf esg:metric_AASB-S2_014 .
+esg:metric_AASB-S2_014 esg:IsCalculatedBy esg:model_AASB-S2_014 .
+esg:model_AASB-S2_014 esg:RequiresInputFrom esg:metric_AASB-S2_015 .
+esg:model_AASB-S2_014 esg:RequiresInputFrom esg:metric_AASB-S2_016 .
+esg:category_2.Australia-AASBS2_09-24_metrics esg:ConsistOf esg:metric_AASB-S2_017 .
+esg:framework_001 esg:Include esg:category_AASBS2_25 .
+esg:framework_001 esg:Include esg:category_AASBS2_25_AssetMgmt .
+esg:framework_001 esg:Include esg:category_AASBS2_26_CommBank .
+esg:framework_001 esg:Include esg:category_AASBS2_26_Insurance .
+esg:category_AASBS2_25_AssetMgmt esg:ConsistOf esg:metric_AASBS2_25_001 .
+esg:metric_AASBS2_25_001 esg:IsCalculatedBy esg:model_AASBS2_25_001 .
+esg:model_AASBS2_25_001 esg:RequiresInputFrom esg:metric_AASBS2_25_002 .
+esg:model_AASBS2_25_001 esg:RequiresInputFrom esg:metric_AASBS2_25_003 .
+esg:model_AASBS2_25_001 esg:RequiresInputFrom esg:metric_AASBS2_25_004 .
+esg:category_AASBS2_25_AssetMgmt esg:ConsistOf esg:metric_AASBS2_25_005 .
+esg:category_AASBS2_25_AssetMgmt esg:ConsistOf esg:metric_AASBS2_25_006 .
+esg:category_AASBS2_25_AssetMgmt esg:ConsistOf esg:metric_AASBS2_25_007 .
+esg:category_AASBS2_26_CommBank esg:ConsistOf esg:metric_AASBS2_26_001 .
+esg:metric_AASBS2_26_001 esg:IsCalculatedBy esg:model_AASBS2_26_001 .
+esg:model_AASBS2_26_001 esg:RequiresInputFrom esg:metric_AASBS2_26_002 .
+esg:model_AASBS2_26_001 esg:RequiresInputFrom esg:metric_AASBS2_26_003 .
+esg:model_AASBS2_26_001 esg:RequiresInputFrom esg:metric_AASBS2_26_004 .
+esg:category_AASBS2_26_CommBank esg:ConsistOf esg:metric_AASBS2_26_005 .
+esg:category_AASBS2_26_CommBank esg:ConsistOf esg:metric_AASBS2_26_006 .
+esg:category_AASBS2_26_CommBank esg:ConsistOf esg:metric_AASBS2_26_007 .
+esg:category_AASBS2_26_Insurance esg:ConsistOf esg:metric_AASBS2_26_008 .
+esg:metric_AASBS2_26_008 esg:IsCalculatedBy esg:model_AASBS2_26_008 .
+esg:model_AASBS2_26_008 esg:RequiresInputFrom esg:metric_AASBS2_26_009 .
+esg:model_AASBS2_26_008 esg:RequiresInputFrom esg:metric_AASBS2_26_010 .
+esg:model_AASBS2_26_008 esg:RequiresInputFrom esg:metric_AASBS2_26_011 .
+esg:category_AASBS2_26_Insurance esg:ConsistOf esg:metric_AASBS2_27_001 .
+esg:category_AASBS2_26_Insurance esg:ConsistOf esg:metric_AASBS2_27_002 .
+esg:category_AASBS2_26_Insurance esg:ConsistOf esg:metric_AASBS2_27_003 .
+esg:framework_001 esg:Include esg:category_AASB-S2_12 .
+esg:category_AASB-S2_12 esg:ConsistOf esg:metric_AASB-S2_12_001 .
+esg:category_AASB-S2_12 esg:ConsistOf esg:metric_AASB-S2_12_002 .
+esg:category_AASB-S2_12 esg:ConsistOf esg:metric_AASB-S2_12_003 .
+esg:category_AASB-S2_12 esg:ConsistOf esg:metric_AASB-S2_12_004 .
+esg:metric_AASB-S2_12_004 esg:IsCalculatedBy esg:model_AASB-S2_005 .
+esg:model_AASB-S2_005 esg:RequiresInputFrom esg:metric_AASB-S2_12_001 .
+esg:model_AASB-S2_005 esg:RequiresInputFrom esg:metric_AASB-S2_12_002 .
+esg:model_AASB-S2_005 esg:RequiresInputFrom esg:metric_AASB-S2_12_003 .
+esg:category_AASB-S2_12 esg:ConsistOf esg:metric_AASB-S2_12_005 .
+esg:category_AASB-S2_12 esg:ConsistOf esg:metric_AASB-S2_12_006 .
+esg:category_AASB-S2_12 esg:ConsistOf esg:metric_AASB-S2_12_007 .
+esg:category_AASB-S2_12 esg:ConsistOf esg:metric_AASB-S2_12_008 .
+esg:category_AASB-S2_12 esg:ConsistOf esg:metric_AASB-S2_12_009 .
+esg:category_AASB-S2_12 esg:ConsistOf esg:metric_AASB-S2_12_010 .
+esg:category_AASB-S2_12 esg:ConsistOf esg:metric_AASB-S2_25_001 .
+esg:metric_AASB-S2_25_001 esg:IsCalculatedBy esg:model_AASBS2_25_001 .
+esg:model_AASBS2_25_001 esg:RequiresInputFrom esg:metric_AASB-S2_25_002 .
+esg:model_AASBS2_25_001 esg:RequiresInputFrom esg:metric_AASB-S2_25_003 .

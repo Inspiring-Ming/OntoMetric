@@ -1,0 +1,3 @@
+Method,Effective Cost (USD),Wasted Cost (USD),Total Cost (USD),Wasted Percentage (%)
+Baseline,0.1244,4.3577,4.4820,97.23
+Ontology-Guided,3.7037,0.8578,4.5615,18.80

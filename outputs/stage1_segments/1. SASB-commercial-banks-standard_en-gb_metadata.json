@@ -1,0 +1,79 @@
+{
+  "document_name": "1. SASB-commercial-banks-standard_en-gb",
+  "title": "Commercial Banks Sustainability Accounting Standard FINANCIALS SECTOR",
+  "total_pages": 23,
+  "total_segments": 10,
+  "processing_timestamp": "2025-10-20 13:19:24",
+  "sections": [
+    {
+      "number": "1",
+      "title": "Title & Document Information",
+      "pages": "0-0",
+      "word_count": 35,
+      "table_count": 0
+    },
+    {
+      "number": "2",
+      "title": "Overview of SASB Standards",
+      "pages": "4-4",
+      "word_count": 346,
+      "table_count": 0
+    },
+    {
+      "number": "3",
+      "title": "Industry Description",
+      "pages": "5-5",
+      "word_count": 324,
+      "table_count": 1
+    },
+    {
+      "number": "4",
+      "title": "Sustainability Disclosure Topics & Metrics",
+      "pages": "6-7",
+      "word_count": 660,
+      "table_count": 2
+    },
+    {
+      "number": "5",
+      "title": "Data Security",
+      "pages": "8-10",
+      "word_count": 989,
+      "table_count": 0
+    },
+    {
+      "number": "6",
+      "title": "Financial Inclusion & Capacity Building",
+      "pages": "11-13",
+      "word_count": 1079,
+      "table_count": 0
+    },
+    {
+      "number": "7",
+      "title": "Incorporation of Environmental, Social, and Governance Factors in Credit Analysis",
+      "pages": "14-16",
+      "word_count": 782,
+      "table_count": 0
+    },
+    {
+      "number": "8",
+      "title": "Financed Emissions",
+      "pages": "17-18",
+      "word_count": 600,
+      "table_count": 0
+    },
+    {
+      "number": "9",
+      "title": "Business Ethics",
+      "pages": "19-20",
+      "word_count": 574,
+      "table_count": 0
+    },
+    {
+      "number": "10",
+      "title": "Systemic Risk Management",
+      "pages": "21-22",
+      "word_count": 214,
+      "table_count": 0
+    }
+  ]
+}

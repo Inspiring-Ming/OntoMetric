@@ -1,0 +1,83 @@
+ESG Knowledge Extraction Log
+==================================================
+Document: Semiconductors Sustainability Accounting Standard TECHNOLOGY & COMMUNICATIONS SECTOR
+Processing Date: 2025-11-18 13:44:22
+Total Segments: 13
+
+Segment 1: Title & Document Information
+  Entities: 2
+  Relationships: 1
+  Quality Score: 1.00
+  Validation Notes: None
+
+Segment 2: Overview of SASB Standards
+  Entities: 3
+  Relationships: 2
+  Quality Score: 1.00
+  Validation Notes: None
+
+Segment 3: Industry Description
+  Entities: 29
+  Relationships: 28
+  Quality Score: 0.80
+  Validation Notes: Some entities have invalid types
+
+Segment 4: Sustainability Disclosure Topics & Metrics
+  Entities: 17
+  Relationships: 16
+  Quality Score: 0.82
+  Validation Notes: Some entities have invalid types
+
+Segment 5: Greenhouse Gas Emissions
+  Entities: 10
+  Relationships: 9
+  Quality Score: 0.83
+  Validation Notes: Some entities have invalid types
+
+Segment 6: Energy Management in Manufacturing
+  Entities: 8
+  Relationships: 7
+  Quality Score: 0.88
+  Validation Notes: Some entities have invalid types
+
+Segment 7: Water Management
+  Entities: 17
+  Relationships: 16
+  Quality Score: 0.80
+  Validation Notes: Some entities have invalid types
+
+Segment 8: Waste Management
+  Entities: 4
+  Relationships: 3
+  Quality Score: 0.92
+  Validation Notes: Some entities have invalid types
+
+Segment 9: Workforce Health & Safety
+  Entities: 9
+  Relationships: 8
+  Quality Score: 0.85
+  Validation Notes: Some entities have invalid types
+
+Segment 10: Recruiting & Managing a Global & Skilled Workforce
+  Entities: 7
+  Relationships: 6
+  Quality Score: 0.86
+  Validation Notes: Some entities have invalid types
+
+Segment 11: Product Lifecycle Management
+  Entities: 12
+  Relationships: 11
+  Quality Score: 0.81
+  Validation Notes: Some entities have invalid types
+
+Segment 12: Materials Sourcing
+  Entities: 5
+  Relationships: 4
+  Quality Score: 0.87
+  Validation Notes: Some entities have invalid types
+
+Segment 13: Intellectual Property Protection & Competitive Behaviour
+  Entities: 0
+  Relationships: 0
+  Quality Score: 0.00
+  Validation Notes: No entities or relationships extracted

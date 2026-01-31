@@ -1,0 +1,68 @@
+================================================================================
+LLM COST REPORT
+================================================================================
+Document: 1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures_ontology_guided
+Generated: 2025-11-18 14:10:51
+
+SUMMARY
+--------------------------------------------------------------------------------
+Total Segments Processed: 10
+Models Used: claude-sonnet-4-5-20250929
+
+Token Usage:
+  Input Tokens:        72,864
+  Output Tokens:       41,923
+  Total Tokens:       114,787
+
+Cost Breakdown:
+  Input Cost:  $    0.2186 USD
+  Output Cost: $    0.6288 USD
+  ────────────────────────
+  TOTAL COST:  $    0.8474 USD
+
+Average Cost per Segment: $0.0847 USD
+
+PER-SEGMENT BREAKDOWN
+--------------------------------------------------------------------------------
+Segment ID      Pages         Input Tok   Output Tok   Cost (USD)
+--------------------------------------------------------------------------------
+seg_001         p.0               4,260          878 $     0.0260
+seg_002         p.5-7             5,794        5,386 $     0.0982
+seg_003         p.8-23           11,674        7,279 $     0.1442
+seg_004         p.24-26           6,139        4,199 $     0.0814
+seg_005         p.7               4,785        5,097 $     0.0908
+seg_006         p.8               4,767        2,404 $     0.0504
+seg_007         p.9               4,690        4,833 $     0.0866
+seg_008         p.10              4,757        2,107 $     0.0459
+seg_009         p.11              4,763        2,938 $     0.0584
+seg_010         p.12-45          21,235        6,802 $     0.1657
+
+PRICING REFERENCE (per million tokens)
+--------------------------------------------------------------------------------
+claude-3-5-sonnet-20241022
+  Input:  $3.00/MTok
+  Output: $15.00/MTok
+
+claude-3-5-sonnet-20240620
+  Input:  $3.00/MTok
+  Output: $15.00/MTok
+
+claude-3-5-haiku-20241022
+  Input:  $1.00/MTok
+  Output: $5.00/MTok
+
+claude-3-opus-20240229
+  Input:  $15.00/MTok
+  Output: $75.00/MTok
+
+claude-3-sonnet-20240229
+  Input:  $3.00/MTok
+  Output: $15.00/MTok
+
+claude-3-haiku-20240307
+  Input:  $0.25/MTok
+  Output: $1.25/MTok
+
+================================================================================
+Note: Verify latest pricing at https://www.anthropic.com/pricing
+================================================================================

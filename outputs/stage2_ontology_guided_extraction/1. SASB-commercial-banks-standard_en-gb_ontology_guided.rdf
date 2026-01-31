@@ -1,0 +1,587 @@
+@prefix esg: <http://example.org/esg-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+# Knowledge Graph extracted from: Commercial Banks Sustainability Accounting Standard FINANCIALS SECTOR
+# Extraction timestamp: 2025-11-18T14:02:44.366511
+# Total entities: 53
+# Total relationships: 53
+
+esg:industry_SASB-CB a esg:Industry ;
+    rdfs:label "Commercial Banks" ;
+    esg:sector "Financials" ;
+    esg:country "N/A" ;
+    esg:standard_reference "SICS® FN-CB" ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:55:53.019658"^^xsd:dateTime .
+
+esg:framework_SASB a esg:ReportingFramework ;
+    rdfs:label "SASB" ;
+    esg:name "SASB" ;
+    esg:version "2023-12" ;
+    esg:year "2023" ;
+    esg:publisher "International Sustainability Standards Board (IFRS Foundation)" ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:55:53.019672"^^xsd:dateTime .
+
+esg:category_SASB-CB_6_01 a esg:Category ;
+    rdfs:label "Data Security" ;
+    esg:section_title "Data Security" ;
+    esg:section_id "CB-230a" ;
+    esg:page_range "6" ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:57:40.126400"^^xsd:dateTime .
+
+esg:category_SASB-CB_6_02 a esg:Category ;
+    rdfs:label "Financial Inclusion & Capacity Building" ;
+    esg:section_title "Financial Inclusion & Capacity Building" ;
+    esg:section_id "CB-240a" ;
+    esg:page_range "6" ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:57:40.126410"^^xsd:dateTime .
+
+esg:category_SASB-CB_6_03 a esg:Category ;
+    rdfs:label "Incorporation of Environmental, Social, and Governance (ESG) Factors in Credit Analysis" ;
+    esg:section_title "Incorporation of Environmental, Social, and Governance (ESG) Factors in Credit Analysis" ;
+    esg:section_id "CB-410a" ;
+    esg:page_range "6" ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:57:40.126414"^^xsd:dateTime .
+
+esg:category_SASB-CB_6_04 a esg:Category ;
+    rdfs:label "Financed Emissions" ;
+    esg:section_title "Financed Emissions" ;
+    esg:section_id "CB-410b" ;
+    esg:page_range "6" ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:57:40.126418"^^xsd:dateTime .
+
+esg:metric_SASB-CB_6_001 a esg:Metric ;
+    rdfs:label "Data Breaches Composite Metric" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:unit "Number, Percentage (%)" ;
+    esg:code "FN-CB-230a.1" ;
+    esg:description "(1) Number of data breaches, (2) percentage that are personal data breaches, (3) number of account holders affected" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:57:40.126422"^^xsd:dateTime .
+
+esg:model_SASB-CB_6_001 a esg:Model ;
+    rdfs:label "Data Breaches Composite Model" ;
+    esg:description "Composite metric combining number of data breaches, percentage that are personal data breaches, and number of account holders affected" ;
+    esg:equation "f(NumberBreaches, PercentagePersonal, AccountHoldersAffected)" ;
+    esg:input_variables ['Number of data breaches', 'Percentage that are personal data breaches', 'Number of account holders affected'] ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:57:40.126425"^^xsd:dateTime .
+
+esg:metric_SASB-CB_8_002 a esg:Metric ;
+    rdfs:label "Number of Data Breaches" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Number" ;
+    esg:code "N/A" ;
+    esg:description "Total number of data breaches identified during the reporting period" ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:58:57.786847"^^xsd:dateTime .
+
+esg:metric_SASB-CB_6_001b a esg:Metric ;
+    rdfs:label "Percentage of Personal Data Breaches" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Percentage (%)" ;
+    esg:code "N/A" ;
+    esg:description "Percentage of total breaches that involve personal data" ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:57:40.126432"^^xsd:dateTime .
+
+esg:metric_SASB-CB_8_004 a esg:Metric ;
+    rdfs:label "Number of Account Holders Affected" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Number" ;
+    esg:code "N/A" ;
+    esg:description "Number of account holders affected by data breaches" ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:58:57.786851"^^xsd:dateTime .
+
+esg:metric_SASB-CB_6_002 a esg:Metric ;
+    rdfs:label "Data Security Risk Approach" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "FN-CB-230a.2" ;
+    esg:description "Description of approach to identifying and addressing data security risks" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:57:40.126439"^^xsd:dateTime .
+
+esg:metric_SASB-CB_6_003 a esg:Metric ;
+    rdfs:label "Small Business and Community Development Loans" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:unit "Number, Presentation currency" ;
+    esg:code "FN-CB-240a.1" ;
+    esg:description "(1) Number and (2) amount of loans outstanding that qualify for programmes designed to promote small business and community development" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:57:40.126443"^^xsd:dateTime .
+
+esg:model_SASB-CB_6_003 a esg:Model ;
+    rdfs:label "Small Business Loans Composite Model" ;
+    esg:description "Composite metric combining number and amount of loans outstanding for small business and community development programmes" ;
+    esg:equation "f(NumberLoans, AmountOutstanding)" ;
+    esg:input_variables ['Number of loans', 'Amount of loans outstanding'] ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:57:40.126446"^^xsd:dateTime .
+
+esg:metric_SASB-CB_6_003a a esg:Metric ;
+    rdfs:label "Number of Small Business Loans" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Number" ;
+    esg:code "N/A" ;
+    esg:description "Number of loans outstanding that qualify for small business and community development programmes" ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:57:40.126449"^^xsd:dateTime .
+
+esg:metric_SASB-CB_6_003b a esg:Metric ;
+    rdfs:label "Amount of Small Business Loans Outstanding" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Presentation currency" ;
+    esg:code "N/A" ;
+    esg:description "Amount of loans outstanding that qualify for small business and community development programmes" ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:57:40.126452"^^xsd:dateTime .
+
+esg:metric_SASB-CB_6_004 a esg:Metric ;
+    rdfs:label "Past Due and Nonaccrual Small Business Loans" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:unit "Number, Presentation currency" ;
+    esg:code "FN-CB-240a.2" ;
+    esg:description "(1) Number and (2) amount of past due and nonaccrual loans or loans subject to forbearance that qualify for programmes designed to promote small business and community development" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:57:40.126456"^^xsd:dateTime .
+
+esg:model_SASB-CB_6_004 a esg:Model ;
+    rdfs:label "Past Due Loans Composite Model" ;
+    esg:description "Composite metric combining number and amount of past due and nonaccrual loans for small business and community development programmes" ;
+    esg:equation "f(NumberPastDue, AmountPastDue)" ;
+    esg:input_variables ['Number of past due loans', 'Amount of past due loans'] ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:57:40.126459"^^xsd:dateTime .
+
+esg:metric_SASB-CB_6_004a a esg:Metric ;
+    rdfs:label "Number of Past Due Small Business Loans" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Number" ;
+    esg:code "N/A" ;
+    esg:description "Number of past due and nonaccrual loans or loans subject to forbearance" ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:57:40.126463"^^xsd:dateTime .
+
+esg:metric_SASB-CB_6_004b a esg:Metric ;
+    rdfs:label "Amount of Past Due Small Business Loans" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Presentation currency" ;
+    esg:code "N/A" ;
+    esg:description "Amount of past due and nonaccrual loans or loans subject to forbearance" ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:57:40.126466"^^xsd:dateTime .
+
+esg:metric_SASB-CB_6_005 a esg:Metric ;
+    rdfs:label "No-Cost Retail Checking Accounts" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Number" ;
+    esg:code "FN-CB-240a.3" ;
+    esg:description "Number of no-cost retail checking accounts provided to previously unbanked or underbanked customers" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:57:40.126470"^^xsd:dateTime .
+
+esg:metric_SASB-CB_6_006 a esg:Metric ;
+    rdfs:label "Financial Literacy Initiative Participants" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Number" ;
+    esg:code "FN-CB-240a.4" ;
+    esg:description "Number of participants in financial literacy initiatives for unbanked, underbanked, or underserved customers" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:57:40.126473"^^xsd:dateTime .
+
+esg:metric_SASB-CB_6_007 a esg:Metric ;
+    rdfs:label "ESG Factors in Credit Analysis" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "FN-CB-410a.2" ;
+    esg:description "Description of approach to incorporation of environmental, social and governance (ESG) factors in credit analysis" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:57:40.126476"^^xsd:dateTime .
+
+esg:metric_SASB-CB_16_001 a esg:Metric ;
+    rdfs:label "Absolute Gross Financed Emissions" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Metric tons CO₂-e" ;
+    esg:code "FN-CB-410b.1" ;
+    esg:description "Absolute gross financed emissions, disaggregated by Scope 1, Scope 2 and Scope 3 for each industry by asset class. Measured in accordance with paragraph 29(a) and B62 of IFRS S2 Climate-related Disclosures." ;
+    esg:disaggregations ['Scope 1', 'Scope 2', 'Scope 3'] ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T14:00:47.004601"^^xsd:dateTime .
+
+esg:metric_SASB-CB_16_002 a esg:Metric ;
+    rdfs:label "Gross Exposure by Industry and Asset Class" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Reporting currency" ;
+    esg:code "FN-CB-410b.2" ;
+    esg:description "Gross exposure for each industry by asset class, expressed in the presentation currency of the entity's financial statements. Prepared in accordance with paragraph B62 of IFRS S2 Climate-related Disclosures." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T14:00:47.004605"^^xsd:dateTime .
+
+esg:metric_SASB-CB_18_001 a esg:Metric ;
+    rdfs:label "Percentage of Gross Exposure in Financed Emissions" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Percentage (%)" ;
+    esg:code "FN-CB-410b.3" ;
+    esg:description "Percentage of gross exposure included in the financed emissions calculation. If less than 100%, entity shall disclose information explaining exclusions, including the type of assets excluded." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T14:01:21.613980"^^xsd:dateTime .
+
+esg:metric_SASB-CB_18_002 a esg:Metric ;
+    rdfs:label "Financed Emissions Methodology Description" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "FN-CB-410b.4" ;
+    esg:description "Description of the methodology used to calculate financed emissions, including the method of allocation used to attribute share of emissions in relation to the size of gross exposure." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T14:01:21.613983"^^xsd:dateTime .
+
+esg:category_SASB-CB_7_BE a esg:Category ;
+    rdfs:label "Business Ethics" ;
+    esg:section_title "Business Ethics" ;
+    esg:section_id "FN-CB-510a" ;
+    esg:page_range "7" ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:58:57.786808"^^xsd:dateTime .
+
+esg:category_SASB-CB_7_SRM a esg:Category ;
+    rdfs:label "Systemic Risk Management" ;
+    esg:section_title "Systemic Risk Management" ;
+    esg:section_id "FN-CB-550a" ;
+    esg:page_range "7" ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:58:57.786811"^^xsd:dateTime .
+
+esg:category_SASB-CB_7_AM a esg:Category ;
+    rdfs:label "Activity Metrics" ;
+    esg:section_title "Activity Metrics" ;
+    esg:section_id "FN-CB-000" ;
+    esg:page_range "7" ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:58:57.786813"^^xsd:dateTime .
+
+esg:metric_SASB-CB_18_003 a esg:Metric ;
+    rdfs:label "Monetary Losses from Legal Proceedings" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Monetary value" ;
+    esg:code "FN-CB-510a.1" ;
+    esg:description "Total amount of monetary losses as a result of legal proceedings associated with fraud, insider trading, antitrust, anti-competitive behaviour, market manipulation, malpractice, or other related financial industry laws or regulations." ;
+    esg:disaggregations ['Fraud', 'Insider trading', 'Antitrust', 'Anti-competitive behaviour', 'Market manipulation', 'Malpractice', 'Civil actions', 'Regulatory proceedings', 'Criminal actions'] ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T14:01:21.613986"^^xsd:dateTime .
+
+esg:metric_SASB-CB-GB_20_001 a esg:Metric ;
+    rdfs:label "Whistleblower Policies and Procedures" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "FN-CB-510a.2" ;
+    esg:description "Description of whistleblower policies and procedures including internal compliance programmes, hotline details, publication of hotline number, incentives for reporting violations, methods for submitting tips, applicable jurisdictional laws, and any violations with corrective actions" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T14:02:10.314737"^^xsd:dateTime .
+
+esg:metric_SASB-CB-GB_21_001 a esg:Metric ;
+    rdfs:label "G-SIB Overall Score" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:unit "Score" ;
+    esg:code "FN-CB-550a.1" ;
+    esg:description "Global Systemically Important Bank (G-SIB) overall score calculated from (1) size, (2) cross-jurisdictional activity, (3) interconnectedness, (4) substitutability, and (5) complexity categories" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T14:02:10.314739"^^xsd:dateTime .
+
+esg:model_SASB-CB_7_003 a esg:Model ;
+    rdfs:label "G-SIB Score Calculation Model" ;
+    esg:description "G-SIB score calculated by category including size, interconnectedness, substitutability, complexity, and cross-jurisdictional activity as per Basel III framework" ;
+    esg:equation "N/A" ;
+    esg:input_variables ['Size category score', 'Interconnectedness category score', 'Substitutability category score', 'Complexity category score', 'Cross-jurisdictional activity category score'] ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:58:57.786825"^^xsd:dateTime .
+
+esg:metric_SASB-CB_7_004 a esg:Metric ;
+    rdfs:label "Size Category Score" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Basis points (bps)" ;
+    esg:code "N/A" ;
+    esg:description "G-SIB category score for size indicator" ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:58:57.786827"^^xsd:dateTime .
+
+esg:metric_SASB-CB_7_005 a esg:Metric ;
+    rdfs:label "Interconnectedness Category Score" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Basis points (bps)" ;
+    esg:code "N/A" ;
+    esg:description "G-SIB category score for interconnectedness indicator" ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:58:57.786829"^^xsd:dateTime .
+
+esg:metric_SASB-CB_7_006 a esg:Metric ;
+    rdfs:label "Substitutability Category Score" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Basis points (bps)" ;
+    esg:code "N/A" ;
+    esg:description "G-SIB category score for substitutability indicator" ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:58:57.786831"^^xsd:dateTime .
+
+esg:metric_SASB-CB_7_007 a esg:Metric ;
+    rdfs:label "Complexity Category Score" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Basis points (bps)" ;
+    esg:code "N/A" ;
+    esg:description "G-SIB category score for complexity indicator" ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:58:57.786833"^^xsd:dateTime .
+
+esg:metric_SASB-CB_7_008 a esg:Metric ;
+    rdfs:label "Cross-Jurisdictional Activity Category Score" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Basis points (bps)" ;
+    esg:code "N/A" ;
+    esg:description "G-SIB category score for cross-jurisdictional activity indicator" ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:58:57.786835"^^xsd:dateTime .
+
+esg:metric_SASB-CB_22_002 a esg:Metric ;
+    rdfs:label "Integration of Stress Test Results into Business Strategy" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "FN-CB-550a.2" ;
+    esg:description "Description of approach to integrate results of mandatory and voluntary stress tests into capital adequacy planning, long-term corporate strategy, and other business activities." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T14:02:44.353487"^^xsd:dateTime .
+
+esg:metric_SASB-CB_7_010 a esg:Metric ;
+    rdfs:label "Checking and Savings Accounts" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Number, Presentation currency" ;
+    esg:code "FN-CB-000.A" ;
+    esg:description "(1) Number and (2) value of checking and savings accounts by segment: (a) personal and (b) small business" ;
+    esg:disaggregations ['personal', 'small business'] ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:58:57.786839"^^xsd:dateTime .
+
+esg:metric_SASB-CB_7_011 a esg:Metric ;
+    rdfs:label "Loans by Segment" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Number, Presentation currency" ;
+    esg:code "FN-CB-000.B" ;
+    esg:description "(1) Number and (2) value of loans by segment: (a) personal, (b) small business, and (c) corporate" ;
+    esg:disaggregations ['personal', 'small business', 'corporate'] ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:58:57.786841"^^xsd:dateTime .
+
+esg:metric_SASB-CB_8_003 a esg:Metric ;
+    rdfs:label "Percentage Personal Data Breaches" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Percentage (%)" ;
+    esg:code "N/A" ;
+    esg:description "Percentage of data breaches that were personal data breaches" ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:58:57.786849"^^xsd:dateTime .
+
+esg:model_SASB-CB_11_001 a esg:Model ;
+    rdfs:label "Small Business and Community Development Loans Model" ;
+    esg:description "Composite metric combining the number and amount of loans outstanding for small business and community development programmes" ;
+    esg:equation "f(NumberOfLoans, AmountOfLoans)" ;
+    esg:input_variables ['Number of loans outstanding', 'Amount of loans outstanding'] ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:59:33.152376"^^xsd:dateTime .
+
+esg:metric_SASB-CB_11_002 a esg:Metric ;
+    rdfs:label "Number of Loans Outstanding" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Number" ;
+    esg:code "N/A" ;
+    esg:description "Total number of loans outstanding that qualify for programmes designed to promote small business and community development" ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:59:33.152379"^^xsd:dateTime .
+
+esg:metric_SASB-CB_11_003 a esg:Metric ;
+    rdfs:label "Amount of Loans Outstanding" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Currency" ;
+    esg:code "N/A" ;
+    esg:description "Total amount outstanding on loans that qualify for programmes designed to promote small business and community development" ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T13:59:33.152382"^^xsd:dateTime .
+
+esg:category_SASB-CB_14 a esg:Category ;
+    rdfs:label "Incorporation of Environmental, Social, and Governance Factors in Credit Analysis" ;
+    esg:section_title "Incorporation of Environmental, Social, and Governance Factors in Credit Analysis" ;
+    esg:section_id "CB-410a" ;
+    esg:page_range "13-14" ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T14:00:08.912044"^^xsd:dateTime .
+
+esg:metric_SASB-CB_15_001 a esg:Metric ;
+    rdfs:label "ESG Factors in Credit Analysis" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:unit "Discussion and Analysis" ;
+    esg:code "N/A" ;
+    esg:description "Description of approach to incorporation of environmental, social, and governance (ESG) factors in credit analysis, including: parties responsible, roles and responsibilities, ESG research approach, creditworthiness assessment approach, oversight and accountability, scenario analysis at portfolio level, ESG trends consideration, credit exposure concentrations, and influence on traditional macro/microeconomic factors and creditworthiness." ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T14:00:47.004598"^^xsd:dateTime .
+
+esg:metric_SASB-CB-GB_21_002 a esg:Metric ;
+    rdfs:label "G-SIB Size Score" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Score" ;
+    esg:code "N/A" ;
+    esg:description "G-SIB category score for size indicator" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T14:02:10.314746"^^xsd:dateTime .
+
+esg:metric_SASB-CB-GB_21_003 a esg:Metric ;
+    rdfs:label "G-SIB Cross-Jurisdictional Activity Score" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Score" ;
+    esg:code "N/A" ;
+    esg:description "G-SIB category score for cross-jurisdictional activity indicator" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T14:02:10.314748"^^xsd:dateTime .
+
+esg:metric_SASB-CB-GB_21_004 a esg:Metric ;
+    rdfs:label "G-SIB Interconnectedness Score" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Score" ;
+    esg:code "N/A" ;
+    esg:description "G-SIB category score for interconnectedness indicator" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T14:02:10.314751"^^xsd:dateTime .
+
+esg:metric_SASB-CB-GB_21_005 a esg:Metric ;
+    rdfs:label "G-SIB Substitutability Score" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Score" ;
+    esg:code "N/A" ;
+    esg:description "G-SIB category score for substitutability indicator" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T14:02:10.314753"^^xsd:dateTime .
+
+esg:metric_SASB-CB-GB_21_006 a esg:Metric ;
+    rdfs:label "G-SIB Complexity Score" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:unit "Score" ;
+    esg:code "N/A" ;
+    esg:description "G-SIB category score for complexity indicator" ;
+    esg:disaggregations [] ;
+    prov:wasDerivedFrom "1. SASB-commercial-banks-standard_en-gb" ;
+    prov:generatedAtTime "2025-11-18T14:02:10.314756"^^xsd:dateTime .
+
+esg:industry_SASB-CB esg:ReportUsing esg:framework_SASB .
+esg:framework_SASB esg:Include esg:category_SASB-CB_6_01 .
+esg:framework_SASB esg:Include esg:category_SASB-CB_6_02 .
+esg:framework_SASB esg:Include esg:category_SASB-CB_6_03 .
+esg:framework_SASB esg:Include esg:category_SASB-CB_6_04 .
+esg:category_SASB-CB_6_01 esg:ConsistOf esg:metric_SASB-CB_6_001 .
+esg:category_SASB-CB_6_01 esg:ConsistOf esg:metric_SASB-CB_6_002 .
+esg:category_SASB-CB_6_02 esg:ConsistOf esg:metric_SASB-CB_6_003 .
+esg:category_SASB-CB_6_02 esg:ConsistOf esg:metric_SASB-CB_6_004 .
+esg:category_SASB-CB_6_02 esg:ConsistOf esg:metric_SASB-CB_6_005 .
+esg:category_SASB-CB_6_02 esg:ConsistOf esg:metric_SASB-CB_6_006 .
+esg:category_SASB-CB_6_03 esg:ConsistOf esg:metric_SASB-CB_6_007 .
+esg:category_SASB-CB_6_04 esg:ConsistOf esg:metric_SASB-CB_16_001 .
+esg:category_SASB-CB_6_04 esg:ConsistOf esg:metric_SASB-CB_16_002 .
+esg:category_SASB-CB_6_04 esg:ConsistOf esg:metric_SASB-CB_18_001 .
+esg:category_SASB-CB_6_04 esg:ConsistOf esg:metric_SASB-CB_18_002 .
+esg:metric_SASB-CB_6_001 esg:IsCalculatedBy esg:model_SASB-CB_6_001 .
+esg:model_SASB-CB_6_001 esg:RequiresInputFrom esg:metric_SASB-CB_6_001b .
+esg:metric_SASB-CB_6_003 esg:IsCalculatedBy esg:model_SASB-CB_6_003 .
+esg:model_SASB-CB_6_003 esg:RequiresInputFrom esg:metric_SASB-CB_6_003a .
+esg:model_SASB-CB_6_003 esg:RequiresInputFrom esg:metric_SASB-CB_6_003b .
+esg:metric_SASB-CB_6_004 esg:IsCalculatedBy esg:model_SASB-CB_6_004 .
+esg:model_SASB-CB_6_004 esg:RequiresInputFrom esg:metric_SASB-CB_6_004a .
+esg:model_SASB-CB_6_004 esg:RequiresInputFrom esg:metric_SASB-CB_6_004b .
+esg:framework_SASB esg:Include esg:category_SASB-CB_7_BE .
+esg:framework_SASB esg:Include esg:category_SASB-CB_7_SRM .
+esg:framework_SASB esg:Include esg:category_SASB-CB_7_AM .
+esg:category_SASB-CB_7_BE esg:ConsistOf esg:metric_SASB-CB_18_003 .
+esg:category_SASB-CB_7_BE esg:ConsistOf esg:metric_SASB-CB-GB_20_001 .
+esg:category_SASB-CB_7_SRM esg:ConsistOf esg:metric_SASB-CB-GB_21_001 .
+esg:category_SASB-CB_7_SRM esg:ConsistOf esg:metric_SASB-CB_22_002 .
+esg:category_SASB-CB_7_AM esg:ConsistOf esg:metric_SASB-CB_7_010 .
+esg:category_SASB-CB_7_AM esg:ConsistOf esg:metric_SASB-CB_7_011 .
+esg:metric_SASB-CB-GB_21_001 esg:IsCalculatedBy esg:model_SASB-CB_7_003 .
+esg:model_SASB-CB_7_003 esg:RequiresInputFrom esg:metric_SASB-CB_7_004 .
+esg:model_SASB-CB_7_003 esg:RequiresInputFrom esg:metric_SASB-CB_7_005 .
+esg:model_SASB-CB_7_003 esg:RequiresInputFrom esg:metric_SASB-CB_7_006 .
+esg:model_SASB-CB_7_003 esg:RequiresInputFrom esg:metric_SASB-CB_7_007 .
+esg:model_SASB-CB_7_003 esg:RequiresInputFrom esg:metric_SASB-CB_7_008 .
+esg:model_SASB-CB_6_001 esg:RequiresInputFrom esg:metric_SASB-CB_8_002 .
+esg:model_SASB-CB_6_001 esg:RequiresInputFrom esg:metric_SASB-CB_8_003 .
+esg:model_SASB-CB_6_001 esg:RequiresInputFrom esg:metric_SASB-CB_8_004 .
+esg:metric_SASB-CB_6_003 esg:IsCalculatedBy esg:model_SASB-CB_11_001 .
+esg:model_SASB-CB_11_001 esg:RequiresInputFrom esg:metric_SASB-CB_11_002 .
+esg:model_SASB-CB_11_001 esg:RequiresInputFrom esg:metric_SASB-CB_11_003 .
+esg:framework_SASB esg:Include esg:category_SASB-CB_14 .
+esg:category_SASB-CB_14 esg:ConsistOf esg:metric_SASB-CB_6_007 .
+esg:category_SASB-CB_14 esg:ConsistOf esg:metric_SASB-CB_15_001 .
+esg:model_SASB-CB_7_003 esg:RequiresInputFrom esg:metric_SASB-CB-GB_21_002 .
+esg:model_SASB-CB_7_003 esg:RequiresInputFrom esg:metric_SASB-CB-GB_21_003 .
+esg:model_SASB-CB_7_003 esg:RequiresInputFrom esg:metric_SASB-CB-GB_21_004 .
+esg:model_SASB-CB_7_003 esg:RequiresInputFrom esg:metric_SASB-CB-GB_21_005 .
+esg:model_SASB-CB_7_003 esg:RequiresInputFrom esg:metric_SASB-CB-GB_21_006 .

@@ -1,0 +1,508 @@
+@prefix esg: <http://example.org/esg-ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+esg:industry_SASB-CB a esg:Industry ;
+    rdfs:label "Commercial Banks" ;
+    esg:ReportUsing esg:framework_SASB ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:55:53.019658" ;
+    esg:provenance_section_title "Title & Document Information" ;
+    esg:provenance_segment_id "seg_001" ;
+    esg:sector "Financials" ;
+    esg:standard_reference "SICS® FN-CB" .
+
+esg:category_SASB-CB_14 a esg:Category ;
+    rdfs:label "Incorporation of Environmental, Social, and Governance Factors in Credit Analysis" ;
+    esg:ConsistOf esg:metric_SASB-CB_15_001,
+        esg:metric_SASB-CB_6_007 ;
+    esg:page_range "13-14" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T14:00:08.912044" ;
+    esg:provenance_section_title "Financial Inclusion & Capacity Building" ;
+    esg:provenance_segment_id "seg_006" ;
+    esg:section_id "CB-410a" ;
+    esg:section_title "Incorporation of Environmental, Social, and Governance Factors in Credit Analysis" .
+
+esg:category_SASB-CB_6_01 a esg:Category ;
+    rdfs:label "Data Security" ;
+    esg:ConsistOf esg:metric_SASB-CB_6_001,
+        esg:metric_SASB-CB_6_002 ;
+    esg:page_range "6" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:57:40.126400" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" ;
+    esg:section_id "CB-230a" ;
+    esg:section_title "Data Security" .
+
+esg:category_SASB-CB_6_02 a esg:Category ;
+    rdfs:label "Financial Inclusion & Capacity Building" ;
+    esg:ConsistOf esg:metric_SASB-CB_6_003,
+        esg:metric_SASB-CB_6_004,
+        esg:metric_SASB-CB_6_005,
+        esg:metric_SASB-CB_6_006 ;
+    esg:page_range "6" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:57:40.126410" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" ;
+    esg:section_id "CB-240a" ;
+    esg:section_title "Financial Inclusion & Capacity Building" .
+
+esg:category_SASB-CB_6_03 a esg:Category ;
+    rdfs:label "Incorporation of Environmental, Social, and Governance (ESG) Factors in Credit Analysis" ;
+    esg:ConsistOf esg:metric_SASB-CB_6_007 ;
+    esg:page_range "6" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:57:40.126414" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" ;
+    esg:section_id "CB-410a" ;
+    esg:section_title "Incorporation of Environmental, Social, and Governance (ESG) Factors in Credit Analysis" .
+
+esg:category_SASB-CB_6_04 a esg:Category ;
+    rdfs:label "Financed Emissions" ;
+    esg:ConsistOf esg:metric_SASB-CB_16_001,
+        esg:metric_SASB-CB_16_002,
+        esg:metric_SASB-CB_18_001,
+        esg:metric_SASB-CB_18_002 ;
+    esg:page_range "6" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:57:40.126418" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" ;
+    esg:section_id "CB-410b" ;
+    esg:section_title "Financed Emissions" .
+
+esg:category_SASB-CB_7_AM a esg:Category ;
+    rdfs:label "Activity Metrics" ;
+    esg:page_range "7" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:58:57.786813" ;
+    esg:provenance_section_title "Sustainability Disclosure Topics & Metrics" ;
+    esg:provenance_segment_id "seg_004" ;
+    esg:section_id "FN-CB-000" ;
+    esg:section_title "Activity Metrics" .
+
+esg:category_SASB-CB_7_BE a esg:Category ;
+    rdfs:label "Business Ethics" ;
+    esg:ConsistOf esg:metric_SASB-CB-GB_20_001,
+        esg:metric_SASB-CB_18_003 ;
+    esg:page_range "7" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:58:57.786808" ;
+    esg:provenance_section_title "Sustainability Disclosure Topics & Metrics" ;
+    esg:provenance_segment_id "seg_004" ;
+    esg:section_id "FN-CB-510a" ;
+    esg:section_title "Business Ethics" .
+
+esg:category_SASB-CB_7_SRM a esg:Category ;
+    rdfs:label "Systemic Risk Management" ;
+    esg:ConsistOf esg:metric_SASB-CB-GB_21_001,
+        esg:metric_SASB-CB_22_002 ;
+    esg:page_range "7" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:58:57.786811" ;
+    esg:provenance_section_title "Sustainability Disclosure Topics & Metrics" ;
+    esg:provenance_segment_id "seg_004" ;
+    esg:section_id "FN-CB-550a" ;
+    esg:section_title "Systemic Risk Management" .
+
+esg:framework_SASB a esg:ReportingFramework ;
+    rdfs:label "SASB" ;
+    esg:Include esg:category_SASB-CB_14,
+        esg:category_SASB-CB_6_01,
+        esg:category_SASB-CB_6_02,
+        esg:category_SASB-CB_6_03,
+        esg:category_SASB-CB_6_04,
+        esg:category_SASB-CB_7_AM,
+        esg:category_SASB-CB_7_BE,
+        esg:category_SASB-CB_7_SRM ;
+    esg:name "SASB" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:55:53.019672" ;
+    esg:provenance_section_title "Title & Document Information" ;
+    esg:provenance_segment_id "seg_001" ;
+    esg:publisher "International Sustainability Standards Board (IFRS Foundation)" ;
+    esg:version "2023-12" ;
+    esg:year "2023" .
+
+esg:metric_SASB-CB-GB_20_001 a esg:Metric ;
+    rdfs:label "Whistleblower Policies and Procedures" ;
+    esg:code "FN-CB-510a.2" ;
+    esg:description "Description of whistleblower policies and procedures including internal compliance programmes, hotline details, publication of hotline number, incentives for reporting violations, methods for submitting tips, applicable jurisdictional laws, and any violations with corrective actions" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T14:02:10.314737" ;
+    esg:provenance_section_title "Business Ethics" ;
+    esg:provenance_segment_id "seg_009" ;
+    esg:unit "Discussion and Analysis" .
+
+esg:metric_SASB-CB-GB_21_001 a esg:Metric ;
+    rdfs:label "G-SIB Overall Score" ;
+    esg:IsCalculatedBy esg:model_SASB-CB_7_003 ;
+    esg:code "FN-CB-550a.1" ;
+    esg:description "Global Systemically Important Bank (G-SIB) overall score calculated from (1) size, (2) cross-jurisdictional activity, (3) interconnectedness, (4) substitutability, and (5) complexity categories" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T14:02:10.314739" ;
+    esg:provenance_section_title "Business Ethics" ;
+    esg:provenance_segment_id "seg_009" ;
+    esg:unit "Score" .
+
+esg:metric_SASB-CB-GB_21_002 a esg:Metric ;
+    rdfs:label "G-SIB Size Score" ;
+    esg:description "G-SIB category score for size indicator" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T14:02:10.314746" ;
+    esg:provenance_section_title "Business Ethics" ;
+    esg:provenance_segment_id "seg_009" ;
+    esg:unit "Score" .
+
+esg:metric_SASB-CB-GB_21_003 a esg:Metric ;
+    rdfs:label "G-SIB Cross-Jurisdictional Activity Score" ;
+    esg:description "G-SIB category score for cross-jurisdictional activity indicator" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T14:02:10.314748" ;
+    esg:provenance_section_title "Business Ethics" ;
+    esg:provenance_segment_id "seg_009" ;
+    esg:unit "Score" .
+
+esg:metric_SASB-CB_11_002 a esg:Metric ;
+    rdfs:label "Number of Loans Outstanding" ;
+    esg:description "Total number of loans outstanding that qualify for programmes designed to promote small business and community development" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:59:33.152379" ;
+    esg:provenance_section_title "Data Security" ;
+    esg:provenance_segment_id "seg_005" ;
+    esg:unit "Number" .
+
+esg:metric_SASB-CB_11_003 a esg:Metric ;
+    rdfs:label "Amount of Loans Outstanding" ;
+    esg:description "Total amount outstanding on loans that qualify for programmes designed to promote small business and community development" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:59:33.152382" ;
+    esg:provenance_section_title "Data Security" ;
+    esg:provenance_segment_id "seg_005" ;
+    esg:unit "Currency" .
+
+esg:metric_SASB-CB_15_001 a esg:Metric ;
+    rdfs:label "ESG Factors in Credit Analysis" ;
+    esg:description "Description of approach to incorporation of environmental, social, and governance (ESG) factors in credit analysis, including: parties responsible, roles and responsibilities, ESG research approach, creditworthiness assessment approach, oversight and accountability, scenario analysis at portfolio level, ESG trends consideration, credit exposure concentrations, and influence on traditional macro/microeconomic factors and creditworthiness." ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T14:00:47.004598" ;
+    esg:provenance_section_title "Incorporation of Environmental, Social, and Governance Factors in Credit Analysis" ;
+    esg:provenance_segment_id "seg_007" ;
+    esg:unit "Discussion and Analysis" .
+
+esg:metric_SASB-CB_16_001 a esg:Metric ;
+    rdfs:label "Absolute Gross Financed Emissions" ;
+    esg:code "FN-CB-410b.1" ;
+    esg:description "Absolute gross financed emissions, disaggregated by Scope 1, Scope 2 and Scope 3 for each industry by asset class. Measured in accordance with paragraph 29(a) and B62 of IFRS S2 Climate-related Disclosures." ;
+    esg:disaggregations "['Scope 1', 'Scope 2', 'Scope 3']" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T14:00:47.004601" ;
+    esg:provenance_section_title "Incorporation of Environmental, Social, and Governance Factors in Credit Analysis" ;
+    esg:provenance_segment_id "seg_007" ;
+    esg:unit "Metric tons CO₂-e" .
+
+esg:metric_SASB-CB_16_002 a esg:Metric ;
+    rdfs:label "Gross Exposure by Industry and Asset Class" ;
+    esg:code "FN-CB-410b.2" ;
+    esg:description "Gross exposure for each industry by asset class, expressed in the presentation currency of the entity's financial statements. Prepared in accordance with paragraph B62 of IFRS S2 Climate-related Disclosures." ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T14:00:47.004605" ;
+    esg:provenance_section_title "Incorporation of Environmental, Social, and Governance Factors in Credit Analysis" ;
+    esg:provenance_segment_id "seg_007" ;
+    esg:unit "Reporting currency" .
+
+esg:metric_SASB-CB_18_001 a esg:Metric ;
+    rdfs:label "Percentage of Gross Exposure in Financed Emissions" ;
+    esg:code "FN-CB-410b.3" ;
+    esg:description "Percentage of gross exposure included in the financed emissions calculation. If less than 100%, entity shall disclose information explaining exclusions, including the type of assets excluded." ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T14:01:21.613980" ;
+    esg:provenance_section_title "Financed Emissions" ;
+    esg:provenance_segment_id "seg_008" ;
+    esg:unit "Percentage (%)" .
+
+esg:metric_SASB-CB_18_002 a esg:Metric ;
+    rdfs:label "Financed Emissions Methodology Description" ;
+    esg:code "FN-CB-410b.4" ;
+    esg:description "Description of the methodology used to calculate financed emissions, including the method of allocation used to attribute share of emissions in relation to the size of gross exposure." ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T14:01:21.613983" ;
+    esg:provenance_section_title "Financed Emissions" ;
+    esg:provenance_segment_id "seg_008" ;
+    esg:unit "Discussion and Analysis" .
+
+esg:metric_SASB-CB_18_003 a esg:Metric ;
+    rdfs:label "Monetary Losses from Legal Proceedings" ;
+    esg:code "FN-CB-510a.1" ;
+    esg:description "Total amount of monetary losses as a result of legal proceedings associated with fraud, insider trading, antitrust, anti-competitive behaviour, market manipulation, malpractice, or other related financial industry laws or regulations." ;
+    esg:disaggregations "['Fraud', 'Insider trading', 'Antitrust', 'Anti-competitive behaviour', 'Market manipulation', 'Malpractice', 'Civil actions', 'Regulatory proceedings', 'Criminal actions']" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T14:01:21.613986" ;
+    esg:provenance_section_title "Financed Emissions" ;
+    esg:provenance_segment_id "seg_008" ;
+    esg:unit "Monetary value" .
+
+esg:metric_SASB-CB_22_002 a esg:Metric ;
+    rdfs:label "Integration of Stress Test Results into Business Strategy" ;
+    esg:code "FN-CB-550a.2" ;
+    esg:description "Description of approach to integrate results of mandatory and voluntary stress tests into capital adequacy planning, long-term corporate strategy, and other business activities." ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T14:02:44.353487" ;
+    esg:provenance_section_title "Systemic Risk Management" ;
+    esg:provenance_segment_id "seg_010" ;
+    esg:unit "Discussion and Analysis" .
+
+esg:metric_SASB-CB_6_001 a esg:Metric ;
+    rdfs:label "Data Breaches Composite Metric" ;
+    esg:IsCalculatedBy esg:model_SASB-CB_6_001 ;
+    esg:code "FN-CB-230a.1" ;
+    esg:description "(1) Number of data breaches, (2) percentage that are personal data breaches, (3) number of account holders affected" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:57:40.126422" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" ;
+    esg:unit "Number, Percentage (%)" .
+
+esg:metric_SASB-CB_6_001b a esg:Metric ;
+    rdfs:label "Percentage of Personal Data Breaches" ;
+    esg:description "Percentage of total breaches that involve personal data" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:57:40.126432" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" ;
+    esg:unit "Percentage (%)" .
+
+esg:metric_SASB-CB_6_002 a esg:Metric ;
+    rdfs:label "Data Security Risk Approach" ;
+    esg:code "FN-CB-230a.2" ;
+    esg:description "Description of approach to identifying and addressing data security risks" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:57:40.126439" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" ;
+    esg:unit "Discussion and Analysis" .
+
+esg:metric_SASB-CB_6_003 a esg:Metric ;
+    rdfs:label "Small Business and Community Development Loans" ;
+    esg:IsCalculatedBy esg:model_SASB-CB_11_001,
+        esg:model_SASB-CB_6_003 ;
+    esg:code "FN-CB-240a.1" ;
+    esg:description "(1) Number and (2) amount of loans outstanding that qualify for programmes designed to promote small business and community development" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:57:40.126443" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" ;
+    esg:unit "Number, Presentation currency" .
+
+esg:metric_SASB-CB_6_003a a esg:Metric ;
+    rdfs:label "Number of Small Business Loans" ;
+    esg:description "Number of loans outstanding that qualify for small business and community development programmes" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:57:40.126449" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" ;
+    esg:unit "Number" .
+
+esg:metric_SASB-CB_6_003b a esg:Metric ;
+    rdfs:label "Amount of Small Business Loans Outstanding" ;
+    esg:description "Amount of loans outstanding that qualify for small business and community development programmes" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:57:40.126452" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" ;
+    esg:unit "Presentation currency" .
+
+esg:metric_SASB-CB_6_004 a esg:Metric ;
+    rdfs:label "Past Due and Nonaccrual Small Business Loans" ;
+    esg:IsCalculatedBy esg:model_SASB-CB_6_004 ;
+    esg:code "FN-CB-240a.2" ;
+    esg:description "(1) Number and (2) amount of past due and nonaccrual loans or loans subject to forbearance that qualify for programmes designed to promote small business and community development" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "CalculatedMetric" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:57:40.126456" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" ;
+    esg:unit "Number, Presentation currency" .
+
+esg:metric_SASB-CB_6_005 a esg:Metric ;
+    rdfs:label "No-Cost Retail Checking Accounts" ;
+    esg:code "FN-CB-240a.3" ;
+    esg:description "Number of no-cost retail checking accounts provided to previously unbanked or underbanked customers" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:57:40.126470" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" ;
+    esg:unit "Number" .
+
+esg:metric_SASB-CB_6_006 a esg:Metric ;
+    rdfs:label "Financial Literacy Initiative Participants" ;
+    esg:code "FN-CB-240a.4" ;
+    esg:description "Number of participants in financial literacy initiatives for unbanked, underbanked, or underserved customers" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:57:40.126473" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" ;
+    esg:unit "Number" .
+
+esg:metric_SASB-CB_7_004 a esg:Metric ;
+    rdfs:label "Size Category Score" ;
+    esg:description "G-SIB category score for size indicator" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:58:57.786827" ;
+    esg:provenance_section_title "Sustainability Disclosure Topics & Metrics" ;
+    esg:provenance_segment_id "seg_004" ;
+    esg:unit "Basis points (bps)" .
+
+esg:metric_SASB-CB_8_002 a esg:Metric ;
+    rdfs:label "Number of Data Breaches" ;
+    esg:description "Total number of data breaches identified during the reporting period" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:58:57.786847" ;
+    esg:provenance_section_title "Sustainability Disclosure Topics & Metrics" ;
+    esg:provenance_segment_id "seg_004" ;
+    esg:unit "Number" .
+
+esg:metric_SASB-CB_8_003 a esg:Metric ;
+    rdfs:label "Percentage Personal Data Breaches" ;
+    esg:description "Percentage of data breaches that were personal data breaches" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:58:57.786849" ;
+    esg:provenance_section_title "Sustainability Disclosure Topics & Metrics" ;
+    esg:provenance_segment_id "seg_004" ;
+    esg:unit "Percentage (%)" .
+
+esg:metric_SASB-CB_8_004 a esg:Metric ;
+    rdfs:label "Number of Account Holders Affected" ;
+    esg:description "Number of account holders affected by data breaches" ;
+    esg:measurement_type "Quantitative" ;
+    esg:metric_type "InputMetric" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:58:57.786851" ;
+    esg:provenance_section_title "Sustainability Disclosure Topics & Metrics" ;
+    esg:provenance_segment_id "seg_004" ;
+    esg:unit "Number" .
+
+esg:model_SASB-CB_11_001 a esg:Model ;
+    rdfs:label "Small Business and Community Development Loans Model" ;
+    esg:RequiresInputFrom esg:metric_SASB-CB_11_002,
+        esg:metric_SASB-CB_11_003 ;
+    esg:description "Composite metric combining the number and amount of loans outstanding for small business and community development programmes" ;
+    esg:equation "f(NumberOfLoans, AmountOfLoans)" ;
+    esg:input_variables "['Number of loans outstanding', 'Amount of loans outstanding']" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:59:33.152376" ;
+    esg:provenance_section_title "Data Security" ;
+    esg:provenance_segment_id "seg_005" .
+
+esg:model_SASB-CB_6_001 a esg:Model ;
+    rdfs:label "Data Breaches Composite Model" ;
+    esg:RequiresInputFrom esg:metric_SASB-CB_6_001b,
+        esg:metric_SASB-CB_8_002,
+        esg:metric_SASB-CB_8_003,
+        esg:metric_SASB-CB_8_004 ;
+    esg:description "Composite metric combining number of data breaches, percentage that are personal data breaches, and number of account holders affected" ;
+    esg:equation "f(NumberBreaches, PercentagePersonal, AccountHoldersAffected)" ;
+    esg:input_variables "['Number of data breaches', 'Percentage that are personal data breaches', 'Number of account holders affected']" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:57:40.126425" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" .
+
+esg:model_SASB-CB_6_003 a esg:Model ;
+    rdfs:label "Small Business Loans Composite Model" ;
+    esg:RequiresInputFrom esg:metric_SASB-CB_6_003a,
+        esg:metric_SASB-CB_6_003b ;
+    esg:description "Composite metric combining number and amount of loans outstanding for small business and community development programmes" ;
+    esg:equation "f(NumberLoans, AmountOutstanding)" ;
+    esg:input_variables "['Number of loans', 'Amount of loans outstanding']" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:57:40.126446" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" .
+
+esg:model_SASB-CB_6_004 a esg:Model ;
+    rdfs:label "Past Due Loans Composite Model" ;
+    esg:description "Composite metric combining number and amount of past due and nonaccrual loans for small business and community development programmes" ;
+    esg:equation "f(NumberPastDue, AmountPastDue)" ;
+    esg:input_variables "['Number of past due loans', 'Amount of past due loans']" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:57:40.126459" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" .
+
+esg:model_SASB-CB_7_003 a esg:Model ;
+    rdfs:label "G-SIB Score Calculation Model" ;
+    esg:RequiresInputFrom esg:metric_SASB-CB-GB_21_002,
+        esg:metric_SASB-CB-GB_21_003,
+        esg:metric_SASB-CB_7_004 ;
+    esg:description "G-SIB score calculated by category including size, interconnectedness, substitutability, complexity, and cross-jurisdictional activity as per Basel III framework" ;
+    esg:input_variables "['Size category score', 'Interconnectedness category score', 'Substitutability category score', 'Complexity category score', 'Cross-jurisdictional activity category score']" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:58:57.786825" ;
+    esg:provenance_section_title "Sustainability Disclosure Topics & Metrics" ;
+    esg:provenance_segment_id "seg_004" .
+
+esg:metric_SASB-CB_6_007 a esg:Metric ;
+    rdfs:label "ESG Factors in Credit Analysis" ;
+    esg:code "FN-CB-410a.2" ;
+    esg:description "Description of approach to incorporation of environmental, social and governance (ESG) factors in credit analysis" ;
+    esg:measurement_type "Qualitative" ;
+    esg:metric_type "DirectMetric" ;
+    esg:provenance_document_id "1. SASB-commercial-banks-standard_en-gb" ;
+    esg:provenance_extraction_timestamp "2025-11-18T13:57:40.126476" ;
+    esg:provenance_section_title "Industry Description" ;
+    esg:provenance_segment_id "seg_003" ;
+    esg:unit "Discussion and Analysis" .
+

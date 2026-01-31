@@ -1,0 +1,1686 @@
+{
+  "document": "1. SASB-commercial-banks-standard_en-gb",
+  "timestamp": "2025-11-18T13:43:27.343630",
+  "experiments": {
+    "1_ontology_guided": {
+      "entities": [],
+      "relationships": []
+    },
+    "2_baseline_llm": {
+      "name": "Baseline (Unconstrained)",
+      "description": "Unconstrained LLM (no ontology schema, no SPARQL validation)",
+      "entities": [
+        {
+          "id": "commercial_banks",
+          "label": "Commercial Banks",
+          "type": "Industry",
+          "description": "Banking industry sector covered by SASB sustainability accounting standards",
+          "unit": ""
+        },
+        {
+          "id": "sasb_standard",
+          "label": "SASB Sustainability Accounting Standard",
+          "type": "Standard",
+          "description": "Sustainability accounting standard for commercial banks",
+          "unit": ""
+        },
+        {
+          "id": "financials_sector",
+          "label": "Financials Sector",
+          "type": "Sector",
+          "description": "Financial services sector classification",
+          "unit": ""
+        },
+        {
+          "id": "sics_fn_cb",
+          "label": "SICS FN-CB",
+          "type": "Classification Code",
+          "description": "Sustainable Industry Classification System code for Commercial Banks",
+          "unit": ""
+        },
+        {
+          "id": "issb",
+          "label": "International Sustainability Standards Board",
+          "type": "Organization",
+          "description": "Governing body with stewardship over SASB standards",
+          "unit": ""
+        },
+        {
+          "id": "version_2023_12",
+          "label": "Version 2023-12",
+          "type": "Version",
+          "description": "December 2023 version of the industry standard",
+          "unit": ""
+        },
+        {
+          "id": "ifrs_foundation",
+          "label": "IFRS Foundation",
+          "type": "Organization",
+          "description": "Copyright holder and publisher of SASB standards",
+          "unit": ""
+        },
+        {
+          "id": "e1",
+          "label": "SASB Standards",
+          "type": "Framework",
+          "description": "Standards intended to aid entities in disclosing information about sustainability-related risks and opportunities that could affect cash flows, access to finance or cost of capital",
+          "unit": ""
+        },
+        {
+          "id": "e2",
+          "label": "Commercial Banks",
+          "type": "Industry",
+          "description": "Banks that accept deposits and make loans to individuals and corporations, and engage in lending to infrastructure, real estate and other projects",
+          "unit": ""
+        },
+        {
+          "id": "e3",
+          "label": "Sustainability-related risks and opportunities",
+          "type": "ESG Concept",
+          "description": "Risks and opportunities that could reasonably be expected to affect entity's cash flows, access to finance or cost of capital over short, medium or long term",
+          "unit": ""
+        },
+        {
+          "id": "e4",
+          "label": "SICS",
+          "type": "Classification System",
+          "description": "Sustainable Industry Classification System used to identify primary industry for SASB Standards application",
+          "unit": ""
+        },
+        {
+          "id": "e5",
+          "label": "Disclosure topics",
+          "type": "Reporting Element",
+          "description": "Topics identified as likely to be useful to investors for sustainability reporting",
+          "unit": ""
+        },
+        {
+          "id": "e6",
+          "label": "ESG Metrics",
+          "type": "Measurement",
+          "description": "Associated metrics for disclosure topics that entities should consider reporting",
+          "unit": ""
+        },
+        {
+          "id": "e7",
+          "label": "Materiality",
+          "type": "Reporting Principle",
+          "description": "Judgements and determinations that rest with the reporting entity regarding what information to disclose",
+          "unit": ""
+        },
+        {
+          "id": "e8",
+          "label": "Regulatory environment",
+          "type": "External Factor",
+          "description": "Governing framework for commercial banking industry that witnessed significant changes after 2008 global financial crisis",
+          "unit": ""
+        },
+        {
+          "id": "FN-CB-230a.1",
+          "label": "Data Breaches",
+          "type": "ESG Metric",
+          "description": "Number of data breaches, percentage that are personal data breaches, number of account holders affected",
+          "unit": "Number, Percentage (%)"
+        },
+        {
+          "id": "FN-CB-230a.2",
+          "label": "Data Security Risk Approach",
+          "type": "ESG Metric",
+          "description": "Description of approach to identifying and addressing data security risks",
+          "unit": "n/a"
+        },
+        {
+          "id": "FN-CB-240a.1",
+          "label": "Small Business and Community Development Loans",
+          "type": "ESG Metric",
+          "description": "Number and amount of loans outstanding that qualify for programmes designed to promote small business and community development",
+          "unit": "Number, Presentation currency"
+        },
+        {
+          "id": "FN-CB-240a.2",
+          "label": "Past Due Community Development Loans",
+          "type": "ESG Metric",
+          "description": "Number and amount of past due and nonaccrual loans or loans subject to forbearance that qualify for programmes designed to promote small business and community development",
+          "unit": "Number, Presentation currency"
+        },
+        {
+          "id": "FN-CB-240a.3",
+          "label": "No-Cost Retail Checking Accounts",
+          "type": "ESG Metric",
+          "description": "Number of no-cost retail checking accounts provided to previously unbanked or underbanked customers",
+          "unit": "Number"
+        },
+        {
+          "id": "FN-CB-240a.4",
+          "label": "Financial Literacy Initiatives Participants",
+          "type": "ESG Metric",
+          "description": "Number of participants in financial literacy initiatives for unbanked, underbanked, or underserved customers",
+          "unit": "Number"
+        },
+        {
+          "id": "FN-CB-410a.2",
+          "label": "ESG Factors in Credit Analysis",
+          "type": "ESG Metric",
+          "description": "Description of approach to incorporation of environmental, social and governance (ESG) factors in credit analysis",
+          "unit": "n/a"
+        },
+        {
+          "id": "FN-CB-410b.1",
+          "label": "Financed Emissions",
+          "type": "ESG Metric",
+          "description": "Absolute gross financed emissions, disaggregated by Scope 1, Scope 2 and Scope 3",
+          "unit": "Metric tons (t) CO₂-e"
+        },
+        {
+          "id": "FN-CB-410b.2",
+          "label": "Gross Exposure by Industry",
+          "type": "ESG Metric",
+          "description": "Gross exposure for each industry by asset class",
+          "unit": "Presentation currency"
+        },
+        {
+          "id": "FN-CB-410b.3",
+          "label": "Financed Emissions Coverage",
+          "type": "ESG Metric",
+          "description": "Percentage of gross exposure included in the financed emissions calculation",
+          "unit": "Percentage %"
+        },
+        {
+          "id": "FN-CB-410b.4",
+          "label": "Financed Emissions Methodology",
+          "type": "ESG Metric",
+          "description": "Description of the methodology used to calculate financed emissions",
+          "unit": "n/a"
+        },
+        {
+          "id": "DATA_SECURITY",
+          "label": "Data Security",
+          "type": "ESG Topic",
+          "description": "Topic covering data breaches and security risk management",
+          "unit": "n/a"
+        },
+        {
+          "id": "FINANCIAL_INCLUSION",
+          "label": "Financial Inclusion & Capacity Building",
+          "type": "ESG Topic",
+          "description": "Topic covering small business loans, community development, and financial literacy",
+          "unit": "n/a"
+        },
+        {
+          "id": "ESG_CREDIT_ANALYSIS",
+          "label": "Incorporation of ESG Factors in Credit Analysis",
+          "type": "ESG Topic",
+          "description": "Topic covering integration of ESG factors in credit analysis",
+          "unit": "n/a"
+        },
+        {
+          "id": "FINANCED_EMISSIONS_TOPIC",
+          "label": "Financed Emissions",
+          "type": "ESG Topic",
+          "description": "Topic covering financed emissions measurement and reporting",
+          "unit": "n/a"
+        },
+        {
+          "id": "COMMERCIAL_BANKS",
+          "label": "Commercial Banks",
+          "type": "Industry",
+          "description": "SASB industry classification for commercial banking institutions",
+          "unit": "n/a"
+        },
+        {
+          "id": "SASB",
+          "label": "SASB",
+          "type": "Standard",
+          "description": "Sustainability Accounting Standards Board",
+          "unit": "n/a"
+        },
+        {
+          "id": "FN-CB-510a.1",
+          "label": "Monetary losses from legal proceedings",
+          "type": "ESG Metric",
+          "description": "Total amount of monetary losses as a result of legal proceedings associated with fraud, insider trading, antitrust, anti-competitive behaviour, market manipulation, malpractice, or other related financial industry laws or regulations",
+          "unit": "currency"
+        },
+        {
+          "id": "FN-CB-510a.2",
+          "label": "Whistleblower policies",
+          "type": "ESG Metric",
+          "description": "Description of whistleblower policies and procedures",
+          "unit": "n/a"
+        },
+        {
+          "id": "FN-CB-550a.1",
+          "label": "G-SIB score",
+          "type": "ESG Metric",
+          "description": "Global Systemically Important Bank (G-SIB) score, by category",
+          "unit": "basis points (bps)"
+        },
+        {
+          "id": "FN-CB-550a.2",
+          "label": "Stress test integration approach",
+          "type": "ESG Metric",
+          "description": "Description of approach to integrate results of mandatory and voluntary stress tests into capital adequacy planning, long-term corporate strategy, and other business activities",
+          "unit": "n/a"
+        },
+        {
+          "id": "FN-CB-000.A",
+          "label": "Checking and savings accounts",
+          "type": "Activity Metric",
+          "description": "Number and value of checking and savings accounts by segment: (a) personal and (b) small business",
+          "unit": "Number, currency"
+        },
+        {
+          "id": "FN-CB-000.B",
+          "label": "Loans by segment",
+          "type": "Activity Metric",
+          "description": "Number and value of loans by segment: (a) personal, (b) small business, and (c) corporate (excluding mortgage and revolving credit loans)",
+          "unit": "Number, currency"
+        },
+        {
+          "id": "FN-CB-230a.1",
+          "label": "Data breaches",
+          "type": "ESG Metric",
+          "description": "Number of data breaches, percentage that are personal data breaches, number of account holders affected",
+          "unit": "Number, percentage"
+        },
+        {
+          "id": "Business_Ethics",
+          "label": "Business Ethics",
+          "type": "Topic",
+          "description": "Covers monetary losses from legal proceedings and whistleblower policies",
+          "unit": "n/a"
+        },
+        {
+          "id": "Systemic_Risk_Management",
+          "label": "Systemic Risk Management",
+          "type": "Topic",
+          "description": "Covers G-SIB scores and stress test integration approaches",
+          "unit": "n/a"
+        },
+        {
+          "id": "Data_Security",
+          "label": "Data Security",
+          "type": "Topic",
+          "description": "Ensuring personal financial data privacy and security, including safeguarding against cybersecurity threats",
+          "unit": "n/a"
+        },
+        {
+          "id": "Commercial_Banks",
+          "label": "Commercial Banks",
+          "type": "Industry",
+          "description": "SASB industry standard for commercial banking sector",
+          "unit": "n/a"
+        },
+        {
+          "id": "FN-CB-230a.1",
+          "label": "Data Breach Incidents",
+          "type": "ESG Metric",
+          "description": "Number of data breaches, percentage involving personally identifiable information (PII), and number of account holders affected",
+          "unit": "count"
+        },
+        {
+          "id": "FN-CB-230a.2",
+          "label": "Data Security Risk Management Approach",
+          "type": "ESG Metric",
+          "description": "Description of approach to identifying and addressing data security risks",
+          "unit": "qualitative"
+        },
+        {
+          "id": "FN-CB-240a.1",
+          "label": "Small Business and Community Development Loans",
+          "type": "ESG Metric",
+          "description": "Number and amount of loans outstanding that qualify for programmes designed to promote small business and community development",
+          "unit": "count and monetary amount"
+        },
+        {
+          "id": "data_security",
+          "label": "Data Security",
+          "type": "ESG Topic",
+          "description": "Protection of customer data and information systems from unauthorized access and breaches",
+          "unit": "n/a"
+        },
+        {
+          "id": "financial_inclusion",
+          "label": "Financial Inclusion & Capacity Building",
+          "type": "ESG Topic",
+          "description": "Extending credit and financial services to unbanked, underbanked or underserved customers while improving financial literacy",
+          "unit": "n/a"
+        },
+        {
+          "id": "encrypted_data_breaches",
+          "label": "Encrypted Data Breaches",
+          "type": "Data Point",
+          "description": "Incidents where encrypted data was acquired along with encryption key",
+          "unit": "count"
+        },
+        {
+          "id": "account_holders_affected",
+          "label": "Account Holders Affected",
+          "type": "Data Point",
+          "description": "Total number of unique account holders affected by personal data breaches",
+          "unit": "count"
+        },
+        {
+          "id": "iso_iec_27000",
+          "label": "ISO/IEC 27000 Series",
+          "type": "Standard",
+          "description": "International standard for information security management",
+          "unit": "n/a"
+        },
+        {
+          "id": "nist_framework",
+          "label": "NIST Cybersecurity Framework",
+          "type": "Standard",
+          "description": "Framework for Improving Critical Infrastructure Cybersecurity, 2018",
+          "unit": "n/a"
+        },
+        {
+          "id": "nycrr_500",
+          "label": "23 NYCRR 500",
+          "type": "Regulation",
+          "description": "New York State Department of Financial Services Cybersecurity Requirements for Financial Services Companies",
+          "unit": "n/a"
+        },
+        {
+          "id": "occ_bulletin_2013_29",
+          "label": "OCC Bulletin 2013-29",
+          "type": "Regulation",
+          "description": "Third-Party Relationships: Risk Management Guidance, 2013",
+          "unit": "n/a"
+        },
+        {
+          "id": "corrective_actions",
+          "label": "Corrective Actions for Data Breaches",
+          "type": "Data Point",
+          "description": "Actions taken in response to data breaches including changes in operations, management, processes, products, business partners, training or technology",
+          "unit": "qualitative"
+        },
+        {
+          "id": "cyber_threats",
+          "label": "Emerging Cyber Threats",
+          "type": "Risk Factor",
+          "description": "New and emerging cyber threats including those from near-field communication payment systems, mobile banking and web-based banking",
+          "unit": "qualitative"
+        },
+        {
+          "id": "attack_vectors",
+          "label": "Attack Vectors",
+          "type": "Risk Factor",
+          "description": "Methods of cyber attack including ransomware, loan stacking schemes, money mule schemes and remote access attacks",
+          "unit": "qualitative"
+        },
+        {
+          "id": "commercial_banks",
+          "label": "Commercial Banks",
+          "type": "Industry",
+          "description": "SASB industry classification for commercial banking entities",
+          "unit": "n/a"
+        },
+        {
+          "id": "FN-CB-240a.2",
+          "label": "Past due and nonaccrual loans for small business and community development",
+          "type": "ESG Metric",
+          "description": "Number and amount of past due and nonaccrual loans or loans subject to forbearance that qualify for programmes designed to promote small business and community development",
+          "unit": "Count and Currency Amount"
+        },
+        {
+          "id": "FN-CB-240a.3",
+          "label": "No-cost retail checking accounts",
+          "type": "ESG Metric",
+          "description": "Number of no-cost retail checking accounts provided to previously unbanked or underbanked customers",
+          "unit": "Count"
+        },
+        {
+          "id": "FN-CB-240a.4",
+          "label": "Financial literacy initiative participants",
+          "type": "ESG Metric",
+          "description": "Number of participants in financial literacy initiatives for unbanked, underbanked, or underserved customers",
+          "unit": "Count"
+        },
+        {
+          "id": "community_development_loans",
+          "label": "Community development loans",
+          "type": "Financial Product",
+          "description": "Loans primarily funding community services targeted to low- or moderate-income individuals, and the development, revitalisation or stabilisation of low- or moderate-income regions",
+          "unit": "N/A"
+        },
+        {
+          "id": "small_business_loans",
+          "label": "Small business loans",
+          "type": "Financial Product",
+          "description": "Loans to small businesses and farms that qualify for programmes designed to promote small business and community development",
+          "unit": "N/A"
+        },
+        {
+          "id": "unbanked_customers",
+          "label": "Unbanked customers",
+          "type": "Customer Segment",
+          "description": "Individuals and families who have rarely, if ever, held a checking account, a savings account, or other type of transaction account at an insured depository institution",
+          "unit": "N/A"
+        },
+        {
+          "id": "underbanked_customers",
+          "label": "Underbanked customers",
+          "type": "Customer Segment",
+          "description": "Households with a checking or savings account that used alternative financial services (AFS) provider products in the past 12 months",
+          "unit": "N/A"
+        },
+        {
+          "id": "underserved_customers",
+          "label": "Underserved customers",
+          "type": "Customer Segment",
+          "description": "Customers who are unbanked, underbanked or otherwise have limited access to mainstream financial services, often because of limited or no credit history",
+          "unit": "N/A"
+        },
+        {
+          "id": "financial_literacy_initiatives",
+          "label": "Financial literacy initiatives",
+          "type": "Program",
+          "description": "Educational programmes, workshops, seminars, courses, counselling and community partnerships for unbanked, underbanked or underserved customers",
+          "unit": "N/A"
+        },
+        {
+          "id": "financial_inclusion_strategy",
+          "label": "Financial inclusion and capacity building strategy",
+          "type": "Strategy",
+          "description": "Short- and long-term strategy integrating examination results for financial inclusion and capacity building",
+          "unit": "N/A"
+        },
+        {
+          "id": "esg_credit_analysis",
+          "label": "ESG factors in credit analysis",
+          "type": "Process",
+          "description": "Integration of environmental, social and governance factors into lending processes and credit analysis",
+          "unit": "N/A"
+        },
+        {
+          "id": "commercial_banks",
+          "label": "Commercial banks",
+          "type": "Organization Type",
+          "description": "Financial intermediaries that contribute to environmental and social externalities through lending practices",
+          "unit": "N/A"
+        },
+        {
+          "id": "E1",
+          "label": "ESG Factors",
+          "type": "Concept",
+          "description": "Environmental, Social, and Governance factors incorporated in credit analysis",
+          "unit": null
+        },
+        {
+          "id": "E2",
+          "label": "Credit Analysis",
+          "type": "Process",
+          "description": "Assessment process for evaluating creditworthiness of borrowers",
+          "unit": null
+        },
+        {
+          "id": "E3",
+          "label": "Financed Emissions",
+          "type": "Metric",
+          "description": "Greenhouse gas emissions associated with commercial banking activities",
+          "unit": null
+        },
+        {
+          "id": "E4",
+          "label": "Scope 1 Emissions",
+          "type": "Metric",
+          "description": "Direct greenhouse gas emissions from financed activities",
+          "unit": "tonnes CO2e"
+        },
+        {
+          "id": "E5",
+          "label": "Scope 2 Emissions",
+          "type": "Metric",
+          "description": "Indirect greenhouse gas emissions from energy consumption of financed activities",
+          "unit": "tonnes CO2e"
+        },
+        {
+          "id": "E6",
+          "label": "Scope 3 Emissions",
+          "type": "Metric",
+          "description": "Other indirect greenhouse gas emissions from financed activities",
+          "unit": "tonnes CO2e"
+        },
+        {
+          "id": "E7",
+          "label": "Absolute Gross Financed Emissions",
+          "type": "Metric",
+          "description": "Total financed emissions disaggregated by scope and industry",
+          "unit": "tonnes CO2e"
+        },
+        {
+          "id": "E8",
+          "label": "Gross Exposure",
+          "type": "Metric",
+          "description": "Total financial exposure for each industry by asset class",
+          "unit": "currency"
+        },
+        {
+          "id": "E9",
+          "label": "Climate Change",
+          "type": "ESG Trend",
+          "description": "Environmental trend affecting credit risk profiles",
+          "unit": null
+        },
+        {
+          "id": "E10",
+          "label": "Natural Resource Constraints",
+          "type": "ESG Trend",
+          "description": "Environmental trend affecting credit risk profiles",
+          "unit": null
+        },
+        {
+          "id": "E11",
+          "label": "Human Capital Risks",
+          "type": "ESG Trend",
+          "description": "Social trend affecting credit risk profiles",
+          "unit": null
+        },
+        {
+          "id": "E12",
+          "label": "Cybersecurity Risks",
+          "type": "ESG Trend",
+          "description": "Governance trend affecting credit risk profiles",
+          "unit": null
+        },
+        {
+          "id": "E13",
+          "label": "Carbon-related Assets",
+          "type": "Credit Exposure",
+          "description": "Concentration of credit exposure to carbon-intensive assets",
+          "unit": null
+        },
+        {
+          "id": "E14",
+          "label": "Water-stressed Regions",
+          "type": "Credit Exposure",
+          "description": "Concentration of credit exposure to water-stressed geographical areas",
+          "unit": null
+        },
+        {
+          "id": "E15",
+          "label": "Creditworthiness",
+          "type": "Assessment",
+          "description": "Evaluation of borrower's ability to repay debt",
+          "unit": null
+        },
+        {
+          "id": "E16",
+          "label": "Probability of Default",
+          "type": "Risk Metric",
+          "description": "Likelihood that a borrower will default on obligations",
+          "unit": "percentage"
+        },
+        {
+          "id": "E17",
+          "label": "Exposure at Default",
+          "type": "Risk Metric",
+          "description": "Amount of exposure at the time of default",
+          "unit": "currency"
+        },
+        {
+          "id": "E18",
+          "label": "Loss Given Default",
+          "type": "Risk Metric",
+          "description": "Expected loss if default occurs",
+          "unit": "percentage"
+        },
+        {
+          "id": "E19",
+          "label": "Equator Principles",
+          "type": "Standard",
+          "description": "Risk management framework for environmental and social risks in project finance",
+          "unit": null
+        },
+        {
+          "id": "E20",
+          "label": "Commercial and Industrial Loans",
+          "type": "Asset Class",
+          "description": "Loans provided to commercial and industrial borrowers",
+          "unit": null
+        },
+        {
+          "id": "E21",
+          "label": "Credit Risk",
+          "type": "Risk Type",
+          "description": "Risk of loss from borrower default or credit quality deterioration",
+          "unit": null
+        },
+        {
+          "id": "E22",
+          "label": "Reputational Risk",
+          "type": "Risk Type",
+          "description": "Risk to reputation from financing controversial projects",
+          "unit": null
+        },
+        {
+          "id": "E23",
+          "label": "Market Risk",
+          "type": "Risk Type",
+          "description": "Risk from changes in market conditions affecting financed entities",
+          "unit": null
+        },
+        {
+          "id": "E24",
+          "label": "IFRS S2",
+          "type": "Standard",
+          "description": "Climate-related Disclosures standard",
+          "unit": null
+        },
+        {
+          "id": "E25",
+          "label": "SASB Commercial Banks Standard",
+          "type": "Standard",
+          "description": "Sustainability accounting standard for commercial banks",
+          "unit": null
+        },
+        {
+          "id": "FN-CB-410b.3",
+          "label": "Percentage of gross exposure included in financed emissions calculation",
+          "type": "ESG Metric",
+          "description": "The percentage of the entity's gross exposure included in the financed emissions calculation",
+          "unit": "Percentage"
+        },
+        {
+          "id": "FN-CB-410b.4",
+          "label": "Description of methodology for financed emissions calculation",
+          "type": "ESG Metric",
+          "description": "The methodology used to calculate financed emissions, including the method of allocation used to attribute share of emissions in relation to gross exposure",
+          "unit": "Qualitative description"
+        },
+        {
+          "id": "FN-CB-510a.1",
+          "label": "Monetary losses from legal proceedings",
+          "type": "ESG Metric",
+          "description": "Total amount of monetary losses as a result of legal proceedings associated with fraud, insider trading, antitrust, anti-competitive behaviour, market manipulation, malpractice, or other related financial industry laws or regulations",
+          "unit": "Monetary value"
+        },
+        {
+          "id": "financed_emissions",
+          "label": "Financed Emissions",
+          "type": "ESG Topic",
+          "description": "Emissions attributed to commercial banking activities based on gross exposure to financed assets",
+          "unit": "N/A"
+        },
+        {
+          "id": "business_ethics",
+          "label": "Business Ethics",
+          "type": "ESG Topic",
+          "description": "Compliance with laws and regulations relating to fraud, insider trading, antitrust, market manipulation, and other financial industry conduct",
+          "unit": "N/A"
+        },
+        {
+          "id": "IFRS_S2",
+          "label": "IFRS S2 Climate-related Disclosures",
+          "type": "Reporting Standard",
+          "description": "International Financial Reporting Standard for climate-related disclosures",
+          "unit": "N/A"
+        },
+        {
+          "id": "IFRS_S1",
+          "label": "IFRS S1 General Requirements",
+          "type": "Reporting Standard",
+          "description": "International Financial Reporting Standard for general requirements for disclosure of sustainability-related financial information",
+          "unit": "N/A"
+        },
+        {
+          "id": "SASB_commercial_banks",
+          "label": "SASB Commercial Banks Standard",
+          "type": "Reporting Framework",
+          "description": "Sustainability Accounting Standards Board standard for commercial banks",
+          "unit": "N/A"
+        },
+        {
+          "id": "gross_exposure",
+          "label": "Gross Exposure",
+          "type": "Financial Metric",
+          "description": "Total exposure of commercial banking activities used as basis for financed emissions calculation",
+          "unit": "Monetary value"
+        },
+        {
+          "id": "FN-CB-510a.1",
+          "label": "Monetary losses from legal proceedings",
+          "type": "ESG Metric",
+          "description": "Total amount of monetary losses as a result of legal proceedings associated with fraud, insider trading, anti-trust, anti-competitive behavior, market manipulation, malpractice, or other related financial industry laws or regulations",
+          "unit": "Reporting currency"
+        },
+        {
+          "id": "FN-CB-510a.2",
+          "label": "Whistleblower policies and procedures",
+          "type": "ESG Metric",
+          "description": "Description of whistleblower policies and procedures including internal compliance programmes, hotline details, reporting mechanisms, and compliance with jurisdictional regulations",
+          "unit": "Qualitative description"
+        },
+        {
+          "id": "FN-CB-550a.1",
+          "label": "G-SIB score",
+          "type": "ESG Metric",
+          "description": "Global Systemically Important Bank score by category including size, cross-jurisdictional activity, interconnectedness, substitutability, complexity, and overall score",
+          "unit": "Score"
+        },
+        {
+          "id": "business_ethics",
+          "label": "Business Ethics",
+          "type": "ESG Topic",
+          "description": "Covers legal proceedings, monetary losses, and whistleblower policies related to ethical business conduct",
+          "unit": "N/A"
+        },
+        {
+          "id": "systemic_risk_management",
+          "label": "Systemic Risk Management",
+          "type": "ESG Topic",
+          "description": "Management of risks to capital, regulatory compliance, stress testing, and systemic interconnectedness of financial institutions",
+          "unit": "N/A"
+        },
+        {
+          "id": "legal_proceedings",
+          "label": "Legal proceedings",
+          "type": "Risk Factor",
+          "description": "Legal cases involving fraud, antitrust, market manipulation and related violations",
+          "unit": "N/A"
+        },
+        {
+          "id": "corrective_actions",
+          "label": "Corrective actions",
+          "type": "Management Response",
+          "description": "Changes in operations, management, processes, products, business partners, training or technology in response to violations",
+          "unit": "Qualitative description"
+        },
+        {
+          "id": "stress_tests",
+          "label": "Supervised stress tests",
+          "type": "Regulatory Requirement",
+          "description": "Tests to evaluate whether entity has sufficient capital reserves and liquidity to absorb losses during adverse conditions",
+          "unit": "N/A"
+        },
+        {
+          "id": "commercial_banks",
+          "label": "Commercial Banks",
+          "type": "Industry",
+          "description": "SASB industry classification for commercial banking entities",
+          "unit": "N/A"
+        },
+        {
+          "id": "E1",
+          "label": "G-SIB Score",
+          "type": "ESG Metric",
+          "description": "Global Systemically Important Bank score used to assess systemic risk",
+          "unit": "score"
+        },
+        {
+          "id": "E2",
+          "label": "FN-CB-550a.1",
+          "type": "SASB Metric Code",
+          "description": "Metric code for G-SIB score reporting",
+          "unit": "N/A"
+        },
+        {
+          "id": "E3",
+          "label": "FN-CB-550a.2",
+          "type": "SASB Metric Code",
+          "description": "Metric code for stress test integration approach description",
+          "unit": "N/A"
+        },
+        {
+          "id": "E4",
+          "label": "Stress Tests",
+          "type": "Risk Assessment Tool",
+          "description": "Mandatory and voluntary stress tests for capital adequacy and risk management",
+          "unit": "N/A"
+        },
+        {
+          "id": "E5",
+          "label": "Capital Adequacy Planning",
+          "type": "Business Process",
+          "description": "Planning process to ensure sufficient capital reserves",
+          "unit": "N/A"
+        },
+        {
+          "id": "E6",
+          "label": "ESG Strategy",
+          "type": "Corporate Strategy",
+          "description": "Environmental, social and governance strategy",
+          "unit": "N/A"
+        },
+        {
+          "id": "E7",
+          "label": "BCBS Assessment Methodology",
+          "type": "Regulatory Framework",
+          "description": "Basel Committee on Banking Supervision methodology for calculating G-SIB score",
+          "unit": "N/A"
+        },
+        {
+          "id": "E8",
+          "label": "Systemic Risk Management",
+          "type": "Topic Category",
+          "description": "SASB topic area covering management of systemic financial risks",
+          "unit": "N/A"
+        },
+        {
+          "id": "E9",
+          "label": "Commercial Banks",
+          "type": "Industry",
+          "description": "SASB industry classification for commercial banking entities",
+          "unit": "N/A"
+        },
+        {
+          "id": "E10",
+          "label": "Long-term Corporate Strategy",
+          "type": "Business Process",
+          "description": "Strategic planning and decision-making for long-term business direction",
+          "unit": "N/A"
+        }
+      ],
+      "relationships": [
+        {
+          "subject": "sasb_standard",
+          "predicate": "applies_to",
+          "object": "commercial_banks"
+        },
+        {
+          "subject": "commercial_banks",
+          "predicate": "belongs_to",
+          "object": "financials_sector"
+        },
+        {
+          "subject": "commercial_banks",
+          "predicate": "classified_as",
+          "object": "sics_fn_cb"
+        },
+        {
+          "subject": "sasb_standard",
+          "predicate": "under_stewardship_of",
+          "object": "issb"
+        },
+        {
+          "subject": "sasb_standard",
+          "predicate": "has_version",
+          "object": "version_2023_12"
+        },
+        {
+          "subject": "sasb_standard",
+          "predicate": "published_by",
+          "object": "ifrs_foundation"
+        },
+        {
+          "subject": "ifrs_foundation",
+          "predicate": "governs",
+          "object": "issb"
+        },
+        {
+          "subject": "SASB Standards",
+          "predicate": "applies_to",
+          "object": "Commercial Banks"
+        },
+        {
+          "subject": "SASB Standards",
+          "predicate": "discloses",
+          "object": "Sustainability-related risks and opportunities"
+        },
+        {
+          "subject": "SASB Standards",
+          "predicate": "uses_classification",
+          "object": "SICS"
+        },
+        {
+          "subject": "SASB Standards",
+          "predicate": "contains",
+          "object": "Disclosure topics"
+        },
+        {
+          "subject": "Disclosure topics",
+          "predicate": "has",
+          "object": "ESG Metrics"
+        },
+        {
+          "subject": "Commercial Banks",
+          "predicate": "classified_by",
+          "object": "SICS"
+        },
+        {
+          "subject": "Commercial Banks",
+          "predicate": "governed_by",
+          "object": "Regulatory environment"
+        },
+        {
+          "subject": "ESG Metrics",
+          "predicate": "subject_to",
+          "object": "Materiality"
+        },
+        {
+          "subject": "Sustainability-related risks and opportunities",
+          "predicate": "affects",
+          "object": "Commercial Banks"
+        },
+        {
+          "subject": "FN-CB-230a.1",
+          "predicate": "belongs_to_topic",
+          "object": "DATA_SECURITY"
+        },
+        {
+          "subject": "FN-CB-230a.2",
+          "predicate": "belongs_to_topic",
+          "object": "DATA_SECURITY"
+        },
+        {
+          "subject": "FN-CB-240a.1",
+          "predicate": "belongs_to_topic",
+          "object": "FINANCIAL_INCLUSION"
+        },
+        {
+          "subject": "FN-CB-240a.2",
+          "predicate": "belongs_to_topic",
+          "object": "FINANCIAL_INCLUSION"
+        },
+        {
+          "subject": "FN-CB-240a.3",
+          "predicate": "belongs_to_topic",
+          "object": "FINANCIAL_INCLUSION"
+        },
+        {
+          "subject": "FN-CB-240a.4",
+          "predicate": "belongs_to_topic",
+          "object": "FINANCIAL_INCLUSION"
+        },
+        {
+          "subject": "FN-CB-410a.2",
+          "predicate": "belongs_to_topic",
+          "object": "ESG_CREDIT_ANALYSIS"
+        },
+        {
+          "subject": "FN-CB-410b.1",
+          "predicate": "belongs_to_topic",
+          "object": "FINANCED_EMISSIONS_TOPIC"
+        },
+        {
+          "subject": "FN-CB-410b.2",
+          "predicate": "belongs_to_topic",
+          "object": "FINANCED_EMISSIONS_TOPIC"
+        },
+        {
+          "subject": "FN-CB-410b.3",
+          "predicate": "belongs_to_topic",
+          "object": "FINANCED_EMISSIONS_TOPIC"
+        },
+        {
+          "subject": "FN-CB-410b.4",
+          "predicate": "belongs_to_topic",
+          "object": "FINANCED_EMISSIONS_TOPIC"
+        },
+        {
+          "subject": "DATA_SECURITY",
+          "predicate": "applies_to_industry",
+          "object": "COMMERCIAL_BANKS"
+        },
+        {
+          "subject": "FINANCIAL_INCLUSION",
+          "predicate": "applies_to_industry",
+          "object": "COMMERCIAL_BANKS"
+        },
+        {
+          "subject": "ESG_CREDIT_ANALYSIS",
+          "predicate": "applies_to_industry",
+          "object": "COMMERCIAL_BANKS"
+        },
+        {
+          "subject": "FINANCED_EMISSIONS_TOPIC",
+          "predicate": "applies_to_industry",
+          "object": "COMMERCIAL_BANKS"
+        },
+        {
+          "subject": "COMMERCIAL_BANKS",
+          "predicate": "has_standard",
+          "object": "SASB"
+        },
+        {
+          "subject": "FN-CB-410b.1",
+          "predicate": "measures",
+          "object": "FN-CB-410b.3"
+        },
+        {
+          "subject": "FN-CB-410b.4",
+          "predicate": "describes_methodology_for",
+          "object": "FN-CB-410b.1"
+        },
+        {
+          "subject": "FN-CB-240a.2",
+          "predicate": "related_to",
+          "object": "FN-CB-240a.1"
+        },
+        {
+          "subject": "FN-CB-510a.1",
+          "predicate": "belongs_to_topic",
+          "object": "Business_Ethics"
+        },
+        {
+          "subject": "FN-CB-510a.2",
+          "predicate": "belongs_to_topic",
+          "object": "Business_Ethics"
+        },
+        {
+          "subject": "FN-CB-550a.1",
+          "predicate": "belongs_to_topic",
+          "object": "Systemic_Risk_Management"
+        },
+        {
+          "subject": "FN-CB-550a.2",
+          "predicate": "belongs_to_topic",
+          "object": "Systemic_Risk_Management"
+        },
+        {
+          "subject": "FN-CB-230a.1",
+          "predicate": "belongs_to_topic",
+          "object": "Data_Security"
+        },
+        {
+          "subject": "Business_Ethics",
+          "predicate": "applies_to_industry",
+          "object": "Commercial_Banks"
+        },
+        {
+          "subject": "Systemic_Risk_Management",
+          "predicate": "applies_to_industry",
+          "object": "Commercial_Banks"
+        },
+        {
+          "subject": "Data_Security",
+          "predicate": "applies_to_industry",
+          "object": "Commercial_Banks"
+        },
+        {
+          "subject": "FN-CB-000.A",
+          "predicate": "is_activity_metric_for",
+          "object": "Commercial_Banks"
+        },
+        {
+          "subject": "FN-CB-000.B",
+          "predicate": "is_activity_metric_for",
+          "object": "Commercial_Banks"
+        },
+        {
+          "subject": "FN-CB-510a.1",
+          "predicate": "metric_category",
+          "object": "Quantitative"
+        },
+        {
+          "subject": "FN-CB-510a.2",
+          "predicate": "metric_category",
+          "object": "Discussion and Analysis"
+        },
+        {
+          "subject": "FN-CB-550a.1",
+          "predicate": "metric_category",
+          "object": "Quantitative"
+        },
+        {
+          "subject": "FN-CB-550a.2",
+          "predicate": "metric_category",
+          "object": "Discussion and Analysis"
+        },
+        {
+          "subject": "FN-CB-230a.1",
+          "predicate": "metric_category",
+          "object": "Quantitative"
+        },
+        {
+          "subject": "Data_Security",
+          "predicate": "addresses_risk",
+          "object": "cybersecurity threats"
+        },
+        {
+          "subject": "Data_Security",
+          "predicate": "protects",
+          "object": "personal financial data"
+        },
+        {
+          "subject": "FN-CB-230a.1",
+          "predicate": "measures",
+          "object": "data_security"
+        },
+        {
+          "subject": "FN-CB-230a.2",
+          "predicate": "measures",
+          "object": "data_security"
+        },
+        {
+          "subject": "FN-CB-240a.1",
+          "predicate": "measures",
+          "object": "financial_inclusion"
+        },
+        {
+          "subject": "data_security",
+          "predicate": "applies_to",
+          "object": "commercial_banks"
+        },
+        {
+          "subject": "financial_inclusion",
+          "predicate": "applies_to",
+          "object": "commercial_banks"
+        },
+        {
+          "subject": "FN-CB-230a.1",
+          "predicate": "includes",
+          "object": "encrypted_data_breaches"
+        },
+        {
+          "subject": "FN-CB-230a.1",
+          "predicate": "includes",
+          "object": "account_holders_affected"
+        },
+        {
+          "subject": "FN-CB-230a.1",
+          "predicate": "requires_disclosure_of",
+          "object": "corrective_actions"
+        },
+        {
+          "subject": "FN-CB-230a.2",
+          "predicate": "may_align_with",
+          "object": "iso_iec_27000"
+        },
+        {
+          "subject": "FN-CB-230a.2",
+          "predicate": "may_align_with",
+          "object": "nist_framework"
+        },
+        {
+          "subject": "FN-CB-230a.2",
+          "predicate": "may_align_with",
+          "object": "nycrr_500"
+        },
+        {
+          "subject": "FN-CB-230a.2",
+          "predicate": "may_align_with",
+          "object": "occ_bulletin_2013_29"
+        },
+        {
+          "subject": "FN-CB-230a.2",
+          "predicate": "addresses",
+          "object": "cyber_threats"
+        },
+        {
+          "subject": "FN-CB-230a.2",
+          "predicate": "addresses",
+          "object": "attack_vectors"
+        },
+        {
+          "subject": "cyber_threats",
+          "predicate": "poses_risk_to",
+          "object": "data_security"
+        },
+        {
+          "subject": "attack_vectors",
+          "predicate": "poses_risk_to",
+          "object": "data_security"
+        },
+        {
+          "subject": "FN-CB-240a.2",
+          "predicate": "measures",
+          "object": "community_development_loans"
+        },
+        {
+          "subject": "FN-CB-240a.2",
+          "predicate": "measures",
+          "object": "small_business_loans"
+        },
+        {
+          "subject": "FN-CB-240a.3",
+          "predicate": "serves",
+          "object": "unbanked_customers"
+        },
+        {
+          "subject": "FN-CB-240a.3",
+          "predicate": "serves",
+          "object": "underbanked_customers"
+        },
+        {
+          "subject": "FN-CB-240a.4",
+          "predicate": "measures_participation_in",
+          "object": "financial_literacy_initiatives"
+        },
+        {
+          "subject": "financial_literacy_initiatives",
+          "predicate": "targets",
+          "object": "unbanked_customers"
+        },
+        {
+          "subject": "financial_literacy_initiatives",
+          "predicate": "targets",
+          "object": "underbanked_customers"
+        },
+        {
+          "subject": "financial_literacy_initiatives",
+          "predicate": "targets",
+          "object": "underserved_customers"
+        },
+        {
+          "subject": "community_development_loans",
+          "predicate": "supports",
+          "object": "financial_inclusion_strategy"
+        },
+        {
+          "subject": "small_business_loans",
+          "predicate": "supports",
+          "object": "financial_inclusion_strategy"
+        },
+        {
+          "subject": "commercial_banks",
+          "predicate": "implements",
+          "object": "esg_credit_analysis"
+        },
+        {
+          "subject": "commercial_banks",
+          "predicate": "provides",
+          "object": "community_development_loans"
+        },
+        {
+          "subject": "commercial_banks",
+          "predicate": "provides",
+          "object": "small_business_loans"
+        },
+        {
+          "subject": "commercial_banks",
+          "predicate": "conducts",
+          "object": "financial_literacy_initiatives"
+        },
+        {
+          "subject": "esg_credit_analysis",
+          "predicate": "influences",
+          "object": "community_development_loans"
+        },
+        {
+          "subject": "financial_inclusion_strategy",
+          "predicate": "addresses",
+          "object": "unbanked_customers"
+        },
+        {
+          "subject": "financial_inclusion_strategy",
+          "predicate": "addresses",
+          "object": "underbanked_customers"
+        },
+        {
+          "subject": "financial_inclusion_strategy",
+          "predicate": "addresses",
+          "object": "underserved_customers"
+        },
+        {
+          "subject": "E1",
+          "predicate": "incorporated_in",
+          "object": "E2"
+        },
+        {
+          "subject": "E1",
+          "predicate": "influences",
+          "object": "E15"
+        },
+        {
+          "subject": "E2",
+          "predicate": "assesses",
+          "object": "E15"
+        },
+        {
+          "subject": "E3",
+          "predicate": "disaggregated_into",
+          "object": "E4"
+        },
+        {
+          "subject": "E3",
+          "predicate": "disaggregated_into",
+          "object": "E5"
+        },
+        {
+          "subject": "E3",
+          "predicate": "disaggregated_into",
+          "object": "E6"
+        },
+        {
+          "subject": "E7",
+          "predicate": "includes",
+          "object": "E4"
+        },
+        {
+          "subject": "E7",
+          "predicate": "includes",
+          "object": "E5"
+        },
+        {
+          "subject": "E7",
+          "predicate": "includes",
+          "object": "E6"
+        },
+        {
+          "subject": "E9",
+          "predicate": "is_type_of",
+          "object": "E1"
+        },
+        {
+          "subject": "E10",
+          "predicate": "is_type_of",
+          "object": "E1"
+        },
+        {
+          "subject": "E11",
+          "predicate": "is_type_of",
+          "object": "E1"
+        },
+        {
+          "subject": "E12",
+          "predicate": "is_type_of",
+          "object": "E1"
+        },
+        {
+          "subject": "E9",
+          "predicate": "affects",
+          "object": "E21"
+        },
+        {
+          "subject": "E10",
+          "predicate": "affects",
+          "object": "E21"
+        },
+        {
+          "subject": "E11",
+          "predicate": "affects",
+          "object": "E21"
+        },
+        {
+          "subject": "E12",
+          "predicate": "affects",
+          "object": "E21"
+        },
+        {
+          "subject": "E13",
+          "predicate": "is_concentration_of",
+          "object": "E1"
+        },
+        {
+          "subject": "E14",
+          "predicate": "is_concentration_of",
+          "object": "E1"
+        },
+        {
+          "subject": "E1",
+          "predicate": "influences",
+          "object": "E16"
+        },
+        {
+          "subject": "E1",
+          "predicate": "influences",
+          "object": "E17"
+        },
+        {
+          "subject": "E1",
+          "predicate": "influences",
+          "object": "E18"
+        },
+        {
+          "subject": "E16",
+          "predicate": "component_of",
+          "object": "E21"
+        },
+        {
+          "subject": "E17",
+          "predicate": "component_of",
+          "object": "E21"
+        },
+        {
+          "subject": "E18",
+          "predicate": "component_of",
+          "object": "E21"
+        },
+        {
+          "subject": "E19",
+          "predicate": "screens",
+          "object": "E20"
+        },
+        {
+          "subject": "E20",
+          "predicate": "assessed_for",
+          "object": "E1"
+        },
+        {
+          "subject": "E3",
+          "predicate": "creates",
+          "object": "E21"
+        },
+        {
+          "subject": "E3",
+          "predicate": "creates",
+          "object": "E22"
+        },
+        {
+          "subject": "E3",
+          "predicate": "creates",
+          "object": "E23"
+        },
+        {
+          "subject": "E7",
+          "predicate": "measured_according_to",
+          "object": "E24"
+        },
+        {
+          "subject": "E8",
+          "predicate": "measured_according_to",
+          "object": "E24"
+        },
+        {
+          "subject": "E7",
+          "predicate": "disclosed_under",
+          "object": "E25"
+        },
+        {
+          "subject": "E8",
+          "predicate": "disclosed_under",
+          "object": "E25"
+        },
+        {
+          "subject": "E3",
+          "predicate": "indicates",
+          "object": "E21"
+        },
+        {
+          "subject": "E8",
+          "predicate": "relates_to",
+          "object": "E20"
+        },
+        {
+          "subject": "FN-CB-410b.3",
+          "predicate": "measures",
+          "object": "financed_emissions"
+        },
+        {
+          "subject": "FN-CB-410b.4",
+          "predicate": "describes_methodology_for",
+          "object": "financed_emissions"
+        },
+        {
+          "subject": "FN-CB-510a.1",
+          "predicate": "measures",
+          "object": "business_ethics"
+        },
+        {
+          "subject": "FN-CB-410b.3",
+          "predicate": "references_standard",
+          "object": "IFRS_S2"
+        },
+        {
+          "subject": "FN-CB-410b.3",
+          "predicate": "references_standard",
+          "object": "IFRS_S1"
+        },
+        {
+          "subject": "FN-CB-410b.4",
+          "predicate": "references_standard",
+          "object": "IFRS_S2"
+        },
+        {
+          "subject": "FN-CB-410b.4",
+          "predicate": "references_standard",
+          "object": "IFRS_S1"
+        },
+        {
+          "subject": "FN-CB-410b.3",
+          "predicate": "part_of_framework",
+          "object": "SASB_commercial_banks"
+        },
+        {
+          "subject": "FN-CB-410b.4",
+          "predicate": "part_of_framework",
+          "object": "SASB_commercial_banks"
+        },
+        {
+          "subject": "FN-CB-510a.1",
+          "predicate": "part_of_framework",
+          "object": "SASB_commercial_banks"
+        },
+        {
+          "subject": "financed_emissions",
+          "predicate": "part_of_framework",
+          "object": "SASB_commercial_banks"
+        },
+        {
+          "subject": "business_ethics",
+          "predicate": "part_of_framework",
+          "object": "SASB_commercial_banks"
+        },
+        {
+          "subject": "FN-CB-410b.3",
+          "predicate": "based_on",
+          "object": "gross_exposure"
+        },
+        {
+          "subject": "FN-CB-410b.4",
+          "predicate": "uses_allocation_method_for",
+          "object": "gross_exposure"
+        },
+        {
+          "subject": "financed_emissions",
+          "predicate": "calculated_from",
+          "object": "gross_exposure"
+        },
+        {
+          "subject": "FN-CB-510a.1",
+          "predicate": "is_part_of",
+          "object": "business_ethics"
+        },
+        {
+          "subject": "FN-CB-510a.2",
+          "predicate": "is_part_of",
+          "object": "business_ethics"
+        },
+        {
+          "subject": "FN-CB-550a.1",
+          "predicate": "is_part_of",
+          "object": "systemic_risk_management"
+        },
+        {
+          "subject": "FN-CB-510a.1",
+          "predicate": "measures",
+          "object": "legal_proceedings"
+        },
+        {
+          "subject": "FN-CB-510a.1",
+          "predicate": "requires_disclosure_of",
+          "object": "corrective_actions"
+        },
+        {
+          "subject": "FN-CB-510a.2",
+          "predicate": "requires_disclosure_of",
+          "object": "corrective_actions"
+        },
+        {
+          "subject": "legal_proceedings",
+          "predicate": "results_in",
+          "object": "FN-CB-510a.1"
+        },
+        {
+          "subject": "systemic_risk_management",
+          "predicate": "requires",
+          "object": "stress_tests"
+        },
+        {
+          "subject": "FN-CB-550a.1",
+          "predicate": "measures",
+          "object": "systemic_risk_management"
+        },
+        {
+          "subject": "business_ethics",
+          "predicate": "applies_to",
+          "object": "commercial_banks"
+        },
+        {
+          "subject": "systemic_risk_management",
+          "predicate": "applies_to",
+          "object": "commercial_banks"
+        },
+        {
+          "subject": "stress_tests",
+          "predicate": "evaluates",
+          "object": "systemic_risk_management"
+        },
+        {
+          "subject": "E2",
+          "predicate": "measures",
+          "object": "E1"
+        },
+        {
+          "subject": "E1",
+          "predicate": "calculated_using",
+          "object": "E7"
+        },
+        {
+          "subject": "E3",
+          "predicate": "requires_disclosure_of",
+          "object": "E4"
+        },
+        {
+          "subject": "E4",
+          "predicate": "informs",
+          "object": "E5"
+        },
+        {
+          "subject": "E4",
+          "predicate": "informs",
+          "object": "E10"
+        },
+        {
+          "subject": "E4",
+          "predicate": "informs",
+          "object": "E6"
+        },
+        {
+          "subject": "E2",
+          "predicate": "belongs_to_topic",
+          "object": "E8"
+        },
+        {
+          "subject": "E3",
+          "predicate": "belongs_to_topic",
+          "object": "E8"
+        },
+        {
+          "subject": "E8",
+          "predicate": "applies_to_industry",
+          "object": "E9"
+        },
+        {
+          "subject": "E1",
+          "predicate": "part_of",
+          "object": "E8"
+        },
+        {
+          "subject": "E5",
+          "predicate": "supports",
+          "object": "E10"
+        },
+        {
+          "subject": "E6",
+          "predicate": "integrated_with",
+          "object": "E10"
+        }
+      ],
+      "entity_count": 123,
+      "relationship_count": 161
+    }
+  }
+}

@@ -1,0 +1,22 @@
+ENTITY TYPE DISTRIBUTION (ONTOLOGY-GUIDED)
+================================================================================
+
+This visualization shows the breakdown of entity types extracted from each document
+using the ontology-guided extraction method.
+
+CHART TYPE: Stacked Bar Chart
+- Each bar represents one document
+- Different colors represent different entity types
+- Height of each color segment = count of that entity type
+
+ENTITY TYPES FOUND: 5
+  - Category: 44 total across all documents
+  - Industry: 20 total across all documents
+  - Metric: 266 total across all documents
+  - Model: 29 total across all documents
+  - ReportingFramework: 5 total across all documents
+
+KEY INSIGHTS:
+- Shows which entity types are most common in ESG disclosures
+- Reveals document-specific focus areas
+- Demonstrates ontology schema coverage across documents

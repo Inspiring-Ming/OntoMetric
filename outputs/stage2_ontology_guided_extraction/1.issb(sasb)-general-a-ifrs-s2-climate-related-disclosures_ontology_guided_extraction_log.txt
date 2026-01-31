@@ -1,0 +1,65 @@
+ESG Knowledge Extraction Log
+==================================================
+Document: June 2023 IFRS S2 IFRS® Sustainability Disclosure Standard
+Processing Date: 2025-11-18 14:10:51
+Total Segments: 10
+
+Segment 1: Title & Document Information
+  Entities: 1
+  Relationships: 0
+  Quality Score: 1.00
+  Validation Notes: None
+
+Segment 2: Governance
+  Entities: 13
+  Relationships: 12
+  Quality Score: 0.77
+  Validation Notes: Some entities have invalid types
+
+Segment 3: Strategy
+  Entities: 18
+  Relationships: 17
+  Quality Score: 0.76
+  Validation Notes: Some entities have invalid types
+
+Segment 4: Risk management
+  Entities: 9
+  Relationships: 10
+  Quality Score: 0.81
+  Validation Notes: Some entities have invalid types
+
+Segment 5: APPENDICES
+  Entities: 12
+  Relationships: 11
+  Quality Score: 0.75
+  Validation Notes: Some entities have invalid types
+
+Segment 6: FOR THE ACCOMPANYING GUIDANCE LISTED BELOW, SEE PART B OF THIS EDITION
+  Entities: 5
+  Relationships: 4
+  Quality Score: 0.87
+  Validation Notes: Some entities have invalid types
+
+Segment 7: ILLUSTRATIVE GUIDANCE
+  Entities: 13
+  Relationships: 12
+  Quality Score: 0.74
+  Validation Notes: Some entities have invalid types
+
+Segment 8: ILLUSTRATIVE EXAMPLES
+  Entities: 4
+  Relationships: 3
+  Quality Score: 0.92
+  Validation Notes: Some entities have invalid types
+
+Segment 9: FOR THE BASIS FOR CONCLUSIONS, SEE PART C OF THIS EDITION
+  Entities: 7
+  Relationships: 6
+  Quality Score: 0.81
+  Validation Notes: Some entities have invalid types
+
+Segment 10: BASIS FOR CONCLUSIONS
+  Entities: 16
+  Relationships: 15
+  Quality Score: 0.79
+  Validation Notes: Some entities have invalid types

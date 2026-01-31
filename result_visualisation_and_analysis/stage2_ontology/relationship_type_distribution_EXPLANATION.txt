@@ -1,0 +1,18 @@
+RELATIONSHIP TYPE DISTRIBUTION (ONTOLOGY-GUIDED)
+================================================================================
+
+This visualization shows the breakdown of relationship types extracted from each document
+using the ontology-guided extraction method.
+
+CHART TYPE: Stacked Bar Chart
+- Each bar represents one document
+- Different colors represent different relationship types
+- Height of each color segment = count of that relationship type
+
+RELATIONSHIP TYPES FOUND: 1
+  - Unknown: 350 total across all documents
+
+KEY INSIGHTS:
+- Shows which relationship types connect entities in ESG knowledge graphs
+- Reveals document-specific relationship patterns
+- Demonstrates semantic connections captured by ontology

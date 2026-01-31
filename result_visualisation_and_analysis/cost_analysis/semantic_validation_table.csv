@@ -1,0 +1,8 @@
+Component,Description
+Validation Approach,LLM-based semantic type verification using Claude API
+Input,"Entity type, type definition, and entity content (label + description)"
+LLM Task,Binary classification: Does the entity content semantically match its type definition?
+Output,is_correct (true/false) + reasoning (1-2 sentences)
+Decision Rule,Entities with is_correct=false are filtered out before schema validation
+Model Used,Claude 3.5 Sonnet (claude-3-5-sonnet-20241022)
+Cost per Entity,~$0.0001-0.0002 per validation (200 tokens max)

@@ -1,0 +1,9 @@
+PyPDF2==3.0.1
+pdfplumber==0.10.3
+
+# Stage 2: Knowledge Extraction Dependencies
+openai>=1.3.0  # For OpenAI GPT-4 based extraction
+anthropic>=0.7.0  # For Claude-based extraction (alternative)
+rdflib>=7.0.0  # For RDF processing and validation
+requests>=2.31.0  # For API calls to LLM services
+tiktoken>=0.5.0  # For token counting and optimization

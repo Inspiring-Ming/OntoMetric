@@ -1,0 +1,2216 @@
+{
+  "validation_metadata": {
+    "validation_timestamp": "2025-11-20T10:24:21.660410",
+    "validation_approach": "python",
+    "critical_rules_passed": [
+      "VR001",
+      "VR004",
+      "VR005",
+      "VR006"
+    ],
+    "critical_violations_removed": 19,
+    "original_entity_count": 80,
+    "validated_entity_count": 68,
+    "original_relationship_count": 65,
+    "validated_relationship_count": 58,
+    "source_file": "outputs/stage2_ontology_guided_extraction/1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures_ontology_guided.json",
+    "quality_metrics": {
+      "schema_compliance_weighted": 81.48,
+      "semantic_type_accuracy": 85.0,
+      "relationship_retention_rate": 89.23
+    },
+    "rule_scores": {
+      "VR001": {
+        "rule_name": "Entity Uniqueness",
+        "score": 100.0,
+        "passed_items": 68,
+        "total_items": 68,
+        "violations": 0
+      },
+      "VR002": {
+        "rule_name": "Entity Type-Specific Schema Compliance",
+        "score": 0.0,
+        "passed_items": 0,
+        "total_items": 68,
+        "violations": 68
+      },
+      "VR003": {
+        "rule_name": "Metric Property Values",
+        "score": 88.89,
+        "passed_items": 48,
+        "total_items": 54,
+        "violations": 6
+      },
+      "VR004": {
+        "rule_name": "Model Property Values",
+        "score": 100.0,
+        "passed_items": 4,
+        "total_items": 4,
+        "violations": 0
+      },
+      "VR005": {
+        "rule_name": "Relationship Predicate Validity",
+        "score": 100.0,
+        "passed_items": 58,
+        "total_items": 58,
+        "violations": 0
+      },
+      "VR006": {
+        "rule_name": "CalculatedMetric-Model Links",
+        "score": 100.0,
+        "passed_items": 4,
+        "total_items": 4,
+        "violations": 0
+      }
+    },
+    "semantic_validation": {
+      "total_entities": 80,
+      "correct_entities": 68,
+      "incorrect_entities": 12,
+      "semantic_type_accuracy": 85.0,
+      "llm_cost": 0.008,
+      "mismatches": [
+        {
+          "entity_id": "industry_IFRS-S2",
+          "entity_type": "Industry",
+          "label": "Climate-related Reporting Entities",
+          "llm_reasoning": "This label describes a category of organizations based on their reporting obligations rather than a business sector or industry classification. It is a regulatory/compliance classification, not an industry type."
+        },
+        {
+          "entity_id": "metric_IFRS-S2_2_001",
+          "entity_type": "Metric",
+          "label": "Climate-related Risks and Opportunities Identification",
+          "llm_reasoning": "This entity describes a qualitative disclosure requirement about identifying and describing risks and opportunities, but it is not itself a metric. It represents a narrative disclosure framework rather than a measurable metric or specific disclosure requirement with defined parameters."
+        },
+        {
+          "entity_id": "industry_003",
+          "entity_type": "Industry",
+          "label": "Cross-Industry Climate Disclosures",
+          "llm_reasoning": "This entity represents a type of disclosure or reporting framework rather than a business sector or industry classification. It describes a cross-cutting disclosure practice, not an industry category itself."
+        },
+        {
+          "entity_id": "metric_IFRS-S2_7_001",
+          "entity_type": "Metric",
+          "label": "Climate-related Risks and Opportunities Affecting Prospects",
+          "llm_reasoning": "This entity describes a disclosure topic or category requiring narrative explanation of climate risks and opportunities, but it is not itself a metric. A metric would be a specific measurable indicator or quantitative measure (e.g., 'Scope 1 GHG emissions in tonnes CO2e') or a defined qualitative disclosure requirement with specific parameters, not a broad topical area."
+        },
+        {
+          "entity_id": "metric_IFRS-S2_7_003",
+          "entity_type": "Metric",
+          "label": "Effects on Strategy and Transition Plan",
+          "llm_reasoning": "This entity describes strategic effects and transition planning processes, which are qualitative disclosures about governance and decision-making frameworks rather than specific metrics or measurements. While the Metric type includes qualitative requirements, this appears to be a broader disclosure category about strategy rather than a specific metric or disclosure requirement with measurable or reportable content."
+        },
+        {
+          "entity_id": "metric_IFRS-S2_7_004",
+          "entity_type": "Metric",
+          "label": "Effects on Financial Position and Performance",
+          "llm_reasoning": "This entity describes a broad disclosure requirement about financial effects and planning considerations, but does not specify any measurable metric (quantitative with units) or concrete qualitative disclosure element. It represents a high-level reporting objective rather than an actual metric that can be measured or disclosed."
+        },
+        {
+          "entity_id": "metric_IFRS-S2_7_008",
+          "entity_type": "Metric",
+          "label": "Time Horizons for Risks and Opportunities",
+          "llm_reasoning": "This describes a disclosure requirement about categorizing risks and opportunities by time horizon, which is a qualitative organizational/classification task rather than a metric. It does not involve measuring or quantifying ESG performance, nor does it represent a specific measurable data point with units."
+        },
+        {
+          "entity_id": "metric_IFRS-S2_1_006",
+          "entity_type": "Metric",
+          "label": "Climate-Related Strategy and Decision-Making Response",
+          "llm_reasoning": "This entity describes a broad qualitative disclosure requirement about strategic responses and decision-making processes, but does not represent a specific metric or measurable data point. It is more appropriately classified as a disclosure topic or category rather than a metric itself."
+        },
+        {
+          "entity_id": "metric_IFRS-S2_9_008",
+          "entity_type": "Metric",
+          "label": "Anticipated Financial Effects of Climate Risks and Opportunities",
+          "llm_reasoning": "This entity describes a qualitative disclosure requirement about anticipated financial effects and planning processes, but does not represent a specific metric with measurable values or units. It is better classified as a disclosure topic or requirement rather than a metric itself."
+        },
+        {
+          "entity_id": "metric_IFRS-S2_9_010",
+          "entity_type": "Metric",
+          "label": "Climate Risks with Material Adjustment Risk",
+          "llm_reasoning": "This describes a disclosure requirement about climate risks that could affect financial statements, but it is not itself a metric. It defines what should be disclosed rather than being a measurable quantitative value or specific qualitative disclosure element."
+        },
+        {
+          "entity_id": "category_IFRS-S2_10",
+          "entity_type": "Category",
+          "label": "Illustrative Examples - Financial Effects Disclosure",
+          "llm_reasoning": "This appears to be a specific disclosure section or example type rather than a thematic grouping of ESG disclosures. It describes a format or method of disclosure rather than a substantive ESG topic area like Energy Management or Emissions."
+        },
+        {
+          "entity_id": "metric_IFRS-S2_006",
+          "entity_type": "Metric",
+          "label": "Gross Exposure by Industry and Asset Class",
+          "llm_reasoning": "This entity describes a financial risk exposure metric related to credit portfolios, not an ESG (Environmental, Social, Governance) disclosure. The definition specifically requires ESG-related quantitative metrics or qualitative disclosures, which this financial exposure calculation does not represent."
+        }
+      ]
+    },
+    "rule_compliance": {
+      "critical_rules_total": 6,
+      "critical_rules_passed_count": 4,
+      "critical_rules_failed_count": 2,
+      "critical_rules_failed": [
+        "VR002",
+        "VR003"
+      ]
+    },
+    "violation_statistics": {
+      "total_violations": 74,
+      "entities_with_violations": 12,
+      "relationships_with_violations": 0,
+      "violations_by_rule": {
+        "VR001": {
+          "passed": true,
+          "violation_count": 0
+        },
+        "VR002": {
+          "passed": false,
+          "violation_count": 68
+        },
+        "VR003": {
+          "passed": false,
+          "violation_count": 6
+        },
+        "VR004": {
+          "passed": true,
+          "violation_count": 0
+        },
+        "VR005": {
+          "passed": true,
+          "violation_count": 0
+        },
+        "VR006": {
+          "passed": true,
+          "violation_count": 0
+        }
+      }
+    },
+    "segment_statistics": {
+      "total_segments": 9,
+      "segments_with_entities": 9,
+      "entities_per_segment": {
+        "seg_006": {
+          "original": 5,
+          "validated": 4
+        },
+        "seg_002": {
+          "original": 11,
+          "validated": 9
+        },
+        "seg_003": {
+          "original": 16,
+          "validated": 16
+        },
+        "seg_007": {
+          "original": 12,
+          "validated": 9
+        },
+        "seg_004": {
+          "original": 7,
+          "validated": 7
+        },
+        "seg_005": {
+          "original": 9,
+          "validated": 5
+        },
+        "seg_008": {
+          "original": 2,
+          "validated": 1
+        },
+        "seg_009": {
+          "original": 4,
+          "validated": 4
+        },
+        "seg_010": {
+          "original": 14,
+          "validated": 13
+        }
+      },
+      "retention_per_segment": {
+        "seg_006": 80.0,
+        "seg_002": 81.82,
+        "seg_003": 100.0,
+        "seg_007": 75.0,
+        "seg_004": 100.0,
+        "seg_005": 55.56,
+        "seg_008": 50.0,
+        "seg_009": 100.0,
+        "seg_010": 92.86
+      },
+      "avg_segment_retention": 81.69
+    }
+  },
+  "entities": [
+    {
+      "id": "framework_005",
+      "type": "ReportingFramework",
+      "label": "IFRS S2 Climate-Related Disclosures",
+      "properties": {
+        "name": "IFRS S2",
+        "version": "2023",
+        "year": "2023",
+        "publisher": "IFRS Foundation"
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_006",
+        "section_title": "FOR THE ACCOMPANYING GUIDANCE LISTED BELOW, SEE PART B OF THIS EDITION",
+        "extraction_timestamp": "2025-11-18T14:07:39.260450"
+      }
+    },
+    {
+      "id": "category_IFRS-S2_1",
+      "type": "Category",
+      "label": "Governance",
+      "properties": {
+        "section_title": "Governance",
+        "section_id": "IFRS-S2-Governance",
+        "page_range": "5-6"
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_002",
+        "section_title": "Governance",
+        "extraction_timestamp": "2025-11-18T14:04:01.868923"
+      }
+    },
+    {
+      "id": "category_IFRS-S2_001",
+      "type": "Category",
+      "label": "Strategy: Climate Risks and Opportunities",
+      "properties": {
+        "section_title": "Strategy and decision-making; Business model and value chain",
+        "section_id": "Paragraphs 11-14",
+        "page_range": "8"
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_006",
+        "section_title": "FOR THE ACCOMPANYING GUIDANCE LISTED BELOW, SEE PART B OF THIS EDITION",
+        "extraction_timestamp": "2025-11-18T14:07:39.260455"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_1_001",
+      "type": "Metric",
+      "label": "Governance Body Responsibilities",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "IFRS-S2-6a",
+        "description": "Information about the governance body(s) or individual(s) responsible for oversight of climate-related risks and opportunities, including how responsibilities are reflected in terms of reference, mandates, role descriptions and related policies"
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_002",
+        "section_title": "Governance",
+        "extraction_timestamp": "2025-11-18T14:04:01.868929"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_1_002",
+      "type": "Metric",
+      "label": "Governance Skills and Competencies",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "IFRS-S2-6a-ii",
+        "description": "How the body(s) or individual(s) determines whether appropriate skills and competencies are available or will be developed to oversee strategies designed to respond to climate-related risks and opportunities"
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_002",
+        "section_title": "Governance",
+        "extraction_timestamp": "2025-11-18T14:04:01.868932"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_1_003",
+      "type": "Metric",
+      "label": "Governance Information Flow",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "IFRS-S2-6a-iii",
+        "description": "How and how often the body(s) or individual(s) is informed about climate-related risks and opportunities"
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_002",
+        "section_title": "Governance",
+        "extraction_timestamp": "2025-11-18T14:04:01.868935"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_1_004",
+      "type": "Metric",
+      "label": "Management Role in Climate Governance",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "IFRS-S2-6b",
+        "description": "Management's role in the governance processes, controls and procedures used to monitor, manage and oversee climate-related risks and opportunities, including whether the role is delegated to specific management-level positions or committees"
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_002",
+        "section_title": "Governance",
+        "extraction_timestamp": "2025-11-18T14:04:01.868937"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_2_002",
+      "type": "Metric",
+      "label": "Effects on Business Model and Value Chain",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "IFRS-S2-13",
+        "description": "Current and anticipated effects of climate-related risks and opportunities on the entity's business model and value chain"
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_002",
+        "section_title": "Governance",
+        "extraction_timestamp": "2025-11-18T14:04:01.868943"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_2_003",
+      "type": "Metric",
+      "label": "Climate Transition Plan",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "IFRS-S2-14",
+        "description": "Effects of climate-related risks and opportunities on the entity's strategy and decision-making, including information about its climate-related transition plan"
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_002",
+        "section_title": "Governance",
+        "extraction_timestamp": "2025-11-18T14:04:01.868945"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_2_004",
+      "type": "Metric",
+      "label": "Financial Effects of Climate Risks and Opportunities",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "IFRS-S2-15-21",
+        "description": "Effects of climate-related risks and opportunities on the entity's financial position, financial performance and cash flows for the reporting period and their anticipated effects over the short, medium and long term, including how these have been factored into financial planning"
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_002",
+        "section_title": "Governance",
+        "extraction_timestamp": "2025-11-18T14:04:01.868948"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_2_005",
+      "type": "Metric",
+      "label": "Climate Resilience Assessment",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "IFRS-S2-22",
+        "description": "Climate resilience of the entity's strategy and business model to climate-related changes, developments and uncertainties, taking into consideration identified climate-related risks and opportunities"
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_002",
+        "section_title": "Governance",
+        "extraction_timestamp": "2025-11-18T14:04:01.868950"
+      }
+    },
+    {
+      "id": "industry_IFRS-S2_general",
+      "type": "Industry",
+      "label": "General (Cross-Industry)",
+      "properties": {
+        "sector": "Cross-Industry",
+        "country": "N/A",
+        "standard_reference": "IFRS S2"
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_003",
+        "section_title": "Strategy",
+        "extraction_timestamp": "2025-11-18T14:05:25.733740"
+      }
+    },
+    {
+      "id": "category_IFRS-S2_metrics",
+      "type": "Category",
+      "label": "Metrics and Targets",
+      "properties": {
+        "section_title": "Metrics and targets",
+        "section_id": "para_27-37",
+        "page_range": "14-18"
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_003",
+        "section_title": "Strategy",
+        "extraction_timestamp": "2025-11-18T14:05:25.733761"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_14_001",
+      "type": "Metric",
+      "label": "Absolute Gross Greenhouse Gas Emissions",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "CalculatedMetric",
+        "unit": "Metric tonnes CO₂-e",
+        "code": "para_29(a)(i)",
+        "description": "Absolute gross greenhouse gas emissions generated during the reporting period, expressed as metric tonnes of CO₂ equivalent, classified as Scope 1, Scope 2, and Scope 3 greenhouse gas emissions.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_003",
+        "section_title": "Strategy",
+        "extraction_timestamp": "2025-11-18T14:05:25.733763"
+      }
+    },
+    {
+      "id": "model_IFRS-S2_14_001",
+      "type": "Model",
+      "label": "GHG Emissions Aggregation Model",
+      "properties": {
+        "description": "Total greenhouse gas emissions calculated as the sum of Scope 1, Scope 2, and Scope 3 emissions, measured in accordance with the Greenhouse Gas Protocol.",
+        "equation": "Total GHG Emissions = Scope 1 + Scope 2 + Scope 3",
+        "input_variables": [
+          "Scope 1 greenhouse gas emissions",
+          "Scope 2 greenhouse gas emissions",
+          "Scope 3 greenhouse gas emissions"
+        ]
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_003",
+        "section_title": "Strategy",
+        "extraction_timestamp": "2025-11-18T14:05:25.733766"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_14_002",
+      "type": "Metric",
+      "label": "Scope 1 Greenhouse Gas Emissions",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Metric tonnes CO₂-e",
+        "code": "para_29(a)(i)(1)",
+        "description": "Direct greenhouse gas emissions that occur from sources that are owned or controlled by an entity."
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_003",
+        "section_title": "Strategy",
+        "extraction_timestamp": "2025-11-18T14:05:25.733768"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_14_003",
+      "type": "Metric",
+      "label": "Scope 2 Greenhouse Gas Emissions",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Metric tonnes CO₂-e",
+        "code": "para_29(a)(i)(2)",
+        "description": "Indirect greenhouse gas emissions from the generation of purchased or acquired electricity, steam, heating or cooling consumed by an entity."
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_003",
+        "section_title": "Strategy",
+        "extraction_timestamp": "2025-11-18T14:05:25.733771"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_14_004",
+      "type": "Metric",
+      "label": "Scope 3 Greenhouse Gas Emissions",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Metric tonnes CO₂-e",
+        "code": "para_29(a)(i)(3)",
+        "description": "Indirect greenhouse gas emissions (not included in Scope 2) that occur in the value chain of an entity, including both upstream and downstream emissions."
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_003",
+        "section_title": "Strategy",
+        "extraction_timestamp": "2025-11-18T14:05:25.733774"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_15_001",
+      "type": "Metric",
+      "label": "Assets Vulnerable to Climate-Related Transition Risks",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "DirectMetric",
+        "unit": "Amount and Percentage",
+        "code": "para_29(b)",
+        "description": "The amount and percentage of assets or business activities vulnerable to climate-related transition risks.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_003",
+        "section_title": "Strategy",
+        "extraction_timestamp": "2025-11-18T14:05:25.733777"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_15_002",
+      "type": "Metric",
+      "label": "Assets Vulnerable to Climate-Related Physical Risks",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "DirectMetric",
+        "unit": "Amount and Percentage",
+        "code": "para_29(c)",
+        "description": "The amount and percentage of assets or business activities vulnerable to climate-related physical risks.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_003",
+        "section_title": "Strategy",
+        "extraction_timestamp": "2025-11-18T14:05:25.733781"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_15_003",
+      "type": "Metric",
+      "label": "Assets Aligned with Climate-Related Opportunities",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "DirectMetric",
+        "unit": "Amount and Percentage",
+        "code": "para_29(d)",
+        "description": "The amount and percentage of assets or business activities aligned with climate-related opportunities.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_003",
+        "section_title": "Strategy",
+        "extraction_timestamp": "2025-11-18T14:05:25.733784"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_15_004",
+      "type": "Metric",
+      "label": "Capital Deployment for Climate-Related Risks and Opportunities",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "DirectMetric",
+        "unit": "Amount",
+        "code": "para_29(e)",
+        "description": "The amount of capital expenditure, financing or investment deployed towards climate-related risks and opportunities.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_003",
+        "section_title": "Strategy",
+        "extraction_timestamp": "2025-11-18T14:05:25.733786"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_15_005",
+      "type": "Metric",
+      "label": "Internal Carbon Prices",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "para_29(f)",
+        "description": "Explanation of whether and how the entity is applying a carbon price in decision-making, and the price for each metric tonne of greenhouse gas emissions used to assess costs.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_003",
+        "section_title": "Strategy",
+        "extraction_timestamp": "2025-11-18T14:05:25.733788"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_16_001",
+      "type": "Metric",
+      "label": "Climate-Related Considerations in Executive Remuneration",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "DirectMetric",
+        "unit": "Percentage (%)",
+        "code": "para_29(g)",
+        "description": "Description of whether and how climate-related considerations are factored into executive remuneration, and the percentage of executive management remuneration linked to climate-related considerations.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_003",
+        "section_title": "Strategy",
+        "extraction_timestamp": "2025-11-18T14:05:25.733791"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_16_002",
+      "type": "Metric",
+      "label": "Climate-Related Targets",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "para_33-37",
+        "description": "Quantitative and qualitative climate-related targets set by the entity to monitor progress towards achieving strategic goals, including greenhouse gas emissions targets, with details on metrics, objectives, scope, timelines, and performance monitoring.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_003",
+        "section_title": "Strategy",
+        "extraction_timestamp": "2025-11-18T14:05:25.733793"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_11_001",
+      "type": "Metric",
+      "label": "Current and Anticipated Effects on Business Model and Value Chain",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "para_13",
+        "description": "Description of the current and anticipated effects of climate-related risks and opportunities on the entity's business model and value chain, including where in the business model and value chain climate-related risks and opportunities are concentrated.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_003",
+        "section_title": "Strategy",
+        "extraction_timestamp": "2025-11-18T14:05:25.733795"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_11_002",
+      "type": "Metric",
+      "label": "Climate Resilience Assessment",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "para_22",
+        "description": "Information about the resilience of the entity's strategy and business model to climate-related changes, developments and uncertainties, including climate-related scenario analysis and assessment of capacity to adjust or adapt.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_003",
+        "section_title": "Strategy",
+        "extraction_timestamp": "2025-11-18T14:05:25.733798"
+      }
+    },
+    {
+      "id": "category_IFRS-S2_24",
+      "type": "Category",
+      "label": "Climate Resilience Assessment",
+      "properties": {
+        "section_title": "Climate resilience (paragraph 22) - Application Guidance",
+        "section_id": "Appendix B, B1-B18",
+        "page_range": "24-26"
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_004",
+        "section_title": "Risk management",
+        "extraction_timestamp": "2025-11-18T14:06:13.309818"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_24_001",
+      "type": "Metric",
+      "label": "Climate-related scenario analysis approach",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "CalculatedMetric",
+        "unit": "Discussion and Analysis",
+        "code": "IFRS S2 Para 22, B1-B18",
+        "description": "An approach to climate-related scenario analysis that is commensurate with the entity's circumstances, enabling it to assess climate resilience by considering all reasonable and supportable information available at the reporting date without undue cost or effort",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_004",
+        "section_title": "Risk management",
+        "extraction_timestamp": "2025-11-18T14:06:13.309822"
+      }
+    },
+    {
+      "id": "model_IFRS-S2_24_001",
+      "type": "Model",
+      "label": "Climate Resilience Assessment Model",
+      "properties": {
+        "description": "Determines the appropriate approach to climate-related scenario analysis based on assessment of the entity's exposure to climate-related risks and opportunities and the skills, capabilities and resources available to the entity",
+        "equation": "f(Exposure Assessment, Available Skills and Resources)",
+        "input_variables": [
+          "Exposure to climate-related risks and opportunities",
+          "Skills, capabilities and resources available"
+        ]
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_004",
+        "section_title": "Risk management",
+        "extraction_timestamp": "2025-11-18T14:06:13.309825"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_24_002",
+      "type": "Metric",
+      "label": "Exposure to climate-related risks and opportunities",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "InputMetric",
+        "unit": "Discussion and Analysis",
+        "code": "IFRS S2 B4-B5",
+        "description": "Assessment of the entity's degree of exposure to climate-related risks and opportunities, providing essential context for determining the appropriate approach to climate-related scenario analysis"
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_004",
+        "section_title": "Risk management",
+        "extraction_timestamp": "2025-11-18T14:06:13.309829"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_24_003",
+      "type": "Metric",
+      "label": "Skills, capabilities and resources available",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "InputMetric",
+        "unit": "Discussion and Analysis",
+        "code": "IFRS S2 B6-B7",
+        "description": "Assessment of the internal and external skills, capabilities and resources available to the entity for conducting climate-related scenario analysis, informing the potential cost and level of effort required"
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_004",
+        "section_title": "Risk management",
+        "extraction_timestamp": "2025-11-18T14:06:13.309833"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_24_004",
+      "type": "Metric",
+      "label": "Selection of inputs to climate-related scenario analysis",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "IFRS S2 B11-B13",
+        "description": "Selection of inputs including scenarios, variables and other information (qualitative or quantitative, external or internal) used in climate-related scenario analysis, considering all reasonable and supportable information available without undue cost or effort",
+        "disaggregations": [
+          "Publicly available climate-related scenarios",
+          "Variables",
+          "Other inputs (qualitative or quantitative)",
+          "External or internal sources"
+        ]
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_004",
+        "section_title": "Risk management",
+        "extraction_timestamp": "2025-11-18T14:06:13.309837"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_24_005",
+      "type": "Metric",
+      "label": "Analytical choices in climate-related scenario analysis",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "IFRS S2 B14-B15",
+        "description": "Analytical choices made about how to carry out the climate-related scenario analysis, informed by the entity's circumstances and the mix of inputs selected",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_004",
+        "section_title": "Risk management",
+        "extraction_timestamp": "2025-11-18T14:06:13.309841"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_7_002",
+      "type": "Metric",
+      "label": "Effects on Business Model and Value Chain",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "N/A",
+        "code": "Para 9(b)",
+        "description": "The current and anticipated effects of those climate-related risks and opportunities on the entity's business model and value chain",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_005",
+        "section_title": "APPENDICES",
+        "extraction_timestamp": "2025-11-18T14:07:04.034565"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_7_005",
+      "type": "Metric",
+      "label": "Climate Resilience Assessment",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "N/A",
+        "code": "Para 9(e)",
+        "description": "The climate resilience of the entity's strategy and its business model to climate-related changes, developments and uncertainties, taking into consideration the entity's identified climate-related risks and opportunities",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_005",
+        "section_title": "APPENDICES",
+        "extraction_timestamp": "2025-11-18T14:07:04.034577"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_7_006",
+      "type": "Metric",
+      "label": "Description of Climate-related Risks and Opportunities",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "N/A",
+        "code": "Para 10(a)",
+        "description": "Describe climate-related risks and opportunities that could reasonably be expected to affect the entity's prospects",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_005",
+        "section_title": "APPENDICES",
+        "extraction_timestamp": "2025-11-18T14:07:04.034581"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_7_007",
+      "type": "Metric",
+      "label": "Classification of Physical vs Transition Risks",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "N/A",
+        "code": "Para 10(b)",
+        "description": "Explain, for each climate-related risk the entity has identified, whether the entity considers the risk to be a climate-related physical risk or climate-related transition risk",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_005",
+        "section_title": "APPENDICES",
+        "extraction_timestamp": "2025-11-18T14:07:04.034585"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_7_009",
+      "type": "Metric",
+      "label": "Definition of Time Horizons",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "N/A",
+        "code": "Para 10(d)",
+        "description": "Explain how the entity defines 'short term', 'medium term' and 'long term' and how these definitions are linked to the planning horizons used by the entity for strategic decision-making",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_005",
+        "section_title": "APPENDICES",
+        "extraction_timestamp": "2025-11-18T14:07:04.034592"
+      }
+    },
+    {
+      "id": "industry_002",
+      "type": "Industry",
+      "label": "Cross-Industry (General Requirements)",
+      "properties": {
+        "sector": "Cross-Industry",
+        "country": "International",
+        "standard_reference": "IFRS S2"
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_006",
+        "section_title": "FOR THE ACCOMPANYING GUIDANCE LISTED BELOW, SEE PART B OF THIS EDITION",
+        "extraction_timestamp": "2025-11-18T14:07:39.260435"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_1_005",
+      "type": "Metric",
+      "label": "Climate-Related Risks and Opportunities Description",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "N/A",
+        "description": "Description of current and anticipated effects of climate-related risks and opportunities on the entity's business model and value chain, including geographical areas, facilities and types of assets where risks and opportunities are concentrated.",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_006",
+        "section_title": "FOR THE ACCOMPANYING GUIDANCE LISTED BELOW, SEE PART B OF THIS EDITION",
+        "extraction_timestamp": "2025-11-18T14:07:39.260458"
+      }
+    },
+    {
+      "id": "category_IFRS-S2_9",
+      "type": "Category",
+      "label": "Climate-Related Financial Disclosures",
+      "properties": {
+        "section_title": "Financial position, financial performance and cash flows",
+        "section_id": "Para-15-16",
+        "page_range": "9"
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_007",
+        "section_title": "ILLUSTRATIVE GUIDANCE",
+        "extraction_timestamp": "2025-11-18T14:08:25.854311"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_9_001",
+      "type": "Metric",
+      "label": "Direct Mitigation and Adaptation Efforts",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "Para-14(a)(ii)",
+        "description": "Current and anticipated direct mitigation and adaptation efforts (for example, through changes in production processes or equipment, relocation of facilities, workforce adjustments, and changes in product specifications)",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_007",
+        "section_title": "ILLUSTRATIVE GUIDANCE",
+        "extraction_timestamp": "2025-11-18T14:08:25.854313"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_9_002",
+      "type": "Metric",
+      "label": "Indirect Mitigation and Adaptation Efforts",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "Para-14(a)(iii)",
+        "description": "Current and anticipated indirect mitigation and adaptation efforts (for example, through working with customers and supply chains)",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_007",
+        "section_title": "ILLUSTRATIVE GUIDANCE",
+        "extraction_timestamp": "2025-11-18T14:08:25.854314"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_9_003",
+      "type": "Metric",
+      "label": "Climate-Related Transition Plan",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "Para-14(a)(iv)",
+        "description": "Any climate-related transition plan the entity has, including information about key assumptions used in developing its transition plan, and dependencies on which the entity's transition plan relies",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_007",
+        "section_title": "ILLUSTRATIVE GUIDANCE",
+        "extraction_timestamp": "2025-11-18T14:08:25.854316"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_9_004",
+      "type": "Metric",
+      "label": "Plans to Achieve Climate Targets",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "Para-14(a)(v)",
+        "description": "How the entity plans to achieve any climate-related targets, including any greenhouse gas emissions targets, described in accordance with paragraphs 33-36",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_007",
+        "section_title": "ILLUSTRATIVE GUIDANCE",
+        "extraction_timestamp": "2025-11-18T14:08:25.854317"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_9_005",
+      "type": "Metric",
+      "label": "Resourcing of Climate Activities",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "Para-14(b)",
+        "description": "Information about how the entity is resourcing, and plans to resource, the activities disclosed in accordance with paragraph 14(a)",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_007",
+        "section_title": "ILLUSTRATIVE GUIDANCE",
+        "extraction_timestamp": "2025-11-18T14:08:25.854318"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_9_006",
+      "type": "Metric",
+      "label": "Progress of Climate Plans",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "Para-14(c)",
+        "description": "Quantitative and qualitative information about the progress of plans disclosed in previous reporting periods in accordance with paragraph 14(a)",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_007",
+        "section_title": "ILLUSTRATIVE GUIDANCE",
+        "extraction_timestamp": "2025-11-18T14:08:25.854319"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_9_007",
+      "type": "Metric",
+      "label": "Current Financial Effects of Climate Risks and Opportunities",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "Para-15(a)",
+        "description": "The effects of climate-related risks and opportunities on the entity's financial position, financial performance and cash flows for the reporting period (current financial effects)",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_007",
+        "section_title": "ILLUSTRATIVE GUIDANCE",
+        "extraction_timestamp": "2025-11-18T14:08:25.854321"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_9_009",
+      "type": "Metric",
+      "label": "Effects on Financial Position and Performance",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "Para-16(a)",
+        "description": "How climate-related risks and opportunities have affected its financial position, financial performance and cash flows for the reporting period",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_007",
+        "section_title": "ILLUSTRATIVE GUIDANCE",
+        "extraction_timestamp": "2025-11-18T14:08:25.854323"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_10_001",
+      "type": "Metric",
+      "label": "Anticipated Financial Effects of Climate-related Risks and Opportunities",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "N/A",
+        "description": "Disclosure of how the entity expects its financial position, financial performance and cash flows to change over the short, medium and long term, given its strategy to manage climate-related risks and opportunities. Includes investment and disposal plans, planned sources of funding, anticipated revenue changes, costs from physical damage, and expenses associated with climate adaptation or mitigation. Entities may provide quantitative information (single amount or range) if supportable, or qualitative explanation if quantitative data is not separately identifiable, subject to high measurement uncertainty, or unavailable due to skills/capabilities/resources constraints.",
+        "disaggregations": [
+          "Financial position changes",
+          "Investment and disposal plans",
+          "Planned funding sources",
+          "Financial performance and cash flow changes"
+        ]
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_008",
+        "section_title": "ILLUSTRATIVE EXAMPLES",
+        "extraction_timestamp": "2025-11-18T14:08:57.138853"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_11_003",
+      "type": "Metric",
+      "label": "Qualitative Information on Financial Effects",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "N/A",
+        "description": "Qualitative information about financial effects of climate-related risks or opportunities, including identifying line items, totals and subtotals within related financial statements that are likely to be affected or have been affected",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_009",
+        "section_title": "FOR THE BASIS FOR CONCLUSIONS, SEE PART C OF THIS EDITION",
+        "extraction_timestamp": "2025-11-18T14:09:31.109306"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_11_004",
+      "type": "Metric",
+      "label": "Quantitative Information on Combined Financial Effects",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "DirectMetric",
+        "unit": "Monetary amount or range",
+        "code": "N/A",
+        "description": "Quantitative information about the combined financial effects of climate-related risks or opportunities with other climate-related risks or opportunities and other factors, provided as a single amount or a range",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_009",
+        "section_title": "FOR THE BASIS FOR CONCLUSIONS, SEE PART C OF THIS EDITION",
+        "extraction_timestamp": "2025-11-18T14:09:31.109308"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_11_005",
+      "type": "Metric",
+      "label": "Climate Resilience Assessment",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "N/A",
+        "description": "Entity's assessment of its climate resilience as at the reporting date using climate-related scenario analysis, enabling users to understand implications for strategy and business model, areas of uncertainty, and capacity to adjust or adapt",
+        "disaggregations": [
+          "Implications for strategy and business model",
+          "Significant areas of uncertainty",
+          "Capacity to adjust or adapt strategy and business model",
+          "Availability and flexibility of financial resources",
+          "Ability to redeploy, repurpose, upgrade or decommission assets",
+          "Effect of current and planned investments in climate-related mitigation, adaptation and opportunities"
+        ]
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_009",
+        "section_title": "FOR THE BASIS FOR CONCLUSIONS, SEE PART C OF THIS EDITION",
+        "extraction_timestamp": "2025-11-18T14:09:31.109309"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_11_006",
+      "type": "Metric",
+      "label": "Climate-related Scenario Analysis Methodology",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "DirectMetric",
+        "unit": "Discussion and Analysis",
+        "code": "N/A",
+        "description": "Disclosure of how and when the climate-related scenario analysis was carried out, using an approach commensurate with the entity's circumstances",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_009",
+        "section_title": "FOR THE BASIS FOR CONCLUSIONS, SEE PART C OF THIS EDITION",
+        "extraction_timestamp": "2025-11-18T14:09:31.109311"
+      }
+    },
+    {
+      "id": "industry_IFRS-S2_001",
+      "type": "Industry",
+      "label": "General Cross-Industry",
+      "properties": {
+        "sector": "Cross-Industry",
+        "country": "International",
+        "standard_reference": "IFRS S2"
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_010",
+        "section_title": "BASIS FOR CONCLUSIONS",
+        "extraction_timestamp": "2025-11-18T14:10:51.838645"
+      }
+    },
+    {
+      "id": "category_IFRS-S2_risk-mgmt",
+      "type": "Category",
+      "label": "Risk Management",
+      "properties": {
+        "section_title": "Risk Management",
+        "section_id": "Para 24-26",
+        "page_range": "13"
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_010",
+        "section_title": "BASIS FOR CONCLUSIONS",
+        "extraction_timestamp": "2025-11-18T14:10:51.838662"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_001",
+      "type": "Metric",
+      "label": "Absolute Gross GHG Emissions",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "DirectMetric",
+        "unit": "Metric tonnes CO₂-e",
+        "code": "Para 29(a)(i)",
+        "description": "Absolute gross greenhouse gas emissions generated during the reporting period, expressed as metric tonnes of CO₂ equivalent",
+        "disaggregations": [
+          "Scope 1 greenhouse gas emissions",
+          "Scope 2 greenhouse gas emissions",
+          "Scope 3 greenhouse gas emissions"
+        ]
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_010",
+        "section_title": "BASIS FOR CONCLUSIONS",
+        "extraction_timestamp": "2025-11-18T14:10:51.838668"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_002",
+      "type": "Metric",
+      "label": "Financed Emissions (Asset Management)",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "CalculatedMetric",
+        "unit": "Metric tonnes CO₂-e",
+        "code": "Para B61",
+        "description": "Absolute gross financed emissions for asset management activities, disaggregated by Scope 1, Scope 2 and Scope 3 greenhouse gas emissions",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_010",
+        "section_title": "BASIS FOR CONCLUSIONS",
+        "extraction_timestamp": "2025-11-18T14:10:51.838671"
+      }
+    },
+    {
+      "id": "model_IFRS-S2_002",
+      "type": "Model",
+      "label": "Financed Emissions Calculation Model (Asset Management)",
+      "properties": {
+        "description": "Calculation model for financed emissions in asset management, derived from assets under management (AUM) and allocation methodology to attribute share of emissions based on investment size",
+        "equation": "f(AUM, Allocation_Method, Investee_Emissions)",
+        "input_variables": [
+          "Total Assets Under Management (AUM)",
+          "Allocation methodology",
+          "Investee greenhouse gas emissions"
+        ]
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_010",
+        "section_title": "BASIS FOR CONCLUSIONS",
+        "extraction_timestamp": "2025-11-18T14:10:51.838675"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_003",
+      "type": "Metric",
+      "label": "Assets Under Management (AUM)",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "InputMetric",
+        "unit": "Presentation currency",
+        "code": "Para B61(b)",
+        "description": "Total amount of assets under management included in the financed emissions disclosure"
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_010",
+        "section_title": "BASIS FOR CONCLUSIONS",
+        "extraction_timestamp": "2025-11-18T14:10:51.838678"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_004",
+      "type": "Metric",
+      "label": "Allocation Methodology for Financed Emissions",
+      "properties": {
+        "measurement_type": "Qualitative",
+        "metric_type": "InputMetric",
+        "unit": "N/A",
+        "code": "Para B61(d)",
+        "description": "Methodology used to calculate financed emissions, including method of allocation to attribute share of emissions in relation to size of investments"
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_010",
+        "section_title": "BASIS FOR CONCLUSIONS",
+        "extraction_timestamp": "2025-11-18T14:10:51.838681"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_005",
+      "type": "Metric",
+      "label": "Financed Emissions (Commercial Banking)",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "CalculatedMetric",
+        "unit": "Metric tonnes CO₂-e",
+        "code": "Para B62",
+        "description": "Absolute gross financed emissions for commercial banking activities, disaggregated by Scope 1, Scope 2 and Scope 3 greenhouse gas emissions for each industry by asset class",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_010",
+        "section_title": "BASIS FOR CONCLUSIONS",
+        "extraction_timestamp": "2025-11-18T14:10:51.838684"
+      }
+    },
+    {
+      "id": "model_IFRS-S2_005",
+      "type": "Model",
+      "label": "Financed Emissions Calculation Model (Commercial Banking)",
+      "properties": {
+        "description": "Calculation model for financed emissions in commercial banking, derived from gross exposure (funded carrying amounts, undrawn commitments) and allocation methodology by industry and asset class",
+        "equation": "f(Gross_Exposure, Industry_Classification, Asset_Class, Allocation_Method, Counterparty_Emissions)",
+        "input_variables": [
+          "Gross Exposure by Industry",
+          "Gross Exposure by Asset Class",
+          "GICS Industry Classification",
+          "Allocation methodology",
+          "Counterparty greenhouse gas emissions"
+        ]
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_010",
+        "section_title": "BASIS FOR CONCLUSIONS",
+        "extraction_timestamp": "2025-11-18T14:10:51.838686"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_007",
+      "type": "Metric",
+      "label": "Climate-related Transition Risks - Asset Vulnerability",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "DirectMetric",
+        "unit": "Amount and Percentage",
+        "code": "Para 29(b)",
+        "description": "The amount and percentage of assets or business activities vulnerable to climate-related transition risks",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_010",
+        "section_title": "BASIS FOR CONCLUSIONS",
+        "extraction_timestamp": "2025-11-18T14:10:51.838692"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_008",
+      "type": "Metric",
+      "label": "Climate-related Physical Risks - Asset Vulnerability",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "DirectMetric",
+        "unit": "Amount and Percentage",
+        "code": "Para 29(c)",
+        "description": "The amount and percentage of assets or business activities vulnerable to climate-related physical risks",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_010",
+        "section_title": "BASIS FOR CONCLUSIONS",
+        "extraction_timestamp": "2025-11-18T14:10:51.838695"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_009",
+      "type": "Metric",
+      "label": "Internal Carbon Price",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "DirectMetric",
+        "unit": "Price per metric tonne of GHG emissions",
+        "code": "Para 29(f)(ii)",
+        "description": "The price for each metric tonne of greenhouse gas emissions the entity uses to assess the costs of its greenhouse gas emissions",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_010",
+        "section_title": "BASIS FOR CONCLUSIONS",
+        "extraction_timestamp": "2025-11-18T14:10:51.838698"
+      }
+    },
+    {
+      "id": "metric_IFRS-S2_010",
+      "type": "Metric",
+      "label": "Climate-related Executive Remuneration",
+      "properties": {
+        "measurement_type": "Quantitative",
+        "metric_type": "DirectMetric",
+        "unit": "Percentage (%)",
+        "code": "Para 29(g)(ii)",
+        "description": "The percentage of executive management remuneration recognised in the current period that is linked to climate-related considerations",
+        "disaggregations": []
+      },
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_010",
+        "section_title": "BASIS FOR CONCLUSIONS",
+        "extraction_timestamp": "2025-11-18T14:10:51.838702"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "subject": "industry_IFRS-S2_general",
+      "predicate": "ReportUsing",
+      "object": "framework_005",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_002",
+        "section_title": "Governance",
+        "extraction_timestamp": "2025-11-18T14:04:01.868954"
+      }
+    },
+    {
+      "subject": "framework_005",
+      "predicate": "Include",
+      "object": "category_IFRS-S2_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_002",
+        "section_title": "Governance",
+        "extraction_timestamp": "2025-11-18T14:04:01.868958"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_001",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_1_005",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_002",
+        "section_title": "Governance",
+        "extraction_timestamp": "2025-11-18T14:04:01.868964"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_001",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_1_003",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_002",
+        "section_title": "Governance",
+        "extraction_timestamp": "2025-11-18T14:04:01.868970"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_001",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_1_004",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_002",
+        "section_title": "Governance",
+        "extraction_timestamp": "2025-11-18T14:04:01.868972"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_001",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_2_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_002",
+        "section_title": "Governance",
+        "extraction_timestamp": "2025-11-18T14:04:01.868977"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_001",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_2_003",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_002",
+        "section_title": "Governance",
+        "extraction_timestamp": "2025-11-18T14:04:01.868980"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_001",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_2_004",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_002",
+        "section_title": "Governance",
+        "extraction_timestamp": "2025-11-18T14:04:01.868983"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_001",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_2_005",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_002",
+        "section_title": "Governance",
+        "extraction_timestamp": "2025-11-18T14:04:01.868986"
+      }
+    },
+    {
+      "subject": "industry_IFRS-S2_001",
+      "predicate": "ReportUsing",
+      "object": "framework_005",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_003",
+        "section_title": "Strategy",
+        "extraction_timestamp": "2025-11-18T14:05:25.733802"
+      }
+    },
+    {
+      "subject": "framework_005",
+      "predicate": "Include",
+      "object": "category_IFRS-S2_metrics",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_003",
+        "section_title": "Strategy",
+        "extraction_timestamp": "2025-11-18T14:05:25.733812"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_metrics",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_14_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_003",
+        "section_title": "Strategy",
+        "extraction_timestamp": "2025-11-18T14:05:25.733820"
+      }
+    },
+    {
+      "subject": "metric_IFRS-S2_14_001",
+      "predicate": "IsCalculatedBy",
+      "object": "model_IFRS-S2_14_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_003",
+        "section_title": "Strategy",
+        "extraction_timestamp": "2025-11-18T14:05:25.733823"
+      }
+    },
+    {
+      "subject": "model_IFRS-S2_14_001",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_IFRS-S2_14_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_003",
+        "section_title": "Strategy",
+        "extraction_timestamp": "2025-11-18T14:05:25.733825"
+      }
+    },
+    {
+      "subject": "model_IFRS-S2_14_001",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_IFRS-S2_14_003",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_003",
+        "section_title": "Strategy",
+        "extraction_timestamp": "2025-11-18T14:05:25.733828"
+      }
+    },
+    {
+      "subject": "model_IFRS-S2_14_001",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_IFRS-S2_14_004",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_003",
+        "section_title": "Strategy",
+        "extraction_timestamp": "2025-11-18T14:05:25.733831"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_metrics",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_15_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_003",
+        "section_title": "Strategy",
+        "extraction_timestamp": "2025-11-18T14:05:25.733834"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_metrics",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_15_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_003",
+        "section_title": "Strategy",
+        "extraction_timestamp": "2025-11-18T14:05:25.733837"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_metrics",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_15_003",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_003",
+        "section_title": "Strategy",
+        "extraction_timestamp": "2025-11-18T14:05:25.733839"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_metrics",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_15_004",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_003",
+        "section_title": "Strategy",
+        "extraction_timestamp": "2025-11-18T14:05:25.733842"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_metrics",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_15_005",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_003",
+        "section_title": "Strategy",
+        "extraction_timestamp": "2025-11-18T14:05:25.733845"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_metrics",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_16_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_003",
+        "section_title": "Strategy",
+        "extraction_timestamp": "2025-11-18T14:05:25.733847"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_metrics",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_16_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_003",
+        "section_title": "Strategy",
+        "extraction_timestamp": "2025-11-18T14:05:25.733850"
+      }
+    },
+    {
+      "subject": "framework_005",
+      "predicate": "Include",
+      "object": "category_IFRS-S2_24",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_004",
+        "section_title": "Risk management",
+        "extraction_timestamp": "2025-11-18T14:06:13.309854"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_24",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_24_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_004",
+        "section_title": "Risk management",
+        "extraction_timestamp": "2025-11-18T14:06:13.309858"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_24",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_24_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_004",
+        "section_title": "Risk management",
+        "extraction_timestamp": "2025-11-18T14:06:13.309863"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_24",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_24_003",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_004",
+        "section_title": "Risk management",
+        "extraction_timestamp": "2025-11-18T14:06:13.309867"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_24",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_24_004",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_004",
+        "section_title": "Risk management",
+        "extraction_timestamp": "2025-11-18T14:06:13.309871"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_24",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_24_005",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_004",
+        "section_title": "Risk management",
+        "extraction_timestamp": "2025-11-18T14:06:13.309875"
+      }
+    },
+    {
+      "subject": "metric_IFRS-S2_24_001",
+      "predicate": "IsCalculatedBy",
+      "object": "model_IFRS-S2_24_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_004",
+        "section_title": "Risk management",
+        "extraction_timestamp": "2025-11-18T14:06:13.309879"
+      }
+    },
+    {
+      "subject": "model_IFRS-S2_24_001",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_IFRS-S2_24_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_004",
+        "section_title": "Risk management",
+        "extraction_timestamp": "2025-11-18T14:06:13.309884"
+      }
+    },
+    {
+      "subject": "model_IFRS-S2_24_001",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_IFRS-S2_24_003",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_004",
+        "section_title": "Risk management",
+        "extraction_timestamp": "2025-11-18T14:06:13.309889"
+      }
+    },
+    {
+      "subject": "industry_002",
+      "predicate": "ReportUsing",
+      "object": "framework_005",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_005",
+        "section_title": "APPENDICES",
+        "extraction_timestamp": "2025-11-18T14:07:04.034597"
+      }
+    },
+    {
+      "subject": "framework_005",
+      "predicate": "Include",
+      "object": "category_IFRS-S2_9",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_007",
+        "section_title": "ILLUSTRATIVE GUIDANCE",
+        "extraction_timestamp": "2025-11-18T14:08:25.854328"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_9",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_9_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_007",
+        "section_title": "ILLUSTRATIVE GUIDANCE",
+        "extraction_timestamp": "2025-11-18T14:08:25.854329"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_9",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_9_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_007",
+        "section_title": "ILLUSTRATIVE GUIDANCE",
+        "extraction_timestamp": "2025-11-18T14:08:25.854331"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_9",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_9_003",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_007",
+        "section_title": "ILLUSTRATIVE GUIDANCE",
+        "extraction_timestamp": "2025-11-18T14:08:25.863646"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_9",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_9_004",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_007",
+        "section_title": "ILLUSTRATIVE GUIDANCE",
+        "extraction_timestamp": "2025-11-18T14:08:25.863649"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_9",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_9_005",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_007",
+        "section_title": "ILLUSTRATIVE GUIDANCE",
+        "extraction_timestamp": "2025-11-18T14:08:25.863651"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_9",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_9_006",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_007",
+        "section_title": "ILLUSTRATIVE GUIDANCE",
+        "extraction_timestamp": "2025-11-18T14:08:25.863652"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_9",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_9_007",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_007",
+        "section_title": "ILLUSTRATIVE GUIDANCE",
+        "extraction_timestamp": "2025-11-18T14:08:25.863653"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_9",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_9_009",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_007",
+        "section_title": "ILLUSTRATIVE GUIDANCE",
+        "extraction_timestamp": "2025-11-18T14:08:25.863656"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_24",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_11_003",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_009",
+        "section_title": "FOR THE BASIS FOR CONCLUSIONS, SEE PART C OF THIS EDITION",
+        "extraction_timestamp": "2025-11-18T14:09:31.109317"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_24",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_11_004",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_009",
+        "section_title": "FOR THE BASIS FOR CONCLUSIONS, SEE PART C OF THIS EDITION",
+        "extraction_timestamp": "2025-11-18T14:09:31.109319"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_24",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_11_005",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_009",
+        "section_title": "FOR THE BASIS FOR CONCLUSIONS, SEE PART C OF THIS EDITION",
+        "extraction_timestamp": "2025-11-18T14:09:31.109320"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_24",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_11_006",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_009",
+        "section_title": "FOR THE BASIS FOR CONCLUSIONS, SEE PART C OF THIS EDITION",
+        "extraction_timestamp": "2025-11-18T14:09:31.109322"
+      }
+    },
+    {
+      "subject": "framework_005",
+      "predicate": "Include",
+      "object": "category_IFRS-S2_risk-mgmt",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_010",
+        "section_title": "BASIS FOR CONCLUSIONS",
+        "extraction_timestamp": "2025-11-18T14:10:51.838714"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_metrics",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_001",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_010",
+        "section_title": "BASIS FOR CONCLUSIONS",
+        "extraction_timestamp": "2025-11-18T14:10:51.838719"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_metrics",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_010",
+        "section_title": "BASIS FOR CONCLUSIONS",
+        "extraction_timestamp": "2025-11-18T14:10:51.838722"
+      }
+    },
+    {
+      "subject": "metric_IFRS-S2_002",
+      "predicate": "IsCalculatedBy",
+      "object": "model_IFRS-S2_002",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_010",
+        "section_title": "BASIS FOR CONCLUSIONS",
+        "extraction_timestamp": "2025-11-18T14:10:51.838725"
+      }
+    },
+    {
+      "subject": "model_IFRS-S2_002",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_IFRS-S2_003",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_010",
+        "section_title": "BASIS FOR CONCLUSIONS",
+        "extraction_timestamp": "2025-11-18T14:10:51.838727"
+      }
+    },
+    {
+      "subject": "model_IFRS-S2_002",
+      "predicate": "RequiresInputFrom",
+      "object": "metric_IFRS-S2_004",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_010",
+        "section_title": "BASIS FOR CONCLUSIONS",
+        "extraction_timestamp": "2025-11-18T14:10:51.838730"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_metrics",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_005",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_010",
+        "section_title": "BASIS FOR CONCLUSIONS",
+        "extraction_timestamp": "2025-11-18T14:10:51.838733"
+      }
+    },
+    {
+      "subject": "metric_IFRS-S2_005",
+      "predicate": "IsCalculatedBy",
+      "object": "model_IFRS-S2_005",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_010",
+        "section_title": "BASIS FOR CONCLUSIONS",
+        "extraction_timestamp": "2025-11-18T14:10:51.838736"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_metrics",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_007",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_010",
+        "section_title": "BASIS FOR CONCLUSIONS",
+        "extraction_timestamp": "2025-11-18T14:10:51.838743"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_metrics",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_008",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_010",
+        "section_title": "BASIS FOR CONCLUSIONS",
+        "extraction_timestamp": "2025-11-18T14:10:51.838746"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_metrics",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_009",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_010",
+        "section_title": "BASIS FOR CONCLUSIONS",
+        "extraction_timestamp": "2025-11-18T14:10:51.838749"
+      }
+    },
+    {
+      "subject": "category_IFRS-S2_metrics",
+      "predicate": "ConsistOf",
+      "object": "metric_IFRS-S2_010",
+      "properties": {},
+      "provenance": {
+        "document_id": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+        "segment_id": "seg_010",
+        "section_title": "BASIS FOR CONCLUSIONS",
+        "extraction_timestamp": "2025-11-18T14:10:51.838752"
+      }
+    }
+  ]
+}

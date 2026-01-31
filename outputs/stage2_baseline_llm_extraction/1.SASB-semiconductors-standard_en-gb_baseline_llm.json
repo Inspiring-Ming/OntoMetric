@@ -1,0 +1,2068 @@
+{
+  "document": "1.SASB-semiconductors-standard_en-gb",
+  "timestamp": "2025-11-18T13:34:54.027587",
+  "experiments": {
+    "1_ontology_guided": {
+      "name": "Ontology-Guided Extraction",
+      "description": "Complete ESGMKG prompt with all guidance",
+      "note": "Copied from stage2_ontology_guided_extraction output (validated ontology-guided system)",
+      "entities": [],
+      "relationships": [],
+      "entity_count": 0,
+      "relationship_count": 0
+    },
+    "2_baseline_llm": {
+      "name": "Baseline (Unconstrained)",
+      "description": "Unconstrained LLM (no ontology schema, no SPARQL validation)",
+      "entities": [
+        {
+          "id": "semiconductors_industry",
+          "label": "Semiconductors",
+          "type": "Industry",
+          "description": "Semiconductor manufacturing industry within the Technology & Communications sector",
+          "unit": null
+        },
+        {
+          "id": "sasb_standard",
+          "label": "SASB Sustainability Accounting Standard",
+          "type": "Standard",
+          "description": "Sustainability accounting standard for the semiconductors industry",
+          "unit": null
+        },
+        {
+          "id": "tech_communications_sector",
+          "label": "Technology & Communications Sector",
+          "type": "Sector",
+          "description": "Industry sector classification for technology and communications companies",
+          "unit": null
+        },
+        {
+          "id": "sics_tc_sc",
+          "label": "TC-SC",
+          "type": "Classification Code",
+          "description": "Sustainable Industry Classification System code for Semiconductors",
+          "unit": null
+        },
+        {
+          "id": "issb",
+          "label": "International Sustainability Standards Board",
+          "type": "Organization",
+          "description": "Governing body responsible for stewardship of the standard",
+          "unit": null
+        },
+        {
+          "id": "version_2023_12",
+          "label": "Version 2023-12",
+          "type": "Version",
+          "description": "December 2023 version of the industry standard",
+          "unit": null
+        },
+        {
+          "id": "sasb_standards",
+          "label": "SASB Standards",
+          "type": "Framework",
+          "description": "Standards intended to aid entities in disclosing information about sustainability-related risks and opportunities that could affect cash flows, access to finance or cost of capital",
+          "unit": ""
+        },
+        {
+          "id": "sustainability_risks_opportunities",
+          "label": "Sustainability-related Risks and Opportunities",
+          "type": "Concept",
+          "description": "Risks and opportunities that could reasonably be expected to affect the entity's cash flows, access to finance or cost of capital over short, medium or long term",
+          "unit": ""
+        },
+        {
+          "id": "sics",
+          "label": "SICS (Sustainable Industry Classification System)",
+          "type": "Classification System",
+          "description": "Industry classification system used to identify which SASB Standard applies to an entity",
+          "unit": ""
+        },
+        {
+          "id": "semiconductors_industry",
+          "label": "Semiconductors Industry",
+          "type": "Industry",
+          "description": "Industry entities that design or manufacture semiconductor devices, integrated circuits, their raw materials and components, or capital equipment; includes outsourced manufacturing, assembly or other services",
+          "unit": ""
+        },
+        {
+          "id": "disclosure_topics",
+          "label": "Disclosure Topics",
+          "type": "Reporting Element",
+          "description": "Topics identified as likely to be useful to investors for sustainability reporting",
+          "unit": ""
+        },
+        {
+          "id": "metrics",
+          "label": "Metrics",
+          "type": "Reporting Element",
+          "description": "Associated metrics for disclosure topics that entities should consider reporting",
+          "unit": ""
+        },
+        {
+          "id": "cash_flows",
+          "label": "Cash Flows",
+          "type": "Financial Impact",
+          "description": "Financial metric that may be affected by sustainability-related risks and opportunities",
+          "unit": ""
+        },
+        {
+          "id": "cost_of_capital",
+          "label": "Cost of Capital",
+          "type": "Financial Impact",
+          "description": "Financial metric that may be affected by sustainability-related risks and opportunities",
+          "unit": ""
+        },
+        {
+          "id": "scope1_emissions",
+          "label": "Gross global Scope 1 emissions",
+          "type": "Environmental Metric",
+          "description": "Total direct greenhouse gas emissions from owned or controlled sources",
+          "unit": "Metric tonnes (t) CO₂-e"
+        },
+        {
+          "id": "pfc_emissions",
+          "label": "Perfluorinated compounds emissions",
+          "type": "Environmental Metric",
+          "description": "Amount of total emissions from perfluorinated compounds",
+          "unit": "Metric tonnes (t) CO₂-e"
+        },
+        {
+          "id": "emissions_strategy",
+          "label": "Emissions management strategy",
+          "type": "Environmental Strategy",
+          "description": "Long- and short-term strategy or plan to manage Scope 1 emissions, emissions reduction targets, and performance analysis",
+          "unit": "n/a"
+        },
+        {
+          "id": "total_energy",
+          "label": "Total energy consumed",
+          "type": "Environmental Metric",
+          "description": "Total energy consumption in manufacturing operations",
+          "unit": "Gigajoules (GJ)"
+        },
+        {
+          "id": "grid_electricity_pct",
+          "label": "Percentage grid electricity",
+          "type": "Environmental Metric",
+          "description": "Percentage of energy from grid electricity",
+          "unit": "Percentage (%)"
+        },
+        {
+          "id": "renewable_energy_pct",
+          "label": "Percentage renewable energy",
+          "type": "Environmental Metric",
+          "description": "Percentage of energy from renewable sources",
+          "unit": "Percentage (%)"
+        },
+        {
+          "id": "water_withdrawn",
+          "label": "Total water withdrawn",
+          "type": "Environmental Metric",
+          "description": "Total volume of water withdrawn from all sources",
+          "unit": "Thousand cubic metres (m³)"
+        },
+        {
+          "id": "water_consumed",
+          "label": "Total water consumed",
+          "type": "Environmental Metric",
+          "description": "Total volume of water consumed",
+          "unit": "Thousand cubic metres (m³)"
+        },
+        {
+          "id": "water_stress_pct",
+          "label": "Water use in high stress regions",
+          "type": "Environmental Metric",
+          "description": "Percentage of water withdrawn and consumed in regions with High or Extremely High Baseline Water Stress",
+          "unit": "Percentage (%)"
+        },
+        {
+          "id": "hazardous_waste",
+          "label": "Hazardous waste from manufacturing",
+          "type": "Environmental Metric",
+          "description": "Amount of hazardous waste generated from manufacturing operations",
+          "unit": "Metric tonnes (t)"
+        },
+        {
+          "id": "waste_recycled_pct",
+          "label": "Percentage waste recycled",
+          "type": "Environmental Metric",
+          "description": "Percentage of hazardous waste that is recycled",
+          "unit": "Percentage (%)"
+        },
+        {
+          "id": "health_hazard_efforts",
+          "label": "Workforce health hazard assessment",
+          "type": "Social Strategy",
+          "description": "Description of efforts to assess, monitor, and reduce exposure of workforce to human health hazards",
+          "unit": "n/a"
+        },
+        {
+          "id": "health_safety_losses",
+          "label": "Health and safety legal losses",
+          "type": "Social Metric",
+          "description": "Total amount of monetary losses as a result of legal proceedings associated with employee health and safety violations",
+          "unit": "Presentation currency"
+        },
+        {
+          "id": "work_visa_employees",
+          "label": "Employees requiring work visa",
+          "type": "Social Metric",
+          "description": "Percentage of employees that require a work visa",
+          "unit": "Percentage (%)"
+        },
+        {
+          "id": "greenhouse_gas_emissions_topic",
+          "label": "Greenhouse Gas Emissions",
+          "type": "Topic",
+          "description": "SASB topic covering GHG emissions management",
+          "unit": "n/a"
+        },
+        {
+          "id": "energy_management_topic",
+          "label": "Energy Management in Manufacturing",
+          "type": "Topic",
+          "description": "SASB topic covering energy consumption and renewable energy use",
+          "unit": "n/a"
+        },
+        {
+          "id": "water_management_topic",
+          "label": "Water Management",
+          "type": "Topic",
+          "description": "SASB topic covering water withdrawal and consumption",
+          "unit": "n/a"
+        },
+        {
+          "id": "waste_management_topic",
+          "label": "Waste Management",
+          "type": "Topic",
+          "description": "SASB topic covering hazardous waste management",
+          "unit": "n/a"
+        },
+        {
+          "id": "workforce_health_safety_topic",
+          "label": "Workforce Health & Safety",
+          "type": "Topic",
+          "description": "SASB topic covering employee health and safety",
+          "unit": "n/a"
+        },
+        {
+          "id": "recruiting_skilled_workforce_topic",
+          "label": "Recruiting & Managing a Global & Skilled Workforce",
+          "type": "Topic",
+          "description": "SASB topic covering workforce recruitment and visa requirements",
+          "unit": "n/a"
+        },
+        {
+          "id": "semiconductors_industry",
+          "label": "Semiconductors Industry",
+          "type": "Industry",
+          "description": "SASB industry classification for semiconductor companies",
+          "unit": "n/a"
+        },
+        {
+          "id": "TC-SC-410a.1",
+          "label": "Products containing IEC 62474 declarable substances",
+          "type": "ESG Metric",
+          "description": "Percentage of products by revenue that contain IEC 62474 declarable substances",
+          "unit": "Percentage (%)"
+        },
+        {
+          "id": "TC-SC-410a.2",
+          "label": "Processor energy efficiency",
+          "type": "ESG Metric",
+          "description": "Processor energy efficiency at a system-level for: (1) servers, (2) desktops and (3) laptops",
+          "unit": "Various, by product category"
+        },
+        {
+          "id": "TC-SC-440a.1",
+          "label": "Critical materials risk management",
+          "type": "ESG Metric",
+          "description": "Description of the management of risks associated with the use of critical materials",
+          "unit": "n/a"
+        },
+        {
+          "id": "TC-SC-520a.1",
+          "label": "Anti-competitive behaviour monetary losses",
+          "type": "ESG Metric",
+          "description": "Total amount of monetary losses as a result of legal proceedings associated with anti-competitive behaviour regulations",
+          "unit": "Presentation currency"
+        },
+        {
+          "id": "TC-SC-000.A",
+          "label": "Total production",
+          "type": "Activity Metric",
+          "description": "Total production from own manufacturing facilities and contracted manufacturing services",
+          "unit": "See note"
+        },
+        {
+          "id": "TC-SC-000.B",
+          "label": "Production from owned facilities",
+          "type": "Activity Metric",
+          "description": "Percentage of production from owned facilities",
+          "unit": "Percentage (%)"
+        },
+        {
+          "id": "TC-SC-110a.1",
+          "label": "Gross global Scope 1 emissions and PFC emissions",
+          "type": "ESG Metric",
+          "description": "(1) Gross global Scope 1 emissions and (2) amount of total emissions from perfluorinated compounds",
+          "unit": "Metric tonnes CO2-e"
+        },
+        {
+          "id": "Product Lifecycle Management",
+          "label": "Product Lifecycle Management",
+          "type": "Topic",
+          "description": "Sustainability topic covering product-related environmental impacts",
+          "unit": "n/a"
+        },
+        {
+          "id": "Materials Sourcing",
+          "label": "Materials Sourcing",
+          "type": "Topic",
+          "description": "Sustainability topic covering critical materials management",
+          "unit": "n/a"
+        },
+        {
+          "id": "Intellectual Property Protection & Competitive Behaviour",
+          "label": "Intellectual Property Protection & Competitive Behaviour",
+          "type": "Topic",
+          "description": "Sustainability topic covering anti-competitive behaviour",
+          "unit": "n/a"
+        },
+        {
+          "id": "Greenhouse Gas Emissions",
+          "label": "Greenhouse Gas Emissions",
+          "type": "Topic",
+          "description": "GHG emissions from semiconductor manufacturing operations, particularly perfluorinated compounds",
+          "unit": "n/a"
+        },
+        {
+          "id": "IEC 62474",
+          "label": "IEC 62474 declarable substances",
+          "type": "Standard",
+          "description": "Standard for declarable substances in products",
+          "unit": "n/a"
+        },
+        {
+          "id": "GHG Protocol",
+          "label": "Greenhouse Gas Protocol",
+          "type": "Standard",
+          "description": "Corporate Accounting and Reporting Standard for greenhouse gas emissions",
+          "unit": "n/a"
+        },
+        {
+          "id": "Kyoto Protocol GHGs",
+          "label": "Seven Kyoto Protocol GHGs",
+          "type": "Standard",
+          "description": "CO2, CH4, N2O, HFCs, PFCs, SF6, and NF3",
+          "unit": "n/a"
+        },
+        {
+          "id": "IPCC Fifth Assessment",
+          "label": "IPCC Fifth Assessment Report",
+          "type": "Standard",
+          "description": "Source for global warming potential (GWP) values (2014)",
+          "unit": "n/a"
+        },
+        {
+          "id": "SASB Semiconductors",
+          "label": "SASB Semiconductors Standard",
+          "type": "Framework",
+          "description": "Sustainability Accounting Standards Board standard for semiconductor industry",
+          "unit": "n/a"
+        },
+        {
+          "id": "scope1_emissions",
+          "label": "Scope 1 Emissions",
+          "type": "Environmental Metric",
+          "description": "Direct greenhouse gas emissions from sources owned or controlled by the entity, including seven GHGs covered under the Kyoto Protocol",
+          "unit": "metric tons CO2 equivalent"
+        },
+        {
+          "id": "ghg_emissions",
+          "label": "Greenhouse Gas Emissions",
+          "type": "Environmental Metric",
+          "description": "Total emissions of seven greenhouse gases: CO2, CH4, N2O, HFCs, PFCs, SF6, and NF3",
+          "unit": "metric tons CO2 equivalent"
+        },
+        {
+          "id": "pfc_emissions",
+          "label": "Perfluorinated Compound Emissions",
+          "type": "Environmental Metric",
+          "description": "Scope 1 GHG emissions originating from perfluorinated compounds",
+          "unit": "metric tons CO2 equivalent"
+        },
+        {
+          "id": "emissions_reduction_target",
+          "label": "Emissions Reduction Target",
+          "type": "Environmental Target",
+          "description": "Entity's target for reducing greenhouse gas emissions, which may be absolute or intensity-based",
+          "unit": "percentage or absolute value"
+        },
+        {
+          "id": "total_energy_consumed",
+          "label": "Total Energy Consumed",
+          "type": "Environmental Metric",
+          "description": "Total amount of energy consumed in manufacturing operations",
+          "unit": "gigajoules or megawatt-hours"
+        },
+        {
+          "id": "grid_electricity_percentage",
+          "label": "Grid Electricity Percentage",
+          "type": "Environmental Metric",
+          "description": "Percentage of total energy from grid electricity",
+          "unit": "percentage"
+        },
+        {
+          "id": "renewable_energy_percentage",
+          "label": "Renewable Energy Percentage",
+          "type": "Environmental Metric",
+          "description": "Percentage of total energy from renewable sources",
+          "unit": "percentage"
+        },
+        {
+          "id": "ghg_protocol",
+          "label": "GHG Protocol",
+          "type": "Standard",
+          "description": "The Greenhouse Gas Protocol: A Corporate Accounting and Reporting Standard, published by WRI/WBCSD",
+          "unit": "N/A"
+        },
+        {
+          "id": "iso_14064_1",
+          "label": "ISO 14064-1",
+          "type": "Standard",
+          "description": "International standard for greenhouse gas inventory guidance",
+          "unit": "N/A"
+        },
+        {
+          "id": "epa_guidance",
+          "label": "EPA GHG Inventory Guidance",
+          "type": "Standard",
+          "description": "Greenhouse Gas Inventory Guidance for Direct Emissions from Stationary Combustion Sources",
+          "unit": "N/A"
+        },
+        {
+          "id": "semiconductor_industry",
+          "label": "Semiconductor Industry",
+          "type": "Industry",
+          "description": "Industry sector focused on manufacturing semiconductor devices",
+          "unit": "N/A"
+        },
+        {
+          "id": "energy_efficiency",
+          "label": "Energy Efficiency",
+          "type": "Environmental Strategy",
+          "description": "Efforts to reduce energy consumption in manufacturing operations",
+          "unit": "N/A"
+        },
+        {
+          "id": "sasb_tc_sc_110a_2",
+          "label": "SASB TC-SC-110a.2",
+          "type": "Disclosure Metric",
+          "description": "Discussion of long- and short-term strategy to manage Scope 1 emissions and reduction targets",
+          "unit": "N/A"
+        },
+        {
+          "id": "sasb_tc_sc_130a_1",
+          "label": "SASB TC-SC-130a.1",
+          "type": "Disclosure Metric",
+          "description": "Total energy consumed, percentage grid electricity, and percentage renewable",
+          "unit": "N/A"
+        },
+        {
+          "id": "renewable_energy",
+          "label": "Renewable Energy",
+          "type": "ESG Metric",
+          "description": "Renewable fuel consumed, renewable energy directly produced, and renewable energy purchased through PPAs with RECs/GOs",
+          "unit": "Not specified"
+        },
+        {
+          "id": "renewable_energy_certificates",
+          "label": "Renewable Energy Certificates (RECs)",
+          "type": "Certification",
+          "description": "Certificates that must be retained and retired for entity to claim renewable energy",
+          "unit": "N/A"
+        },
+        {
+          "id": "guarantees_of_origin",
+          "label": "Guarantees of Origin (GOs)",
+          "type": "Certification",
+          "description": "European certificates that must be retained and retired for entity to claim renewable energy",
+          "unit": "N/A"
+        },
+        {
+          "id": "biomass_renewable_energy",
+          "label": "Biomass Renewable Energy",
+          "type": "ESG Metric",
+          "description": "Renewable energy from biomass sources certified to third-party standards",
+          "unit": "Not specified"
+        },
+        {
+          "id": "total_water_withdrawn",
+          "label": "Total Water Withdrawn",
+          "type": "ESG Metric",
+          "description": "Amount of water withdrawn from all sources including surface water, groundwater, rainwater, and municipal supplies",
+          "unit": "thousands of cubic metres"
+        },
+        {
+          "id": "total_water_consumed",
+          "label": "Total Water Consumed",
+          "type": "ESG Metric",
+          "description": "Water that evaporates, is incorporated into products, or does not return to the same catchment area",
+          "unit": "thousands of cubic metres"
+        },
+        {
+          "id": "water_stress_regions",
+          "label": "High or Extremely High Baseline Water Stress Regions",
+          "type": "Geographic Context",
+          "description": "Regions with high or extremely high baseline water stress where water withdrawal and consumption are measured",
+          "unit": "percentage"
+        },
+        {
+          "id": "ultra_pure_water",
+          "label": "Ultra-Pure Water",
+          "type": "Resource",
+          "description": "Water used for cleaning purposes in semiconductor production to avoid trace molecules affecting product quality",
+          "unit": "Not specified"
+        },
+        {
+          "id": "fresh_water",
+          "label": "Fresh Water",
+          "type": "Resource",
+          "description": "Water with less than 1,000 parts per million of dissolved solids",
+          "unit": "parts per million (dissolved solids)"
+        },
+        {
+          "id": "energy_conversion_factors",
+          "label": "Energy Conversion Factors",
+          "type": "Methodology",
+          "description": "Conversion factors including HHVs for fuel use and kWh to GJ conversions",
+          "unit": "Various (HHV, kWh, GJ)"
+        },
+        {
+          "id": "tc_sc_140a_1",
+          "label": "TC-SC-140a.1",
+          "type": "SASB Metric Code",
+          "description": "SASB metric for water withdrawn and consumed in water stress regions",
+          "unit": "N/A"
+        },
+        {
+          "id": "semiconductor_industry",
+          "label": "Semiconductor Industry",
+          "type": "Industry",
+          "description": "Industry requiring significant water volumes for manufacturing and facing water scarcity risks",
+          "unit": "N/A"
+        },
+        {
+          "id": "forest_stewardship_council",
+          "label": "Forest Stewardship Council",
+          "type": "Certification Standard",
+          "description": "Third-party standard for certifying biomass materials for renewable energy",
+          "unit": "N/A"
+        },
+        {
+          "id": "green_e_energy",
+          "label": "Green-e Energy",
+          "type": "Certification Program",
+          "description": "Certification program for renewable energy and RECs",
+          "unit": "N/A"
+        },
+        {
+          "id": "water_management",
+          "label": "Water Management",
+          "type": "ESG_Topic",
+          "description": "Management of water resources in semiconductor operations",
+          "unit": null
+        },
+        {
+          "id": "water_withdrawn_high_stress",
+          "label": "Water Withdrawn in High Stress Areas",
+          "type": "ESG_Metric",
+          "description": "Water withdrawn in locations with High (40-80%) or Extremely High (>80%) Baseline Water Stress",
+          "unit": "percentage"
+        },
+        {
+          "id": "water_consumed_high_stress",
+          "label": "Water Consumed in High Stress Areas",
+          "type": "ESG_Metric",
+          "description": "Water consumed in locations with High or Extremely High Baseline Water Stress",
+          "unit": "percentage"
+        },
+        {
+          "id": "wri_aqueduct",
+          "label": "WRI Water Risk Atlas (Aqueduct)",
+          "type": "Framework",
+          "description": "World Resources Institute's tool for classifying baseline water stress",
+          "unit": null
+        },
+        {
+          "id": "waste_management",
+          "label": "Waste Management",
+          "type": "ESG_Topic",
+          "description": "Management of hazardous waste from semiconductor manufacturing operations",
+          "unit": null
+        },
+        {
+          "id": "hazardous_waste_amount",
+          "label": "Amount of Hazardous Waste",
+          "type": "ESG_Metric",
+          "description": "Total weight of hazardous waste generated from manufacturing operations",
+          "unit": "metric tonnes"
+        },
+        {
+          "id": "hazardous_waste_recycled",
+          "label": "Percentage of Hazardous Waste Recycled",
+          "type": "ESG_Metric",
+          "description": "Percentage of hazardous waste that was recycled, reused, reclaimed or remanufactured",
+          "unit": "percentage"
+        },
+        {
+          "id": "tc_sc_150a_1",
+          "label": "TC-SC-150a.1",
+          "type": "SASB_Metric_Code",
+          "description": "SASB metric code for hazardous waste from manufacturing",
+          "unit": null
+        },
+        {
+          "id": "semiconductors_industry",
+          "label": "Semiconductors Industry",
+          "type": "Industry",
+          "description": "Industry sector covered by this SASB standard",
+          "unit": null
+        },
+        {
+          "id": "e_steward_standard",
+          "label": "e-Steward Standard",
+          "type": "Certification",
+          "description": "Standard for Responsible Recycling and Reuse of Electronic Equipment",
+          "unit": null
+        },
+        {
+          "id": "r2_standard",
+          "label": "R2 Standard",
+          "type": "Certification",
+          "description": "Responsible Recycling Practices Standard for Electronics Recyclers",
+          "unit": null
+        },
+        {
+          "id": "energy_recovery",
+          "label": "Energy Recovery",
+          "type": "Process",
+          "description": "Use of combustible waste to generate energy through direct incineration with recovery of heat",
+          "unit": null
+        },
+        {
+          "id": "e-waste",
+          "label": "E-waste",
+          "type": "Waste Type",
+          "description": "Electronic waste transferred to compliant entities",
+          "unit": "not specified"
+        },
+        {
+          "id": "hazardous-waste",
+          "label": "Hazardous Waste",
+          "type": "Waste Type",
+          "description": "Waste defined according to Basel Convention or applicable frameworks",
+          "unit": "quantity and percentage"
+        },
+        {
+          "id": "recycled-hazardous-waste",
+          "label": "Recycled Hazardous Waste",
+          "type": "Waste Type",
+          "description": "Hazardous waste that has been recycled",
+          "unit": "quantity and percentage"
+        },
+        {
+          "id": "basel-convention",
+          "label": "Basel Convention",
+          "type": "Regulatory Framework",
+          "description": "UN Environmental Programme framework for defining hazardous waste",
+          "unit": "not applicable"
+        },
+        {
+          "id": "workforce-health-safety",
+          "label": "Workforce Health & Safety",
+          "type": "ESG Topic",
+          "description": "Management of worker exposure to health hazards in semiconductor manufacturing",
+          "unit": "not applicable"
+        },
+        {
+          "id": "chemical-exposure",
+          "label": "Chemical Exposure",
+          "type": "Health Hazard",
+          "description": "Worker exposure to hazardous chemicals including solvents, corrosives, lead, arsenic, cadmium, sulphuric acid, carcinogens, teratogens and mutagens",
+          "unit": "not specified"
+        },
+        {
+          "id": "tc-sc-320a-1",
+          "label": "TC-SC-320a.1",
+          "type": "SASB Metric",
+          "description": "Description of efforts to assess, monitor, and reduce exposure of workforce to human health hazards",
+          "unit": "qualitative description"
+        },
+        {
+          "id": "workforce",
+          "label": "Workforce",
+          "type": "Stakeholder Group",
+          "description": "Direct employees and contract employees conducting company business",
+          "unit": "number of employees"
+        },
+        {
+          "id": "health-safety-violations",
+          "label": "Health and Safety Violations",
+          "type": "Risk Factor",
+          "description": "Violations resulting in monetary penalties, corrective action costs, and reputational impacts",
+          "unit": "monetary value"
+        },
+        {
+          "id": "risk-mitigation-efforts",
+          "label": "Risk Mitigation Efforts",
+          "type": "Management Practice",
+          "description": "Engineering controls, chemical substitution, risk assessments, monitoring, automation, and protective equipment",
+          "unit": "not applicable"
+        },
+        {
+          "id": "TC-SC-320a.2",
+          "label": "Monetary losses from health and safety violations",
+          "type": "ESG Metric",
+          "description": "Total amount of monetary losses as a result of legal proceedings associated with employee health and safety violations",
+          "unit": "Monetary value"
+        },
+        {
+          "id": "TC-SC-330a.1",
+          "label": "Percentage of employees requiring work visa",
+          "type": "ESG Metric",
+          "description": "Percentage of employees that require a work visa in the country in which they are employed",
+          "unit": "Percentage"
+        },
+        {
+          "id": "contract_employees",
+          "label": "Contract Employees",
+          "type": "Employee Category",
+          "description": "Individuals not on the entity's payroll but supervised or managed by the entity, including independent contractors and those employed by third parties",
+          "unit": "Count"
+        },
+        {
+          "id": "cleanroom_workers",
+          "label": "Cleanroom Workers",
+          "type": "Employee Category",
+          "description": "Workers in fabrication plants, primary focus for health and safety disclosures",
+          "unit": "Count"
+        },
+        {
+          "id": "work_visa",
+          "label": "Work Visa",
+          "type": "Employment Authorization",
+          "description": "Non-immigrant visa, permit or documentation issued to permit foreign nationals to work temporarily",
+          "unit": "N/A"
+        },
+        {
+          "id": "workforce_health_safety",
+          "label": "Workforce Health & Safety",
+          "type": "ESG Topic",
+          "description": "Topic covering employee health and safety in semiconductor operations",
+          "unit": "N/A"
+        },
+        {
+          "id": "recruiting_managing_workforce",
+          "label": "Recruiting & Managing a Global & Skilled Workforce",
+          "type": "ESG Topic",
+          "description": "Topic covering recruitment, training, and management of skilled global workforce",
+          "unit": "N/A"
+        },
+        {
+          "id": "legal_proceedings",
+          "label": "Legal Proceedings",
+          "type": "Risk Category",
+          "description": "Adjudicative proceedings including court, regulator, arbitrator related to health and safety violations",
+          "unit": "N/A"
+        },
+        {
+          "id": "corrective_actions",
+          "label": "Corrective Actions",
+          "type": "Management Response",
+          "description": "Changes in operations, management, processes, products, business partners, training or technology in response to legal proceedings",
+          "unit": "N/A"
+        },
+        {
+          "id": "TC-SC-410a.1",
+          "label": "Percentage of products by revenue that contain IEC 62474 declarable substances",
+          "type": "ESG Metric",
+          "description": "Percentage of products sold during the reporting period that contain declarable substances according to IEC 62474 standard",
+          "unit": "Percentage (%)"
+        },
+        {
+          "id": "IEC_62474",
+          "label": "IEC 62474",
+          "type": "Standard",
+          "description": "Material Declaration for Products of and for the Electrotechnical Industry - international standard for declarable substances",
+          "unit": null
+        },
+        {
+          "id": "declarable_substances",
+          "label": "Declarable Substances",
+          "type": "Material Category",
+          "description": "Substances that must be declared according to IEC 62474 when above reporting threshold, within scope of reporting application, and within mandatory reporting requirement",
+          "unit": null
+        },
+        {
+          "id": "product_lifecycle_management",
+          "label": "Product Lifecycle Management",
+          "type": "ESG Topic",
+          "description": "Management of environmental and human health impacts through energy-efficient products and reduction of harmful materials in semiconductor products",
+          "unit": null
+        },
+        {
+          "id": "energy_efficiency",
+          "label": "Energy Efficiency",
+          "type": "Performance Indicator",
+          "description": "Energy-efficiency of semiconductor equipment and chips to reduce environmental impact and meet consumer demand",
+          "unit": null
+        },
+        {
+          "id": "electronic_waste",
+          "label": "Electronic Waste",
+          "type": "Environmental Impact",
+          "description": "End-of-life management of electronic waste, subject to growing legislative importance",
+          "unit": null
+        },
+        {
+          "id": "semiconductor_industry",
+          "label": "Semiconductor Industry",
+          "type": "Industry Sector",
+          "description": "Industry covered by SASB Semiconductors Standard (TC-SC)",
+          "unit": null
+        },
+        {
+          "id": "TC-SC-410a.2",
+          "label": "Processor energy efficiency at system-level",
+          "type": "ESG Metric",
+          "description": "Energy efficiency of processors based on benchmarked performance per watt of energy consumed for servers, desktops and laptops",
+          "unit": "performance per watt"
+        },
+        {
+          "id": "server_energy_efficiency",
+          "label": "Server processor energy efficiency",
+          "type": "ESG Metric",
+          "description": "Energy efficiency for server processors tested according to SPEC Power SPECpower_sssj2008",
+          "unit": "overall ssj_ops/watt"
+        },
+        {
+          "id": "desktop_energy_efficiency",
+          "label": "Desktop processor energy efficiency",
+          "type": "ESG Metric",
+          "description": "Energy efficiency for desktop processors tested according to SPEC CPU2006 benchmark",
+          "unit": "SPECspeed2017_int_base score/watt and SPECspeed2017_fp_basescore/watt"
+        },
+        {
+          "id": "laptop_energy_efficiency",
+          "label": "Laptop processor energy efficiency",
+          "type": "ESG Metric",
+          "description": "Energy efficiency for laptop processors tested according to MobileMark 2014 v1.5",
+          "unit": "Performance qualification score and Battery life score (minutes)"
+        },
+        {
+          "id": "TC-SC-440a.1",
+          "label": "Management of risks associated with critical materials",
+          "type": "ESG Metric",
+          "description": "Description of how entity manages risks associated with use of critical materials including physical limits on availability, price changes, and regulatory and reputational risks",
+          "unit": "qualitative description"
+        },
+        {
+          "id": "critical_materials",
+          "label": "Critical materials",
+          "type": "Material Category",
+          "description": "Materials both essential in use and subject to risk of supply restriction, including antimony, cobalt, fluorspar, gallium, germanium, graphite, indium, magnesium, niobium, tantalum, tungsten, platinum group metals, and rare earth elements",
+          "unit": "N/A"
+        },
+        {
+          "id": "product_lifecycle_management",
+          "label": "Product Lifecycle Management",
+          "type": "ESG Topic",
+          "description": "Management approaches including product design criteria for substance exclusion, material substitution assessments, and procurement guidelines",
+          "unit": "N/A"
+        },
+        {
+          "id": "materials_sourcing",
+          "label": "Materials Sourcing",
+          "type": "ESG Topic",
+          "description": "Management of materials sourcing risks including supply disruptions, price volatility, geopolitical uncertainty, and supply chain transparency",
+          "unit": "N/A"
+        },
+        {
+          "id": "IEC_62474",
+          "label": "IEC 62474",
+          "type": "Standard/Regulation",
+          "description": "Reference standard for assessment and management of toxic substances",
+          "unit": "N/A"
+        },
+        {
+          "id": "SPEC",
+          "label": "Standard Performance Evaluation Corporation",
+          "type": "Testing Standard",
+          "description": "Organization providing benchmarks for server and desktop processor testing",
+          "unit": "N/A"
+        },
+        {
+          "id": "MobileMark",
+          "label": "MobileMark 2014 v1.5",
+          "type": "Testing Standard",
+          "description": "Benchmark for laptop processor energy efficiency testing",
+          "unit": "N/A"
+        },
+        {
+          "id": "rare_earth_elements",
+          "label": "Rare earth elements",
+          "type": "Material Subcategory",
+          "description": "Includes yttrium, scandium, lanthanum and lanthanides (cerium, praseodymium, neodymium, promethium, samarium, europium, gadolinium, terbium, dysprosium, holmium, erbium, thulium, ytterbium and lutetium)",
+          "unit": "N/A"
+        },
+        {
+          "id": "platinum_group_metals",
+          "label": "Platinum group metals",
+          "type": "Material Subcategory",
+          "description": "Includes platinum, palladium, iridium, rhodium, ruthenium and osmium",
+          "unit": "N/A"
+        },
+        {
+          "id": "TC-SC-520a.1",
+          "label": "Total amount of monetary losses as a result of legal proceedings associated with anti-competitive behaviour regulations",
+          "type": "ESG Metric",
+          "description": "Total monetary losses incurred during the reporting period from legal proceedings related to anti-competitive behaviour including price fixing, antitrust behaviour, patent misuse, network effects, and bundling services",
+          "unit": "Monetary value"
+        },
+        {
+          "id": "intellectual_property_protection",
+          "label": "Intellectual Property Protection & Competitive Behaviour",
+          "type": "ESG Topic",
+          "description": "Topic covering IP protection practices, patent rights, licensing terms, and antitrust concerns in the semiconductors industry",
+          "unit": null
+        },
+        {
+          "id": "anti_competitive_behaviour",
+          "label": "Anti-competitive Behaviour",
+          "type": "Risk Category",
+          "description": "Behaviours including price fixing, antitrust violations, patent misuse, network effects, and bundling to limit competition",
+          "unit": null
+        },
+        {
+          "id": "legal_proceedings",
+          "label": "Legal Proceedings",
+          "type": "Event Category",
+          "description": "Adjudicative proceedings before courts, regulators, arbitrators involving anti-competitive behaviour",
+          "unit": null
+        },
+        {
+          "id": "monetary_losses",
+          "label": "Monetary Losses",
+          "type": "Financial Impact",
+          "description": "Monetary liabilities including fines, penalties, disgorgement, restitution from civil actions, regulatory proceedings, and criminal actions",
+          "unit": "Monetary value"
+        },
+        {
+          "id": "materials_sourcing",
+          "label": "Materials Sourcing",
+          "type": "ESG Topic",
+          "description": "Topic covering critical materials and associated risks in semiconductor operations",
+          "unit": null
+        },
+        {
+          "id": "critical_materials",
+          "label": "Critical Materials",
+          "type": "Resource Category",
+          "description": "Specific materials that present significant risk to semiconductor operations",
+          "unit": null
+        },
+        {
+          "id": "semiconductors_industry",
+          "label": "Semiconductors Industry",
+          "type": "Industry",
+          "description": "Industry sector covered by SASB standard TC-SC",
+          "unit": null
+        },
+        {
+          "id": "corrective_actions",
+          "label": "Corrective Actions",
+          "type": "ESG Metric",
+          "description": "Actions implemented in response to legal proceedings related to intellectual property protection and competitive behavior",
+          "unit": "qualitative"
+        },
+        {
+          "id": "legal_proceedings",
+          "label": "Legal Proceedings",
+          "type": "ESG Issue",
+          "description": "Legal proceedings related to intellectual property protection and competitive behavior in the semiconductor industry",
+          "unit": "qualitative"
+        },
+        {
+          "id": "operations_changes",
+          "label": "Operations Changes",
+          "type": "Corrective Action Type",
+          "description": "Specific changes in operations as corrective action",
+          "unit": "qualitative"
+        },
+        {
+          "id": "management_changes",
+          "label": "Management Changes",
+          "type": "Corrective Action Type",
+          "description": "Specific changes in management as corrective action",
+          "unit": "qualitative"
+        },
+        {
+          "id": "process_changes",
+          "label": "Process Changes",
+          "type": "Corrective Action Type",
+          "description": "Specific changes in processes as corrective action",
+          "unit": "qualitative"
+        },
+        {
+          "id": "product_changes",
+          "label": "Product Changes",
+          "type": "Corrective Action Type",
+          "description": "Specific changes in products as corrective action",
+          "unit": "qualitative"
+        },
+        {
+          "id": "business_partner_changes",
+          "label": "Business Partner Changes",
+          "type": "Corrective Action Type",
+          "description": "Specific changes in business partners as corrective action",
+          "unit": "qualitative"
+        },
+        {
+          "id": "training_changes",
+          "label": "Training Changes",
+          "type": "Corrective Action Type",
+          "description": "Specific changes in training as corrective action",
+          "unit": "qualitative"
+        },
+        {
+          "id": "technology_changes",
+          "label": "Technology Changes",
+          "type": "Corrective Action Type",
+          "description": "Specific changes in technology as corrective action",
+          "unit": "qualitative"
+        },
+        {
+          "id": "ip_competitive_behavior",
+          "label": "Intellectual Property Protection & Competitive Behaviour",
+          "type": "ESG Topic",
+          "description": "SASB topic covering intellectual property protection and competitive behavior in the semiconductor industry",
+          "unit": "qualitative"
+        },
+        {
+          "id": "sasb_semiconductors",
+          "label": "SASB Semiconductors Standard",
+          "type": "ESG Framework",
+          "description": "Sustainability Accounting Standards Board standard for the semiconductor industry",
+          "unit": "N/A"
+        }
+      ],
+      "relationships": [
+        {
+          "subject": "sasb_standard",
+          "predicate": "applies_to",
+          "object": "semiconductors_industry"
+        },
+        {
+          "subject": "semiconductors_industry",
+          "predicate": "belongs_to",
+          "object": "tech_communications_sector"
+        },
+        {
+          "subject": "semiconductors_industry",
+          "predicate": "has_classification_code",
+          "object": "sics_tc_sc"
+        },
+        {
+          "subject": "sasb_standard",
+          "predicate": "under_stewardship_of",
+          "object": "issb"
+        },
+        {
+          "subject": "sasb_standard",
+          "predicate": "has_version",
+          "object": "version_2023_12"
+        },
+        {
+          "subject": "sasb_standards",
+          "predicate": "aids_disclosure_of",
+          "object": "sustainability_risks_opportunities"
+        },
+        {
+          "subject": "sustainability_risks_opportunities",
+          "predicate": "affects",
+          "object": "cash_flows"
+        },
+        {
+          "subject": "sustainability_risks_opportunities",
+          "predicate": "affects",
+          "object": "cost_of_capital"
+        },
+        {
+          "subject": "sics",
+          "predicate": "classifies",
+          "object": "semiconductors_industry"
+        },
+        {
+          "subject": "sasb_standards",
+          "predicate": "uses_classification_system",
+          "object": "sics"
+        },
+        {
+          "subject": "sasb_standards",
+          "predicate": "contains",
+          "object": "disclosure_topics"
+        },
+        {
+          "subject": "disclosure_topics",
+          "predicate": "has_associated",
+          "object": "metrics"
+        },
+        {
+          "subject": "sasb_standards",
+          "predicate": "applies_to",
+          "object": "semiconductors_industry"
+        },
+        {
+          "subject": "disclosure_topics",
+          "predicate": "intended_for",
+          "object": "investors"
+        },
+        {
+          "subject": "scope1_emissions",
+          "predicate": "has_code",
+          "object": "TC-SC-110a.1"
+        },
+        {
+          "subject": "pfc_emissions",
+          "predicate": "has_code",
+          "object": "TC-SC-110a.1"
+        },
+        {
+          "subject": "emissions_strategy",
+          "predicate": "has_code",
+          "object": "TC-SC-110a.2"
+        },
+        {
+          "subject": "total_energy",
+          "predicate": "has_code",
+          "object": "TC-SC-130a.1"
+        },
+        {
+          "subject": "grid_electricity_pct",
+          "predicate": "has_code",
+          "object": "TC-SC-130a.1"
+        },
+        {
+          "subject": "renewable_energy_pct",
+          "predicate": "has_code",
+          "object": "TC-SC-130a.1"
+        },
+        {
+          "subject": "water_withdrawn",
+          "predicate": "has_code",
+          "object": "TC-SC-140a.1"
+        },
+        {
+          "subject": "water_consumed",
+          "predicate": "has_code",
+          "object": "TC-SC-140a.1"
+        },
+        {
+          "subject": "water_stress_pct",
+          "predicate": "has_code",
+          "object": "TC-SC-140a.1"
+        },
+        {
+          "subject": "hazardous_waste",
+          "predicate": "has_code",
+          "object": "TC-SC-150a.1"
+        },
+        {
+          "subject": "waste_recycled_pct",
+          "predicate": "has_code",
+          "object": "TC-SC-150a.1"
+        },
+        {
+          "subject": "health_hazard_efforts",
+          "predicate": "has_code",
+          "object": "TC-SC-320a.1"
+        },
+        {
+          "subject": "health_safety_losses",
+          "predicate": "has_code",
+          "object": "TC-SC-320a.2"
+        },
+        {
+          "subject": "work_visa_employees",
+          "predicate": "has_code",
+          "object": "TC-SC-330a.1"
+        },
+        {
+          "subject": "scope1_emissions",
+          "predicate": "belongs_to_topic",
+          "object": "greenhouse_gas_emissions_topic"
+        },
+        {
+          "subject": "pfc_emissions",
+          "predicate": "belongs_to_topic",
+          "object": "greenhouse_gas_emissions_topic"
+        },
+        {
+          "subject": "emissions_strategy",
+          "predicate": "belongs_to_topic",
+          "object": "greenhouse_gas_emissions_topic"
+        },
+        {
+          "subject": "total_energy",
+          "predicate": "belongs_to_topic",
+          "object": "energy_management_topic"
+        },
+        {
+          "subject": "grid_electricity_pct",
+          "predicate": "belongs_to_topic",
+          "object": "energy_management_topic"
+        },
+        {
+          "subject": "renewable_energy_pct",
+          "predicate": "belongs_to_topic",
+          "object": "energy_management_topic"
+        },
+        {
+          "subject": "water_withdrawn",
+          "predicate": "belongs_to_topic",
+          "object": "water_management_topic"
+        },
+        {
+          "subject": "water_consumed",
+          "predicate": "belongs_to_topic",
+          "object": "water_management_topic"
+        },
+        {
+          "subject": "water_stress_pct",
+          "predicate": "belongs_to_topic",
+          "object": "water_management_topic"
+        },
+        {
+          "subject": "hazardous_waste",
+          "predicate": "belongs_to_topic",
+          "object": "waste_management_topic"
+        },
+        {
+          "subject": "waste_recycled_pct",
+          "predicate": "belongs_to_topic",
+          "object": "waste_management_topic"
+        },
+        {
+          "subject": "health_hazard_efforts",
+          "predicate": "belongs_to_topic",
+          "object": "workforce_health_safety_topic"
+        },
+        {
+          "subject": "health_safety_losses",
+          "predicate": "belongs_to_topic",
+          "object": "workforce_health_safety_topic"
+        },
+        {
+          "subject": "work_visa_employees",
+          "predicate": "belongs_to_topic",
+          "object": "recruiting_skilled_workforce_topic"
+        },
+        {
+          "subject": "greenhouse_gas_emissions_topic",
+          "predicate": "applies_to_industry",
+          "object": "semiconductors_industry"
+        },
+        {
+          "subject": "energy_management_topic",
+          "predicate": "applies_to_industry",
+          "object": "semiconductors_industry"
+        },
+        {
+          "subject": "water_management_topic",
+          "predicate": "applies_to_industry",
+          "object": "semiconductors_industry"
+        },
+        {
+          "subject": "waste_management_topic",
+          "predicate": "applies_to_industry",
+          "object": "semiconductors_industry"
+        },
+        {
+          "subject": "workforce_health_safety_topic",
+          "predicate": "applies_to_industry",
+          "object": "semiconductors_industry"
+        },
+        {
+          "subject": "recruiting_skilled_workforce_topic",
+          "predicate": "applies_to_industry",
+          "object": "semiconductors_industry"
+        },
+        {
+          "subject": "scope1_emissions",
+          "predicate": "is_category",
+          "object": "Quantitative"
+        },
+        {
+          "subject": "pfc_emissions",
+          "predicate": "is_category",
+          "object": "Quantitative"
+        },
+        {
+          "subject": "emissions_strategy",
+          "predicate": "is_category",
+          "object": "Discussion and Analysis"
+        },
+        {
+          "subject": "total_energy",
+          "predicate": "is_category",
+          "object": "Quantitative"
+        },
+        {
+          "subject": "grid_electricity_pct",
+          "predicate": "is_category",
+          "object": "Quantitative"
+        },
+        {
+          "subject": "renewable_energy_pct",
+          "predicate": "is_category",
+          "object": "Quantitative"
+        },
+        {
+          "subject": "water_withdrawn",
+          "predicate": "is_category",
+          "object": "Quantitative"
+        },
+        {
+          "subject": "water_consumed",
+          "predicate": "is_category",
+          "object": "Quantitative"
+        },
+        {
+          "subject": "water_stress_pct",
+          "predicate": "is_category",
+          "object": "Quantitative"
+        },
+        {
+          "subject": "hazardous_waste",
+          "predicate": "is_category",
+          "object": "Quantitative"
+        },
+        {
+          "subject": "waste_recycled_pct",
+          "predicate": "is_category",
+          "object": "Quantitative"
+        },
+        {
+          "subject": "health_hazard_efforts",
+          "predicate": "is_category",
+          "object": "Discussion and Analysis"
+        },
+        {
+          "subject": "health_safety_losses",
+          "predicate": "is_category",
+          "object": "Quantitative"
+        },
+        {
+          "subject": "work_visa_employees",
+          "predicate": "is_category",
+          "object": "Quantitative"
+        },
+        {
+          "subject": "pfc_emissions",
+          "predicate": "is_component_of",
+          "object": "scope1_emissions"
+        },
+        {
+          "subject": "emissions_strategy",
+          "predicate": "manages",
+          "object": "scope1_emissions"
+        },
+        {
+          "subject": "TC-SC-410a.1",
+          "predicate": "belongs_to_topic",
+          "object": "Product Lifecycle Management"
+        },
+        {
+          "subject": "TC-SC-410a.2",
+          "predicate": "belongs_to_topic",
+          "object": "Product Lifecycle Management"
+        },
+        {
+          "subject": "TC-SC-440a.1",
+          "predicate": "belongs_to_topic",
+          "object": "Materials Sourcing"
+        },
+        {
+          "subject": "TC-SC-520a.1",
+          "predicate": "belongs_to_topic",
+          "object": "Intellectual Property Protection & Competitive Behaviour"
+        },
+        {
+          "subject": "TC-SC-110a.1",
+          "predicate": "belongs_to_topic",
+          "object": "Greenhouse Gas Emissions"
+        },
+        {
+          "subject": "TC-SC-410a.1",
+          "predicate": "references_standard",
+          "object": "IEC 62474"
+        },
+        {
+          "subject": "TC-SC-110a.1",
+          "predicate": "references_standard",
+          "object": "Kyoto Protocol GHGs"
+        },
+        {
+          "subject": "TC-SC-110a.1",
+          "predicate": "calculated_using",
+          "object": "GHG Protocol"
+        },
+        {
+          "subject": "TC-SC-110a.1",
+          "predicate": "uses_gwp_from",
+          "object": "IPCC Fifth Assessment"
+        },
+        {
+          "subject": "Product Lifecycle Management",
+          "predicate": "part_of_framework",
+          "object": "SASB Semiconductors"
+        },
+        {
+          "subject": "Materials Sourcing",
+          "predicate": "part_of_framework",
+          "object": "SASB Semiconductors"
+        },
+        {
+          "subject": "Intellectual Property Protection & Competitive Behaviour",
+          "predicate": "part_of_framework",
+          "object": "SASB Semiconductors"
+        },
+        {
+          "subject": "Greenhouse Gas Emissions",
+          "predicate": "part_of_framework",
+          "object": "SASB Semiconductors"
+        },
+        {
+          "subject": "TC-SC-410a.1",
+          "predicate": "metric_type",
+          "object": "Quantitative"
+        },
+        {
+          "subject": "TC-SC-410a.2",
+          "predicate": "metric_type",
+          "object": "Quantitative"
+        },
+        {
+          "subject": "TC-SC-440a.1",
+          "predicate": "metric_type",
+          "object": "Discussion and Analysis"
+        },
+        {
+          "subject": "TC-SC-520a.1",
+          "predicate": "metric_type",
+          "object": "Quantitative"
+        },
+        {
+          "subject": "TC-SC-110a.1",
+          "predicate": "metric_type",
+          "object": "Quantitative"
+        },
+        {
+          "subject": "TC-SC-000.A",
+          "predicate": "metric_type",
+          "object": "Quantitative"
+        },
+        {
+          "subject": "TC-SC-000.B",
+          "predicate": "metric_type",
+          "object": "Quantitative"
+        },
+        {
+          "subject": "Greenhouse Gas Emissions",
+          "predicate": "creates_risk",
+          "object": "Regulatory compliance costs"
+        },
+        {
+          "subject": "TC-SC-110a.1",
+          "predicate": "measures",
+          "object": "Perfluorinated compounds emissions"
+        },
+        {
+          "subject": "scope1_emissions",
+          "predicate": "is_defined_by",
+          "object": "ghg_protocol"
+        },
+        {
+          "subject": "scope1_emissions",
+          "predicate": "includes",
+          "object": "pfc_emissions"
+        },
+        {
+          "subject": "ghg_emissions",
+          "predicate": "is_measured_according_to",
+          "object": "ghg_protocol"
+        },
+        {
+          "subject": "ghg_emissions",
+          "predicate": "is_measured_according_to",
+          "object": "iso_14064_1"
+        },
+        {
+          "subject": "ghg_emissions",
+          "predicate": "is_measured_according_to",
+          "object": "epa_guidance"
+        },
+        {
+          "subject": "emissions_reduction_target",
+          "predicate": "applies_to",
+          "object": "scope1_emissions"
+        },
+        {
+          "subject": "semiconductor_industry",
+          "predicate": "must_disclose",
+          "object": "scope1_emissions"
+        },
+        {
+          "subject": "semiconductor_industry",
+          "predicate": "must_disclose",
+          "object": "emissions_reduction_target"
+        },
+        {
+          "subject": "semiconductor_industry",
+          "predicate": "must_disclose",
+          "object": "total_energy_consumed"
+        },
+        {
+          "subject": "sasb_tc_sc_110a_2",
+          "predicate": "requires_disclosure_of",
+          "object": "scope1_emissions"
+        },
+        {
+          "subject": "sasb_tc_sc_110a_2",
+          "predicate": "requires_disclosure_of",
+          "object": "emissions_reduction_target"
+        },
+        {
+          "subject": "sasb_tc_sc_130a_1",
+          "predicate": "requires_disclosure_of",
+          "object": "total_energy_consumed"
+        },
+        {
+          "subject": "sasb_tc_sc_130a_1",
+          "predicate": "requires_disclosure_of",
+          "object": "grid_electricity_percentage"
+        },
+        {
+          "subject": "sasb_tc_sc_130a_1",
+          "predicate": "requires_disclosure_of",
+          "object": "renewable_energy_percentage"
+        },
+        {
+          "subject": "total_energy_consumed",
+          "predicate": "is_critical_input_for",
+          "object": "semiconductor_industry"
+        },
+        {
+          "subject": "energy_efficiency",
+          "predicate": "reduces",
+          "object": "scope1_emissions"
+        },
+        {
+          "subject": "renewable_energy_percentage",
+          "predicate": "contributes_to",
+          "object": "emissions_reduction_target"
+        },
+        {
+          "subject": "pfc_emissions",
+          "predicate": "requires_specific_strategy_for",
+          "object": "semiconductor_industry"
+        },
+        {
+          "subject": "renewable_energy",
+          "predicate": "includes",
+          "object": "renewable_energy_certificates"
+        },
+        {
+          "subject": "renewable_energy",
+          "predicate": "includes",
+          "object": "guarantees_of_origin"
+        },
+        {
+          "subject": "renewable_energy_certificates",
+          "predicate": "must_be_retained_by",
+          "object": "semiconductor_industry"
+        },
+        {
+          "subject": "guarantees_of_origin",
+          "predicate": "must_be_retained_by",
+          "object": "semiconductor_industry"
+        },
+        {
+          "subject": "biomass_renewable_energy",
+          "predicate": "certified_by",
+          "object": "forest_stewardship_council"
+        },
+        {
+          "subject": "biomass_renewable_energy",
+          "predicate": "certified_by",
+          "object": "green_e_energy"
+        },
+        {
+          "subject": "renewable_energy",
+          "predicate": "measured_using",
+          "object": "energy_conversion_factors"
+        },
+        {
+          "subject": "semiconductor_industry",
+          "predicate": "requires",
+          "object": "ultra_pure_water"
+        },
+        {
+          "subject": "total_water_withdrawn",
+          "predicate": "includes",
+          "object": "fresh_water"
+        },
+        {
+          "subject": "tc_sc_140a_1",
+          "predicate": "measures",
+          "object": "total_water_withdrawn"
+        },
+        {
+          "subject": "tc_sc_140a_1",
+          "predicate": "measures",
+          "object": "total_water_consumed"
+        },
+        {
+          "subject": "total_water_withdrawn",
+          "predicate": "reported_as_percentage_in",
+          "object": "water_stress_regions"
+        },
+        {
+          "subject": "total_water_consumed",
+          "predicate": "reported_as_percentage_in",
+          "object": "water_stress_regions"
+        },
+        {
+          "subject": "semiconductor_industry",
+          "predicate": "faces_risk_from",
+          "object": "water_stress_regions"
+        },
+        {
+          "subject": "ultra_pure_water",
+          "predicate": "sourced_from",
+          "object": "total_water_withdrawn"
+        },
+        {
+          "subject": "water_management",
+          "predicate": "applies_to",
+          "object": "semiconductors_industry"
+        },
+        {
+          "subject": "water_withdrawn_high_stress",
+          "predicate": "part_of",
+          "object": "water_management"
+        },
+        {
+          "subject": "water_consumed_high_stress",
+          "predicate": "part_of",
+          "object": "water_management"
+        },
+        {
+          "subject": "water_withdrawn_high_stress",
+          "predicate": "classified_by",
+          "object": "wri_aqueduct"
+        },
+        {
+          "subject": "water_consumed_high_stress",
+          "predicate": "classified_by",
+          "object": "wri_aqueduct"
+        },
+        {
+          "subject": "waste_management",
+          "predicate": "applies_to",
+          "object": "semiconductors_industry"
+        },
+        {
+          "subject": "hazardous_waste_amount",
+          "predicate": "part_of",
+          "object": "waste_management"
+        },
+        {
+          "subject": "hazardous_waste_recycled",
+          "predicate": "part_of",
+          "object": "waste_management"
+        },
+        {
+          "subject": "tc_sc_150a_1",
+          "predicate": "measures",
+          "object": "hazardous_waste_amount"
+        },
+        {
+          "subject": "tc_sc_150a_1",
+          "predicate": "measures",
+          "object": "hazardous_waste_recycled"
+        },
+        {
+          "subject": "hazardous_waste_recycled",
+          "predicate": "excludes",
+          "object": "energy_recovery"
+        },
+        {
+          "subject": "hazardous_waste_recycled",
+          "predicate": "requires_certification",
+          "object": "e_steward_standard"
+        },
+        {
+          "subject": "hazardous_waste_recycled",
+          "predicate": "requires_certification",
+          "object": "r2_standard"
+        },
+        {
+          "subject": "e-waste",
+          "predicate": "must_comply_with",
+          "object": "basel-convention"
+        },
+        {
+          "subject": "hazardous-waste",
+          "predicate": "defined_by",
+          "object": "basel-convention"
+        },
+        {
+          "subject": "recycled-hazardous-waste",
+          "predicate": "defined_by",
+          "object": "basel-convention"
+        },
+        {
+          "subject": "workforce",
+          "predicate": "exposed_to",
+          "object": "chemical-exposure"
+        },
+        {
+          "subject": "chemical-exposure",
+          "predicate": "impacts",
+          "object": "workforce-health-safety"
+        },
+        {
+          "subject": "tc-sc-320a-1",
+          "predicate": "measures",
+          "object": "workforce-health-safety"
+        },
+        {
+          "subject": "tc-sc-320a-1",
+          "predicate": "requires_disclosure_of",
+          "object": "risk-mitigation-efforts"
+        },
+        {
+          "subject": "health-safety-violations",
+          "predicate": "results_from",
+          "object": "chemical-exposure"
+        },
+        {
+          "subject": "risk-mitigation-efforts",
+          "predicate": "reduces",
+          "object": "chemical-exposure"
+        },
+        {
+          "subject": "risk-mitigation-efforts",
+          "predicate": "prevents",
+          "object": "health-safety-violations"
+        },
+        {
+          "subject": "workforce-health-safety",
+          "predicate": "part_of",
+          "object": "tc-sc-320a-1"
+        },
+        {
+          "subject": "hazardous-waste",
+          "predicate": "requires_disclosure_of",
+          "object": "basel-convention"
+        },
+        {
+          "subject": "TC-SC-320a.2",
+          "predicate": "belongs_to_topic",
+          "object": "workforce_health_safety"
+        },
+        {
+          "subject": "TC-SC-330a.1",
+          "predicate": "belongs_to_topic",
+          "object": "recruiting_managing_workforce"
+        },
+        {
+          "subject": "TC-SC-320a.2",
+          "predicate": "measures",
+          "object": "legal_proceedings"
+        },
+        {
+          "subject": "legal_proceedings",
+          "predicate": "results_in",
+          "object": "TC-SC-320a.2"
+        },
+        {
+          "subject": "legal_proceedings",
+          "predicate": "triggers",
+          "object": "corrective_actions"
+        },
+        {
+          "subject": "workforce_health_safety",
+          "predicate": "applies_to",
+          "object": "cleanroom_workers"
+        },
+        {
+          "subject": "workforce_health_safety",
+          "predicate": "applies_to",
+          "object": "contract_employees"
+        },
+        {
+          "subject": "TC-SC-330a.1",
+          "predicate": "measures",
+          "object": "work_visa"
+        },
+        {
+          "subject": "work_visa",
+          "predicate": "creates_risk_for",
+          "object": "recruiting_managing_workforce"
+        },
+        {
+          "subject": "contract_employees",
+          "predicate": "excluded_from",
+          "object": "TC-SC-330a.1"
+        },
+        {
+          "subject": "TC-SC-410a.1",
+          "predicate": "measures",
+          "object": "declarable_substances"
+        },
+        {
+          "subject": "TC-SC-410a.1",
+          "predicate": "follows_standard",
+          "object": "IEC_62474"
+        },
+        {
+          "subject": "TC-SC-410a.1",
+          "predicate": "relates_to_topic",
+          "object": "product_lifecycle_management"
+        },
+        {
+          "subject": "product_lifecycle_management",
+          "predicate": "includes",
+          "object": "energy_efficiency"
+        },
+        {
+          "subject": "product_lifecycle_management",
+          "predicate": "addresses",
+          "object": "electronic_waste"
+        },
+        {
+          "subject": "declarable_substances",
+          "predicate": "impacts",
+          "object": "electronic_waste"
+        },
+        {
+          "subject": "semiconductor_industry",
+          "predicate": "uses_metric",
+          "object": "TC-SC-410a.1"
+        },
+        {
+          "subject": "semiconductor_industry",
+          "predicate": "manages",
+          "object": "product_lifecycle_management"
+        },
+        {
+          "subject": "energy_efficiency",
+          "predicate": "provides_competitive_advantage",
+          "object": "semiconductor_industry"
+        },
+        {
+          "subject": "declarable_substances",
+          "predicate": "defined_by",
+          "object": "IEC_62474"
+        },
+        {
+          "subject": "TC-SC-410a.2",
+          "predicate": "includes_subcategory",
+          "object": "server_energy_efficiency"
+        },
+        {
+          "subject": "TC-SC-410a.2",
+          "predicate": "includes_subcategory",
+          "object": "desktop_energy_efficiency"
+        },
+        {
+          "subject": "TC-SC-410a.2",
+          "predicate": "includes_subcategory",
+          "object": "laptop_energy_efficiency"
+        },
+        {
+          "subject": "TC-SC-410a.2",
+          "predicate": "belongs_to_topic",
+          "object": "product_lifecycle_management"
+        },
+        {
+          "subject": "server_energy_efficiency",
+          "predicate": "tested_according_to",
+          "object": "SPEC"
+        },
+        {
+          "subject": "desktop_energy_efficiency",
+          "predicate": "tested_according_to",
+          "object": "SPEC"
+        },
+        {
+          "subject": "laptop_energy_efficiency",
+          "predicate": "tested_according_to",
+          "object": "MobileMark"
+        },
+        {
+          "subject": "TC-SC-440a.1",
+          "predicate": "belongs_to_topic",
+          "object": "materials_sourcing"
+        },
+        {
+          "subject": "TC-SC-440a.1",
+          "predicate": "addresses_risks_for",
+          "object": "critical_materials"
+        },
+        {
+          "subject": "critical_materials",
+          "predicate": "includes",
+          "object": "rare_earth_elements"
+        },
+        {
+          "subject": "critical_materials",
+          "predicate": "includes",
+          "object": "platinum_group_metals"
+        },
+        {
+          "subject": "product_lifecycle_management",
+          "predicate": "references_standard",
+          "object": "IEC_62474"
+        },
+        {
+          "subject": "materials_sourcing",
+          "predicate": "addresses_risk",
+          "object": "supply disruptions"
+        },
+        {
+          "subject": "materials_sourcing",
+          "predicate": "addresses_risk",
+          "object": "price volatility"
+        },
+        {
+          "subject": "materials_sourcing",
+          "predicate": "addresses_risk",
+          "object": "geopolitical uncertainty"
+        },
+        {
+          "subject": "TC-SC-520a.1",
+          "predicate": "measures",
+          "object": "monetary_losses"
+        },
+        {
+          "subject": "TC-SC-520a.1",
+          "predicate": "relates_to",
+          "object": "anti_competitive_behaviour"
+        },
+        {
+          "subject": "TC-SC-520a.1",
+          "predicate": "part_of_topic",
+          "object": "intellectual_property_protection"
+        },
+        {
+          "subject": "intellectual_property_protection",
+          "predicate": "applies_to",
+          "object": "semiconductors_industry"
+        },
+        {
+          "subject": "monetary_losses",
+          "predicate": "results_from",
+          "object": "legal_proceedings"
+        },
+        {
+          "subject": "legal_proceedings",
+          "predicate": "involves",
+          "object": "anti_competitive_behaviour"
+        },
+        {
+          "subject": "materials_sourcing",
+          "predicate": "applies_to",
+          "object": "semiconductors_industry"
+        },
+        {
+          "subject": "materials_sourcing",
+          "predicate": "involves",
+          "object": "critical_materials"
+        },
+        {
+          "subject": "critical_materials",
+          "predicate": "presents_risk_to",
+          "object": "semiconductors_industry"
+        },
+        {
+          "subject": "anti_competitive_behaviour",
+          "predicate": "impacts",
+          "object": "intellectual_property_protection"
+        },
+        {
+          "subject": "corrective_actions",
+          "predicate": "responds_to",
+          "object": "legal_proceedings"
+        },
+        {
+          "subject": "corrective_actions",
+          "predicate": "includes",
+          "object": "operations_changes"
+        },
+        {
+          "subject": "corrective_actions",
+          "predicate": "includes",
+          "object": "management_changes"
+        },
+        {
+          "subject": "corrective_actions",
+          "predicate": "includes",
+          "object": "process_changes"
+        },
+        {
+          "subject": "corrective_actions",
+          "predicate": "includes",
+          "object": "product_changes"
+        },
+        {
+          "subject": "corrective_actions",
+          "predicate": "includes",
+          "object": "business_partner_changes"
+        },
+        {
+          "subject": "corrective_actions",
+          "predicate": "includes",
+          "object": "training_changes"
+        },
+        {
+          "subject": "corrective_actions",
+          "predicate": "includes",
+          "object": "technology_changes"
+        },
+        {
+          "subject": "legal_proceedings",
+          "predicate": "relates_to",
+          "object": "ip_competitive_behavior"
+        },
+        {
+          "subject": "ip_competitive_behavior",
+          "predicate": "part_of",
+          "object": "sasb_semiconductors"
+        },
+        {
+          "subject": "corrective_actions",
+          "predicate": "disclosure_required_by",
+          "object": "sasb_semiconductors"
+        }
+      ],
+      "entity_count": 149,
+      "relationship_count": 200
+    }
+  }
+}

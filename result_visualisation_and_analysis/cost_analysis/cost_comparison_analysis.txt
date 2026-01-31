@@ -1,0 +1,53 @@
+====================================================================================================
+COST COMPARISON: BASELINE vs ONTOLOGY-GUIDED
+====================================================================================================
+
+----------------------------------------------------------------------------------------------------
+1. OVERALL COMPARISON
+----------------------------------------------------------------------------------------------------
+
+Metric                                   Baseline                  Ontology-Guided           Difference
+----------------------------------------------------------------------------------------------------
+Stage 2 Extraction Cost                  $4.4804                   $4.5251                   $+0.0446  
+Stage 3 Validation Cost                  $0.0016                   $0.0364                   $+0.0348  
+Total Pipeline Cost                      $4.4820                   $4.5615                   $+0.0794  
+Wasted Cost (filtered)                   $4.3577                   $0.8578                   -$3.4999  
+Entities Extracted                       219                       364                       +145      
+Entities Validated                       6                         295                       +289      
+Entity Retention Rate (%)                2.74%                     81.04%                    +78.30%   
+Cost per Validated Entity                $0.747004                 $0.015463                 -$0.7315  
+
+----------------------------------------------------------------------------------------------------
+2. KEY INSIGHTS
+----------------------------------------------------------------------------------------------------
+
+  ✅ Ontology-Guided is 97.9% more cost-efficient per validated entity
+  ✅ Ontology-Guided has 78.3% better entity retention
+
+  💰 Baseline wasted $4.3577 on filtered entities
+  💰 Ontology-Guided wasted $0.8578 on filtered entities
+  ✅ Ontology-Guided reduced wasted cost by $3.4999
+
+----------------------------------------------------------------------------------------------------
+3. WASTED COST METHODOLOGY
+----------------------------------------------------------------------------------------------------
+
+  Definition:
+    'Wasted Cost' represents money spent on extracting entities that were
+    later filtered out during Stage 3 validation.
+
+  Calculation:
+    Wasted Cost = (Filtered Entities / Total Entities) × Extraction Cost
+
+  Assumption:
+    We assume extraction cost is proportional to the number of entities extracted.
+    This is a simplification but provides a reasonable estimate.
+
+  Interpretation:
+    • Lower wasted cost indicates better extraction quality (fewer invalid entities)
+    • Higher retention rate means less money wasted on filtering
+    • Ontology-guided extraction should reduce wasted cost through better quality
+
+====================================================================================================
+END OF REPORT
+====================================================================================================

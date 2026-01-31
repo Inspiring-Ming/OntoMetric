@@ -1,0 +1,21 @@
+{
+  "report_timestamp": "2025-11-15T11:01:03.900003",
+  "model_used": "claude-3-5-sonnet-20241022",
+  "aggregated_summary": {
+    "total_documents": 1,
+    "total_segments": 13,
+    "total_input_tokens": 38685,
+    "total_output_tokens": 10790,
+    "total_tokens": 49475,
+    "total_cost_usd": 0.277905,
+    "average_cost_per_document_usd": 0.277905,
+    "average_cost_per_segment_usd": 0.021377307692307692,
+    "documents": [
+      {
+        "name": "1.SASB-semiconductors-standard_en-gb",
+        "segments": 13,
+        "cost_usd": 0.277905
+      }
+    ]
+  }
+}

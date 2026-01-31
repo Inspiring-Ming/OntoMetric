@@ -1,0 +1,160 @@
+{
+  "success": true,
+  "total_documents": 5,
+  "successful": 5,
+  "failed": 0,
+  "results": [
+    {
+      "success": true,
+      "document_name": "2.Australia-AASBS2_09-24",
+      "document_title": "Australian Sustainability Reporting Standard AASB S2 September 2024 Climate-related Disclosures",
+      "total_segments_processed": 8,
+      "total_entities_extracted": 74,
+      "total_relationships_extracted": 75,
+      "entity_breakdown": {
+        "Industry": 4,
+        "ReportingFramework": 1,
+        "Category": 8,
+        "Metric": 56,
+        "Model": 5
+      },
+      "relationship_breakdown": {
+        "ReportUsing": 2,
+        "Include": 8,
+        "ConsistOf": 39,
+        "IsCalculatedBy": 7,
+        "RequiresInputFrom": 19
+      },
+      "output_files": [
+        "outputs/stage2_ontology_guided_extraction/2.Australia-AASBS2_09-24_ontology_guided.json",
+        "outputs/stage2_ontology_guided_extraction/2.Australia-AASBS2_09-24_ontology_guided.rdf",
+        "outputs/stage2_ontology_guided_extraction/2.Australia-AASBS2_09-24_ontology_guided_extraction_log.txt",
+        "outputs/cost_tracking/2.Australia-AASBS2_09-24_ontology_guided_cost_report.json",
+        "outputs/cost_tracking/2.Australia-AASBS2_09-24_ontology_guided_cost_report.txt"
+      ],
+      "processing_timestamp": "2025-11-18T13:35:40.637595"
+    },
+    {
+      "success": true,
+      "document_name": "1.SASB-semiconductors-standard_en-gb",
+      "document_title": "Semiconductors Sustainability Accounting Standard TECHNOLOGY & COMMUNICATIONS SECTOR",
+      "total_segments_processed": 13,
+      "total_entities_extracted": 69,
+      "total_relationships_extracted": 71,
+      "entity_breakdown": {
+        "Industry": 1,
+        "ReportingFramework": 1,
+        "Category": 11,
+        "Metric": 44,
+        "Model": 12
+      },
+      "relationship_breakdown": {
+        "ReportUsing": 1,
+        "Include": 11,
+        "ConsistOf": 22,
+        "IsCalculatedBy": 11,
+        "RequiresInputFrom": 26
+      },
+      "output_files": [
+        "outputs/stage2_ontology_guided_extraction/1.SASB-semiconductors-standard_en-gb_ontology_guided.json",
+        "outputs/stage2_ontology_guided_extraction/1.SASB-semiconductors-standard_en-gb_ontology_guided.rdf",
+        "outputs/stage2_ontology_guided_extraction/1.SASB-semiconductors-standard_en-gb_ontology_guided_extraction_log.txt",
+        "outputs/cost_tracking/1.SASB-semiconductors-standard_en-gb_ontology_guided_cost_report.json",
+        "outputs/cost_tracking/1.SASB-semiconductors-standard_en-gb_ontology_guided_cost_report.txt"
+      ],
+      "processing_timestamp": "2025-11-18T13:44:22.045754"
+    },
+    {
+      "success": true,
+      "document_name": "2.FINAL-2017-TCFD-Report",
+      "document_title": "DRAFT – FOR DISCUSSION PURPOSES ONLY Final Report Recommendations of",
+      "total_segments_processed": 19,
+      "total_entities_extracted": 88,
+      "total_relationships_extracted": 86,
+      "entity_breakdown": {
+        "Industry": 9,
+        "ReportingFramework": 1,
+        "Category": 10,
+        "Metric": 65,
+        "Model": 3
+      },
+      "relationship_breakdown": {
+        "ReportUsing": 8,
+        "Include": 10,
+        "ConsistOf": 54,
+        "IsCalculatedBy": 3,
+        "RequiresInputFrom": 11
+      },
+      "output_files": [
+        "outputs/stage2_ontology_guided_extraction/2.FINAL-2017-TCFD-Report_ontology_guided.json",
+        "outputs/stage2_ontology_guided_extraction/2.FINAL-2017-TCFD-Report_ontology_guided.rdf",
+        "outputs/stage2_ontology_guided_extraction/2.FINAL-2017-TCFD-Report_ontology_guided_extraction_log.txt",
+        "outputs/cost_tracking/2.FINAL-2017-TCFD-Report_ontology_guided_cost_report.json",
+        "outputs/cost_tracking/2.FINAL-2017-TCFD-Report_ontology_guided_cost_report.txt"
+      ],
+      "processing_timestamp": "2025-11-18T13:55:39.008349"
+    },
+    {
+      "success": true,
+      "document_name": "1. SASB-commercial-banks-standard_en-gb",
+      "document_title": "Commercial Banks Sustainability Accounting Standard FINANCIALS SECTOR",
+      "total_segments_processed": 10,
+      "total_entities_extracted": 53,
+      "total_relationships_extracted": 53,
+      "entity_breakdown": {
+        "Industry": 1,
+        "ReportingFramework": 1,
+        "Category": 8,
+        "Metric": 38,
+        "Model": 5
+      },
+      "relationship_breakdown": {
+        "ReportUsing": 1,
+        "Include": 8,
+        "ConsistOf": 19,
+        "IsCalculatedBy": 5,
+        "RequiresInputFrom": 20
+      },
+      "output_files": [
+        "outputs/stage2_ontology_guided_extraction/1. SASB-commercial-banks-standard_en-gb_ontology_guided.json",
+        "outputs/stage2_ontology_guided_extraction/1. SASB-commercial-banks-standard_en-gb_ontology_guided.rdf",
+        "outputs/stage2_ontology_guided_extraction/1. SASB-commercial-banks-standard_en-gb_ontology_guided_extraction_log.txt",
+        "outputs/cost_tracking/1. SASB-commercial-banks-standard_en-gb_ontology_guided_cost_report.json",
+        "outputs/cost_tracking/1. SASB-commercial-banks-standard_en-gb_ontology_guided_cost_report.txt"
+      ],
+      "processing_timestamp": "2025-11-18T14:02:44.368294"
+    },
+    {
+      "success": true,
+      "document_name": "1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures",
+      "document_title": "June 2023 IFRS S2 IFRS® Sustainability Disclosure Standard",
+      "total_segments_processed": 10,
+      "total_entities_extracted": 80,
+      "total_relationships_extracted": 65,
+      "entity_breakdown": {
+        "ReportingFramework": 1,
+        "Industry": 5,
+        "Category": 7,
+        "Metric": 63,
+        "Model": 4
+      },
+      "relationship_breakdown": {
+        "ReportUsing": 3,
+        "Include": 6,
+        "ConsistOf": 44,
+        "IsCalculatedBy": 4,
+        "RequiresInputFrom": 8
+      },
+      "output_files": [
+        "outputs/stage2_ontology_guided_extraction/1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures_ontology_guided.json",
+        "outputs/stage2_ontology_guided_extraction/1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures_ontology_guided.rdf",
+        "outputs/stage2_ontology_guided_extraction/1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures_ontology_guided_extraction_log.txt",
+        "outputs/cost_tracking/1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures_ontology_guided_cost_report.json",
+        "outputs/cost_tracking/1.issb(sasb)-general-a-ifrs-s2-climate-related-disclosures_ontology_guided_cost_report.txt"
+      ],
+      "processing_timestamp": "2025-11-18T14:10:51.853450"
+    }
+  ],
+  "elapsed_time": 2578.0707247257233,
+  "processing_timestamp": "2025-11-18T14:10:51.853578"
+}

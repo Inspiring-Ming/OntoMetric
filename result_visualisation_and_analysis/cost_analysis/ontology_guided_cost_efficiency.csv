@@ -1,0 +1,8 @@
+Metric,Value
+Cost per Extracted Entity (USD),0.012432
+Cost per Validated Entity (USD),0.012555
+Entity Retention Rate (%),81.04
+Total Entities Extracted,364
+Total Entities Validated,295
+Total Entities Filtered,69
+Wasted Cost (USD),0.8578

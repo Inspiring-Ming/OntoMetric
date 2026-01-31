@@ -1,0 +1,712 @@
+{
+  "validation_metadata": {
+    "validation_timestamp": "2025-11-20T09:58:46.376956",
+    "validation_approach": "python",
+    "critical_rules_passed": [
+      "VR001",
+      "VR003",
+      "VR004",
+      "VR005",
+      "VR006"
+    ],
+    "critical_violations_removed": 210,
+    "original_entity_count": 96,
+    "validated_entity_count": 3,
+    "original_relationship_count": 117,
+    "validated_relationship_count": 0,
+    "source_file": "outputs/stage2_baseline_llm_extraction/2.Australia-AASBS2_09-24_baseline_llm.json",
+    "quality_metrics": {
+      "schema_compliance_weighted": 83.33,
+      "semantic_type_accuracy": 3.12,
+      "relationship_retention_rate": 0.0
+    },
+    "rule_scores": {
+      "VR001": {
+        "rule_name": "Entity Uniqueness",
+        "score": 100.0,
+        "passed_items": 3,
+        "total_items": 3,
+        "violations": 0
+      },
+      "VR002": {
+        "rule_name": "Entity Type-Specific Schema Compliance",
+        "score": 0.0,
+        "passed_items": 0,
+        "total_items": 3,
+        "violations": 3
+      },
+      "VR003": {
+        "rule_name": "Metric Property Values",
+        "score": 100.0,
+        "passed_items": 3,
+        "total_items": 3,
+        "violations": 0
+      },
+      "VR004": {
+        "rule_name": "Model Property Values",
+        "score": 100.0,
+        "passed_items": 0,
+        "total_items": 0,
+        "violations": 0
+      },
+      "VR005": {
+        "rule_name": "Relationship Predicate Validity",
+        "score": 100.0,
+        "passed_items": 0,
+        "total_items": 0,
+        "violations": 0
+      },
+      "VR006": {
+        "rule_name": "CalculatedMetric-Model Links",
+        "score": 100.0,
+        "passed_items": 0,
+        "total_items": 0,
+        "violations": 0
+      }
+    },
+    "semantic_validation": {
+      "total_entities": 96,
+      "correct_entities": 3,
+      "incorrect_entities": 93,
+      "semantic_type_accuracy": 3.12,
+      "llm_cost": 0.0003,
+      "mismatches": [
+        {
+          "entity_id": "AASB_S2",
+          "entity_type": "Standard",
+          "label": "AASB S2 Climate-related Disclosures",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Standard\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "IFRS_S2",
+          "entity_type": "Standard",
+          "label": "IFRS S2",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Standard\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "governance",
+          "entity_type": "Disclosure Category",
+          "label": "Governance",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Disclosure Category\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "strategy",
+          "entity_type": "Disclosure Category",
+          "label": "Strategy",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Disclosure Category\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "risk_management",
+          "entity_type": "Disclosure Category",
+          "label": "Risk Management",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Disclosure Category\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "metrics_targets",
+          "entity_type": "Disclosure Category",
+          "label": "Metrics and Targets",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Disclosure Category\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "climate_related_financial_info",
+          "entity_type": "Disclosure Requirement",
+          "label": "Climate-related Financial Information",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Disclosure Requirement\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "AASB_S2",
+          "entity_type": "Standard",
+          "label": "AASB S2 Climate-related Disclosures",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Standard\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "AASB",
+          "entity_type": "Organization",
+          "label": "Australian Accounting Standards Board",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Organization\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "IFRS_Foundation",
+          "entity_type": "Organization",
+          "label": "IFRS Foundation",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Organization\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "IFRS_S2",
+          "entity_type": "Standard",
+          "label": "IFRS S2",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Standard\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "Governance",
+          "entity_type": "ESG_Category",
+          "label": "Governance",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"ESG_Category\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "Strategy",
+          "entity_type": "ESG_Category",
+          "label": "Strategy",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"ESG_Category\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "Risk_Management",
+          "entity_type": "ESG_Category",
+          "label": "Risk Management",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"ESG_Category\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "Metrics_and_Targets",
+          "entity_type": "ESG_Category",
+          "label": "Metrics and Targets",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"ESG_Category\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "Climate_Related_Disclosures",
+          "entity_type": "ESG_Topic",
+          "label": "Climate-related Disclosures",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"ESG_Topic\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "AASB_S2",
+          "entity_type": "Standard",
+          "label": "AASB S2 Climate-related Disclosures",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Standard\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "AASB",
+          "entity_type": "Organization",
+          "label": "Australian Accounting Standards Board",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Organization\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "IFRS_S2",
+          "entity_type": "Standard",
+          "label": "IFRS S2 Climate-related Disclosures",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Standard\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "AASB_S1",
+          "entity_type": "Standard",
+          "label": "AASB S1 General Requirements for Disclosure of Sustainability-related Financial Information",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Standard\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "CLIMATE_RISKS",
+          "entity_type": "Risk Category",
+          "label": "Climate-related Risks",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Risk Category\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "CLIMATE_OPPORTUNITIES",
+          "entity_type": "Opportunity Category",
+          "label": "Climate-related Opportunities",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Opportunity Category\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "GOVERNANCE",
+          "entity_type": "Disclosure Category",
+          "label": "Governance",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Disclosure Category\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "STRATEGY",
+          "entity_type": "Disclosure Category",
+          "label": "Strategy",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Disclosure Category\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "RISK_MANAGEMENT",
+          "entity_type": "Disclosure Category",
+          "label": "Risk Management",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Disclosure Category\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "METRICS_TARGETS",
+          "entity_type": "Disclosure Category",
+          "label": "Metrics and Targets",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Disclosure Category\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "SCENARIO_ANALYSIS",
+          "entity_type": "Methodology",
+          "label": "Scenario Analysis",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Methodology\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "EFFECTIVE_DATE_2025",
+          "entity_type": "Date",
+          "label": "1 January 2025",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Date\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "EFFECTIVE_DATE_2026",
+          "entity_type": "Date",
+          "label": "1 July 2026",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Date\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "EFFECTIVE_DATE_2027",
+          "entity_type": "Date",
+          "label": "1 July 2027",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Date\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "ISSB",
+          "entity_type": "Organization",
+          "label": "International Sustainability Standards Board",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Organization\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "CORPORATIONS_ACT",
+          "entity_type": "Legislation",
+          "label": "Corporations Act 2001",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Legislation\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "AASB_S2",
+          "entity_type": "Standard",
+          "label": "AASB S2 Climate-related Disclosures",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Standard\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "climate_related_risks",
+          "entity_type": "Risk Category",
+          "label": "Climate-related Risks",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Risk Category\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "climate_physical_risks",
+          "entity_type": "Risk Subcategory",
+          "label": "Climate-related Physical Risks",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Risk Subcategory\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "climate_transition_risks",
+          "entity_type": "Risk Subcategory",
+          "label": "Climate-related Transition Risks",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Risk Subcategory\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "climate_opportunities",
+          "entity_type": "Opportunity Category",
+          "label": "Climate-related Opportunities",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Opportunity Category\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "governance_body",
+          "entity_type": "Organizational Entity",
+          "label": "Governance Body",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Organizational Entity\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "management_role",
+          "entity_type": "Organizational Function",
+          "label": "Management Role",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Organizational Function\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "climate_targets",
+          "entity_type": "Performance Metric",
+          "label": "Climate-related Targets",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Performance Metric\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "remuneration_policies",
+          "entity_type": "Policy",
+          "label": "Remuneration Policies",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Policy\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "business_model",
+          "entity_type": "Strategic Element",
+          "label": "Business Model",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Strategic Element\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "value_chain",
+          "entity_type": "Strategic Element",
+          "label": "Value Chain",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Strategic Element\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "transition_plan",
+          "entity_type": "Strategic Document",
+          "label": "Climate-related Transition Plan",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Strategic Document\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "cash_flows",
+          "entity_type": "Financial Metric",
+          "label": "Cash Flows",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Financial Metric\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "cost_of_capital",
+          "entity_type": "Financial Metric",
+          "label": "Cost of Capital",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Financial Metric\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "AASB",
+          "entity_type": "Regulatory Body",
+          "label": "Australian Accounting Standards Board",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Regulatory Body\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "climate_related_risks",
+          "entity_type": "Risk",
+          "label": "Climate-related Risks",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Risk\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "climate_related_opportunities",
+          "entity_type": "Opportunity",
+          "label": "Climate-related Opportunities",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Opportunity\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "financial_position",
+          "entity_type": "Financial Metric",
+          "label": "Financial Position",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Financial Metric\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "financial_performance",
+          "entity_type": "Financial Metric",
+          "label": "Financial Performance",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Financial Metric\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "cash_flows",
+          "entity_type": "Financial Metric",
+          "label": "Cash Flows",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Financial Metric\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "climate_scenario_analysis",
+          "entity_type": "Assessment Method",
+          "label": "Climate-related Scenario Analysis",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Assessment Method\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "climate_resilience",
+          "entity_type": "ESG Metric",
+          "label": "Climate Resilience",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"ESG Metric\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "capital_expenditure",
+          "entity_type": "Financial Metric",
+          "label": "Capital Expenditure",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Financial Metric\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "lower_carbon_economy_revenue",
+          "entity_type": "Financial Metric",
+          "label": "Lower-carbon Economy Revenue",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Financial Metric\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "climate_adaptation_expenses",
+          "entity_type": "Financial Metric",
+          "label": "Climate Adaptation Expenses",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Financial Metric\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "physical_damage_costs",
+          "entity_type": "Financial Metric",
+          "label": "Physical Damage Costs",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Financial Metric\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "carrying_amounts_assets_liabilities",
+          "entity_type": "Financial Metric",
+          "label": "Carrying Amounts of Assets and Liabilities",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Financial Metric\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "climate_mitigation_investments",
+          "entity_type": "Financial Metric",
+          "label": "Climate Mitigation Investments",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Financial Metric\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "climate_adaptation_investments",
+          "entity_type": "Financial Metric",
+          "label": "Climate Adaptation Investments",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Financial Metric\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "business_model",
+          "entity_type": "Strategic Element",
+          "label": "Business Model",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Strategic Element\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "strategy",
+          "entity_type": "Strategic Element",
+          "label": "Climate Strategy",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Strategic Element\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "financial_resources",
+          "entity_type": "Financial Metric",
+          "label": "Financial Resources",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Financial Metric\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "scope3_emissions",
+          "entity_type": "Environmental Metric",
+          "label": "Scope 3 Greenhouse Gas Emissions",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Environmental Metric\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "financed_emissions",
+          "entity_type": "Environmental Metric",
+          "label": "Financed Emissions",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Environmental Metric\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "financed_emissions_scope1",
+          "entity_type": "Environmental Metric",
+          "label": "Financed Emissions - Scope 1",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Environmental Metric\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "financed_emissions_scope2",
+          "entity_type": "Environmental Metric",
+          "label": "Financed Emissions - Scope 2",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Environmental Metric\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "financed_emissions_scope3",
+          "entity_type": "Environmental Metric",
+          "label": "Financed Emissions - Scope 3",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Environmental Metric\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "aum_financed_emissions",
+          "entity_type": "Financial Metric",
+          "label": "Assets Under Management in Financed Emissions",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Financial Metric\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "aum_percentage",
+          "entity_type": "Financial Metric",
+          "label": "Percentage of Total AUM",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Financial Metric\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "secondary_data",
+          "entity_type": "Data Input",
+          "label": "Secondary Data",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Data Input\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "verified_data",
+          "entity_type": "Data Quality Indicator",
+          "label": "Verified Data",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Data Quality Indicator\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "climate_related_risks",
+          "entity_type": "Risk Category",
+          "label": "Climate-Related Risks",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Risk Category\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "asset_management",
+          "entity_type": "Financial Activity",
+          "label": "Asset Management",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Financial Activity\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "commercial_banking",
+          "entity_type": "Financial Activity",
+          "label": "Commercial Banking",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Financial Activity\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "insurance",
+          "entity_type": "Financial Activity",
+          "label": "Insurance",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Financial Activity\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "value_chain_activity",
+          "entity_type": "Operational Scope",
+          "label": "Value Chain Activity",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Operational Scope\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "scope_1_emissions",
+          "entity_type": "ESG Metric",
+          "label": "Scope 1 Greenhouse Gas Emissions",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"ESG Metric\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "scope_2_emissions",
+          "entity_type": "ESG Metric",
+          "label": "Scope 2 Greenhouse Gas Emissions",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"ESG Metric\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "scope_3_emissions",
+          "entity_type": "ESG Metric",
+          "label": "Scope 3 Greenhouse Gas Emissions",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"ESG Metric\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "location_based_scope_2",
+          "entity_type": "ESG Metric",
+          "label": "Location-based Scope 2 Emissions",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"ESG Metric\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "climate_transition_risk_assets",
+          "entity_type": "ESG Metric",
+          "label": "Assets Vulnerable to Climate-related Transition Risks",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"ESG Metric\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "climate_physical_risk_assets",
+          "entity_type": "ESG Metric",
+          "label": "Assets Vulnerable to Climate-related Physical Risks",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"ESG Metric\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "climate_opportunity_assets",
+          "entity_type": "ESG Metric",
+          "label": "Assets Aligned with Climate-related Opportunities",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"ESG Metric\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "capital_deployment",
+          "entity_type": "ESG Metric",
+          "label": "Capital Deployment for Climate",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"ESG Metric\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "internal_carbon_price",
+          "entity_type": "ESG Metric",
+          "label": "Internal Carbon Price",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"ESG Metric\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "climate_linked_remuneration",
+          "entity_type": "ESG Metric",
+          "label": "Climate-linked Executive Remuneration",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"ESG Metric\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "climate_targets",
+          "entity_type": "ESG Metric",
+          "label": "Climate-related Targets",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"ESG Metric\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "ghg_protocol_2004",
+          "entity_type": "Standard",
+          "label": "Greenhouse Gas Protocol: A Corporate Accounting and Reporting Standard (2004)",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Standard\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "ghg_protocol_scope3_2011",
+          "entity_type": "Standard",
+          "label": "Greenhouse Gas Protocol Corporate Value Chain (Scope 3) Accounting and Reporting Standard (2011)",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Standard\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "consolidated_accounting_group",
+          "entity_type": "Entity Boundary",
+          "label": "Consolidated Accounting Group",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Entity Boundary\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        },
+        {
+          "entity_id": "other_investees",
+          "entity_type": "Entity Boundary",
+          "label": "Other Investees",
+          "llm_reasoning": "SEMANTIC FAILURE: Unknown/invalid type \"Entity Boundary\" not in ontology schema. Only 4 types allowed: Industry, Category, Metric, Model."
+        }
+      ]
+    },
+    "rule_compliance": {
+      "critical_rules_total": 6,
+      "critical_rules_passed_count": 5,
+      "critical_rules_failed_count": 1,
+      "critical_rules_failed": [
+        "VR002"
+      ]
+    },
+    "violation_statistics": {
+      "total_violations": 3,
+      "entities_with_violations": 80,
+      "relationships_with_violations": 0,
+      "violations_by_rule": {
+        "VR001": {
+          "passed": true,
+          "violation_count": 0
+        },
+        "VR002": {
+          "passed": false,
+          "violation_count": 3
+        },
+        "VR003": {
+          "passed": true,
+          "violation_count": 0
+        },
+        "VR004": {
+          "passed": true,
+          "violation_count": 0
+        },
+        "VR005": {
+          "passed": true,
+          "violation_count": 0
+        },
+        "VR006": {
+          "passed": true,
+          "violation_count": 0
+        }
+      }
+    },
+    "segment_statistics": {
+      "total_segments": 1,
+      "segments_with_entities": 1,
+      "entities_per_segment": {
+        "unknown": {
+          "original": 96,
+          "validated": 3
+        }
+      },
+      "retention_per_segment": {
+        "unknown": 3.12
+      },
+      "avg_segment_retention": 3.12
+    }
+  },
+  "entities": [
+    {
+      "id": "SCOPE_1_EMISSIONS",
+      "label": "Scope 1 Greenhouse Gas Emissions",
+      "type": "Metric",
+      "description": "Direct greenhouse gas emissions from sources owned or controlled by the entity",
+      "unit": "tCO2e"
+    },
+    {
+      "id": "SCOPE_2_EMISSIONS",
+      "label": "Scope 2 Greenhouse Gas Emissions",
+      "type": "Metric",
+      "description": "Indirect greenhouse gas emissions from purchased energy",
+      "unit": "tCO2e"
+    },
+    {
+      "id": "SCOPE_3_EMISSIONS",
+      "label": "Scope 3 Greenhouse Gas Emissions",
+      "type": "Metric",
+      "description": "Other indirect greenhouse gas emissions in the value chain",
+      "unit": "tCO2e"
+    }
+  ],
+  "relationships": []
+}

@@ -1,0 +1,71 @@
+================================================================================
+LLM COST REPORT
+================================================================================
+Document: 1.SASB-semiconductors-standard_en-gb_ontology_guided
+Generated: 2025-11-18 13:44:22
+
+SUMMARY
+--------------------------------------------------------------------------------
+Total Segments Processed: 13
+Models Used: claude-sonnet-4-5-20250929
+
+Token Usage:
+  Input Tokens:        63,953
+  Output Tokens:       45,312
+  Total Tokens:       109,265
+
+Cost Breakdown:
+  Input Cost:  $    0.1919 USD
+  Output Cost: $    0.6797 USD
+  ────────────────────────
+  TOTAL COST:  $    0.8715 USD
+
+Average Cost per Segment: $0.0670 USD
+
+PER-SEGMENT BREAKDOWN
+--------------------------------------------------------------------------------
+Segment ID      Pages         Input Tok   Output Tok   Cost (USD)
+--------------------------------------------------------------------------------
+seg_001         p.0               4,239          964 $     0.0272
+seg_002         p.4               4,424        1,346 $     0.0335
+seg_003         p.5               4,693        9,491 $     0.1564
+seg_004         p.6-7             5,287        5,770 $     0.1024
+seg_005         p.8-10            5,841        3,698 $     0.0730
+seg_006         p.11-12           5,176        3,050 $     0.0613
+seg_007         p.13-14           4,873        5,993 $     0.1045
+seg_008         p.15-16           4,869        1,657 $     0.0395
+seg_009         p.17-18           5,071        3,144 $     0.0624
+seg_010         p.19              4,680        2,615 $     0.0533
+seg_011         p.20-22           5,682        4,755 $     0.0884
+seg_012         p.23-24           4,899        2,321 $     0.0495
+seg_013         p.25-26           4,219          508 $     0.0203
+
+PRICING REFERENCE (per million tokens)
+--------------------------------------------------------------------------------
+claude-3-5-sonnet-20241022
+  Input:  $3.00/MTok
+  Output: $15.00/MTok
+
+claude-3-5-sonnet-20240620
+  Input:  $3.00/MTok
+  Output: $15.00/MTok
+
+claude-3-5-haiku-20241022
+  Input:  $1.00/MTok
+  Output: $5.00/MTok
+
+claude-3-opus-20240229
+  Input:  $15.00/MTok
+  Output: $75.00/MTok
+
+claude-3-sonnet-20240229
+  Input:  $3.00/MTok
+  Output: $15.00/MTok
+
+claude-3-haiku-20240307
+  Input:  $0.25/MTok
+  Output: $1.25/MTok
+
+================================================================================
+Note: Verify latest pricing at https://www.anthropic.com/pricing
+================================================================================

@@ -1,0 +1,119 @@
+ESG Knowledge Extraction Log
+==================================================
+Document: DRAFT – FOR DISCUSSION PURPOSES ONLY Final Report Recommendations of
+Processing Date: 2025-11-18 13:55:39
+Total Segments: 19
+
+Segment 1: Title & Document Information
+  Entities: 0
+  Relationships: 0
+  Quality Score: 0.00
+  Validation Notes: No entities or relationships extracted
+
+Segment 2: Background
+  Entities: 0
+  Relationships: 0
+  Quality Score: 0.00
+  Validation Notes: No entities or relationships extracted
+
+Segment 3: The Task Force’s Remit
+  Entities: 6
+  Relationships: 5
+  Quality Score: 1.00
+  Validation Notes: None
+
+Segment 4: Climate-Related Risks
+  Entities: 6
+  Relationships: 5
+  Quality Score: 1.00
+  Validation Notes: None
+
+Segment 5: Climate-Related Opportunities
+  Entities: 2
+  Relationships: 1
+  Quality Score: 1.00
+  Validation Notes: None
+
+Segment 6: Financial Impacts
+  Entities: 3
+  Relationships: 2
+  Quality Score: 1.00
+  Validation Notes: None
+
+Segment 7: Overview of Recommendations and Guidance
+  Entities: 19
+  Relationships: 18
+  Quality Score: 0.75
+  Validation Notes: Some entities have invalid types
+
+Segment 8: Implementing the Recommendations
+  Entities: 5
+  Relationships: 4
+  Quality Score: 0.87
+  Validation Notes: Some entities have invalid types
+
+Segment 9: Guidance for All Sectors
+  Entities: 17
+  Relationships: 16
+  Quality Score: 0.78
+  Validation Notes: Some entities have invalid types
+
+Segment 10: Overview of Scenario Analysis
+  Entities: 10
+  Relationships: 9
+  Quality Score: 0.77
+  Validation Notes: Some entities have invalid types
+
+Segment 11: Exposure to Climate-Related Risks
+  Entities: 5
+  Relationships: 4
+  Quality Score: 0.87
+  Validation Notes: Some entities have invalid types
+
+Segment 12: Recommended Approach to Scenario Analysis
+  Entities: 10
+  Relationships: 9
+  Quality Score: 0.80
+  Validation Notes: Some entities have invalid types
+
+Segment 13: Applying Scenario Analysis
+  Entities: 16
+  Relationships: 15
+  Quality Score: 0.79
+  Validation Notes: Some entities have invalid types
+
+Segment 14: Location of Disclosures and Materiality
+  Entities: 3
+  Relationships: 2
+  Quality Score: 1.00
+  Validation Notes: None
+
+Segment 15: Data Availability and Quality and Financial Impact
+  Entities: 17
+  Relationships: 16
+  Quality Score: 0.76
+  Validation Notes: Some entities have invalid types
+
+Segment 16: GHG Emissions Associated with Investments
+  Entities: 3
+  Relationships: 2
+  Quality Score: 1.00
+  Validation Notes: None
+
+Segment 17: Accounting Considerations
+  Entities: 2
+  Relationships: 1
+  Quality Score: 1.00
+  Validation Notes: None
+
+Segment 18: Scope of Coverage
+  Entities: 0
+  Relationships: 0
+  Quality Score: 0.00
+  Validation Notes: No entities or relationships extracted
+
+Segment 19: Organizational Ownership
+  Entities: 4
+  Relationships: 3
+  Quality Score: 0.92
+  Validation Notes: Some entities have invalid types
