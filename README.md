@@ -84,11 +84,11 @@ Validates extracted knowledge graphs using 10 semantic rules and calculates 4 qu
 ## Citation
 
 ```bibtex
-@misc{ontometric2025,
+@misc{ontometric2026,
   title={OntoMetric: An Ontology-Driven LLM-Assisted Framework for Automated ESG Metric Knowledge Graph Generation},
   author={Anonymous},
   note={Under Review},
-  year={2025}
+  year={2026}
 }
 ```
 
