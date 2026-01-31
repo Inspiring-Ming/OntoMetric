@@ -1,10 +1,10 @@
-# OntoMetric: Ontology-Guided ESG Metric Knowledge Graph Extraction
+# OntoMetric: An Ontology-Driven LLM-Assisted Framework for Automated ESG Metric Knowledge Graph Generation
 
-> Automated extraction of ESG metrics and relationships from regulatory documents using ontology-constrained LLM extraction
+> An ontology-guided framework for constructing ESG metric knowledge graphs from regulatory documents
 
 ## Overview
 
-OntoMetric is a three-stage pipeline for extracting structured ESG (Environmental, Social, Governance) metric knowledge graphs from regulatory documents. It uses ontology-guided prompts based on the ESGMKG schema to achieve high precision and semantic consistency, demonstrating 40-50% improvement over unconstrained LLM baselines.
+OntoMetric is a three-stage pipeline for extracting structured ESG (Environmental, Social, Governance) metric knowledge graphs from regulatory documents. It embeds the ESGMKG ontology into extraction and validation, achieving 65–90% semantic accuracy and over 80% schema compliance across five major ESG regulatory documents.
 
 ## Key Features
 
@@ -84,10 +84,10 @@ Validates extracted knowledge graphs using 10 semantic rules and calculates 4 qu
 ## Citation
 
 ```bibtex
-@inproceedings{ontometric2025,
-  title={OntoMetric: Ontology-Guided ESG Metric Knowledge Graph Extraction},
+@article{ontometric2025,
+  title={OntoMetric: An Ontology-Driven LLM-Assisted Framework for Automated ESG Metric Knowledge Graph Generation},
   author={Anonymous},
-  booktitle={Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+  journal={Under Review at KDD 2025},
   year={2025}
 }
 ```
