@@ -1,6 +1,0 @@
-Category,Metric Name,Formula,Description,Unit,Interpretation
-Cost Efficiency,Cost per Entity,(Stage 2 Cost + Stage 3 Cost) / Validated Entities,Cost to produce one validated entity,USD,Lower is better; measures pipeline cost efficiency
-Cost Efficiency,Cost Waste Ratio,(Filtered Entities / Total Extracted) × 100%,Percentage of extraction effort spent on filtered entities,%,Lower is better; measures extraction precision
-Validation Quality,Schema Compliance,(Entities Passing Schema Rules / Total Entities) × 100%,Percentage of entities meeting ontology schema requirements,%,Higher is better; structural correctness
-Validation Quality,Semantic Accuracy,(Semantically Correct Entities / Total Entities) × 100%,Percentage of entities with correct type assignments (LLM-validated),%,Higher is better; semantic correctness
-Validation Quality,Relationship Retention,(Validated Relationships / Extracted Relationships) × 100%,Percentage of relationships retained after validation,%,Higher is better; relationship quality

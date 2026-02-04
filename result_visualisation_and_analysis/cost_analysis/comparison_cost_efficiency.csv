@@ -1,5 +1,0 @@
-Method,Cost per Validated Entity (USD),Total Cost (USD),Validated Entities
-Baseline,0.747004,4.4820,6
-Ontology-Guided,0.015463,4.5615,295
-
-Efficiency Improvement,97.93%,,

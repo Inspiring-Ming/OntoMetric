@@ -1,7 +1,0 @@
-Rule ID,Rule Name,Description,Type
-VR001,Entity Uniqueness,All entity IDs must be unique within the knowledge graph,Schema
-VR002,Entity Type-Specific Schema Compliance,"Each entity type has ontology-required fields (Metric: measurement_type/metric_type/unit/code/description; Model: description/equation/input_variables; Category: section_title)",Schema
-VR003,Metric Property Values,DirectMetric/CalculatedMetric must have code (not N/A); Quantitative metrics must have units (not N/A),Property
-VR004,Model Property Values,Models must have non-empty input_variables list,Property
-VR005,Relationship Predicate Validity,"All relationships must use ontology-defined predicates: ConsistOf, Include, IsCalculatedBy, ReportUsing, RequiresInputFrom",Relationship
-VR006,CalculatedMetric-Model Links,All Metrics with metric_type='CalculatedMetric' must have IsCalculatedBy relationship to a Model,Relationship
