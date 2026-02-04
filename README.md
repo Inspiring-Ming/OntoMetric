@@ -1,5 +1,9 @@
 # OntoMetric: An Ontology-Driven LLM-Assisted Framework for Automated ESG Metric Knowledge Graph Generation
 
+[![Project Page](https://img.shields.io/badge/🌐_Project_Page-View_Demo-blue?style=for-the-badge)](https://inspiring-ming.github.io/OntoMetric/)
+[![Paper](https://img.shields.io/badge/📄_Paper-KDD_2026-red?style=for-the-badge)](https://inspiring-ming.github.io/OntoMetric/)
+[![Figures](https://img.shields.io/badge/📊_Figures-Interactive_Results-green?style=for-the-badge)](https://inspiring-ming.github.io/OntoMetric/)
+
 > An ontology-guided framework for constructing ESG metric knowledge graphs from regulatory documents
 
 ## Overview
