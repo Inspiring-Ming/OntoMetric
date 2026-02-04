@@ -2,7 +2,7 @@
 """
 Generate evaluation result figures for the paper
 Generates: fig1 (method comparison), fig2 (document performance),
-           fig3 (validation quality), fig4 (entity comparison 2x2)
+           fig3 (entity comparison 2x2)
 """
 
 import matplotlib.pyplot as plt
@@ -145,53 +145,6 @@ def create_document_performance_figure():
     print(f"✅ Saved: Figure 2 - Document Performance")
 
 
-def create_validation_quality_figure():
-    """
-    Figure 3: Validation Quality Metrics by Document
-    Grouped bar chart for schema compliance, semantic accuracy, relationship retention
-    """
-    fig, ax = plt.subplots(figsize=(7, 3))
-
-    documents = ['SASB\nBanks', 'SASB\nSemicond.', 'IFRS\nS2', 'Australia\nAASB', 'TCFD\nReport']
-    schema_compliance = [82.72, 82.02, 81.48, 83.33, 80.09]
-    semantic_accuracy = [79.25, 89.86, 85.00, 89.19, 64.77]
-    relationship_retention = [79.25, 90.14, 89.23, 86.67, 62.79]
-
-    x = np.arange(len(documents))
-    width = 0.25
-
-    bars1 = ax.bar(x - width, schema_compliance, width, label='Schema Compliance',
-                   color='#3498db', alpha=0.8, edgecolor='black', linewidth=0.7)
-    bars2 = ax.bar(x, semantic_accuracy, width, label='Semantic Accuracy',
-                   color='#2ecc71', alpha=0.8, edgecolor='black', linewidth=0.7)
-    bars3 = ax.bar(x + width, relationship_retention, width, label='Relationship Retention',
-                   color='#9b59b6', alpha=0.8, edgecolor='black', linewidth=0.7)
-
-    ax.set_xlabel('Document', fontweight='bold')
-    ax.set_ylabel('Quality Score (%)', fontweight='bold')
-    ax.set_xticks(x)
-    ax.set_xticklabels(documents)
-    ax.set_ylim(0, 100)
-    ax.legend(loc='lower left', framealpha=0.9, ncol=3, bbox_to_anchor=(0, 1.02, 1, 0.2),
-             mode='expand')
-    ax.grid(axis='y', alpha=0.3, linestyle='--')
-    ax.set_axisbelow(True)
-
-    # Add value labels
-    for bars in [bars1, bars2, bars3]:
-        for bar in bars:
-            height = bar.get_height()
-            ax.text(bar.get_x() + bar.get_width()/2., height + 1,
-                   f'{height:.1f}', ha='center', va='bottom', fontsize=6.5)
-
-    plt.tight_layout()
-
-    fig.savefig(OUTPUT_DIR / "fig3_validation_quality.png", dpi=300, bbox_inches='tight')
-    fig.savefig(OUTPUT_DIR / "fig3_validation_quality.pdf", bbox_inches='tight')
-    plt.close()
-    print(f"✅ Saved: Figure 3 - Validation Quality")
-
-
 def create_2x2_entity_comparison_figure():
     """
     Figure 4: 2x2 Grid Comparison of Entity Distributions
@@ -276,7 +229,6 @@ def main():
 
     create_method_comparison_figure()
     create_document_performance_figure()
-    create_validation_quality_figure()
     create_2x2_entity_comparison_figure()
 
     print("=" * 80)
